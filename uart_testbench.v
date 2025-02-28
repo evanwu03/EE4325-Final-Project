@@ -6,7 +6,6 @@
 // It sends out byte 0x4F, and ensures the RX receives it correctly.
 `timescale 1ns/10ps
 
-`include "uart_tx.v"
 
 module UART_TB ();
 
@@ -74,4 +73,3 @@ module UART_TB ();
     $dumpvars(0);
   end
 endmodule
-
