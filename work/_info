@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/010/e/eb/ebw220000/cad/EE4325_UART_Project
 vaoi12
-Z1 !s110 1740863011
+Z1 !s110 1740871358
 !i10b 1
 !s100 lXNK:KG=fOK<NWT]Q[ZR:2
 I0Kma^^8VM7jRd_L2>dYSS1
@@ -18,14 +18,14 @@ R0
 Z2 w1740781127
 Z3 8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
 Z4 F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
-!i122 362
+!i122 438
 L0 43 5
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 OP;L;2022.1;75
 r1
 !s85 0
 31
-Z7 !s108 1740863011.000000
+Z7 !s108 1740871358.000000
 Z8 !s107 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v|
 !i113 1
@@ -40,7 +40,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 49 5
 R5
 R6
@@ -62,7 +62,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 67 10
 R5
 R6
@@ -84,7 +84,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 1 5
 R5
 R6
@@ -106,7 +106,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 7 5
 R5
 R6
@@ -128,7 +128,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 13 5
 R5
 R6
@@ -150,7 +150,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 19 5
 R5
 R6
@@ -172,7 +172,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 25 5
 R5
 R6
@@ -194,7 +194,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 31 5
 R5
 R6
@@ -216,7 +216,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 55 5
 R5
 R6
@@ -238,7 +238,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 61 5
 R5
 R6
@@ -257,10 +257,10 @@ R1
 !s100 ;_iU5Zl6N[HGU2ce5jbdc1
 IFiBZ4KJObZE_7G4]G`XSg2
 R0
-w1740861619
+w1740870861
 8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v
 F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v
-!i122 364
+!i122 440
 L0 5 45
 R5
 R6
@@ -277,14 +277,14 @@ n@u@a@r@t
 vUART_FULL_TB
 R1
 !i10b 1
-!s100 QHU52h1QRHVQh=Ubn8OUg3
-IOLJD<>:7C6=_`HD9e^cHo2
+!s100 M?GCW`U>:4R8^XhEQ_LE63
+IEYH<?Q]jJd6foOYzJHjLo3
 R0
-w1740861797
+w1740871354
 Z12 8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v
 Z13 F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v
-!i122 363
-L0 95 72
+!i122 439
+L0 95 73
 R5
 R6
 r1
@@ -300,14 +300,14 @@ n@u@a@r@t_@f@u@l@l_@t@b
 vUART_RX
 R1
 !i10b 1
-!s100 7zOe:<:_mlbZOPK0l;Z^g2
-Ij7XTbE9To:mDgZ2HY:APk3
+!s100 1m38YU]o6jGTNQDaK^a790
+I2geOMBPX1OhP7jINIE8CA3
 R0
-w1740863005
+w1740869357
 8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v
 F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v
-!i122 365
-L0 26 128
+!i122 441
+L0 26 127
 R5
 R6
 r1
@@ -346,14 +346,14 @@ n@u@a@r@t_@t@b
 vUART_TX
 R1
 !i10b 1
-!s100 =Afi;M=nXLK5??DLR<jeg0
-I8A7nSZY4<VN;foc19UNdI1
+!s100 d`Ie91nMa?S54dzLo7z=41
+Ii0<Z@WB^]e=@VJ1oa5Q222
 R0
-w1740862968
+w1740866425
 8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v
 F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v
-!i122 366
-L0 15 135
+!i122 442
+L0 15 137
 R5
 R6
 r1
@@ -375,7 +375,7 @@ R0
 R2
 R3
 R4
-!i122 362
+!i122 438
 L0 37 5
 R5
 R6

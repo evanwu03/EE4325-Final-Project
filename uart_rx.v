@@ -58,7 +58,6 @@ module UART_RX
 		r_Clock_Count <= 0;
 		r_RX_Byte <= 0;
 		r_RX_Done <= 0; 
-		 
 		end
 	else begin 
 
@@ -87,7 +86,7 @@ module UART_RX
          RX_START_BIT: 
             begin
                 // Wait for half a bit period to center data for quality UART sampling
-                if (r_Clock_Count < (CLKS_PER_BIT-1)/2) begin 
+                if (r_Clock_Count < ((CLKS_PER_BIT-1)/2) - 1 ) begin 
                 r_Clock_Count <= r_Clock_Count +1; 
                 r_RX_State <= RX_START_BIT; 
                 end else begin 

@@ -100,8 +100,8 @@ module UART_FULL_TB ();
   
   reg r_Clock = 0;
   reg r_TX_DV = 0;
-  wire w_TX_Active = 0, w_UART_Line = 0;
-  wire w_TX_Serial = 0;
+  wire w_TX_Busy, w_UART_Line;
+  wire w_TX_Serial;
   reg [7:0] r_TX_Byte = 0;
   reg r_Rst_L;
   wire [7:0] w_RX_Byte = 0;
@@ -113,7 +113,7 @@ module UART_FULL_TB ();
     .i_TX_Valid(r_TX_DV),
     .i_TX_Byte(r_TX_Byte),
     .i_RX_Serial(w_UART_Line),
-    .o_TX_Busy(w_TX_Active),
+    .o_TX_Busy(w_TX_Busy),
     .o_TX_Serial(w_TX_Serial),
     .o_TX_Done(w_TX_Done),
     .o_RX_Done(w_RX_DV),
@@ -122,7 +122,8 @@ module UART_FULL_TB ();
   
    // Keeps the UART Receive input high (default) when
   // UART transmitter is not active
-  assign w_UART_Line = w_TX_Active ? w_TX_Serial : 1'b1;
+ 
+  assign w_UART_Line = w_TX_Busy ? w_TX_Serial : 1'b1;
     
   always
     #(c_CLOCK_PERIOD_NS/2) r_Clock <= !r_Clock;

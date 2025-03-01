@@ -16,12 +16,12 @@ module UART #(
     
   input i_RX_Serial,	// rx serial input 
     
-  output   o_TX_Busy,
-  output   o_TX_Serial,
-  output   o_TX_Done,
+  output  reg o_TX_Busy,
+  output  reg o_TX_Serial,
+  output  reg o_TX_Done,
  
-  output o_RX_Done,	// Flag pulled high when transmission is finshed 
-  output [7:0] o_RX_Byte
+  output   o_RX_Done,	// Flag pulled high when transmission is finshed 
+  output   [7:0] o_RX_Byte
   );
   
 

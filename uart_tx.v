@@ -46,6 +46,8 @@ module UART_TX
       r_Bit_Index <= 0;
       r_TX_Data <= 0; 
       o_TX_Serial <= 1'b1;
+      o_TX_Done <= 1'b1; 
+      o_TX_Busy <= 0;
     end
     else
     begin
