@@ -1,0 +1,390 @@
+m255
+K4
+z2
+!s11f vlog 2022.1 2022.01, Jan 29 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/010/e/eb/ebw220000/cad/EE4325_UART_Project
+vaoi12
+Z1 !s110 1740863011
+!i10b 1
+!s100 lXNK:KG=fOK<NWT]Q[ZR:2
+I0Kma^^8VM7jRd_L2>dYSS1
+R0
+Z2 w1740781127
+Z3 8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
+Z4 F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
+!i122 362
+L0 43 5
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OP;L;2022.1;75
+r1
+!s85 0
+31
+Z7 !s108 1740863011.000000
+Z8 !s107 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vaoi22
+R1
+!i10b 1
+!s100 cBI=iQ?Ge@dhjn^>>mY_g0
+IdVGTkABMnRJUZjSZ]aOkP1
+R0
+R2
+R3
+R4
+!i122 362
+L0 49 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdff
+R1
+!i10b 1
+!s100 gimY>TV^j0e8:`VZ`AAA_1
+IJ;1KTAJAKH^GXANT7o3Z<0
+R0
+R2
+R3
+R4
+!i122 362
+L0 67 10
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vinv
+R1
+!i10b 1
+!s100 RGD_^XbCBMa?3;dJ`6;aS2
+I54OjGo:FnT6eUze3PN]C_3
+R0
+R2
+R3
+R4
+!i122 362
+L0 1 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnand2
+R1
+!i10b 1
+!s100 @KENFn2@L0M2BQM;[DnMW1
+I0;2Vn`a?`j=mhgCP;K@M20
+R0
+R2
+R3
+R4
+!i122 362
+L0 7 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnand3
+R1
+!i10b 1
+!s100 3ek1`iAYM[OW6`gVO1DVN3
+IcPjO4;:f[XKIK7co=<o?^1
+R0
+R2
+R3
+R4
+!i122 362
+L0 13 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnand4
+R1
+!i10b 1
+!s100 4OXYaBz9IjLa4_QEmj6]g1
+I`1e<SN99i?G5<z@:X=`E41
+R0
+R2
+R3
+R4
+!i122 362
+L0 19 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnor2
+R1
+!i10b 1
+!s100 O6SX=2XMX]Vjk49BBPc4H3
+INN0[j:d7z7=h1kh]gj;hz0
+R0
+R2
+R3
+R4
+!i122 362
+L0 25 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vnor3
+R1
+!i10b 1
+!s100 5chL5gAXV508DfA8>RK:O0
+IDjQ@BQX]]bYMAWPKC5]163
+R0
+R2
+R3
+R4
+!i122 362
+L0 31 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+voai12
+R1
+!i10b 1
+!s100 nkl=`c^QF1]<VNN^=jT202
+IQ3ZN=QDo?aYSl1VA[24mZ0
+R0
+R2
+R3
+R4
+!i122 362
+L0 55 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+voai22
+R1
+!i10b 1
+!s100 9XKiNZg;>3O2E?5NfWM=41
+IhdT_2h80N9XWVL[SO81L>0
+R0
+R2
+R3
+R4
+!i122 362
+L0 61 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vUART
+R1
+!i10b 1
+!s100 ;_iU5Zl6N[HGU2ce5jbdc1
+IFiBZ4KJObZE_7G4]G`XSg2
+R0
+w1740861619
+8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v
+F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v
+!i122 364
+L0 5 45
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v|
+!i113 1
+R10
+R11
+n@u@a@r@t
+vUART_FULL_TB
+R1
+!i10b 1
+!s100 QHU52h1QRHVQh=Ubn8OUg3
+IOLJD<>:7C6=_`HD9e^cHo2
+R0
+w1740861797
+Z12 8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v
+Z13 F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v
+!i122 363
+L0 95 72
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z14 !s107 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v|
+!i113 1
+R10
+R11
+n@u@a@r@t_@f@u@l@l_@t@b
+vUART_RX
+R1
+!i10b 1
+!s100 7zOe:<:_mlbZOPK0l;Z^g2
+Ij7XTbE9To:mDgZ2HY:APk3
+R0
+w1740863005
+8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v
+F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v
+!i122 365
+L0 26 128
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v|
+!i113 1
+R10
+R11
+n@u@a@r@t_@r@x
+vUART_TB
+!s110 1740859860
+!i10b 1
+!s100 6hJTb4XzS:NnNRD4GbVa[3
+I6@V53jjVEDgFS;>zNMEQg0
+R0
+w1740859494
+R12
+R13
+!i122 333
+L0 11 80
+R5
+R6
+r1
+!s85 0
+31
+!s108 1740859860.000000
+R14
+R15
+!i113 1
+R10
+R11
+n@u@a@r@t_@t@b
+vUART_TX
+R1
+!i10b 1
+!s100 =Afi;M=nXLK5??DLR<jeg0
+I8A7nSZY4<VN;foc19UNdI1
+R0
+w1740862968
+8/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v
+F/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v
+!i122 366
+L0 15 135
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v|
+!i113 1
+R10
+R11
+n@u@a@r@t_@t@x
+vxor2
+R1
+!i10b 1
+!s100 ?[giUI5=?7zdSC<lWRdVK2
+ITzoYm^E`mBZgk6cYI2Gd@0
+R0
+R2
+R3
+R4
+!i122 362
+L0 37 5
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

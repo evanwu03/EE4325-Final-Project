@@ -10,7 +10,8 @@
 // CLKS_PER_BIT = (Frequency of i_Clock)/(Frequency of UART)
 // Example: 25 MHz Clock, 115200 baud UART
 // (25000000)/(115200) = 217
- 
+
+
 module UART_TX 
   #(parameter CLKS_PER_BIT = 868) // Set Clock/Bit with our chosen frequency of 25 MHz
   (
@@ -29,7 +30,7 @@ module UART_TX
   localparam TX_DATA_BITS = 2'b10;
   localparam TX_STOP_BIT  = 2'b11;
   
-  reg [2:0] r_SM_Main;
+  reg [1:0] r_SM_Main;
   reg [$clog2(CLKS_PER_BIT):0] r_Clock_Count;
   reg [2:0] r_Bit_Index;
   reg [7:0] r_TX_Data;
@@ -38,15 +39,19 @@ module UART_TX
   // This controls the TX state machine
   always @(posedge i_Clock or negedge i_Rst_L)
   begin
-    if (~i_Rst_L)
+    if (~i_Rst_L) // If Active low reset is triggered
     begin
-      r_SM_Main <= 3'b000;
+      r_SM_Main <= IDLE;
+      r_Clock_Count <= 0;
+      r_Bit_Index <= 0;
+      r_TX_Data <= 0; 
+      o_TX_Serial <= 1'b1;
     end
     else
     begin
 
       o_TX_Done <= 1'b0;
-
+ 
       case (r_SM_Main)
       IDLE :
         begin

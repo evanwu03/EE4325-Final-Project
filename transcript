@@ -1,0 +1,502 @@
+# Loading project EE4325_UART_Project
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart_syn.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.UART_FULL_TB
+# vsim work.UART_FULL_TB 
+# Start time: 01:38:37 on Mar 01,2025
+# //  ModelSim DE 2022.1 Jan 29 2022 Linux 4.18.0-553.30.1.el8_10.x86_64
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.UART_FULL_TB
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.UART_TX
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_TX_Busy'.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_FULL_TB/UART_Inst/UART_TX_Inst File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v Line: 37
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_TX_Serial'.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_FULL_TB/UART_Inst/UART_TX_Inst File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v Line: 37
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_TX_Done'.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_FULL_TB/UART_Inst/UART_TX_Inst File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v Line: 37
+# Error loading design
+# End time: 01:38:38 on Mar 01,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 2
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart_syn.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.UART_FULL_TB
+# vsim work.UART_FULL_TB 
+# Start time: 01:39:03 on Mar 01,2025
+# Loading work.UART_FULL_TB
+# Loading work.UART
+# Loading work.inv
+# Loading work.nand3
+# Loading work.nand2
+# Loading work.nor2
+# Loading work.oai12
+# Loading work.nor3
+# Loading work.xor2
+# Loading work.aoi22
+# Loading work.oai22
+# Loading work.dff
+# Loading work.aoi12
+# Loading work.nand4
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_UART_Line
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_TX_Active
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Byte \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Byte \
+sim:/UART_FULL_TB/UART_Inst/i_System_Clock \
+sim:/UART_FULL_TB/UART_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Valid \
+sim:/UART_FULL_TB/UART_Inst/i_RX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Busy \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Done \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Done
+add wave -position insertpoint  \
+{sim:/UART_FULL_TB/UART_Inst/\UART_RX_Inst/r_RX_State } \
+{sim:/UART_FULL_TB/UART_Inst/\UART_TX_Inst/r_SM_Main }
+run
+run
+# Test Failed - Incorrect Byte Received
+# ** Note: $finish    : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v(142)
+#    Time: 135 ns  Iteration: 2  Instance: /UART_FULL_TB
+# 1
+# Break in Module UART_FULL_TB at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v line 142
+restart
+run
+add wave -position insertpoint  \
+{sim:/UART_FULL_TB/UART_Inst/\UART_RX_Inst/r_Clock_Count } \
+{sim:/UART_FULL_TB/UART_Inst/\UART_TX_Inst/r_Clock_Count }
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Byte \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Byte \
+sim:/UART_FULL_TB/UART_Inst/i_System_Clock \
+sim:/UART_FULL_TB/UART_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Valid \
+sim:/UART_FULL_TB/UART_Inst/i_RX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Busy \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Done \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Done \
+{sim:/UART_FULL_TB/UART_Inst/\UART_RX_Inst/r_Clock_Count } \
+{sim:/UART_FULL_TB/UART_Inst/\UART_RX_Inst/r_RX_State } \
+{sim:/UART_FULL_TB/UART_Inst/\UART_TX_Inst/r_Clock_Count } \
+{sim:/UART_FULL_TB/UART_Inst/\UART_TX_Inst/r_SM_Main }
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Test Failed - Incorrect Byte Received
+# ** Note: $finish    : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v(142)
+#    Time: 135 ns  Iteration: 2  Instance: /UART_FULL_TB
+# 1
+# Break in Module UART_FULL_TB at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v line 142
+run -all
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_TB
+# End time: 14:02:09 on Mar 01,2025, Elapsed time: 12:23:06
+# Errors: 0, Warnings: 5
+# vsim work.UART_TB 
+# Start time: 14:02:09 on Mar 01,2025
+# Loading work.UART_TB
+# Loading work.UART_RX
+# Loading work.UART_TX
+add wave -position insertpoint  \
+sim:/UART_TB/UART_RX_Inst/i_Clock \
+sim:/UART_TB/UART_RX_Inst/i_RX_Serial \
+sim:/UART_TB/UART_RX_Inst/i_Rst_L \
+sim:/UART_TB/UART_RX_Inst/o_RX_Done \
+sim:/UART_TB/UART_RX_Inst/o_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_Bit_Index \
+sim:/UART_TB/UART_RX_Inst/r_RX_State \
+sim:/UART_TB/UART_RX_Inst/r_Clock_Count \
+sim:/UART_TB/UART_RX_Inst/r_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_RX_Done
+run
+run -all
+# Test Passed - Correct Byte Received
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_TB
+# End time: 14:05:08 on Mar 01,2025, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 2
+# vsim work.UART_TB 
+# Start time: 14:05:08 on Mar 01,2025
+# Loading work.UART_TB
+# Loading work.UART_RX
+# Loading work.UART_TX
+add wave -position insertpoint  \
+sim:/UART_TB/UART_RX_Inst/i_Clock \
+sim:/UART_TB/UART_RX_Inst/i_RX_Serial \
+sim:/UART_TB/UART_RX_Inst/i_Rst_L \
+sim:/UART_TB/UART_RX_Inst/o_RX_Done \
+sim:/UART_TB/UART_RX_Inst/o_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_Bit_Index \
+sim:/UART_TB/UART_RX_Inst/r_RX_State \
+sim:/UART_TB/UART_RX_Inst/r_Clock_Count \
+sim:/UART_TB/UART_RX_Inst/r_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_RX_Done
+run -continue
+run -continue
+run -all
+# Test Passed - Correct Byte Received
+# ** Note: $finish    : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v(81)
+#    Time: 82525 ns  Iteration: 2  Instance: /UART_TB
+# 1
+# Break in Module UART_TB at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v line 81
+add wave -position insertpoint  \
+sim:/UART_TB/UART_TX_Inst/i_Rst_L \
+sim:/UART_TB/UART_TX_Inst/i_Clock \
+sim:/UART_TB/UART_TX_Inst/i_TX_Valid \
+sim:/UART_TB/UART_TX_Inst/i_TX_Byte \
+sim:/UART_TB/UART_TX_Inst/o_TX_Busy \
+sim:/UART_TB/UART_TX_Inst/o_TX_Serial \
+sim:/UART_TB/UART_TX_Inst/o_TX_Done \
+sim:/UART_TB/UART_TX_Inst/r_SM_Main \
+sim:/UART_TB/UART_TX_Inst/r_Clock_Count \
+sim:/UART_TB/UART_TX_Inst/r_Bit_Index \
+sim:/UART_TB/UART_TX_Inst/r_TX_Data
+run -all
+restart
+# Closing VCD file "dump.vcd"
+run -continue
+# Test Passed - Correct Byte Received
+# ** Note: $finish    : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v(81)
+#    Time: 82525 ns  Iteration: 2  Instance: /UART_TB
+# 1
+# Break in Module UART_TB at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v line 81
+add wave -position insertpoint  \
+sim:/UART_TB/UART_RX_Inst/i_RX_Serial \
+sim:/UART_TB/UART_RX_Inst/i_Rst_L \
+sim:/UART_TB/UART_RX_Inst/o_RX_Done \
+sim:/UART_TB/UART_RX_Inst/o_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_Bit_Index \
+sim:/UART_TB/UART_RX_Inst/r_RX_State \
+sim:/UART_TB/UART_RX_Inst/r_Clock_Count \
+sim:/UART_TB/UART_RX_Inst/r_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_RX_Done
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_TB
+# End time: 14:11:08 on Mar 01,2025, Elapsed time: 0:06:00
+# Errors: 0, Warnings: 2
+# vsim work.UART_TB 
+# Start time: 14:11:09 on Mar 01,2025
+# Loading work.UART_TB
+# Loading work.UART_RX
+# Loading work.UART_TX
+vsim work.UART_TB
+# End time: 14:11:35 on Mar 01,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 1
+# vsim work.UART_TB 
+# Start time: 14:11:35 on Mar 01,2025
+# Loading work.UART_TB
+# Loading work.UART_RX
+# Loading work.UART_TX
+add wave -position insertpoint  \
+sim:/UART_TB/UART_RX_Inst/i_Clock \
+sim:/UART_TB/UART_RX_Inst/i_RX_Serial \
+sim:/UART_TB/UART_RX_Inst/i_Rst_L \
+sim:/UART_TB/UART_RX_Inst/o_RX_Done \
+sim:/UART_TB/UART_RX_Inst/o_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_Bit_Index \
+sim:/UART_TB/UART_RX_Inst/r_RX_State \
+sim:/UART_TB/UART_RX_Inst/r_Clock_Count \
+sim:/UART_TB/UART_RX_Inst/r_RX_Byte \
+sim:/UART_TB/UART_RX_Inst/r_RX_Done
+add wave -position insertpoint  \
+sim:/UART_TB/UART_TX_Inst/i_Rst_L \
+sim:/UART_TB/UART_TX_Inst/i_Clock \
+sim:/UART_TB/UART_TX_Inst/i_TX_Valid \
+sim:/UART_TB/UART_TX_Inst/i_TX_Byte \
+sim:/UART_TB/UART_TX_Inst/o_TX_Busy \
+sim:/UART_TB/UART_TX_Inst/o_TX_Serial \
+sim:/UART_TB/UART_TX_Inst/o_TX_Done \
+sim:/UART_TB/UART_TX_Inst/r_SM_Main \
+sim:/UART_TB/UART_TX_Inst/r_Clock_Count \
+sim:/UART_TB/UART_TX_Inst/r_Bit_Index \
+sim:/UART_TB/UART_TX_Inst/r_TX_Data
+run -continue
+run -continue
+restart
+# Closing VCD file "dump.vcd"
+run -continue
+run -all
+# Test Passed - Correct Byte Received
+# ** Note: $finish    : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v(81)
+#    Time: 82525 ns  Iteration: 2  Instance: /UART_TB
+# 1
+# Break in Module UART_TB at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v line 81
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_FULL_TB
+# End time: 14:32:32 on Mar 01,2025, Elapsed time: 0:20:57
+# Errors: 0, Warnings: 2
+# vsim work.UART_FULL_TB 
+# Start time: 14:32:32 on Mar 01,2025
+# Loading work.UART_FULL_TB
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.UART_TX
+# ** Error (suppressible): (vsim-3584) /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v(109): Module parameter 'CLKS_PER_BIT' not found for override.
+#    Time: 0 ns  Iteration: 0  Instance: /UART_FULL_TB File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v
+# Error loading design
+# End time: 14:32:33 on Mar 01,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_FULL_TB
+# vsim work.UART_FULL_TB 
+# Start time: 14:33:11 on Mar 01,2025
+# Loading work.UART_FULL_TB
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.UART_TX
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_TX_Busy'.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_FULL_TB/UART_Inst/UART_TX_Inst File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v Line: 38
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_TX_Serial'.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_FULL_TB/UART_Inst/UART_TX_Inst File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v Line: 38
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_TX_Done'.
+#    Time: 0 ps  Iteration: 0  Instance: /UART_FULL_TB/UART_Inst/UART_TX_Inst File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v Line: 38
+# Error loading design
+# End time: 14:33:11 on Mar 01,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_FULL_TB
+# vsim work.UART_FULL_TB 
+# Start time: 14:35:36 on Mar 01,2025
+# Loading work.UART_FULL_TB
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.UART_TX
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/i_System_Clock \
+sim:/UART_FULL_TB/UART_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Valid \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Byte \
+sim:/UART_FULL_TB/UART_Inst/i_RX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Busy \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Done \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Done \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Byte
+run -continue
+run -continue
+run -all
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_FULL_TB
+# End time: 14:40:46 on Mar 01,2025, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 4
+# vsim work.UART_FULL_TB 
+# Start time: 14:40:46 on Mar 01,2025
+# Loading work.UART_FULL_TB
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.UART_TX
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/i_System_Clock \
+sim:/UART_FULL_TB/UART_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Valid \
+sim:/UART_FULL_TB/UART_Inst/i_TX_Byte \
+sim:/UART_FULL_TB/UART_Inst/i_RX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Busy \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Serial \
+sim:/UART_FULL_TB/UART_Inst/o_TX_Done \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Done \
+sim:/UART_FULL_TB/UART_Inst/o_RX_Byte
+run -continue
+run
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/i_Clock \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/i_RX_Serial \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/o_RX_Done \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/o_RX_Byte \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_Bit_Index \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_RX_State \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_Clock_Count \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_RX_Byte \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_RX_Done
+restart
+# Closing VCD file "dump.vcd"
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_Clock \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_TX_Valid \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_TX_Byte \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/o_TX_Busy \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/o_TX_Serial \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/o_TX_Done \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_SM_Main \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_Clock_Count \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_Bit_Index \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_TX_Data
+restart
+# Closing VCD file "dump.vcd"
+run -all
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_UART_Line
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_TX_Active \
+sim:/UART_FULL_TB/w_TX_Serial
+# Compile of header.v was successful.
+# Compile of uart_testbench.v was successful.
+# Compile of uart.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.UART_FULL_TB
+# End time: 15:03:41 on Mar 01,2025, Elapsed time: 0:22:55
+# Errors: 0, Warnings: 2
+# vsim work.UART_FULL_TB 
+# Start time: 15:03:41 on Mar 01,2025
+# Loading work.UART_FULL_TB
+# Loading work.UART
+# Loading work.UART_RX
+# Loading work.UART_TX
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_UART_Line
+run
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_Clock \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_TX_Valid \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/i_TX_Byte \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/o_TX_Busy \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/o_TX_Serial \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/o_TX_Done \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_SM_Main \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_Clock_Count \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_Bit_Index \
+sim:/UART_FULL_TB/UART_Inst/UART_TX_Inst/r_TX_Data
+run -continue
+run -continue
+run -continue
+run -continue
+run -all
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/i_RX_Serial \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/i_Rst_L \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/o_RX_Done \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/o_RX_Byte \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_Bit_Index \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_RX_State \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_Clock_Count \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_RX_Byte \
+sim:/UART_FULL_TB/UART_Inst/UART_RX_Inst/r_RX_Done
+run
+run
+run
+run
+run
+restart
+# Closing VCD file "dump.vcd"
+run -all
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_UART_Line
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_TX_Active
+add wave -position insertpoint  \
+sim:/UART_FULL_TB/w_TX_Serial
+restart
+# Closing VCD file "dump.vcd"
+run -all

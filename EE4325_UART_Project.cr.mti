@@ -1,0 +1,37 @@
+/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v
+Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
+Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
+-- Compiling module inv
+-- Compiling module nand2
+-- Compiling module nand3
+-- Compiling module nand4
+-- Compiling module nor2
+-- Compiling module nor3
+-- Compiling module xor2
+-- Compiling module aoi12
+-- Compiling module aoi22
+-- Compiling module oai12
+-- Compiling module oai22
+-- Compiling module dff
+
+Top level modules:
+	inv
+	nand2
+	nand3
+	nand4
+	nor2
+	nor3
+	xor2
+	aoi12
+	aoi22
+	oai12
+	oai22
+	dff
+
+} {} {}}

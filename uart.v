@@ -1,0 +1,50 @@
+//`include "uart_rx.v"
+//`include "uart_tx.v"
+
+// Assumes a 100 MHz system clock frequency 
+module UART #( 
+  parameter c_CLOCK_PERIOD_NS = 10,
+  parameter c_CLKS_PER_BIT    = 868,
+  parameter c_BIT_PERIOD      = 8600
+  )
+  (
+  input i_System_Clock, 		// Serial Clock
+      
+  input       i_Rst_L,			// Sets all the inputs and corresponding bits
+  input       i_TX_Valid,
+  input [7:0] i_TX_Byte, 
+    
+  input i_RX_Serial,	// rx serial input 
+    
+  output   o_TX_Busy,
+  output   o_TX_Serial,
+  output   o_TX_Done,
+ 
+  output   o_RX_Done,	// Flag pulled high when transmission is finshed 
+  output   [7:0] o_RX_Byte
+  );
+  
+
+  
+  UART_RX #(.CLKS_PER_BIT(c_CLKS_PER_BIT)) UART_RX_Inst
+    (
+     .i_Rst_L(i_Rst_L),
+     .i_Clock(i_System_Clock),
+     .i_RX_Serial(i_RX_Serial), // TX serial is looped back to RX input
+     .o_RX_Done(o_RX_Done),
+     .o_RX_Byte(o_RX_Byte)
+     );
+  
+  UART_TX #(.CLKS_PER_BIT(c_CLKS_PER_BIT)) UART_TX_Inst
+    (
+     .i_Rst_L(i_Rst_L),
+     .i_Clock(i_System_Clock),
+     .i_TX_Valid(i_TX_Valid),
+     .i_TX_Byte(i_TX_Byte),
+     .o_TX_Busy(o_TX_Busy),
+     .o_TX_Serial(o_TX_Serial),
+     .o_TX_Done(o_TX_Done)
+     );
+  
+endmodule
+

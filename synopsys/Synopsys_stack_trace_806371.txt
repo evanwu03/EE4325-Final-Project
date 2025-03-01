@@ -1,0 +1,180 @@
+GNU gdb (GDB) Red Hat Enterprise Linux 8.2-20.el8
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+Attaching to process 806371
+Reading symbols from /proj/cad/synopsys/synopsys_2018/syn_vO-2018.06-SP1/linux64/syn/bin/common_shell_exec...(no debugging symbols found)...done.
+Reading symbols from /lib64/libpthread.so.0...(no debugging symbols found)...done.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+Reading symbols from /lib64/librt.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib64/libX11.so.6...Reading symbols from .gnu_debugdata for /lib64/libX11.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXext.so.6...Reading symbols from .gnu_debugdata for /lib64/libXext.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXi.so.6...Reading symbols from .gnu_debugdata for /lib64/libXi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXrender.so.1...Reading symbols from .gnu_debugdata for /lib64/libXrender.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXrandr.so.2...Reading symbols from .gnu_debugdata for /lib64/libXrandr.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXss.so.1...Reading symbols from .gnu_debugdata for /lib64/libXss.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libfontconfig.so.1...Reading symbols from .gnu_debugdata for /lib64/libfontconfig.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libfreetype.so.6...Reading symbols from .gnu_debugdata for /lib64/libfreetype.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libSM.so.6...Reading symbols from .gnu_debugdata for /lib64/libSM.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libICE.so.6...Reading symbols from .gnu_debugdata for /lib64/libICE.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXft.so.2...Reading symbols from .gnu_debugdata for /lib64/libXft.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libtiff.so.3...Reading symbols from .gnu_debugdata for /lib64/libtiff.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libmng.so.1...Reading symbols from .gnu_debugdata for /lib64/libmng.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpng12.so.0...Reading symbols from .gnu_debugdata for /lib64/libpng12.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libm.so.6...Reading symbols from .gnu_debugdata for /lib64/libm.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libdl.so.2...(no debugging symbols found)...done.
+Reading symbols from /lib64/libc.so.6...(no debugging symbols found)...done.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...done.
+Reading symbols from /lib64/libxcb.so.1...Reading symbols from .gnu_debugdata for /lib64/libxcb.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libexpat.so.1...Reading symbols from .gnu_debugdata for /lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libuuid.so.1...Reading symbols from .gnu_debugdata for /lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libbz2.so.1...Reading symbols from .gnu_debugdata for /lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpng16.so.16...Reading symbols from .gnu_debugdata for /lib64/libpng16.so.16...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libz.so.1...Reading symbols from .gnu_debugdata for /lib64/libz.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libjpeg.so.62...Reading symbols from .gnu_debugdata for /lib64/libjpeg.so.62...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXau.so.6...Reading symbols from .gnu_debugdata for /lib64/libXau.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_files.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_files.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_mdns4_minimal.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_mdns4_minimal.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libresolv.so.2...Reading symbols from .gnu_debugdata for /lib64/libresolv.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_dns.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_dns.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_sss.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_sss.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libnss_myhostname.so.2...Reading symbols from .gnu_debugdata for /lib64/libnss_myhostname.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libmount.so.1...Reading symbols from .gnu_debugdata for /lib64/libmount.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libgcc_s.so.1...Reading symbols from .gnu_debugdata for /lib64/libgcc_s.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libblkid.so.1...Reading symbols from .gnu_debugdata for /lib64/libblkid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libselinux.so.1...Reading symbols from .gnu_debugdata for /lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libpcre2-8.so.0...Reading symbols from .gnu_debugdata for /lib64/libpcre2-8.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /usr/lib64/gconv/UTF-16.so...Reading symbols from .gnu_debugdata for /usr/lib64/gconv/UTF-16.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXfixes.so.3...Reading symbols from .gnu_debugdata for /lib64/libXfixes.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXcursor.so.1...Reading symbols from .gnu_debugdata for /lib64/libXcursor.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Reading symbols from /lib64/libXinerama.so.1...Reading symbols from .gnu_debugdata for /lib64/libXinerama.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+0x00007f8672053e42 in waitpid () from /lib64/libc.so.6
+Missing separate debuginfos, use: yum debuginfo-install bzip2-libs-1.0.6-27.el8_10.x86_64 compat-libtiff3-3.9.4-13.el8.x86_64 expat-2.2.5-16.el8_10.x86_64 fontconfig-2.13.1-4.el8.x86_64 freetype-2.9.1-9.el8.x86_64 glibc-2.28-251.el8_10.5.x86_64 libICE-1.0.9-15.el8.x86_64 libSM-1.2.3-1.el8.x86_64 libX11-1.6.8-9.el8_10.x86_64 libXScrnSaver-1.2.3-1.el8.x86_64 libXcursor-1.1.15-3.el8.x86_64 libXext-1.3.4-1.el8.x86_64 libXfixes-5.0.3-7.el8.x86_64 libXft-2.3.3-1.el8.x86_64 libXi-1.7.10-1.el8.x86_64 libXinerama-1.1.4-1.el8.x86_64 libXrandr-1.5.2-1.el8.x86_64 libXrender-0.9.10-7.el8.x86_64 libblkid-2.32.1-46.el8.x86_64 libgcc-8.5.0-22.el8_10.x86_64 libjpeg-turbo-1.5.3-12.el8.x86_64 libmount-2.32.1-46.el8.x86_64 libpng-1.6.34-5.el8.x86_64 libpng12-1.2.57-5.el8.x86_64 libselinux-2.9-8.el8.x86_64 libuuid-2.32.1-46.el8.x86_64 libxcb-1.13.1-1.el8.x86_64 nss-mdns-0.14.1-9.el8.x86_64 pcre2-10.32-3.el8_6.x86_64 sssd-client-2.9.4-4.el8_10.x86_64 systemd-libs-239-82.el8_10.2.x86_64
+(gdb) (gdb) #0  0x00007f8672053e42 in waitpid () from /lib64/libc.so.6
+#1  0x00007f8671fa7747 in do_system () from /lib64/libc.so.6
+#2  0x000000000bacbdfd in SNPSee_4f1eca636f186904 ()
+#3  0x000000000ba94fc4 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c73531748e1eb9162e9fd7182 ()
+#4  0x000000000051ff2b in SNPSee_f1ee00d2049be34bc9fa2aabd0709c661b77ea09a2cd7785 ()
+#5  0x000000000b92c701 in SNPSee_b0111077a1564ec2f03c23d0bb102089295fca3df69878e1 ()
+#6  0x000000000b92d26a in SNPSee_616b6e047c741ff1baf571efe85d3536eac68d027a1be0e0030a066449e92897 ()
+#7  0x000000000b92c81c in SNPSee_b5b74bb29e23928e271a046254d5c62e ()
+#8  <signal handler called>
+#9  0x0000000005e2ad01 in SNPSee_26fef19f39c4cca046e3d0469f94ea0ed333c0bfaf885b19 ()
+#10 0x0000000005e2b69f in SNPSee_d084d468d0232a9059acdca4128df4798db83b5997365d1b ()
+#11 0x0000000005e1f38e in SNPSee_35766371e6f57c9c20d9cb30af0265a9 ()
+#12 0x0000000005b76450 in SNPSee_d75fdbb497ba54af72a5021f8d76bd41d7557b89cc3d8227 ()
+#13 0x00000000021c4fce in SNPSee_4b5453efd96306e0053af02beaaa965cbccf2d217b9b16f23c7680bee4f4416a ()
+#14 0x0000000001aa0d66 in SNPSee_6c05bbc2ccf75aefc3c4583ec634b34058aef7dc79ed50ce0a6d16b7c2fa2457 ()
+#15 0x0000000001aa10f2 in SNPSee_6c05bbc2ccf75aefc3c4583ec634b34069edb5da1d9c038a ()
+#16 0x0000000001adbf5f in SNPSee_800cfa09c4312a2a658022cd459e34616900e8f99890a5ed ()
+#17 0x000000000b8219d7 in SNPSee_7ea007f17721baa8c52712154029f5e48c5b42d17487296853bec6f509fb5cd7fb8e3aecaf9a59df5ceaf3227abcdf276664c5bfd5ca6b006d34e6f6d0022bb5aa6a0546020548c042f868058edbb564 ()
+#18 0x000000000b844930 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#19 0x000000000bc58c15 in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#20 0x000000000bc5d827 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#21 0x000000000bcfe593 in SNPSee_e90acbbdf8c656c898db7186881c4c18f0a07e70af506669 ()
+#22 0x000000000b841d4d in SNPSee_6ae86177041da83a610a3a212ab220be0edc080948966a62 ()
+#23 0x0000000001244f45 in SNPSee_bf47f8c354012225294e8116109cb5d025f4ccb7f287ad59c2366d27ef082a7abe934ab21f6bb090d48f7368a4129526962b5f385b08867de66d0440d3888337d8208e9ee5c4c9cb ()
+#24 0x00000000012401b0 in SNPSee_848f53926cc7d21a0b1a0e3cec9d3ef03d79fae4f741b2beb1d9e61bc8469679467712e699595aba26463d97eba60e22e02b598c8b482ec2d9046bfa95f0f185 ()
+#25 0x00000000013649e6 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d09b1487aa013d26f835ff7ccd94ffb63758abf28604ccf68 ()
+#26 0x00000000013665a6 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24ddc44ac444ffd24dab81817742939461558b86efc9882e060f5cf6799b4197ba760a948a9120b34f41acf4fa4287f35e8 ()
+#27 0x0000000001366941 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d198741dbd99eb01272a55ba76ee2abd7563348609c8b2952ab7d3e71c5dc81c718aa12a98dfae9b5630d0c2fda34916be6c498847f4129e9a5f1fbcdd8c6a901 ()
+#28 0x000000000136708c in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d0b90ac4a4483f6665465d7c37ec4ce71313cfc0a471575a79ba413633ac1537032eb8775f5ebb55f6021eb7118e1e33a66a40a742570a303b3cdb1e9fad8ae33 ()
+#29 0x0000000000c4dc93 in SNPSee_fc19d51c3d4a35afe62ed6bf72a5e743e17fc0fe17755e7c61b1129420a460bffbeda7ed38d933187a568dde84a7da3413fbb80ad9632714 ()
+#30 0x0000000000c3f75a in SNPSee_4d569e10b579226a4213046a3c869730685199b10f8d807a5bede70fbe84cb29addc9c0e4477309175e88dc2fe7d066dd71c17446d84c7ff75ff38e7f17fe8135efad92e01e53cb7 ()
+#31 0x000000000b844930 in SNPSee_18ae1188a5a6482452f3b67abbc891010269f13ce0e30d67 ()
+#32 0x000000000bc58c15 in SNPSee_57415c5b07ec5e8b8118f96e6212a2c42c69fd3f49376c0d ()
+#33 0x000000000bc5d827 in SNPSee_1ac40924fdff8310f5184d6eb67c5798036a89169a27d790 ()
+#34 0x000000000b84186d in SNPSee_1c61c950c93d6db4 ()
+#35 0x0000000001244edd in SNPSee_bf47f8c354012225294e8116109cb5d025f4ccb7f287ad59c2366d27ef082a7abe934ab21f6bb090d48f7368a4129526962b5f385b08867de66d0440d3888337d8208e9ee5c4c9cb ()
+#36 0x00000000012401b0 in SNPSee_848f53926cc7d21a0b1a0e3cec9d3ef03d79fae4f741b2beb1d9e61bc8469679467712e699595aba26463d97eba60e22e02b598c8b482ec2d9046bfa95f0f185 ()
+#37 0x00000000013649e6 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d09b1487aa013d26f835ff7ccd94ffb63758abf28604ccf68 ()
+#38 0x00000000013665a6 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24ddc44ac444ffd24dab81817742939461558b86efc9882e060f5cf6799b4197ba760a948a9120b34f41acf4fa4287f35e8 ()
+#39 0x0000000001366941 in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d198741dbd99eb01272a55ba76ee2abd7563348609c8b2952ab7d3e71c5dc81c718aa12a98dfae9b5630d0c2fda34916be6c498847f4129e9a5f1fbcdd8c6a901 ()
+#40 0x000000000136708c in SNPSee_3734c75b6df15445263e41e202c21d357530f1002cf0b24d0b90ac4a4483f6665465d7c37ec4ce71313cfc0a471575a79ba413633ac1537032eb8775f5ebb55f6021eb7118e1e33a66a40a742570a303b3cdb1e9fad8ae33 ()
+#41 0x00000000011be87c in SNPSee_2f66aebc512a93c4c10e977d1af4e391ec6404bcf9f24fc55d8d1ff25420a501284b515ddf38f203 ()
+#42 0x00000000013dce21 in SNPSee_c5ec9a0e6055c712e1f509b5d8419f5d8269b0639af66e2be3ccce084ac8a4db4dada5bd9328fd00350e7e91afbad27b ()
+#43 0x0000000001413b61 in SNPSee_046e5bdaed52d6fe0e4ffc392e2a65f08e6d9aea099937b44f7adcf48000c7ec7656aedf959ac78051ce49f617296dbe531d9db0c62f4768 ()
+#44 0x0000000001456f0f in SNPSee_60bb2763df9641efe956ea8eb1fafd93c5c5b0196d8d91c4ac111b565ad20a0b8a5842143e6e155cc2f96e0a6330864da81dca664a22bf0b ()
+#45 0x0000000001485487 in SNPSee_638ef87e4673f296b20b8a43f19aead50aff034bbe8412da9bb4bf9d8d8e879cce65d744537fe7cef6e93e0c946719c0 ()
+#46 0x000000000148f791 in SNPSee_638ef87e4673f296b20b8a43f19aead50aff034bbe8412dad5c135266fef6d04499b7796d6a5d6cca85388d9a08008586352c58736bca8eaed100f33797c0c2fa49c931b6da4ba13c972a120501b8775 ()
+#47 0x000000000c6bc3d0 in SNPSee_0b59900b97a13b3ea88dbe005a0bb7b1173d77d8f442c2e7298ba8e3efffadc047a275b9c20d226c89aec39e4bff9c08 ()
+#48 0x000000000c3cdb11 in SNPSee_756c399f18a18ca99b4ccdc0a8348d21910665441f70fac4b02323d9bbb8216e ()
+#49 0x000000000c165cfb in SNPSee_140d9ef539bea896588b48a4ca90437e32974a0dd794ed633d0634acdefd843dd5285056ec3d699344c032f469237a4e ()
+#50 0x000000000c167009 in SNPSee_140d9ef539bea896588b48a4ca90437e32974a0dd794ed63081addac5a88448e1280dc23a6592155 ()
+#51 0x000000000c167115 in SNPSee_756c399f18a18ca99b4ccdc0a8348d213d04f5d63839637b377f376a9761f5f5bad77faeed7a379b1b25baeb0293f4b9c885ce164760bddb ()
+#52 0x000000000beafc26 in SNPSee_1b8f3acba94bf06c86ca5e9c2704c7f665133c1db870c957a65ef45f4b4c36b8 ()
+#53 0x000000000be5e534 in SNPSee_eeb46940ed702797fbe93e82d968d8f436361dbaf845429dbefe0d9fa6e9ba5b3c16ac372a86ec9581f88ab889f26206ac2f7cc43a65da604a8d2abba63790fc ()
+#54 0x000000000be64d72 in SNPSee_377043c0182fbb31fe2e5dbf4fc3952477f67b429a864c5c6ad2224f54fbd177f7b1464107c598324e0e901c721adb96 ()
+#55 0x00000000011d0e0c in SNPSee_9886f32bf8214536ec9f95d3ed3c7f5e64ba1872850550598ca741cdfb68659679bafee2b9707c59 ()
+#56 0x000000000c6a82bd in SNPSee_b64647d78c1d78f48088318de2f387ca53c58601d74174acaafd2d500e73cabe563423d0b845cd357169c2c1ffaef4711c241799de9f112a ()
+#57 0x000000000be64505 in SNPSee_eeb46940ed702797fbe93e82d968d8f436361dbaf845429d6a32c884344102231b1483bbb0ecb2d627319b882b6ef871f372f2450afa8a245710b049ea02991346494a78e2cbda9da86a94fe41c0feb4564a10d2168140b34c899287d6da6e9e ()
+#58 0x000000000bed6832 in SNPSee_b15adf234e10fa3e4b7194c871530dcf301f77cd278d69e840bbcddc3a979719f1d46c4deb8699364ba5c0aef71a83ac ()
+#59 0x000000000bed4a57 in SNPSee_377043c0182fbb31fe2e5dbf4fc39524022b154d1880eaac87416885dffdb22eb7601f03fc7c49d928e2c744f0f48636 ()
+#60 0x000000000bef9905 in SNPSee_d82bc5157162e3d2813efa7386aa2a01942a38e8c16669bac232c1199e359efdb3aca612f4b30a6453b45d17901ba1ca62bcb4e92e98be36eb3e5143c4957a74a56e3a29e52b0214213f9748d6c7e062ee9d2e98e7b2c9e8 ()
+#61 0x0000000000b81305 in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#62 0x000000000c6abb38 in SNPSee_b64647d78c1d78f48088318de2f387cad6b1cb7e725b41567514e6fcbafe851863d7b2247155c16ba6ff165d600d770cc146a2ac01a100f09d3e3fff02a49e4073cd1f799f1424ce406059930b96e8b1 ()
+#63 0x0000000000b80bbb in SNPSee_2b6151967e545e4177188821270a3af5 ()
+#64 0x000000000bd24120 in SNPSee_cf98e994a81a3699f563cc87d9a119de ()
+#65 0x0000000000b81232 in SNPSee_80051c3e017cbcc0e527ada7eaf06b628ebb3290689b73b98b5c8979b8a944fddf301789f3c04ee9e18e02a6e8dc8c8cc8d90585d03a00ea2c8799e295df6dd58edeea89405a17bcdadbde37f16eda3e ()
+#66 0x000000000c6a6e05 in SNPSee_4dcacb4b71fec0146d1d025e7ac65c91938c5fa7f037eb24600f7d702959a34beafe6814793ba587c8c2368ef429b0bd3d687579433b900ba822eeaf1cc1b523 ()
+#67 0x000000000c6a7145 in SNPSee_4dcacb4b71fec014726c6b2f3ad4b3d7b62fea33fafdf4011779ab7ee0024396cee17a7bc70f509a3d7198e30887bc160809d8bdd30a4955 ()
+#68 0x000000000c6ac750 in SNPSee_b64647d78c1d78f48088318de2f387cab58405acb3f3d182483cb1e60ce3b03c ()
+#69 0x00000000011b9a47 in SNPSee_b81f4656f0d7d3ca1b0bca755b60caea2cb50375ef5e9df280c2a7ba1e2ca19f7750e3d580600edd04a01dc4363d697fcd6b18c4d0ab558c ()
+#70 0x00000000016b093f in SNPSee_76d6cca1ef29382ca84b036280d53dca ()
+#71 0x0000000000523ab8 in SNPSee_a8c67c391924da59bb0a6e836c77e2d8 ()
+#72 0x00000000004fdb69 in SNPSee_5a24f30b88271223 ()
+#73 0x00007f8671f867e5 in __libc_start_main () from /lib64/libc.so.6
+#74 0x000000000051dfa1 in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /proj/cad/synopsys/synopsys_2018/syn_vO-2018.06-SP1/linux64/syn/bin/common_shell_exec, process 806371
+[Inferior 1 (process 806371) detached]
+(gdb) 
