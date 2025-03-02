@@ -1,18 +1,4 @@
-/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v
-Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
--- Compiling module UART_TX
-
-Top level modules:
-	UART_TX
-
-} {} {}} /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v
-Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
--- Compiling module UART
-
-Top level modules:
-	UART
-
-} {} {}} /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
+/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
 Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
 -- Compiling module inv
 -- Compiling module nand2
@@ -40,12 +26,5 @@ Top level modules:
 	oai12
 	oai22
 	dff
-
-} {} {}} /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v
-Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
--- Compiling module UART_RX
-
-Top level modules:
-	UART_RX
 
 } {} {}}

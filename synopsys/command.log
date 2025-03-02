@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version O-2018.06-SP1 for linux64 -- Jul 19, 2018
-#@ # Date:   Sat Mar  1 01:24:43 2025
+#@ # Date:   Sat Mar  1 17:35:15 2025
 #@ # Run by: ebw220000@engnx05a.utdallas.edu
 #@ 
 
@@ -42988,8 +42988,30 @@ gui_start
 read_file -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v}
 analyze -library WORK -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v}
 elaborate UART -architecture verilog -library DEFAULT
+compile -exact_map -ungroup_all -auto_ungroup area -only_design_rule
+uplevel #0 { report_cell }
+read_file -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v}
+analyze -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v}
 elaborate UART -architecture verilog -library DEFAULT
 compile -exact_map -ungroup_all -auto_ungroup area -only_design_rule
 uplevel #0 { report_cell }
-write -hierarchy -format ddc
+remove_design -designs
+read_file -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v}
+analyze -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v}
+elaborate UART -architecture verilog -library DEFAULT
+compile -exact_map -ungroup_all -auto_ungroup area -only_design_rule
+uplevel #0 { report_cell }
+uplevel #0 { report_cell }
 write -hierarchy -format verilog -output /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/uart_syn.v
+UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v}
+elaborate UART -architecture verilog -library DEFAULT
+compile -exact_map -ungroup_all -auto_ungroup area -only_design_rule
+uplevel #0 { report_cell }
+link
+link
+analyze -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v}
+analyze -format verilog {/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_tx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_rx.v /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart.v}
+elaborate UART -architecture verilog -library DEFAULT
+compile -exact_map -ungroup_all -auto_ungroup area -only_design_rule
+uplevel #0 { report_cell }
+change_selection [get_references [list UART_TX_Inst/r31/ULTI1] ]

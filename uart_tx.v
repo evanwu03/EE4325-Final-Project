@@ -45,8 +45,8 @@ module UART_TX
       r_Clock_Count <= 0;
       r_Bit_Index <= 0;
       r_TX_Data <= 0; 
-      o_TX_Serial <= 1'b1;
-      o_TX_Done <= 1'b1; 
+      //o_TX_Serial <= 1'b1;
+      o_TX_Done <= 1'b0; 
       o_TX_Busy <= 0;
     end
     else
@@ -142,8 +142,9 @@ module UART_TX
         end // case: TX_STOP_BIT      
       
       default :
+	begin
         r_SM_Main <= IDLE;
-      
+      	end
     endcase
     end // else: !if(~i_Rst_L)
   end // always @ (posedge i_Clock or negedge i_Rst_L)

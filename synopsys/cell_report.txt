@@ -4512,3 +4512,2019 @@ UART_TX_Inst/r_TX_Data_reg[7]
                           dff             library         7.000000  n
 --------------------------------------------------------------------------------
 Total 603 cells                                           1075.000000
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : UART_1
+Version: O-2018.06-SP1
+Date   : Sat Mar  1 17:36:54 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U7                        inv             library         1.000000  
+U8                        inv             library         1.000000  
+U9                        inv             library         1.000000  
+U10                       inv             library         1.000000  
+U11                       inv             library         1.000000  
+U12                       inv             library         1.000000  
+U13                       inv             library         1.000000  
+U14                       inv             library         1.000000  
+U15                       inv             library         1.000000  
+U16                       inv             library         1.000000  
+U17                       inv             library         1.000000  
+U18                       inv             library         1.000000  
+U19                       inv             library         1.000000  
+U20                       inv             library         1.000000  
+U21                       inv             library         1.000000  
+U22                       inv             library         1.000000  
+U23                       inv             library         1.000000  
+U24                       inv             library         1.000000  
+U25                       inv             library         1.000000  
+U26                       inv             library         1.000000  
+U27                       inv             library         1.000000  
+U28                       inv             library         1.000000  
+U29                       inv             library         1.000000  
+U30                       inv             library         1.000000  
+U31                       inv             library         1.000000  
+U32                       inv             library         1.000000  
+U33                       inv             library         1.000000  
+U34                       inv             library         1.000000  
+U35                       inv             library         1.000000  
+U36                       inv             library         1.000000  
+U37                       nor2            library         1.000000  
+U38                       nor2            library         1.000000  
+U39                       nor2            library         1.000000  
+U40                       nor2            library         1.000000  
+U41                       nand2           library         1.000000  
+U42                       xor2            library         3.000000  
+U43                       xor2            library         3.000000  
+U44                       xor2            library         3.000000  
+U45                       xor2            library         3.000000  
+U46                       xor2            library         3.000000  
+U47                       xor2            library         3.000000  
+U48                       xor2            library         3.000000  
+U49                       xor2            library         3.000000  
+U50                       xor2            library         3.000000  
+U51                       xor2            library         3.000000  
+U52                       xor2            library         3.000000  
+U53                       xor2            library         3.000000  
+U54                       xor2            library         3.000000  
+U55                       xor2            library         3.000000  
+U56                       xor2            library         3.000000  
+U57                       nor3            library         1.000000  
+U58                       nand3           library         1.000000  
+U59                       nor3            library         1.000000  
+U60                       nand3           library         1.000000  
+U61                       nor3            library         1.000000  
+U62                       nand3           library         1.000000  
+U63                       nor3            library         1.000000  
+U64                       inv             library         1.000000  
+U65                       nand3           library         1.000000  
+U66                       nor3            library         1.000000  
+U67                       inv             library         1.000000  
+U68                       nand3           library         1.000000  
+U69                       nor2            library         1.000000  
+U70                       xor2            library         3.000000  
+U71                       xor2            library         3.000000  
+U72                       xor2            library         3.000000  
+U73                       xor2            library         3.000000  
+U74                       xor2            library         3.000000  
+U75                       xor2            library         3.000000  
+U76                       xor2            library         3.000000  
+U77                       xor2            library         3.000000  
+U78                       xor2            library         3.000000  
+U79                       xor2            library         3.000000  
+U80                       inv             library         1.000000  
+U81                       inv             library         1.000000  
+U82                       inv             library         1.000000  
+U83                       nand2           library         1.000000  
+U84                       nand2           library         1.000000  
+U85                       nand2           library         1.000000  
+U86                       nor2            library         1.000000  
+U87                       nand2           library         1.000000  
+U88                       nor2            library         1.000000  
+U89                       nand2           library         1.000000  
+U90                       inv             library         1.000000  
+U91                       inv             library         1.000000  
+U92                       inv             library         1.000000  
+U93                       inv             library         1.000000  
+U94                       inv             library         1.000000  
+U95                       inv             library         1.000000  
+U96                       inv             library         1.000000  
+U97                       inv             library         1.000000  
+U98                       inv             library         1.000000  
+U99                       inv             library         1.000000  
+U100                      inv             library         1.000000  
+U101                      inv             library         1.000000  
+U102                      inv             library         1.000000  
+U103                      inv             library         1.000000  
+U104                      inv             library         1.000000  
+U105                      inv             library         1.000000  
+U106                      inv             library         1.000000  
+U107                      inv             library         1.000000  
+U108                      inv             library         1.000000  
+U109                      inv             library         1.000000  
+U110                      inv             library         1.000000  
+U111                      inv             library         1.000000  
+U112                      inv             library         1.000000  
+U113                      inv             library         1.000000  
+U114                      inv             library         1.000000  
+U115                      inv             library         1.000000  
+U116                      inv             library         1.000000  
+U117                      inv             library         1.000000  
+U118                      inv             library         1.000000  
+U119                      inv             library         1.000000  
+U120                      inv             library         1.000000  
+U121                      inv             library         1.000000  
+U122                      inv             library         1.000000  
+U123                      inv             library         1.000000  
+U124                      inv             library         1.000000  
+U125                      inv             library         1.000000  
+U126                      inv             library         1.000000  
+U127                      inv             library         1.000000  
+U128                      inv             library         1.000000  
+U129                      inv             library         1.000000  
+U130                      inv             library         1.000000  
+U131                      inv             library         1.000000  
+U132                      inv             library         1.000000  
+U133                      inv             library         1.000000  
+U134                      inv             library         1.000000  
+U135                      inv             library         1.000000  
+U136                      inv             library         1.000000  
+U137                      inv             library         1.000000  
+U138                      inv             library         1.000000  
+U139                      inv             library         1.000000  
+U140                      inv             library         1.000000  
+U141                      inv             library         1.000000  
+U142                      inv             library         1.000000  
+U143                      inv             library         1.000000  
+U144                      inv             library         1.000000  
+U145                      inv             library         1.000000  
+U146                      inv             library         1.000000  
+U147                      inv             library         1.000000  
+U148                      inv             library         1.000000  
+U149                      inv             library         1.000000  
+U150                      inv             library         1.000000  
+UART_RX_Inst/C12          nand2           library         1.000000  
+UART_RX_Inst/C15          nand2           library         1.000000  
+UART_RX_Inst/C19          nand2           library         1.000000  
+UART_RX_Inst/C24          nand2           library         1.000000  
+UART_RX_Inst/C28          nand2           library         1.000000  
+UART_RX_Inst/C320         nand2           library         1.000000  
+UART_RX_Inst/C321         nand2           library         1.000000  
+UART_RX_Inst/C322         nand2           library         1.000000  
+UART_RX_Inst/C323         nand2           library         1.000000  
+UART_RX_Inst/C324         nand2           library         1.000000  
+UART_RX_Inst/C325         nand2           library         1.000000  
+UART_RX_Inst/C326         nand2           library         1.000000  
+UART_RX_Inst/C327         nand2           library         1.000000  
+UART_RX_Inst/C328         nand2           library         1.000000  
+UART_RX_Inst/C329         nand2           library         1.000000  
+UART_RX_Inst/C330         nand2           library         1.000000  
+UART_RX_Inst/C331         nand2           library         1.000000  
+UART_RX_Inst/C332         nand2           library         1.000000  
+UART_RX_Inst/C333         nand2           library         1.000000  
+UART_RX_Inst/C334         nand2           library         1.000000  
+UART_RX_Inst/C335         nand2           library         1.000000  
+UART_RX_Inst/I_1          inv             library         1.000000  
+UART_RX_Inst/I_2          inv             library         1.000000  
+UART_RX_Inst/I_3          inv             library         1.000000  
+UART_RX_Inst/I_4          inv             library         1.000000  
+UART_RX_Inst/I_5          inv             library         1.000000  
+UART_RX_Inst/I_6          inv             library         1.000000  
+UART_RX_Inst/I_7          inv             library         1.000000  
+UART_RX_Inst/I_8          inv             library         1.000000  
+UART_RX_Inst/I_9          inv             library         1.000000  
+UART_RX_Inst/I_10         inv             library         1.000000  
+UART_RX_Inst/I_11         inv             library         1.000000  
+UART_RX_Inst/I_12         inv             library         1.000000  
+UART_RX_Inst/I_15         inv             library         1.000000  
+UART_RX_Inst/I_16         inv             library         1.000000  
+UART_RX_Inst/I_18         inv             library         1.000000  
+UART_RX_Inst/I_19         inv             library         1.000000  
+UART_RX_Inst/I_20         inv             library         1.000000  
+UART_RX_Inst/I_21         inv             library         1.000000  
+UART_RX_Inst/U3           oai22           library         2.000000  
+UART_RX_Inst/U4           inv             library         1.000000  
+UART_RX_Inst/U5           inv             library         1.000000  
+UART_RX_Inst/U6           oai22           library         2.000000  
+UART_RX_Inst/U7           inv             library         1.000000  
+UART_RX_Inst/U8           inv             library         1.000000  
+UART_RX_Inst/U9           oai22           library         2.000000  
+UART_RX_Inst/U10          inv             library         1.000000  
+UART_RX_Inst/U11          inv             library         1.000000  
+UART_RX_Inst/U14          oai22           library         2.000000  
+UART_RX_Inst/U15          inv             library         1.000000  
+UART_RX_Inst/U16          inv             library         1.000000  
+UART_RX_Inst/U17          oai22           library         2.000000  
+UART_RX_Inst/U18          inv             library         1.000000  
+UART_RX_Inst/U19          inv             library         1.000000  
+UART_RX_Inst/U20          oai22           library         2.000000  
+UART_RX_Inst/U21          inv             library         1.000000  
+UART_RX_Inst/U22          inv             library         1.000000  
+UART_RX_Inst/U23          oai22           library         2.000000  
+UART_RX_Inst/U24          inv             library         1.000000  
+UART_RX_Inst/U25          inv             library         1.000000  
+UART_RX_Inst/U26          oai22           library         2.000000  
+UART_RX_Inst/U27          inv             library         1.000000  
+UART_RX_Inst/U28          inv             library         1.000000  
+UART_RX_Inst/U29          oai12           library         2.000000  
+UART_RX_Inst/U30          nand2           library         1.000000  
+UART_RX_Inst/U31          inv             library         1.000000  
+UART_RX_Inst/U32          aoi22           library         2.000000  
+UART_RX_Inst/U33          inv             library         1.000000  
+UART_RX_Inst/U34          aoi22           library         2.000000  
+UART_RX_Inst/U35          inv             library         1.000000  
+UART_RX_Inst/U36          aoi22           library         2.000000  
+UART_RX_Inst/U37          inv             library         1.000000  
+UART_RX_Inst/U38          aoi22           library         2.000000  
+UART_RX_Inst/U39          inv             library         1.000000  
+UART_RX_Inst/U40          aoi22           library         2.000000  
+UART_RX_Inst/U41          inv             library         1.000000  
+UART_RX_Inst/U42          aoi22           library         2.000000  
+UART_RX_Inst/U43          inv             library         1.000000  
+UART_RX_Inst/U44          aoi22           library         2.000000  
+UART_RX_Inst/U45          inv             library         1.000000  
+UART_RX_Inst/U46          aoi22           library         2.000000  
+UART_RX_Inst/U47          inv             library         1.000000  
+UART_RX_Inst/U48          aoi22           library         2.000000  
+UART_RX_Inst/U49          inv             library         1.000000  
+UART_RX_Inst/U50          aoi22           library         2.000000  
+UART_RX_Inst/U51          inv             library         1.000000  
+UART_RX_Inst/U52          aoi22           library         2.000000  
+UART_RX_Inst/U53          inv             library         1.000000  
+UART_RX_Inst/U54          aoi22           library         2.000000  
+UART_RX_Inst/U55          inv             library         1.000000  
+UART_RX_Inst/U56          aoi22           library         2.000000  
+UART_RX_Inst/U57          inv             library         1.000000  
+UART_RX_Inst/U58          aoi22           library         2.000000  
+UART_RX_Inst/U59          oai12           library         2.000000  
+UART_RX_Inst/U60          nand2           library         1.000000  
+UART_RX_Inst/U61          inv             library         1.000000  
+UART_RX_Inst/U62          oai12           library         2.000000  
+UART_RX_Inst/U63          nand2           library         1.000000  
+UART_RX_Inst/U64          oai12           library         2.000000  
+UART_RX_Inst/U65          nand2           library         1.000000  
+UART_RX_Inst/U66          inv             library         1.000000  
+UART_RX_Inst/U67          aoi22           library         2.000000  
+UART_RX_Inst/U68          inv             library         1.000000  
+UART_RX_Inst/U69          aoi22           library         2.000000  
+UART_RX_Inst/U70          inv             library         1.000000  
+UART_RX_Inst/U71          xor2            library         3.000000  
+UART_RX_Inst/U72          nand2           library         1.000000  
+UART_RX_Inst/U73          inv             library         1.000000  
+UART_RX_Inst/U74          xor2            library         3.000000  
+UART_RX_Inst/U75          inv             library         1.000000  
+UART_RX_Inst/U77          inv             library         1.000000  
+UART_RX_Inst/U78          nor2            library         1.000000  
+UART_RX_Inst/U79          nand2           library         1.000000  
+UART_RX_Inst/U80          inv             library         1.000000  
+UART_RX_Inst/U81          inv             library         1.000000  
+UART_RX_Inst/U82          nor2            library         1.000000  
+UART_RX_Inst/U83          nand2           library         1.000000  
+UART_RX_Inst/U84          inv             library         1.000000  
+UART_RX_Inst/U85          nor2            library         1.000000  
+UART_RX_Inst/U86          nor2            library         1.000000  
+UART_RX_Inst/U87          nor2            library         1.000000  
+UART_RX_Inst/U88          nor2            library         1.000000  
+UART_RX_Inst/U89          nor2            library         1.000000  
+UART_RX_Inst/U90          nor2            library         1.000000  
+UART_RX_Inst/U91          nor2            library         1.000000  
+UART_RX_Inst/U92          nor2            library         1.000000  
+UART_RX_Inst/U93          nand3           library         1.000000  
+UART_RX_Inst/U94          nand2           library         1.000000  
+UART_RX_Inst/U95          nand3           library         1.000000  
+UART_RX_Inst/U96          nand3           library         1.000000  
+UART_RX_Inst/U97          nand2           library         1.000000  
+UART_RX_Inst/U98          oai12           library         2.000000  
+UART_RX_Inst/U99          nor3            library         1.000000  
+UART_RX_Inst/U100         inv             library         1.000000  
+UART_RX_Inst/U101         nor2            library         1.000000  
+UART_RX_Inst/U102         nor2            library         1.000000  
+UART_RX_Inst/U103         inv             library         1.000000  
+UART_RX_Inst/U104         nor2            library         1.000000  
+UART_RX_Inst/U105         inv             library         1.000000  
+UART_RX_Inst/U106         nor2            library         1.000000  
+UART_RX_Inst/U107         inv             library         1.000000  
+UART_RX_Inst/U108         nor2            library         1.000000  
+UART_RX_Inst/U109         inv             library         1.000000  
+UART_RX_Inst/U110         nor2            library         1.000000  
+UART_RX_Inst/U111         inv             library         1.000000  
+UART_RX_Inst/U112         nor2            library         1.000000  
+UART_RX_Inst/U113         inv             library         1.000000  
+UART_RX_Inst/U114         nor2            library         1.000000  
+UART_RX_Inst/U115         inv             library         1.000000  
+UART_RX_Inst/U116         nor2            library         1.000000  
+UART_RX_Inst/U117         inv             library         1.000000  
+UART_RX_Inst/U118         nor2            library         1.000000  
+UART_RX_Inst/U119         inv             library         1.000000  
+UART_RX_Inst/U120         nor2            library         1.000000  
+UART_RX_Inst/U121         inv             library         1.000000  
+UART_RX_Inst/U122         nor2            library         1.000000  
+UART_RX_Inst/U123         inv             library         1.000000  
+UART_RX_Inst/U124         nor2            library         1.000000  
+UART_RX_Inst/U125         inv             library         1.000000  
+UART_RX_Inst/U126         nor2            library         1.000000  
+UART_RX_Inst/U127         inv             library         1.000000  
+UART_RX_Inst/U128         nor2            library         1.000000  
+UART_RX_Inst/U129         inv             library         1.000000  
+UART_RX_Inst/U130         nor2            library         1.000000  
+UART_RX_Inst/U131         inv             library         1.000000  
+UART_RX_Inst/U132         nor2            library         1.000000  
+UART_RX_Inst/U133         oai12           library         2.000000  
+UART_RX_Inst/U134         inv             library         1.000000  
+UART_RX_Inst/U135         nand3           library         1.000000  
+UART_RX_Inst/U136         oai12           library         2.000000  
+UART_RX_Inst/U137         inv             library         1.000000  
+UART_RX_Inst/U138         inv             library         1.000000  
+UART_RX_Inst/U139         nand2           library         1.000000  
+UART_RX_Inst/U140         inv             library         1.000000  
+UART_RX_Inst/U141         inv             library         1.000000  
+UART_RX_Inst/U142         nor2            library         1.000000  
+UART_RX_Inst/U143         inv             library         1.000000  
+UART_RX_Inst/U144         nor2            library         1.000000  
+UART_RX_Inst/U145         inv             library         1.000000  
+UART_RX_Inst/U146         nor2            library         1.000000  
+UART_RX_Inst/U147         inv             library         1.000000  
+UART_RX_Inst/U148         nand3           library         1.000000  
+UART_RX_Inst/U149         nand2           library         1.000000  
+UART_RX_Inst/U150         inv             library         1.000000  
+UART_RX_Inst/U151         nand3           library         1.000000  
+UART_RX_Inst/U152         nand3           library         1.000000  
+UART_RX_Inst/U153         inv             library         1.000000  
+UART_RX_Inst/U154         inv             library         1.000000  
+UART_RX_Inst/U155         inv             library         1.000000  
+UART_RX_Inst/U156         inv             library         1.000000  
+UART_RX_Inst/U157         inv             library         1.000000  
+UART_RX_Inst/U158         inv             library         1.000000  
+UART_RX_Inst/U159         inv             library         1.000000  
+UART_RX_Inst/U160         inv             library         1.000000  
+UART_RX_Inst/U161         inv             library         1.000000  
+UART_RX_Inst/U162         inv             library         1.000000  
+UART_RX_Inst/U163         inv             library         1.000000  
+UART_RX_Inst/U168         inv             library         1.000000  
+UART_RX_Inst/U169         inv             library         1.000000  
+UART_RX_Inst/U170         inv             library         1.000000  
+UART_RX_Inst/U171         inv             library         1.000000  
+UART_RX_Inst/U172         inv             library         1.000000  
+UART_RX_Inst/lt_110/ULTI1 nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI1_1
+                          nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI2 nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI2_1
+                          nand2           library         1.000000  
+UART_RX_Inst/r35/UEQI_1   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_4   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_6   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_7   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_9   xor2            library         3.000000  
+UART_RX_Inst/r35/ULTI0_0  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_9  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1    nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_2  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_3  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_5  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_8  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_9  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_10 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_11 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_12 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_13 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_14 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_5  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_8  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_9  nand2           library         1.000000  
+UART_RX_Inst/r_Bit_Index_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Bit_Index_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Bit_Index_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[3]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[4]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[5]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[6]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[7]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[8]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[9]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[10]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[11]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[12]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[13]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[14]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[15]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[3]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[4]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[5]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[6]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[7]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Done_reg
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/C223         nand2           library         1.000000  
+UART_TX_Inst/C224         nand2           library         1.000000  
+UART_TX_Inst/C225         nand2           library         1.000000  
+UART_TX_Inst/C226         nand2           library         1.000000  
+UART_TX_Inst/C227         nand2           library         1.000000  
+UART_TX_Inst/C228         nand2           library         1.000000  
+UART_TX_Inst/C229         nand2           library         1.000000  
+UART_TX_Inst/C230         nand2           library         1.000000  
+UART_TX_Inst/C231         nand2           library         1.000000  
+UART_TX_Inst/I_13         inv             library         1.000000  
+UART_TX_Inst/U3           oai12           library         2.000000  
+UART_TX_Inst/U4           inv             library         1.000000  
+UART_TX_Inst/U5           aoi22           library         2.000000  
+UART_TX_Inst/U6           nand2           library         1.000000  
+UART_TX_Inst/U7           aoi12           library         2.000000  
+UART_TX_Inst/U8           inv             library         1.000000  
+UART_TX_Inst/U9           aoi22           library         2.000000  
+UART_TX_Inst/U10          inv             library         1.000000  
+UART_TX_Inst/U13          aoi22           library         2.000000  
+UART_TX_Inst/U14          inv             library         1.000000  
+UART_TX_Inst/U15          aoi22           library         2.000000  
+UART_TX_Inst/U16          inv             library         1.000000  
+UART_TX_Inst/U17          aoi22           library         2.000000  
+UART_TX_Inst/U18          inv             library         1.000000  
+UART_TX_Inst/U19          aoi22           library         2.000000  
+UART_TX_Inst/U20          inv             library         1.000000  
+UART_TX_Inst/U21          aoi22           library         2.000000  
+UART_TX_Inst/U22          inv             library         1.000000  
+UART_TX_Inst/U23          aoi22           library         2.000000  
+UART_TX_Inst/U24          inv             library         1.000000  
+UART_TX_Inst/U25          aoi22           library         2.000000  
+UART_TX_Inst/U26          inv             library         1.000000  
+UART_TX_Inst/U27          inv             library         1.000000  
+UART_TX_Inst/U28          aoi22           library         2.000000  
+UART_TX_Inst/U29          inv             library         1.000000  
+UART_TX_Inst/U30          oai12           library         2.000000  
+UART_TX_Inst/U31          nand2           library         1.000000  
+UART_TX_Inst/U32          oai12           library         2.000000  
+UART_TX_Inst/U33          nand2           library         1.000000  
+UART_TX_Inst/U34          oai12           library         2.000000  
+UART_TX_Inst/U35          nand2           library         1.000000  
+UART_TX_Inst/U36          inv             library         1.000000  
+UART_TX_Inst/U37          xor2            library         3.000000  
+UART_TX_Inst/U38          nor2            library         1.000000  
+UART_TX_Inst/U39          xor2            library         3.000000  
+UART_TX_Inst/U40          nor2            library         1.000000  
+UART_TX_Inst/U41          inv             library         1.000000  
+UART_TX_Inst/U42          nor2            library         1.000000  
+UART_TX_Inst/U43          nand2           library         1.000000  
+UART_TX_Inst/U44          inv             library         1.000000  
+UART_TX_Inst/U45          nand2           library         1.000000  
+UART_TX_Inst/U46          inv             library         1.000000  
+UART_TX_Inst/U54          nand2           library         1.000000  
+UART_TX_Inst/U55          nor2            library         1.000000  
+UART_TX_Inst/U56          inv             library         1.000000  
+UART_TX_Inst/U57          nand3           library         1.000000  
+UART_TX_Inst/U58          nand2           library         1.000000  
+UART_TX_Inst/U59          nand2           library         1.000000  
+UART_TX_Inst/U60          nand3           library         1.000000  
+UART_TX_Inst/U61          nand2           library         1.000000  
+UART_TX_Inst/U62          inv             library         1.000000  
+UART_TX_Inst/U63          nand3           library         1.000000  
+UART_TX_Inst/U64          inv             library         1.000000  
+UART_TX_Inst/U65          nor2            library         1.000000  
+UART_TX_Inst/U66          inv             library         1.000000  
+UART_TX_Inst/U67          nor2            library         1.000000  
+UART_TX_Inst/U68          inv             library         1.000000  
+UART_TX_Inst/U69          nor2            library         1.000000  
+UART_TX_Inst/U70          inv             library         1.000000  
+UART_TX_Inst/U71          nand2           library         1.000000  
+UART_TX_Inst/U72          oai12           library         2.000000  
+UART_TX_Inst/U73          inv             library         1.000000  
+UART_TX_Inst/U74          nand2           library         1.000000  
+UART_TX_Inst/U75          inv             library         1.000000  
+UART_TX_Inst/U76          nand2           library         1.000000  
+UART_TX_Inst/U77          inv             library         1.000000  
+UART_TX_Inst/U78          nand2           library         1.000000  
+UART_TX_Inst/U79          inv             library         1.000000  
+UART_TX_Inst/U80          nand2           library         1.000000  
+UART_TX_Inst/U81          inv             library         1.000000  
+UART_TX_Inst/U82          nand2           library         1.000000  
+UART_TX_Inst/U83          inv             library         1.000000  
+UART_TX_Inst/U84          nand2           library         1.000000  
+UART_TX_Inst/U85          inv             library         1.000000  
+UART_TX_Inst/U86          nand2           library         1.000000  
+UART_TX_Inst/U87          inv             library         1.000000  
+UART_TX_Inst/U88          nand2           library         1.000000  
+UART_TX_Inst/U89          inv             library         1.000000  
+UART_TX_Inst/U90          nand2           library         1.000000  
+UART_TX_Inst/U91          inv             library         1.000000  
+UART_TX_Inst/U92          nand2           library         1.000000  
+UART_TX_Inst/U93          inv             library         1.000000  
+UART_TX_Inst/U94          nand2           library         1.000000  
+UART_TX_Inst/U95          oai12           library         2.000000  
+UART_TX_Inst/U96          aoi22           library         2.000000  
+UART_TX_Inst/U97          inv             library         1.000000  
+UART_TX_Inst/U98          inv             library         1.000000  
+UART_TX_Inst/U99          inv             library         1.000000  
+UART_TX_Inst/U100         inv             library         1.000000  
+UART_TX_Inst/U101         inv             library         1.000000  
+UART_TX_Inst/U102         inv             library         1.000000  
+UART_TX_Inst/U103         inv             library         1.000000  
+UART_TX_Inst/U104         inv             library         1.000000  
+UART_TX_Inst/U105         inv             library         1.000000  
+UART_TX_Inst/U106         inv             library         1.000000  
+UART_TX_Inst/U107         inv             library         1.000000  
+UART_TX_Inst/U108         inv             library         1.000000  
+UART_TX_Inst/U109         inv             library         1.000000  
+UART_TX_Inst/U110         inv             library         1.000000  
+UART_TX_Inst/U111         inv             library         1.000000  
+UART_TX_Inst/U112         inv             library         1.000000  
+UART_TX_Inst/U117         inv             library         1.000000  
+UART_TX_Inst/U118         inv             library         1.000000  
+UART_TX_Inst/U119         inv             library         1.000000  
+UART_TX_Inst/U120         inv             library         1.000000  
+UART_TX_Inst/U121         inv             library         1.000000  
+UART_TX_Inst/U122         inv             library         1.000000  
+UART_TX_Inst/U123         aoi22           library         2.000000  
+UART_TX_Inst/U124         aoi22           library         2.000000  
+UART_TX_Inst/U125         inv             library         1.000000  
+UART_TX_Inst/U126         aoi22           library         2.000000  
+UART_TX_Inst/U127         aoi22           library         2.000000  
+UART_TX_Inst/U128         oai22           library         2.000000  
+UART_TX_Inst/U129         oai22           library         2.000000  
+UART_TX_Inst/lt_109/ULTI1 nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI1_1
+                          nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI2 nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI2_1
+                          nand2           library         1.000000  
+UART_TX_Inst/o_TX_Busy_reg
+                          dff             library         7.000000  n
+UART_TX_Inst/o_TX_Done_reg
+                          **FFGEN**                       0.000000  n, u
+UART_TX_Inst/o_TX_Serial_reg
+                          **FFGEN**                       0.000000  n, u
+UART_TX_Inst/r31/ULTI1    nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_1  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_2  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_3  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_4  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_5  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_6  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_7  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_8  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_9  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_1  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_5  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_6  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_8  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_9  nand2           library         1.000000  
+UART_TX_Inst/r_Bit_Index_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Bit_Index_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Bit_Index_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[3]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[4]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[5]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[6]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[7]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[8]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[9]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[10]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_SM_Main_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_SM_Main_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[3]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[4]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[5]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[6]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[7]
+                          dff             library         7.000000  n
+--------------------------------------------------------------------------------
+Total 584 cells                                           1041.000000
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : UART_1
+Version: O-2018.06-SP1
+Date   : Sat Mar  1 17:42:12 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U4                        inv             library         1.000000  
+U5                        inv             library         1.000000  
+U6                        inv             library         1.000000  
+U7                        inv             library         1.000000  
+U8                        inv             library         1.000000  
+U9                        inv             library         1.000000  
+U10                       inv             library         1.000000  
+U11                       inv             library         1.000000  
+U12                       inv             library         1.000000  
+U13                       inv             library         1.000000  
+U14                       inv             library         1.000000  
+U15                       inv             library         1.000000  
+U16                       inv             library         1.000000  
+U17                       inv             library         1.000000  
+U18                       inv             library         1.000000  
+U19                       inv             library         1.000000  
+U20                       inv             library         1.000000  
+U21                       inv             library         1.000000  
+U22                       inv             library         1.000000  
+U23                       inv             library         1.000000  
+U24                       inv             library         1.000000  
+U25                       inv             library         1.000000  
+U26                       inv             library         1.000000  
+U27                       inv             library         1.000000  
+U28                       inv             library         1.000000  
+U29                       inv             library         1.000000  
+U30                       inv             library         1.000000  
+U31                       inv             library         1.000000  
+U32                       inv             library         1.000000  
+U33                       inv             library         1.000000  
+U34                       nor2            library         1.000000  
+U35                       nor2            library         1.000000  
+U36                       nor2            library         1.000000  
+U37                       nor2            library         1.000000  
+U38                       nand2           library         1.000000  
+U39                       xor2            library         3.000000  
+U40                       xor2            library         3.000000  
+U41                       xor2            library         3.000000  
+U42                       xor2            library         3.000000  
+U43                       xor2            library         3.000000  
+U44                       xor2            library         3.000000  
+U45                       xor2            library         3.000000  
+U46                       xor2            library         3.000000  
+U47                       xor2            library         3.000000  
+U48                       xor2            library         3.000000  
+U49                       xor2            library         3.000000  
+U50                       xor2            library         3.000000  
+U51                       xor2            library         3.000000  
+U52                       xor2            library         3.000000  
+U53                       xor2            library         3.000000  
+U54                       nor3            library         1.000000  
+U55                       nand3           library         1.000000  
+U56                       nor3            library         1.000000  
+U57                       nand3           library         1.000000  
+U58                       nor3            library         1.000000  
+U59                       nand3           library         1.000000  
+U60                       nor3            library         1.000000  
+U61                       inv             library         1.000000  
+U62                       nand3           library         1.000000  
+U63                       nor3            library         1.000000  
+U64                       inv             library         1.000000  
+U65                       nand3           library         1.000000  
+U66                       nor2            library         1.000000  
+U67                       xor2            library         3.000000  
+U68                       xor2            library         3.000000  
+U69                       xor2            library         3.000000  
+U70                       xor2            library         3.000000  
+U71                       xor2            library         3.000000  
+U72                       xor2            library         3.000000  
+U73                       xor2            library         3.000000  
+U74                       xor2            library         3.000000  
+U75                       xor2            library         3.000000  
+U76                       xor2            library         3.000000  
+U77                       inv             library         1.000000  
+U78                       inv             library         1.000000  
+U79                       inv             library         1.000000  
+U80                       nand2           library         1.000000  
+U81                       nand2           library         1.000000  
+U82                       nand2           library         1.000000  
+U83                       nor2            library         1.000000  
+U84                       nand2           library         1.000000  
+U85                       nor2            library         1.000000  
+U86                       nand2           library         1.000000  
+U87                       inv             library         1.000000  
+U88                       inv             library         1.000000  
+U89                       inv             library         1.000000  
+U90                       inv             library         1.000000  
+U91                       inv             library         1.000000  
+U92                       inv             library         1.000000  
+U93                       inv             library         1.000000  
+U94                       inv             library         1.000000  
+U95                       inv             library         1.000000  
+U96                       inv             library         1.000000  
+U97                       inv             library         1.000000  
+U98                       inv             library         1.000000  
+U99                       inv             library         1.000000  
+U100                      inv             library         1.000000  
+U101                      inv             library         1.000000  
+U102                      inv             library         1.000000  
+U103                      inv             library         1.000000  
+U104                      inv             library         1.000000  
+U105                      inv             library         1.000000  
+U106                      inv             library         1.000000  
+U107                      inv             library         1.000000  
+U108                      inv             library         1.000000  
+U109                      inv             library         1.000000  
+U110                      inv             library         1.000000  
+U111                      inv             library         1.000000  
+U112                      inv             library         1.000000  
+U113                      inv             library         1.000000  
+U114                      inv             library         1.000000  
+U115                      inv             library         1.000000  
+U116                      inv             library         1.000000  
+U117                      inv             library         1.000000  
+U118                      inv             library         1.000000  
+U119                      inv             library         1.000000  
+U120                      inv             library         1.000000  
+U121                      inv             library         1.000000  
+U122                      inv             library         1.000000  
+U123                      inv             library         1.000000  
+U124                      inv             library         1.000000  
+U125                      inv             library         1.000000  
+U126                      inv             library         1.000000  
+U127                      inv             library         1.000000  
+U128                      inv             library         1.000000  
+U129                      inv             library         1.000000  
+U130                      inv             library         1.000000  
+U131                      inv             library         1.000000  
+U132                      inv             library         1.000000  
+U133                      inv             library         1.000000  
+U134                      inv             library         1.000000  
+U135                      inv             library         1.000000  
+U136                      inv             library         1.000000  
+U137                      inv             library         1.000000  
+U138                      inv             library         1.000000  
+U139                      inv             library         1.000000  
+U140                      inv             library         1.000000  
+U141                      inv             library         1.000000  
+U142                      inv             library         1.000000  
+U143                      inv             library         1.000000  
+U144                      inv             library         1.000000  
+U145                      inv             library         1.000000  
+U146                      inv             library         1.000000  
+U147                      inv             library         1.000000  
+UART_RX_Inst/C12          nand2           library         1.000000  
+UART_RX_Inst/C15          nand2           library         1.000000  
+UART_RX_Inst/C19          nand2           library         1.000000  
+UART_RX_Inst/C24          nand2           library         1.000000  
+UART_RX_Inst/C28          nand2           library         1.000000  
+UART_RX_Inst/C320         nand2           library         1.000000  
+UART_RX_Inst/C321         nand2           library         1.000000  
+UART_RX_Inst/C322         nand2           library         1.000000  
+UART_RX_Inst/C323         nand2           library         1.000000  
+UART_RX_Inst/C324         nand2           library         1.000000  
+UART_RX_Inst/C325         nand2           library         1.000000  
+UART_RX_Inst/C326         nand2           library         1.000000  
+UART_RX_Inst/C327         nand2           library         1.000000  
+UART_RX_Inst/C328         nand2           library         1.000000  
+UART_RX_Inst/C329         nand2           library         1.000000  
+UART_RX_Inst/C330         nand2           library         1.000000  
+UART_RX_Inst/C331         nand2           library         1.000000  
+UART_RX_Inst/C332         nand2           library         1.000000  
+UART_RX_Inst/C333         nand2           library         1.000000  
+UART_RX_Inst/C334         nand2           library         1.000000  
+UART_RX_Inst/C335         nand2           library         1.000000  
+UART_RX_Inst/I_1          inv             library         1.000000  
+UART_RX_Inst/I_2          inv             library         1.000000  
+UART_RX_Inst/I_3          inv             library         1.000000  
+UART_RX_Inst/I_4          inv             library         1.000000  
+UART_RX_Inst/I_5          inv             library         1.000000  
+UART_RX_Inst/I_6          inv             library         1.000000  
+UART_RX_Inst/I_7          inv             library         1.000000  
+UART_RX_Inst/I_8          inv             library         1.000000  
+UART_RX_Inst/I_9          inv             library         1.000000  
+UART_RX_Inst/I_10         inv             library         1.000000  
+UART_RX_Inst/I_11         inv             library         1.000000  
+UART_RX_Inst/I_12         inv             library         1.000000  
+UART_RX_Inst/I_15         inv             library         1.000000  
+UART_RX_Inst/I_16         inv             library         1.000000  
+UART_RX_Inst/I_18         inv             library         1.000000  
+UART_RX_Inst/I_19         inv             library         1.000000  
+UART_RX_Inst/I_20         inv             library         1.000000  
+UART_RX_Inst/I_21         inv             library         1.000000  
+UART_RX_Inst/U3           oai22           library         2.000000  
+UART_RX_Inst/U4           inv             library         1.000000  
+UART_RX_Inst/U5           inv             library         1.000000  
+UART_RX_Inst/U6           oai22           library         2.000000  
+UART_RX_Inst/U7           inv             library         1.000000  
+UART_RX_Inst/U8           inv             library         1.000000  
+UART_RX_Inst/U9           oai22           library         2.000000  
+UART_RX_Inst/U10          inv             library         1.000000  
+UART_RX_Inst/U11          inv             library         1.000000  
+UART_RX_Inst/U14          oai22           library         2.000000  
+UART_RX_Inst/U15          inv             library         1.000000  
+UART_RX_Inst/U16          inv             library         1.000000  
+UART_RX_Inst/U17          oai22           library         2.000000  
+UART_RX_Inst/U18          inv             library         1.000000  
+UART_RX_Inst/U19          inv             library         1.000000  
+UART_RX_Inst/U20          oai22           library         2.000000  
+UART_RX_Inst/U21          inv             library         1.000000  
+UART_RX_Inst/U22          inv             library         1.000000  
+UART_RX_Inst/U23          oai22           library         2.000000  
+UART_RX_Inst/U24          inv             library         1.000000  
+UART_RX_Inst/U25          inv             library         1.000000  
+UART_RX_Inst/U26          oai22           library         2.000000  
+UART_RX_Inst/U27          inv             library         1.000000  
+UART_RX_Inst/U28          inv             library         1.000000  
+UART_RX_Inst/U29          oai12           library         2.000000  
+UART_RX_Inst/U30          nand2           library         1.000000  
+UART_RX_Inst/U31          inv             library         1.000000  
+UART_RX_Inst/U32          aoi22           library         2.000000  
+UART_RX_Inst/U33          inv             library         1.000000  
+UART_RX_Inst/U34          aoi22           library         2.000000  
+UART_RX_Inst/U35          inv             library         1.000000  
+UART_RX_Inst/U36          aoi22           library         2.000000  
+UART_RX_Inst/U37          inv             library         1.000000  
+UART_RX_Inst/U38          aoi22           library         2.000000  
+UART_RX_Inst/U39          inv             library         1.000000  
+UART_RX_Inst/U40          aoi22           library         2.000000  
+UART_RX_Inst/U41          inv             library         1.000000  
+UART_RX_Inst/U42          aoi22           library         2.000000  
+UART_RX_Inst/U43          inv             library         1.000000  
+UART_RX_Inst/U44          aoi22           library         2.000000  
+UART_RX_Inst/U45          inv             library         1.000000  
+UART_RX_Inst/U46          aoi22           library         2.000000  
+UART_RX_Inst/U47          inv             library         1.000000  
+UART_RX_Inst/U48          aoi22           library         2.000000  
+UART_RX_Inst/U49          inv             library         1.000000  
+UART_RX_Inst/U50          aoi22           library         2.000000  
+UART_RX_Inst/U51          inv             library         1.000000  
+UART_RX_Inst/U52          aoi22           library         2.000000  
+UART_RX_Inst/U53          inv             library         1.000000  
+UART_RX_Inst/U54          aoi22           library         2.000000  
+UART_RX_Inst/U55          inv             library         1.000000  
+UART_RX_Inst/U56          aoi22           library         2.000000  
+UART_RX_Inst/U57          inv             library         1.000000  
+UART_RX_Inst/U58          aoi22           library         2.000000  
+UART_RX_Inst/U59          oai12           library         2.000000  
+UART_RX_Inst/U60          nand2           library         1.000000  
+UART_RX_Inst/U61          inv             library         1.000000  
+UART_RX_Inst/U62          oai12           library         2.000000  
+UART_RX_Inst/U63          nand2           library         1.000000  
+UART_RX_Inst/U64          oai12           library         2.000000  
+UART_RX_Inst/U65          nand2           library         1.000000  
+UART_RX_Inst/U66          inv             library         1.000000  
+UART_RX_Inst/U67          aoi22           library         2.000000  
+UART_RX_Inst/U68          inv             library         1.000000  
+UART_RX_Inst/U69          aoi22           library         2.000000  
+UART_RX_Inst/U70          inv             library         1.000000  
+UART_RX_Inst/U71          xor2            library         3.000000  
+UART_RX_Inst/U72          nand2           library         1.000000  
+UART_RX_Inst/U73          inv             library         1.000000  
+UART_RX_Inst/U74          xor2            library         3.000000  
+UART_RX_Inst/U75          inv             library         1.000000  
+UART_RX_Inst/U77          inv             library         1.000000  
+UART_RX_Inst/U78          nor2            library         1.000000  
+UART_RX_Inst/U79          nand2           library         1.000000  
+UART_RX_Inst/U80          inv             library         1.000000  
+UART_RX_Inst/U81          inv             library         1.000000  
+UART_RX_Inst/U82          nor2            library         1.000000  
+UART_RX_Inst/U83          nand2           library         1.000000  
+UART_RX_Inst/U84          inv             library         1.000000  
+UART_RX_Inst/U85          nor2            library         1.000000  
+UART_RX_Inst/U86          nor2            library         1.000000  
+UART_RX_Inst/U87          nor2            library         1.000000  
+UART_RX_Inst/U88          nor2            library         1.000000  
+UART_RX_Inst/U89          nor2            library         1.000000  
+UART_RX_Inst/U90          nor2            library         1.000000  
+UART_RX_Inst/U91          nor2            library         1.000000  
+UART_RX_Inst/U92          nor2            library         1.000000  
+UART_RX_Inst/U93          nand3           library         1.000000  
+UART_RX_Inst/U94          nand2           library         1.000000  
+UART_RX_Inst/U95          nand3           library         1.000000  
+UART_RX_Inst/U96          nand3           library         1.000000  
+UART_RX_Inst/U97          nand2           library         1.000000  
+UART_RX_Inst/U98          oai12           library         2.000000  
+UART_RX_Inst/U99          nor3            library         1.000000  
+UART_RX_Inst/U100         inv             library         1.000000  
+UART_RX_Inst/U101         nor2            library         1.000000  
+UART_RX_Inst/U102         nor2            library         1.000000  
+UART_RX_Inst/U103         inv             library         1.000000  
+UART_RX_Inst/U104         nor2            library         1.000000  
+UART_RX_Inst/U105         inv             library         1.000000  
+UART_RX_Inst/U106         nor2            library         1.000000  
+UART_RX_Inst/U107         inv             library         1.000000  
+UART_RX_Inst/U108         nor2            library         1.000000  
+UART_RX_Inst/U109         inv             library         1.000000  
+UART_RX_Inst/U110         nor2            library         1.000000  
+UART_RX_Inst/U111         inv             library         1.000000  
+UART_RX_Inst/U112         nor2            library         1.000000  
+UART_RX_Inst/U113         inv             library         1.000000  
+UART_RX_Inst/U114         nor2            library         1.000000  
+UART_RX_Inst/U115         inv             library         1.000000  
+UART_RX_Inst/U116         nor2            library         1.000000  
+UART_RX_Inst/U117         inv             library         1.000000  
+UART_RX_Inst/U118         nor2            library         1.000000  
+UART_RX_Inst/U119         inv             library         1.000000  
+UART_RX_Inst/U120         nor2            library         1.000000  
+UART_RX_Inst/U121         inv             library         1.000000  
+UART_RX_Inst/U122         nor2            library         1.000000  
+UART_RX_Inst/U123         inv             library         1.000000  
+UART_RX_Inst/U124         nor2            library         1.000000  
+UART_RX_Inst/U125         inv             library         1.000000  
+UART_RX_Inst/U126         nor2            library         1.000000  
+UART_RX_Inst/U127         inv             library         1.000000  
+UART_RX_Inst/U128         nor2            library         1.000000  
+UART_RX_Inst/U129         inv             library         1.000000  
+UART_RX_Inst/U130         nor2            library         1.000000  
+UART_RX_Inst/U131         inv             library         1.000000  
+UART_RX_Inst/U132         nor2            library         1.000000  
+UART_RX_Inst/U133         oai12           library         2.000000  
+UART_RX_Inst/U134         inv             library         1.000000  
+UART_RX_Inst/U135         nand3           library         1.000000  
+UART_RX_Inst/U136         oai12           library         2.000000  
+UART_RX_Inst/U137         inv             library         1.000000  
+UART_RX_Inst/U138         inv             library         1.000000  
+UART_RX_Inst/U139         nand2           library         1.000000  
+UART_RX_Inst/U140         inv             library         1.000000  
+UART_RX_Inst/U141         inv             library         1.000000  
+UART_RX_Inst/U142         nor2            library         1.000000  
+UART_RX_Inst/U143         inv             library         1.000000  
+UART_RX_Inst/U144         nor2            library         1.000000  
+UART_RX_Inst/U145         inv             library         1.000000  
+UART_RX_Inst/U146         nor2            library         1.000000  
+UART_RX_Inst/U147         inv             library         1.000000  
+UART_RX_Inst/U148         nand3           library         1.000000  
+UART_RX_Inst/U149         nand2           library         1.000000  
+UART_RX_Inst/U150         inv             library         1.000000  
+UART_RX_Inst/U151         nand3           library         1.000000  
+UART_RX_Inst/U152         nand3           library         1.000000  
+UART_RX_Inst/U153         inv             library         1.000000  
+UART_RX_Inst/U154         inv             library         1.000000  
+UART_RX_Inst/U155         inv             library         1.000000  
+UART_RX_Inst/U156         inv             library         1.000000  
+UART_RX_Inst/U157         inv             library         1.000000  
+UART_RX_Inst/U158         inv             library         1.000000  
+UART_RX_Inst/U159         inv             library         1.000000  
+UART_RX_Inst/U160         inv             library         1.000000  
+UART_RX_Inst/U161         inv             library         1.000000  
+UART_RX_Inst/U162         inv             library         1.000000  
+UART_RX_Inst/U163         inv             library         1.000000  
+UART_RX_Inst/U168         inv             library         1.000000  
+UART_RX_Inst/U169         inv             library         1.000000  
+UART_RX_Inst/U170         inv             library         1.000000  
+UART_RX_Inst/U171         inv             library         1.000000  
+UART_RX_Inst/U172         inv             library         1.000000  
+UART_RX_Inst/lt_110/ULTI1 nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI1_1
+                          nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI2 nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI2_1
+                          nand2           library         1.000000  
+UART_RX_Inst/r35/UEQI_1   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_4   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_6   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_7   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_9   xor2            library         3.000000  
+UART_RX_Inst/r35/ULTI0_0  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_9  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1    nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_2  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_3  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_5  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_8  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_9  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_10 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_11 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_12 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_13 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_14 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_5  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_8  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_9  nand2           library         1.000000  
+UART_RX_Inst/r_Bit_Index_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Bit_Index_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Bit_Index_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[3]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[4]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[5]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[6]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[7]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[8]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[9]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[10]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[11]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[12]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[13]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[14]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[15]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[3]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[4]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[5]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[6]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[7]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Done_reg
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/C223         nand2           library         1.000000  
+UART_TX_Inst/C224         nand2           library         1.000000  
+UART_TX_Inst/C225         nand2           library         1.000000  
+UART_TX_Inst/C226         nand2           library         1.000000  
+UART_TX_Inst/C227         nand2           library         1.000000  
+UART_TX_Inst/C228         nand2           library         1.000000  
+UART_TX_Inst/C229         nand2           library         1.000000  
+UART_TX_Inst/C230         nand2           library         1.000000  
+UART_TX_Inst/C231         nand2           library         1.000000  
+UART_TX_Inst/C232         nand2           library         1.000000  
+UART_TX_Inst/I_6          inv             library         1.000000  
+UART_TX_Inst/I_13         inv             library         1.000000  
+UART_TX_Inst/U3           oai12           library         2.000000  
+UART_TX_Inst/U4           inv             library         1.000000  
+UART_TX_Inst/U5           aoi22           library         2.000000  
+UART_TX_Inst/U6           nand2           library         1.000000  
+UART_TX_Inst/U7           aoi12           library         2.000000  
+UART_TX_Inst/U8           nand2           library         1.000000  
+UART_TX_Inst/U9           inv             library         1.000000  
+UART_TX_Inst/U10          aoi22           library         2.000000  
+UART_TX_Inst/U13          inv             library         1.000000  
+UART_TX_Inst/U14          aoi22           library         2.000000  
+UART_TX_Inst/U15          inv             library         1.000000  
+UART_TX_Inst/U16          aoi22           library         2.000000  
+UART_TX_Inst/U17          inv             library         1.000000  
+UART_TX_Inst/U18          aoi22           library         2.000000  
+UART_TX_Inst/U19          inv             library         1.000000  
+UART_TX_Inst/U20          aoi22           library         2.000000  
+UART_TX_Inst/U21          inv             library         1.000000  
+UART_TX_Inst/U22          aoi22           library         2.000000  
+UART_TX_Inst/U23          inv             library         1.000000  
+UART_TX_Inst/U24          aoi22           library         2.000000  
+UART_TX_Inst/U25          inv             library         1.000000  
+UART_TX_Inst/U26          aoi22           library         2.000000  
+UART_TX_Inst/U27          inv             library         1.000000  
+UART_TX_Inst/U28          inv             library         1.000000  
+UART_TX_Inst/U29          aoi22           library         2.000000  
+UART_TX_Inst/U30          inv             library         1.000000  
+UART_TX_Inst/U31          oai12           library         2.000000  
+UART_TX_Inst/U32          nand2           library         1.000000  
+UART_TX_Inst/U33          oai12           library         2.000000  
+UART_TX_Inst/U34          nand2           library         1.000000  
+UART_TX_Inst/U35          oai12           library         2.000000  
+UART_TX_Inst/U36          nand2           library         1.000000  
+UART_TX_Inst/U37          inv             library         1.000000  
+UART_TX_Inst/U38          xor2            library         3.000000  
+UART_TX_Inst/U39          nor2            library         1.000000  
+UART_TX_Inst/U40          xor2            library         3.000000  
+UART_TX_Inst/U41          nor2            library         1.000000  
+UART_TX_Inst/U42          inv             library         1.000000  
+UART_TX_Inst/U43          inv             library         1.000000  
+UART_TX_Inst/U48          nand2           library         1.000000  
+UART_TX_Inst/U49          nor2            library         1.000000  
+UART_TX_Inst/U50          inv             library         1.000000  
+UART_TX_Inst/U51          nor2            library         1.000000  
+UART_TX_Inst/U52          nand3           library         1.000000  
+UART_TX_Inst/U53          nand2           library         1.000000  
+UART_TX_Inst/U54          nand2           library         1.000000  
+UART_TX_Inst/U55          nand3           library         1.000000  
+UART_TX_Inst/U56          nand2           library         1.000000  
+UART_TX_Inst/U57          inv             library         1.000000  
+UART_TX_Inst/U58          nand3           library         1.000000  
+UART_TX_Inst/U59          inv             library         1.000000  
+UART_TX_Inst/U60          nor2            library         1.000000  
+UART_TX_Inst/U61          inv             library         1.000000  
+UART_TX_Inst/U62          nor2            library         1.000000  
+UART_TX_Inst/U63          inv             library         1.000000  
+UART_TX_Inst/U64          nor2            library         1.000000  
+UART_TX_Inst/U65          inv             library         1.000000  
+UART_TX_Inst/U66          nand2           library         1.000000  
+UART_TX_Inst/U67          oai12           library         2.000000  
+UART_TX_Inst/U68          inv             library         1.000000  
+UART_TX_Inst/U69          nand2           library         1.000000  
+UART_TX_Inst/U70          inv             library         1.000000  
+UART_TX_Inst/U71          nand2           library         1.000000  
+UART_TX_Inst/U72          inv             library         1.000000  
+UART_TX_Inst/U73          nand2           library         1.000000  
+UART_TX_Inst/U74          inv             library         1.000000  
+UART_TX_Inst/U75          nand2           library         1.000000  
+UART_TX_Inst/U76          inv             library         1.000000  
+UART_TX_Inst/U77          nand2           library         1.000000  
+UART_TX_Inst/U78          inv             library         1.000000  
+UART_TX_Inst/U79          nand2           library         1.000000  
+UART_TX_Inst/U80          inv             library         1.000000  
+UART_TX_Inst/U81          nand2           library         1.000000  
+UART_TX_Inst/U82          inv             library         1.000000  
+UART_TX_Inst/U83          nand2           library         1.000000  
+UART_TX_Inst/U84          inv             library         1.000000  
+UART_TX_Inst/U85          nand2           library         1.000000  
+UART_TX_Inst/U86          inv             library         1.000000  
+UART_TX_Inst/U87          nand2           library         1.000000  
+UART_TX_Inst/U88          inv             library         1.000000  
+UART_TX_Inst/U89          nand2           library         1.000000  
+UART_TX_Inst/U90          oai12           library         2.000000  
+UART_TX_Inst/U91          aoi22           library         2.000000  
+UART_TX_Inst/U92          inv             library         1.000000  
+UART_TX_Inst/U93          inv             library         1.000000  
+UART_TX_Inst/U94          inv             library         1.000000  
+UART_TX_Inst/U95          inv             library         1.000000  
+UART_TX_Inst/U96          inv             library         1.000000  
+UART_TX_Inst/U97          inv             library         1.000000  
+UART_TX_Inst/U98          inv             library         1.000000  
+UART_TX_Inst/U99          inv             library         1.000000  
+UART_TX_Inst/U100         inv             library         1.000000  
+UART_TX_Inst/U101         inv             library         1.000000  
+UART_TX_Inst/U102         inv             library         1.000000  
+UART_TX_Inst/U103         inv             library         1.000000  
+UART_TX_Inst/U104         inv             library         1.000000  
+UART_TX_Inst/U105         inv             library         1.000000  
+UART_TX_Inst/U106         inv             library         1.000000  
+UART_TX_Inst/U107         inv             library         1.000000  
+UART_TX_Inst/U108         inv             library         1.000000  
+UART_TX_Inst/U109         inv             library         1.000000  
+UART_TX_Inst/U114         inv             library         1.000000  
+UART_TX_Inst/U115         inv             library         1.000000  
+UART_TX_Inst/U116         inv             library         1.000000  
+UART_TX_Inst/U117         inv             library         1.000000  
+UART_TX_Inst/U118         inv             library         1.000000  
+UART_TX_Inst/U119         inv             library         1.000000  
+UART_TX_Inst/U120         aoi22           library         2.000000  
+UART_TX_Inst/U121         aoi22           library         2.000000  
+UART_TX_Inst/U122         inv             library         1.000000  
+UART_TX_Inst/U123         aoi22           library         2.000000  
+UART_TX_Inst/U124         aoi22           library         2.000000  
+UART_TX_Inst/U125         oai22           library         2.000000  
+UART_TX_Inst/U126         oai22           library         2.000000  
+UART_TX_Inst/lt_109/ULTI1 nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI1_1
+                          nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI2 nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI2_1
+                          nand2           library         1.000000  
+UART_TX_Inst/o_TX_Busy_reg
+                          dff             library         7.000000  n
+UART_TX_Inst/o_TX_Done_reg
+                          dff             library         7.000000  n
+UART_TX_Inst/o_TX_Serial_reg
+                          **FFGEN**                       0.000000  n, u
+UART_TX_Inst/r31/ULTI1    nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_1  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_2  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_3  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_4  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_5  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_6  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_7  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_8  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_9  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_1  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_5  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_6  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_8  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_9  nand2           library         1.000000  
+UART_TX_Inst/r_Bit_Index_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Bit_Index_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Bit_Index_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[3]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[4]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[5]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[6]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[7]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[8]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[9]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[10]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_SM_Main_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_SM_Main_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[3]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[4]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[5]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[6]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[7]
+                          dff             library         7.000000  n
+--------------------------------------------------------------------------------
+Total 586 cells                                           1050.000000
+ 
+****************************************
+Report : cell
+Design : UART_1
+Version: O-2018.06-SP1
+Date   : Sat Mar  1 19:10:26 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        inv             library         1.000000  
+U2                        inv             library         1.000000  
+U3                        inv             library         1.000000  
+U4                        inv             library         1.000000  
+U5                        inv             library         1.000000  
+U6                        inv             library         1.000000  
+U7                        inv             library         1.000000  
+U8                        inv             library         1.000000  
+U9                        inv             library         1.000000  
+U10                       inv             library         1.000000  
+U11                       inv             library         1.000000  
+U12                       inv             library         1.000000  
+U13                       inv             library         1.000000  
+U14                       inv             library         1.000000  
+U15                       inv             library         1.000000  
+U16                       inv             library         1.000000  
+U17                       inv             library         1.000000  
+U18                       inv             library         1.000000  
+U19                       inv             library         1.000000  
+U20                       inv             library         1.000000  
+U21                       inv             library         1.000000  
+U22                       inv             library         1.000000  
+U23                       inv             library         1.000000  
+U24                       inv             library         1.000000  
+U25                       inv             library         1.000000  
+U26                       inv             library         1.000000  
+U27                       inv             library         1.000000  
+U28                       inv             library         1.000000  
+U29                       inv             library         1.000000  
+U30                       inv             library         1.000000  
+U31                       nor2            library         1.000000  
+U32                       nor2            library         1.000000  
+U33                       nor2            library         1.000000  
+U34                       nor2            library         1.000000  
+U35                       nor2            library         1.000000  
+U36                       nor2            library         1.000000  
+U37                       nand2           library         1.000000  
+U38                       xor2            library         3.000000  
+U39                       xor2            library         3.000000  
+U40                       xor2            library         3.000000  
+U41                       xor2            library         3.000000  
+U42                       xor2            library         3.000000  
+U43                       xor2            library         3.000000  
+U44                       xor2            library         3.000000  
+U45                       xor2            library         3.000000  
+U46                       xor2            library         3.000000  
+U47                       xor2            library         3.000000  
+U48                       xor2            library         3.000000  
+U49                       xor2            library         3.000000  
+U50                       xor2            library         3.000000  
+U51                       xor2            library         3.000000  
+U52                       xor2            library         3.000000  
+U53                       xor2            library         3.000000  
+U54                       xor2            library         3.000000  
+U55                       xor2            library         3.000000  
+U56                       xor2            library         3.000000  
+U57                       xor2            library         3.000000  
+U58                       xor2            library         3.000000  
+U59                       xor2            library         3.000000  
+U60                       nor3            library         1.000000  
+U61                       nand3           library         1.000000  
+U62                       nor3            library         1.000000  
+U63                       nand3           library         1.000000  
+U64                       nor3            library         1.000000  
+U65                       nand3           library         1.000000  
+U66                       nor3            library         1.000000  
+U67                       nand3           library         1.000000  
+U68                       nor3            library         1.000000  
+U69                       nand3           library         1.000000  
+U70                       nor2            library         1.000000  
+U71                       xor2            library         3.000000  
+U72                       xor2            library         3.000000  
+U73                       xor2            library         3.000000  
+U74                       inv             library         1.000000  
+U75                       inv             library         1.000000  
+U76                       inv             library         1.000000  
+U77                       inv             library         1.000000  
+U78                       inv             library         1.000000  
+U79                       inv             library         1.000000  
+U80                       inv             library         1.000000  
+U81                       nand2           library         1.000000  
+U82                       nand2           library         1.000000  
+U83                       nand2           library         1.000000  
+U84                       nand2           library         1.000000  
+U85                       nand2           library         1.000000  
+U86                       inv             library         1.000000  
+U87                       inv             library         1.000000  
+U88                       inv             library         1.000000  
+U89                       inv             library         1.000000  
+U90                       inv             library         1.000000  
+U91                       inv             library         1.000000  
+U92                       inv             library         1.000000  
+U93                       inv             library         1.000000  
+U94                       inv             library         1.000000  
+U95                       inv             library         1.000000  
+U96                       inv             library         1.000000  
+U97                       inv             library         1.000000  
+U98                       inv             library         1.000000  
+U99                       inv             library         1.000000  
+U100                      inv             library         1.000000  
+U101                      inv             library         1.000000  
+U102                      inv             library         1.000000  
+U103                      inv             library         1.000000  
+U104                      inv             library         1.000000  
+U105                      inv             library         1.000000  
+U106                      inv             library         1.000000  
+U107                      inv             library         1.000000  
+U108                      inv             library         1.000000  
+U109                      inv             library         1.000000  
+U110                      inv             library         1.000000  
+U111                      inv             library         1.000000  
+U112                      inv             library         1.000000  
+U113                      inv             library         1.000000  
+U114                      inv             library         1.000000  
+U115                      inv             library         1.000000  
+U116                      inv             library         1.000000  
+U117                      inv             library         1.000000  
+U118                      inv             library         1.000000  
+U119                      inv             library         1.000000  
+U120                      inv             library         1.000000  
+U121                      inv             library         1.000000  
+U122                      inv             library         1.000000  
+U123                      inv             library         1.000000  
+U124                      inv             library         1.000000  
+U125                      inv             library         1.000000  
+U126                      inv             library         1.000000  
+U127                      inv             library         1.000000  
+U128                      inv             library         1.000000  
+U129                      inv             library         1.000000  
+U130                      inv             library         1.000000  
+U131                      inv             library         1.000000  
+U132                      inv             library         1.000000  
+U133                      inv             library         1.000000  
+U134                      inv             library         1.000000  
+U135                      inv             library         1.000000  
+U136                      inv             library         1.000000  
+U137                      inv             library         1.000000  
+U138                      inv             library         1.000000  
+U139                      inv             library         1.000000  
+U140                      inv             library         1.000000  
+U141                      inv             library         1.000000  
+U142                      inv             library         1.000000  
+U143                      inv             library         1.000000  
+U144                      inv             library         1.000000  
+U145                      inv             library         1.000000  
+U146                      inv             library         1.000000  
+U147                      inv             library         1.000000  
+U148                      inv             library         1.000000  
+U149                      inv             library         1.000000  
+U150                      inv             library         1.000000  
+U151                      inv             library         1.000000  
+U152                      inv             library         1.000000  
+U153                      inv             library         1.000000  
+U154                      inv             library         1.000000  
+U155                      inv             library         1.000000  
+U156                      inv             library         1.000000  
+U157                      inv             library         1.000000  
+UART_RX_Inst/C12          nand2           library         1.000000  
+UART_RX_Inst/C15          nand2           library         1.000000  
+UART_RX_Inst/C19          nand2           library         1.000000  
+UART_RX_Inst/C24          nand2           library         1.000000  
+UART_RX_Inst/C28          nand2           library         1.000000  
+UART_RX_Inst/C320         nand2           library         1.000000  
+UART_RX_Inst/C321         nand2           library         1.000000  
+UART_RX_Inst/C322         nand2           library         1.000000  
+UART_RX_Inst/C323         nand2           library         1.000000  
+UART_RX_Inst/C324         nand2           library         1.000000  
+UART_RX_Inst/C325         nand2           library         1.000000  
+UART_RX_Inst/C326         nand2           library         1.000000  
+UART_RX_Inst/C327         nand2           library         1.000000  
+UART_RX_Inst/C328         nand2           library         1.000000  
+UART_RX_Inst/C329         nand2           library         1.000000  
+UART_RX_Inst/C330         nand2           library         1.000000  
+UART_RX_Inst/C331         nand2           library         1.000000  
+UART_RX_Inst/C332         nand2           library         1.000000  
+UART_RX_Inst/C333         nand2           library         1.000000  
+UART_RX_Inst/C334         nand2           library         1.000000  
+UART_RX_Inst/C335         nand2           library         1.000000  
+UART_RX_Inst/I_1          inv             library         1.000000  
+UART_RX_Inst/I_2          inv             library         1.000000  
+UART_RX_Inst/I_3          inv             library         1.000000  
+UART_RX_Inst/I_4          inv             library         1.000000  
+UART_RX_Inst/I_5          inv             library         1.000000  
+UART_RX_Inst/I_6          inv             library         1.000000  
+UART_RX_Inst/I_7          inv             library         1.000000  
+UART_RX_Inst/I_8          inv             library         1.000000  
+UART_RX_Inst/I_9          inv             library         1.000000  
+UART_RX_Inst/I_10         inv             library         1.000000  
+UART_RX_Inst/I_11         inv             library         1.000000  
+UART_RX_Inst/I_12         inv             library         1.000000  
+UART_RX_Inst/I_15         inv             library         1.000000  
+UART_RX_Inst/I_16         inv             library         1.000000  
+UART_RX_Inst/I_18         inv             library         1.000000  
+UART_RX_Inst/I_19         inv             library         1.000000  
+UART_RX_Inst/I_20         inv             library         1.000000  
+UART_RX_Inst/I_21         inv             library         1.000000  
+UART_RX_Inst/U3           oai22           library         2.000000  
+UART_RX_Inst/U4           inv             library         1.000000  
+UART_RX_Inst/U5           inv             library         1.000000  
+UART_RX_Inst/U6           oai22           library         2.000000  
+UART_RX_Inst/U7           inv             library         1.000000  
+UART_RX_Inst/U8           inv             library         1.000000  
+UART_RX_Inst/U9           oai22           library         2.000000  
+UART_RX_Inst/U10          inv             library         1.000000  
+UART_RX_Inst/U11          inv             library         1.000000  
+UART_RX_Inst/U14          oai22           library         2.000000  
+UART_RX_Inst/U15          inv             library         1.000000  
+UART_RX_Inst/U16          inv             library         1.000000  
+UART_RX_Inst/U17          oai22           library         2.000000  
+UART_RX_Inst/U18          inv             library         1.000000  
+UART_RX_Inst/U19          inv             library         1.000000  
+UART_RX_Inst/U20          oai22           library         2.000000  
+UART_RX_Inst/U21          inv             library         1.000000  
+UART_RX_Inst/U22          inv             library         1.000000  
+UART_RX_Inst/U23          oai22           library         2.000000  
+UART_RX_Inst/U24          inv             library         1.000000  
+UART_RX_Inst/U25          inv             library         1.000000  
+UART_RX_Inst/U26          oai22           library         2.000000  
+UART_RX_Inst/U27          inv             library         1.000000  
+UART_RX_Inst/U28          inv             library         1.000000  
+UART_RX_Inst/U29          oai12           library         2.000000  
+UART_RX_Inst/U30          nand2           library         1.000000  
+UART_RX_Inst/U31          inv             library         1.000000  
+UART_RX_Inst/U32          aoi22           library         2.000000  
+UART_RX_Inst/U33          inv             library         1.000000  
+UART_RX_Inst/U34          aoi22           library         2.000000  
+UART_RX_Inst/U35          inv             library         1.000000  
+UART_RX_Inst/U36          aoi22           library         2.000000  
+UART_RX_Inst/U37          inv             library         1.000000  
+UART_RX_Inst/U38          aoi22           library         2.000000  
+UART_RX_Inst/U39          inv             library         1.000000  
+UART_RX_Inst/U40          aoi22           library         2.000000  
+UART_RX_Inst/U41          inv             library         1.000000  
+UART_RX_Inst/U42          aoi22           library         2.000000  
+UART_RX_Inst/U43          inv             library         1.000000  
+UART_RX_Inst/U44          aoi22           library         2.000000  
+UART_RX_Inst/U45          inv             library         1.000000  
+UART_RX_Inst/U46          aoi22           library         2.000000  
+UART_RX_Inst/U47          inv             library         1.000000  
+UART_RX_Inst/U48          aoi22           library         2.000000  
+UART_RX_Inst/U49          inv             library         1.000000  
+UART_RX_Inst/U50          aoi22           library         2.000000  
+UART_RX_Inst/U51          inv             library         1.000000  
+UART_RX_Inst/U52          aoi22           library         2.000000  
+UART_RX_Inst/U53          inv             library         1.000000  
+UART_RX_Inst/U54          aoi22           library         2.000000  
+UART_RX_Inst/U55          inv             library         1.000000  
+UART_RX_Inst/U56          aoi22           library         2.000000  
+UART_RX_Inst/U57          inv             library         1.000000  
+UART_RX_Inst/U58          aoi22           library         2.000000  
+UART_RX_Inst/U59          oai12           library         2.000000  
+UART_RX_Inst/U60          nand2           library         1.000000  
+UART_RX_Inst/U61          inv             library         1.000000  
+UART_RX_Inst/U62          oai12           library         2.000000  
+UART_RX_Inst/U63          nand2           library         1.000000  
+UART_RX_Inst/U64          oai12           library         2.000000  
+UART_RX_Inst/U65          nand2           library         1.000000  
+UART_RX_Inst/U66          inv             library         1.000000  
+UART_RX_Inst/U67          aoi22           library         2.000000  
+UART_RX_Inst/U68          inv             library         1.000000  
+UART_RX_Inst/U69          aoi22           library         2.000000  
+UART_RX_Inst/U70          inv             library         1.000000  
+UART_RX_Inst/U71          xor2            library         3.000000  
+UART_RX_Inst/U72          nand2           library         1.000000  
+UART_RX_Inst/U73          inv             library         1.000000  
+UART_RX_Inst/U74          xor2            library         3.000000  
+UART_RX_Inst/U75          inv             library         1.000000  
+UART_RX_Inst/U77          inv             library         1.000000  
+UART_RX_Inst/U78          nor2            library         1.000000  
+UART_RX_Inst/U79          nand2           library         1.000000  
+UART_RX_Inst/U80          inv             library         1.000000  
+UART_RX_Inst/U81          inv             library         1.000000  
+UART_RX_Inst/U82          nor2            library         1.000000  
+UART_RX_Inst/U83          nand2           library         1.000000  
+UART_RX_Inst/U84          inv             library         1.000000  
+UART_RX_Inst/U85          nor2            library         1.000000  
+UART_RX_Inst/U86          nor2            library         1.000000  
+UART_RX_Inst/U87          nor2            library         1.000000  
+UART_RX_Inst/U88          nor2            library         1.000000  
+UART_RX_Inst/U89          nor2            library         1.000000  
+UART_RX_Inst/U90          nor2            library         1.000000  
+UART_RX_Inst/U91          nor2            library         1.000000  
+UART_RX_Inst/U92          nor2            library         1.000000  
+UART_RX_Inst/U93          nand3           library         1.000000  
+UART_RX_Inst/U94          nand2           library         1.000000  
+UART_RX_Inst/U95          nand3           library         1.000000  
+UART_RX_Inst/U96          nand3           library         1.000000  
+UART_RX_Inst/U97          nand2           library         1.000000  
+UART_RX_Inst/U98          oai12           library         2.000000  
+UART_RX_Inst/U99          nor3            library         1.000000  
+UART_RX_Inst/U100         inv             library         1.000000  
+UART_RX_Inst/U101         nor2            library         1.000000  
+UART_RX_Inst/U102         nor2            library         1.000000  
+UART_RX_Inst/U103         inv             library         1.000000  
+UART_RX_Inst/U104         nor2            library         1.000000  
+UART_RX_Inst/U105         inv             library         1.000000  
+UART_RX_Inst/U106         nor2            library         1.000000  
+UART_RX_Inst/U107         inv             library         1.000000  
+UART_RX_Inst/U108         nor2            library         1.000000  
+UART_RX_Inst/U109         inv             library         1.000000  
+UART_RX_Inst/U110         nor2            library         1.000000  
+UART_RX_Inst/U111         inv             library         1.000000  
+UART_RX_Inst/U112         nor2            library         1.000000  
+UART_RX_Inst/U113         inv             library         1.000000  
+UART_RX_Inst/U114         nor2            library         1.000000  
+UART_RX_Inst/U115         inv             library         1.000000  
+UART_RX_Inst/U116         nor2            library         1.000000  
+UART_RX_Inst/U117         inv             library         1.000000  
+UART_RX_Inst/U118         nor2            library         1.000000  
+UART_RX_Inst/U119         inv             library         1.000000  
+UART_RX_Inst/U120         nor2            library         1.000000  
+UART_RX_Inst/U121         inv             library         1.000000  
+UART_RX_Inst/U122         nor2            library         1.000000  
+UART_RX_Inst/U123         inv             library         1.000000  
+UART_RX_Inst/U124         nor2            library         1.000000  
+UART_RX_Inst/U125         inv             library         1.000000  
+UART_RX_Inst/U126         nor2            library         1.000000  
+UART_RX_Inst/U127         inv             library         1.000000  
+UART_RX_Inst/U128         nor2            library         1.000000  
+UART_RX_Inst/U129         inv             library         1.000000  
+UART_RX_Inst/U130         nor2            library         1.000000  
+UART_RX_Inst/U131         inv             library         1.000000  
+UART_RX_Inst/U132         nor2            library         1.000000  
+UART_RX_Inst/U133         oai12           library         2.000000  
+UART_RX_Inst/U134         inv             library         1.000000  
+UART_RX_Inst/U135         nand3           library         1.000000  
+UART_RX_Inst/U136         oai12           library         2.000000  
+UART_RX_Inst/U137         inv             library         1.000000  
+UART_RX_Inst/U138         inv             library         1.000000  
+UART_RX_Inst/U139         nand2           library         1.000000  
+UART_RX_Inst/U140         inv             library         1.000000  
+UART_RX_Inst/U141         inv             library         1.000000  
+UART_RX_Inst/U142         nor2            library         1.000000  
+UART_RX_Inst/U143         inv             library         1.000000  
+UART_RX_Inst/U144         nor2            library         1.000000  
+UART_RX_Inst/U145         inv             library         1.000000  
+UART_RX_Inst/U146         nor2            library         1.000000  
+UART_RX_Inst/U147         inv             library         1.000000  
+UART_RX_Inst/U148         nand3           library         1.000000  
+UART_RX_Inst/U149         nand2           library         1.000000  
+UART_RX_Inst/U150         inv             library         1.000000  
+UART_RX_Inst/U151         nand3           library         1.000000  
+UART_RX_Inst/U152         nand3           library         1.000000  
+UART_RX_Inst/U153         inv             library         1.000000  
+UART_RX_Inst/U154         inv             library         1.000000  
+UART_RX_Inst/U155         inv             library         1.000000  
+UART_RX_Inst/U156         inv             library         1.000000  
+UART_RX_Inst/U157         inv             library         1.000000  
+UART_RX_Inst/U158         inv             library         1.000000  
+UART_RX_Inst/U159         inv             library         1.000000  
+UART_RX_Inst/U160         inv             library         1.000000  
+UART_RX_Inst/U161         inv             library         1.000000  
+UART_RX_Inst/U162         inv             library         1.000000  
+UART_RX_Inst/U163         inv             library         1.000000  
+UART_RX_Inst/U168         inv             library         1.000000  
+UART_RX_Inst/U169         inv             library         1.000000  
+UART_RX_Inst/U170         inv             library         1.000000  
+UART_RX_Inst/U171         inv             library         1.000000  
+UART_RX_Inst/U172         inv             library         1.000000  
+UART_RX_Inst/lt_110/ULTI1 nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI1_1
+                          nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI2 nand2           library         1.000000  
+UART_RX_Inst/lt_110/ULTI2_1
+                          nand2           library         1.000000  
+UART_RX_Inst/r35/UEQI_1   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_4   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_6   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_7   xor2            library         3.000000  
+UART_RX_Inst/r35/UEQI_9   xor2            library         3.000000  
+UART_RX_Inst/r35/ULTI0_0  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI0_9  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1    nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_2  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_3  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_5  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_8  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_9  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_10 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_11 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_12 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_13 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI1_14 nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_1  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_4  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_5  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_6  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_7  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_8  nand2           library         1.000000  
+UART_RX_Inst/r35/ULTI2_9  nand2           library         1.000000  
+UART_RX_Inst/r_Bit_Index_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Bit_Index_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Bit_Index_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[3]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[4]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[5]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[6]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[7]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[8]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[9]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[10]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[11]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[12]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[13]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[14]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_Clock_Count_reg[15]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[2]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[3]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[4]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[5]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[6]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Byte_reg[7]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_Done_reg
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[0]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[1]
+                          dff             library         7.000000  n
+UART_RX_Inst/r_RX_State_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/C222         nand2           library         1.000000  
+UART_TX_Inst/C223         nand2           library         1.000000  
+UART_TX_Inst/C224         nand2           library         1.000000  
+UART_TX_Inst/C225         nand2           library         1.000000  
+UART_TX_Inst/C226         nand2           library         1.000000  
+UART_TX_Inst/C227         nand2           library         1.000000  
+UART_TX_Inst/C228         nand2           library         1.000000  
+UART_TX_Inst/C229         nand2           library         1.000000  
+UART_TX_Inst/C230         nand2           library         1.000000  
+UART_TX_Inst/C231         nand2           library         1.000000  
+UART_TX_Inst/I_6          inv             library         1.000000  
+UART_TX_Inst/I_13         inv             library         1.000000  
+UART_TX_Inst/U3           inv             library         1.000000  
+UART_TX_Inst/U4           aoi22           library         2.000000  
+UART_TX_Inst/U5           inv             library         1.000000  
+UART_TX_Inst/U6           oai12           library         2.000000  
+UART_TX_Inst/U7           inv             library         1.000000  
+UART_TX_Inst/U8           aoi22           library         2.000000  
+UART_TX_Inst/U9           nand2           library         1.000000  
+UART_TX_Inst/U10          aoi12           library         2.000000  
+UART_TX_Inst/U13          nand2           library         1.000000  
+UART_TX_Inst/U14          inv             library         1.000000  
+UART_TX_Inst/U15          aoi22           library         2.000000  
+UART_TX_Inst/U16          inv             library         1.000000  
+UART_TX_Inst/U17          aoi22           library         2.000000  
+UART_TX_Inst/U18          inv             library         1.000000  
+UART_TX_Inst/U19          aoi22           library         2.000000  
+UART_TX_Inst/U20          inv             library         1.000000  
+UART_TX_Inst/U21          aoi22           library         2.000000  
+UART_TX_Inst/U22          inv             library         1.000000  
+UART_TX_Inst/U23          aoi22           library         2.000000  
+UART_TX_Inst/U24          inv             library         1.000000  
+UART_TX_Inst/U25          aoi22           library         2.000000  
+UART_TX_Inst/U26          inv             library         1.000000  
+UART_TX_Inst/U27          aoi22           library         2.000000  
+UART_TX_Inst/U28          inv             library         1.000000  
+UART_TX_Inst/U29          aoi22           library         2.000000  
+UART_TX_Inst/U30          inv             library         1.000000  
+UART_TX_Inst/U31          inv             library         1.000000  
+UART_TX_Inst/U32          aoi22           library         2.000000  
+UART_TX_Inst/U33          inv             library         1.000000  
+UART_TX_Inst/U34          oai12           library         2.000000  
+UART_TX_Inst/U35          nand2           library         1.000000  
+UART_TX_Inst/U36          oai12           library         2.000000  
+UART_TX_Inst/U37          nand2           library         1.000000  
+UART_TX_Inst/U38          oai12           library         2.000000  
+UART_TX_Inst/U39          nand2           library         1.000000  
+UART_TX_Inst/U40          inv             library         1.000000  
+UART_TX_Inst/U41          xor2            library         3.000000  
+UART_TX_Inst/U42          nor2            library         1.000000  
+UART_TX_Inst/U43          xor2            library         3.000000  
+UART_TX_Inst/U44          nor2            library         1.000000  
+UART_TX_Inst/U45          inv             library         1.000000  
+UART_TX_Inst/U48          nand2           library         1.000000  
+UART_TX_Inst/U49          nor2            library         1.000000  
+UART_TX_Inst/U50          inv             library         1.000000  
+UART_TX_Inst/U51          nor2            library         1.000000  
+UART_TX_Inst/U52          nand3           library         1.000000  
+UART_TX_Inst/U53          nand2           library         1.000000  
+UART_TX_Inst/U54          nand2           library         1.000000  
+UART_TX_Inst/U55          nand3           library         1.000000  
+UART_TX_Inst/U56          nand2           library         1.000000  
+UART_TX_Inst/U57          inv             library         1.000000  
+UART_TX_Inst/U58          nand3           library         1.000000  
+UART_TX_Inst/U59          inv             library         1.000000  
+UART_TX_Inst/U60          nor2            library         1.000000  
+UART_TX_Inst/U61          inv             library         1.000000  
+UART_TX_Inst/U62          nor2            library         1.000000  
+UART_TX_Inst/U63          inv             library         1.000000  
+UART_TX_Inst/U64          nor2            library         1.000000  
+UART_TX_Inst/U65          inv             library         1.000000  
+UART_TX_Inst/U66          nand2           library         1.000000  
+UART_TX_Inst/U67          oai12           library         2.000000  
+UART_TX_Inst/U68          inv             library         1.000000  
+UART_TX_Inst/U69          nand2           library         1.000000  
+UART_TX_Inst/U70          inv             library         1.000000  
+UART_TX_Inst/U71          nand2           library         1.000000  
+UART_TX_Inst/U72          inv             library         1.000000  
+UART_TX_Inst/U73          nand2           library         1.000000  
+UART_TX_Inst/U74          inv             library         1.000000  
+UART_TX_Inst/U75          nand2           library         1.000000  
+UART_TX_Inst/U76          inv             library         1.000000  
+UART_TX_Inst/U77          nand2           library         1.000000  
+UART_TX_Inst/U78          inv             library         1.000000  
+UART_TX_Inst/U79          nand2           library         1.000000  
+UART_TX_Inst/U80          inv             library         1.000000  
+UART_TX_Inst/U81          nand2           library         1.000000  
+UART_TX_Inst/U82          inv             library         1.000000  
+UART_TX_Inst/U83          nand2           library         1.000000  
+UART_TX_Inst/U84          inv             library         1.000000  
+UART_TX_Inst/U85          nand2           library         1.000000  
+UART_TX_Inst/U86          inv             library         1.000000  
+UART_TX_Inst/U87          nand2           library         1.000000  
+UART_TX_Inst/U88          inv             library         1.000000  
+UART_TX_Inst/U89          nand2           library         1.000000  
+UART_TX_Inst/U90          oai12           library         2.000000  
+UART_TX_Inst/U91          aoi22           library         2.000000  
+UART_TX_Inst/U92          inv             library         1.000000  
+UART_TX_Inst/U93          inv             library         1.000000  
+UART_TX_Inst/U94          inv             library         1.000000  
+UART_TX_Inst/U95          inv             library         1.000000  
+UART_TX_Inst/U96          inv             library         1.000000  
+UART_TX_Inst/U97          inv             library         1.000000  
+UART_TX_Inst/U98          inv             library         1.000000  
+UART_TX_Inst/U99          inv             library         1.000000  
+UART_TX_Inst/U100         inv             library         1.000000  
+UART_TX_Inst/U101         inv             library         1.000000  
+UART_TX_Inst/U102         inv             library         1.000000  
+UART_TX_Inst/U103         inv             library         1.000000  
+UART_TX_Inst/U104         inv             library         1.000000  
+UART_TX_Inst/U105         inv             library         1.000000  
+UART_TX_Inst/U106         inv             library         1.000000  
+UART_TX_Inst/U107         inv             library         1.000000  
+UART_TX_Inst/U108         inv             library         1.000000  
+UART_TX_Inst/U109         inv             library         1.000000  
+UART_TX_Inst/U114         inv             library         1.000000  
+UART_TX_Inst/U115         inv             library         1.000000  
+UART_TX_Inst/U116         inv             library         1.000000  
+UART_TX_Inst/U117         inv             library         1.000000  
+UART_TX_Inst/U118         inv             library         1.000000  
+UART_TX_Inst/U119         inv             library         1.000000  
+UART_TX_Inst/U120         aoi22           library         2.000000  
+UART_TX_Inst/U121         aoi22           library         2.000000  
+UART_TX_Inst/U122         inv             library         1.000000  
+UART_TX_Inst/U123         aoi22           library         2.000000  
+UART_TX_Inst/U124         aoi22           library         2.000000  
+UART_TX_Inst/U125         oai22           library         2.000000  
+UART_TX_Inst/U126         oai22           library         2.000000  
+UART_TX_Inst/lt_109/ULTI1 nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI1_1
+                          nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI2 nand2           library         1.000000  
+UART_TX_Inst/lt_109/ULTI2_1
+                          nand2           library         1.000000  
+UART_TX_Inst/o_TX_Busy_reg
+                          dff             library         7.000000  n
+UART_TX_Inst/o_TX_Done_reg
+                          dff             library         7.000000  n
+UART_TX_Inst/o_TX_Serial_reg
+                          dff             library         7.000000  n
+UART_TX_Inst/r31/ULTI1    nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_1  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_2  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_3  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_4  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_5  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_6  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_7  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_8  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI1_9  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_1  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_5  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_6  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_8  nand2           library         1.000000  
+UART_TX_Inst/r31/ULTI2_9  nand2           library         1.000000  
+UART_TX_Inst/r_Bit_Index_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Bit_Index_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Bit_Index_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[3]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[4]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[5]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[6]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[7]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[8]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[9]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_Clock_Count_reg[10]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_SM_Main_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_SM_Main_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[0]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[1]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[2]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[3]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[4]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[5]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[6]
+                          dff             library         7.000000  n
+UART_TX_Inst/r_TX_Data_reg[7]
+                          dff             library         7.000000  n
+--------------------------------------------------------------------------------
+Total 601 cells                                           1073.000000

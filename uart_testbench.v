@@ -11,14 +11,13 @@
 /*
 module UART_TB ();
 
-  // Testbench uses a 25 MHz clock
+  // Testbench uses a 100 MHz clock
   // Want to interface to 115200 baud UART
-  // 25000000 / 115200 = 217 Clocks Per Bit.
+  // 100Mhz / 115200 = 868 Clocks Per Bit.
   parameter c_CLOCK_PERIOD_NS = 10;
   parameter c_CLKS_PER_BIT    = 868;
   parameter c_BIT_PERIOD      = 8600;
-
-  reg r_Rst_L; 
+  
   reg r_Clock = 0;
   reg r_TX_DV = 0;
   wire w_TX_Active, w_UART_Line;
@@ -27,9 +26,7 @@ module UART_TB ();
   wire [7:0] w_RX_Byte;
 
   UART_RX #(.CLKS_PER_BIT(c_CLKS_PER_BIT)) UART_RX_Inst
-    (
-     .i_Rst_L(r_Rst_L),
-     .i_Clock(r_Clock),
+    (.i_Clock(r_Clock),
      .i_RX_Serial(w_UART_Line),
      .o_RX_Done(w_RX_DV),
      .o_RX_Byte(w_RX_Byte)
@@ -37,7 +34,6 @@ module UART_TB ();
   
   UART_TX #(.CLKS_PER_BIT(c_CLKS_PER_BIT)) UART_TX_Inst
     (
-     .i_Rst_L(r_Rst_L),
      .i_Clock(r_Clock),
      .i_TX_Valid(r_TX_DV),
      .i_TX_Byte(r_TX_Byte),
@@ -57,11 +53,6 @@ module UART_TB ();
   initial
     begin
 
-      r_Rst_L <= 1;
-      @(posedge r_Clock);
-      r_Rst_L <= 0;
-      @(posedge r_Clock);
-      r_Rst_L <= 1; 
       // Tell UART to send a command (exercise TX)
       @(posedge r_Clock);
       @(posedge r_Clock);
@@ -72,14 +63,10 @@ module UART_TB ();
 
       // Check that the correct command was received
       @(posedge w_RX_DV);
-      if (w_RX_Byte == 8'h4F) begin
+      if (w_RX_Byte == 8'h4F)
         $display("Test Passed - Correct Byte Received");
-      end
-      else begin
+      else
         $display("Test Failed - Incorrect Byte Received");
-      end 
-     
-      $finish;
     end
   
   initial 
@@ -100,20 +87,20 @@ module UART_FULL_TB ();
   
   reg r_Clock = 0;
   reg r_TX_DV = 0;
-  wire w_TX_Busy, w_UART_Line;
+  wire w_TX_Active, w_UART_Line;
   wire w_TX_Serial;
   reg [7:0] r_TX_Byte = 0;
   reg r_Rst_L;
   wire [7:0] w_RX_Byte;
   
-  UART #(.c_CLKS_PER_BIT(c_CLKS_PER_BIT)) UART_Inst
+  UART UART_Inst 
   (
     .i_Rst_L(r_Rst_L),
     .i_System_Clock(r_Clock),
     .i_TX_Valid(r_TX_DV),
     .i_TX_Byte(r_TX_Byte),
     .i_RX_Serial(w_UART_Line),
-    .o_TX_Busy(w_TX_Busy),
+    .o_TX_Busy(w_TX_Active),
     .o_TX_Serial(w_TX_Serial),
     .o_TX_Done(w_TX_Done),
     .o_RX_Done(w_RX_DV),
@@ -122,8 +109,7 @@ module UART_FULL_TB ();
   
    // Keeps the UART Receive input high (default) when
   // UART transmitter is not active
- 
-  assign w_UART_Line = w_TX_Busy ? w_TX_Serial : 1'b1;
+  assign w_UART_Line = w_TX_Active ? w_TX_Serial : 1'b1;
     
   always
     #(c_CLOCK_PERIOD_NS/2) r_Clock <= !r_Clock;
@@ -154,7 +140,7 @@ module UART_FULL_TB ();
       else begin
         $display("Test Failed - Incorrect Byte Received");
       end
-      $finish;
+    $finish;
     end
   
   initial 
