@@ -140,7 +140,7 @@ module UART_FULL_TB ();
       else begin
         $display("Test Failed - Incorrect Byte Received");
       end
-    $finish;
+f    $finish;
     end
   
   initial 

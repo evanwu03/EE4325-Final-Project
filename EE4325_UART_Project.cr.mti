@@ -1,4 +1,18 @@
-/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
+/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v
+Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
+-- Compiling module UART_FULL_TB
+
+Top level modules:
+	UART_FULL_TB
+
+} {} {}} /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/uart_syn.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/uart_syn.v
+Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v {1 {vlog -work work -stats=none /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/synopsys/header.v
 Model Technology ModelSim DE vlog 2022.1 Compiler 2022.01 Jan 29 2022
 -- Compiling module inv
 -- Compiling module nand2

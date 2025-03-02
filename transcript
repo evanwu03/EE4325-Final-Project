@@ -239,3 +239,5 @@ run -all
 #    Time: 82515 ns  Iteration: 2  Instance: /UART_FULL_TB
 # 1
 # Break in Module UART_FULL_TB at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/uart_testbench.v line 143
+# End time: 20:52:56 on Mar 01,2025, Elapsed time: 0:09:26
+# Errors: 0, Warnings: 1
