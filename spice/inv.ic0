@@ -1,0 +1,55 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-2 linux64"
+* "format" "HSP"
+* "rundate" "01:45:21 03/19/2025 "
+* "netlist" "inv.sp "
+* "runtitle" "$example hspice setup file"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in =   1.2000        
++ out =  26.6594n       
++ vdd! =   1.2000        
++ xi.n_gnd!_d0_noxref_pos =  46.4029p       
++ xi.n_vdd!_d0_noxref_neg =   1.2000        
++ xi.n_gnd!_c_22_p =  13.8815p       
++ xi.n_gnd!_c_3_p =  23.3804p       
++ xi.n_gnd!_mmn0_s = 295.8186p       
++ xi.n_in_c_100_n =   1.2000        
++ xi.n_in_c_102_n =   1.2000        
++ xi.n_in_c_104_n =   1.2000        
++ xi.n_in_c_111_n =   1.2000        
++ xi.n_in_c_116_n =   1.2000        
++ xi.n_in_c_98_n =   1.2000        
++ xi.n_in_c_99_n =   1.2000        
++ xi.n_in_mmn0_g =   1.2000        
++ xi.n_in_mmp0_g =   1.2000        
++ xi.n_out_c_26_n =  26.6583n       
++ xi.n_out_c_27_n =  26.6499n       
++ xi.n_out_c_34_p =  26.6594n       
++ xi.n_out_c_36_p =  26.6678n       
++ xi.n_out_c_37_p =  26.6619n       
++ xi.n_out_mmn0_d =  26.4245n       
++ xi.n_out_mmp0_d =  26.7809n       
++ xi.n_vdd!_c_73_n =   1.2000        
++ xi.n_vdd!_c_93_p =   1.2000        
++ xi.n_vdd!_mmp0_s =   1.2000        
++ xi.x_pm_inv_gnd!.14 =  13.9931p       
++ xi.x_pm_inv_gnd!.18 =  13.1375p       
++ xi.x_pm_inv_gnd!.20 =  10.4025p       
++ xi.x_pm_inv_out.7 =  26.6608n       
++ xi.x_pm_inv_out.18 =  26.6693n       
++ xi.x_pm_inv_out.20 =  26.6572n       
++ xi.x_pm_inv_out.24 =  26.6594n       
++ xi.x_pm_inv_vdd!.14 =   1.2000        
++ xi.x_pm_inv_vdd!.19 =   1.2000        
++ xi.x_pm_inv_vdd!.20 =   1.2000        
++ xi.x_pm_inv_vdd!.22 =   1.2000        
++ xi.x_pm_inv_in.4 =   1.2000        
++ xi.x_pm_inv_in.13 =   1.2000        
++ xi.x_pm_inv_in.16 =   1.2000        
++ xi.x_pm_inv_in.21 =   1.2000        
+***   END: Saved Operating Point ***                     
