@@ -1,0 +1,1 @@
+("inv:/\tinv tutorial schematic" (("open" (nil hierarchy "/{tutorial inv schematic }:a"))) (((-2.70625 -7.08125) (8.79375 -1.30625)) "a" "Schematics" 6))("inv:/\tinv tutorial layout" (("open" (nil hierarchy "/{tutorial inv layout }:a"))) (((-4.499 -5.136) (9.249 1.858)) "a" "Layout" 9))

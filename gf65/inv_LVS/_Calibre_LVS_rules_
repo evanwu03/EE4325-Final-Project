@@ -1,0 +1,32 @@
+#!tvf
+tvf::VERBATIM {
+//
+//  Rule file generated on Wed Mar 19 01:10:17 2025
+//  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "inv.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "inv"
+
+SOURCE PATH "inv.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "inv"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "inv.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "inv.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+}
+
+source "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/Calibre_LVS_rules"

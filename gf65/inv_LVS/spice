@@ -1,0 +1,30 @@
+* File: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/inv_LVS/inv.pex.netlist
+* Created: Wed Mar 19 00:43:02 2025
+* Program "Calibre xRC"
+* Version "v2024.4_12.9"
+* 
+.include "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/inv_LVS/inv.pex.netlist.pex"
+.subckt inv  GND! OUT VDD! IN
+* 
+* IN	IN
+* VDD!	VDD!
+* OUT	OUT
+* GND!	GND!
+XD0_noxref N_GND!_D0_noxref_pos N_VDD!_D0_noxref_neg DIODENWX  AREA=2.34264e-12
++ PERIM=6.212e-06
+XMMN0 N_OUT_MMN0_d N_IN_MMN0_g N_GND!_MMN0_s N_GND!_D0_noxref_pos NFET L=6e-08
++ W=3.5e-07 AD=1.12e-13 AS=1.0815e-13 PD=1.34e-06 PS=1.318e-06 NRD=0.291429
++ NRS=0.612857 M=1 NF=1 CNR_SWITCH=0 PCCRIT=0 PAR=1 PTWELL=0 SA=3.09e-07
++ SB=3.2e-07 SD=0 PANW1=7.26e-15 PANW2=3e-15 PANW3=3e-15 PANW4=3e-15 PANW5=3e-15
++ PANW6=1.74e-15 PANW7=0 PANW8=0 PANW9=0 PANW10=0
+XMMP0 N_OUT_MMP0_d N_IN_MMP0_g N_VDD!_MMP0_s N_VDD!_D0_noxref_neg PFET L=6e-08
++ W=8.4e-07 AD=2.7888e-13 AS=2.5032e-13 PD=2.344e-06 PS=2.276e-06 NRD=0.123214
++ NRS=0.241071 M=1 NF=1 CNR_SWITCH=0 PCCRIT=0 PAR=1 PTWELL=1 SA=2.98e-07
++ SB=3.32e-07 SD=0 PANW1=0 PANW2=0 PANW3=0 PANW4=1.44e-15 PANW5=3e-15
++ PANW6=2.496e-14 PANW7=1.0884e-13 PANW8=2.4e-14 PANW9=3.936e-14 PANW10=0
+*
+.include "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/inv_LVS/inv.pex.netlist.INV.pxi"
+*
+.ends
+*
+*
