@@ -1426,3 +1426,12 @@ wv_press_button {SaveScreenDump} {} {Save}
 wv_select_window {WaveView} 
 wv_select_waveview 1 {waveview 1}
 wv_select_panel WV1.PANEL1:1 2.38784e-09 0.86378
+wv_resize_browser {WaveView} {} {WV.Browser} 314 874
+wv_resize_browser {WaveView} {} {waveview 1:1} 632 848
+wv_resize_window {WaveView} 956 1017
+wv_resize_browser {WaveView} {} {WV.Browser} 314 887
+wv_resize_browser {WaveView} {} {waveview 1:1} 1596 861
+wv_resize_window {WaveView} 1920 1030
+wv_close_window {WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

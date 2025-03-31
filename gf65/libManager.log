@@ -88,3 +88,8 @@
 \a nrResizeWindow(cdsLibManager list(44 70 602 491))
 \a nrResizeWindow(cdsLibManager list(29 69 602 491))
 \a nrResizeWindow(cdsLibManager list(43 69 602 491))
+\a nrResizeWindow(cdsLibManager list(21 68 602 491))
+\a nrResizeWindow(cdsLibManager list(42 68 602 491))
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
