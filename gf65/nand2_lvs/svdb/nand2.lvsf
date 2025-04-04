@@ -2,10 +2,10 @@
 lvs_LvsOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand2_lvs
 lvs_LvsfVersion 4
 lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsComparisonSummary {5 0 1 0}
 lvs_SourceCase NO
 lvs_LayoutCase NO
 lvs_LvsOutFile LVS_REPORT nand2.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST nand2.src.net
 lvs_LvsOutFile RULES_FILE _Calibre_LVS_rules_
-lvs_LvsRunTimes 1743800334 1743800334
+lvs_LvsRunTimes 1743809653 1743809653

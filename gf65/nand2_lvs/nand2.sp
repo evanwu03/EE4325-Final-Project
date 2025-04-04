@@ -105,9 +105,9 @@
 ***************************************
 .SUBCKT nand2 INA VDD! INB OUT GND!
 ** N=6 EP=5 IP=0 FDC=4
-M0 6 INA OUT GND! nfet L=6.5e-08 W=3.5e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=-3414 $Y=10214 $D=168
-M1 GND! INB 6 GND! nfet L=6.5e-08 W=3.5e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=-2350 $Y=10214 $D=168
-M2 VDD! INA OUT VDD! pfet L=6.5e-08 W=8.4e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=1 pccrit=0 $X=-3414 $Y=11040 $D=181
-M3 OUT INB VDD! VDD! pfet L=6.5e-08 W=8.4e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=1 pccrit=0 $X=-2350 $Y=11040 $D=181
+M0 6 INA OUT GND! nfet L=6.5e-08 W=5.68e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=-3660 $Y=9491 $D=168
+M1 GND! INB 6 GND! nfet L=6.5e-08 W=5.68e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=-2822 $Y=9491 $D=168
+M2 VDD! INA OUT VDD! pfet L=6.5e-08 W=9.67e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=-3660 $Y=11104 $D=181
+M3 OUT INB VDD! VDD! pfet L=6.5e-08 W=9.67e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=-2822 $Y=11104 $D=181
 .ENDS
 ***************************************

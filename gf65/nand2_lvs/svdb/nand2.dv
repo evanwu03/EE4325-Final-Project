@@ -1,6 +1,22 @@
 # CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
 # FILE: svdb/nand2.dv
-dv_start matched                                  
-dv_cell {nand2} {nand2} matched
+dv_start unmatched                                
+dv_cell {nand2} {nand2} unmatched
 dv_obj_count -transformed_nets {5 5} -transformed_inst {1 1} -transformed_port {5 5}
+dv_discrep 1 {Property Errors}
+dv_discrep_line {} -ldev {M1} {} -lloc {(-2.822,9.491)} {  MN(NFET)                                } -sdev {MMN1} {  MN(NFET)}
+dv_discrep_line {}  {w} {: }  {0.568 u} {                                                }  {w} {: }  {0.35 u} {             }  {     0.218 u} {}
+dv_discrep_line {}
+dv_discrep 2 {Property Errors}
+dv_discrep_line {} -ldev {M0} {} -lloc {(-3.660,9.491)} {  MN(NFET)                                } -sdev {MMN0} {  MN(NFET)}
+dv_discrep_line {}  {w} {: }  {0.568 u} {                                                }  {w} {: }  {0.35 u} {             }  {     0.218 u} {}
+dv_discrep_line {}
+dv_discrep 3 {Property Errors}
+dv_discrep_line {} -ldev {M3} {} -lloc {(-2.822,11.104)} {  MP(PFET)                               } -sdev {MMP1} {  MP(PFET)}
+dv_discrep_line {}  {w} {: }  {0.967 u} {                                                }  {w} {: }  {0.84 u} {             }  {     0.127 u} {}
+dv_discrep_line {}
+dv_discrep 4 {Property Errors}
+dv_discrep_line {} -ldev {M2} {} -lloc {(-3.660,11.104)} {  MP(PFET)                               } -sdev {MMP0} {  MP(PFET)}
+dv_discrep_line {}  {w} {: }  {0.967 u} {                                                }  {w} {: }  {0.84 u} {             }  {     0.127 u} {}
+dv_discrep_line {}
 dv_end
