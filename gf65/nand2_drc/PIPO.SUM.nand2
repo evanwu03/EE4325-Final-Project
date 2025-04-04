@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 30-Mar-2025  21:15:39
+Started at: 04-Apr-2025  16:20:58
 User Name : ebw220000
-Host Name : engnx06a.utdallas.edu
+Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-tutorial/nand2/layout           0        0       0        33     0      8         5      0             0      0     0     0       0       
+tutorial/nand2/layout           0        0       0        33     0      7         5      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
@@ -38,7 +38,7 @@ JX              drawing         212     137       0        2        0        0  
 RX              drawing         2       0         0        4        0        0        0             0    0   0   0     0      0      
 M2              drawing         17      0         0        3        0        0        0             0    0   0   0     0      0      
 M1              label           15      20        0        0        0        2        0             0    0   0   0     0      0      
-M1              drawing         15      0         0        4        0        0        0             0    0   0   0     0      8      
+M1              drawing         15      0         0        4        0        0        0             0    0   0   0     0      7      
 PC              drawing         7       0         0        4        0        0        0             0    0   0   0     0      0      
 JZ              drawing         212     138       0        2        0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -63,7 +63,7 @@ Summary of Objects Translated:
 	Standard Vias:			0
 	Custom Vias:			0
 	CdsGen Vias:			0
-	Pathsegs:			8
+	Pathsegs:			7
 	Text:				5
 	TextDisplay:		0
 	Cells:				1

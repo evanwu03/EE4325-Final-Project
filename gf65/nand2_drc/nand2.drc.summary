@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Sun Mar 30 21:15:40 2025
+Execution Date/Time:       Fri Apr  4 16:20:59 2025
 Calibre Version:           v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
 Rule File Pathname:        _Calibre_DRC_rules_
 Rule File Title:           YI-DM00054.09 - YI-RT00052.12
@@ -684,7 +684,7 @@ LAYER VV .............. TOTAL Original Geometry Count = 0  (0)
 LAYER PCFILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER RXFILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER M1FILL .......... TOTAL Original Geometry Count = 0  (0)
-LAYER M1 .............. TOTAL Original Geometry Count = 12 (12)
+LAYER M1 .............. TOTAL Original Geometry Count = 11 (11)
 LAYER M2FILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER M2 .............. TOTAL Original Geometry Count = 3  (3)
 LAYER M3FILL .......... TOTAL Original Geometry Count = 0  (0)
@@ -3825,7 +3825,7 @@ RULECHECK GRESD40 ................... TOTAL Result Count = 0 (0)
 --- SUMMARY
 ---
 TOTAL CPU Time:                  1
-TOTAL REAL Time:                 7
-TOTAL Original Layer Geometries: 41 (41)
+TOTAL REAL Time:                 4
+TOTAL Original Layer Geometries: 40 (40)
 TOTAL DRC RuleChecks Executed:   2076
 TOTAL DRC Results Generated:     0 (0)
