@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Fri Apr  4 19:52:28 2025
+Execution Date/Time:          Sat Apr  5 19:41:42 2025
 Calibre Version:              v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
 Rule File Pathname:           _Calibre_LVS_rules_
 Rule File Title:              
@@ -185,7 +185,7 @@ RULECHECK check_symindp_ctap_vias ... TOTAL Result Count = 0 (0)
 --- SUMMARY
 ---
 TOTAL CPU Time:                              0
-TOTAL REAL Time:                             1
+TOTAL REAL Time:                             6
 TOTAL Original Layer Geometries:             93 (93)
 TOTAL ERC RuleChecks Executed:               11
 TOTAL ERC RuleCheck Results Generated:       0 (0)

@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      ebw220000
 HostName                       engnx04a.utdallas.edu
-ProcessIdentifier              3886236
-ProcessCreationTime_UTC        1743810543
-ProcessCreationTime_Readable   Fri Apr  4 18:49:03 2025 CDT
+ProcessIdentifier              1716453
+ProcessCreationTime_UTC        1743899644
+ProcessCreationTime_Readable   Sat Apr  5 19:34:04 2025 CDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial/nand3/layout/layout.oa.cdslck
-TimeEditLocked                 Fri Apr  4 18:50:32 2025 CDT
+TimeEditLocked                 Sat Apr  5 19:43:22 2025 CDT
