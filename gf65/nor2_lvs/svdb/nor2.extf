@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1744578731 1744578732
+lvs_ExtOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nor2_lvs
+lvs_ExtOutFile RULES_FILE _Calibre_LVS_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST nor2.sp
+lvs_ExtOutFile EXTRACTION_REPORT nor2.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE nor2.erc.results
+lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep

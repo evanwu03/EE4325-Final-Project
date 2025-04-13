@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 04-Apr-2025  18:36:51
+Started at: 13-Apr-2025  15:22:32
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -43,7 +43,7 @@ Summary of Objects Translated:
 	Donuts:                                 0
 	Dots:                                   0
 	Ellipses:                               0
-	Boundaries:                             1
+	Boundaries:                             0
 	Area Blockages:                         0
 	Layer Blockages:                        0
 	Area Halos:                             0
@@ -57,5 +57,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9568KB
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9572KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

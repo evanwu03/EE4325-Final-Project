@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue Apr  8 18:03:49 2025
+Execution Date/Time:       Sun Apr 13 14:45:44 2025
 Calibre Version:           v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
 Rule File Pathname:        _Calibre_DRC_rules_
 Rule File Title:           YI-DM00054.09 - YI-RT00052.12
@@ -613,14 +613,14 @@ LAYER M6FILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER VNCAP_M6 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER YT .............. TOTAL Original Geometry Count = 0  (0)
 LAYER RX .............. TOTAL Original Geometry Count = 4  (4)
-LAYER PC .............. TOTAL Original Geometry Count = 14 (14)
+LAYER PC .............. TOTAL Original Geometry Count = 12 (12)
 LAYER NW .............. TOTAL Original Geometry Count = 1  (1)
 LAYER JZ .............. TOTAL Original Geometry Count = 2  (2)
 LAYER JX .............. TOTAL Original Geometry Count = 2  (2)
 LAYER LOGOBND ......... TOTAL Original Geometry Count = 0  (0)
 LAYER T3 .............. TOTAL Original Geometry Count = 0  (0)
 LAYER N3 .............. TOTAL Original Geometry Count = 0  (0)
-LAYER CA .............. TOTAL Original Geometry Count = 47 (47)
+LAYER CA .............. TOTAL Original Geometry Count = 45 (45)
 LAYER DG .............. TOTAL Original Geometry Count = 0  (0)
 LAYER IG .............. TOTAL Original Geometry Count = 0  (0)
 LAYER EG .............. TOTAL Original Geometry Count = 0  (0)
@@ -644,7 +644,7 @@ LAYER CAMINI .......... TOTAL Original Geometry Count = 0  (0)
 LAYER CAREC ........... TOTAL Original Geometry Count = 0  (0)
 LAYER V1RV ............ TOTAL Original Geometry Count = 0  (0)
 LAYER V1BAR ........... TOTAL Original Geometry Count = 0  (0)
-LAYER V1 .............. TOTAL Original Geometry Count = 6  (6)
+LAYER V1 .............. TOTAL Original Geometry Count = 3  (3)
 LAYER V2RV ............ TOTAL Original Geometry Count = 0  (0)
 LAYER V2BAR ........... TOTAL Original Geometry Count = 0  (0)
 LAYER V2 .............. TOTAL Original Geometry Count = 0  (0)
@@ -684,9 +684,9 @@ LAYER VV .............. TOTAL Original Geometry Count = 0  (0)
 LAYER PCFILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER RXFILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER M1FILL .......... TOTAL Original Geometry Count = 0  (0)
-LAYER M1 .............. TOTAL Original Geometry Count = 25 (25)
+LAYER M1 .............. TOTAL Original Geometry Count = 19 (19)
 LAYER M2FILL .......... TOTAL Original Geometry Count = 0  (0)
-LAYER M2 .............. TOTAL Original Geometry Count = 6  (6)
+LAYER M2 .............. TOTAL Original Geometry Count = 3  (3)
 LAYER M3FILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER M3 .............. TOTAL Original Geometry Count = 0  (0)
 LAYER M4FILL .......... TOTAL Original Geometry Count = 0  (0)
@@ -3825,7 +3825,7 @@ RULECHECK GRESD40 ................... TOTAL Result Count = 0 (0)
 --- SUMMARY
 ---
 TOTAL CPU Time:                  1
-TOTAL REAL Time:                 4
-TOTAL Original Layer Geometries: 107 (107)
+TOTAL REAL Time:                 3
+TOTAL Original Layer Geometries: 91 (91)
 TOTAL DRC RuleChecks Executed:   2076
 TOTAL DRC Results Generated:     0 (0)

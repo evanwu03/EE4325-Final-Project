@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 05-Apr-2025  19:41:37
+Started at: 13-Apr-2025  15:23:11
 User Name : ebw220000
-Host Name : engnx04a.utdallas.edu
+Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -22,7 +22,7 @@ tutorial/nand2/layout           0        0       0        48     0      8       
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
 ---------------------------------------------------------------------------------------------------------------------------------------
-tutorial/nand2/layout           1        0          0          0          0          0     0        0         0         0        
+tutorial/nand2/layout           0        0          0          0          0          0     0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Statistics of Layers 
@@ -54,7 +54,7 @@ Summary of Objects Translated:
 	Donuts:				0
 	Dots:				0
 	Ellipses:			0
-	Boundaries:			1
+	Boundaries:			0
 	Area Blockages:			0
 	Layer Blockages:		0
 	Area Halos:			0
