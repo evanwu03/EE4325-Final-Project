@@ -15,7 +15,7 @@ REPORT FILE NAME:         nand3.lvs.report
 LAYOUT NAME:              nand3.sp ('nand3')
 SOURCE NAME:              nand3.src.net ('nand3')
 RULE FILE:                _Calibre_LVS_rules_
-CREATION TIME:            Fri Apr  4 20:02:27 2025
+CREATION TIME:            Sun Apr 13 20:44:37 2025
 CURRENT DIRECTORY:        /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand3_lvs
 USER NAME:                ebw220000
 CALIBRE VERSION:          v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
@@ -804,7 +804,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
 o Initial Correspondence Points:
 
-   Ports:        INA INB VDD! OUT GND! INC
+   Ports:        INA INB VDD! INC OUT GND!
 
 
 **************************************************************************************************************

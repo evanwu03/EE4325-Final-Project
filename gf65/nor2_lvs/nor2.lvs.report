@@ -15,7 +15,7 @@ REPORT FILE NAME:         nor2.lvs.report
 LAYOUT NAME:              nor2.sp ('nor2')
 SOURCE NAME:              nor2.src.net ('nor2')
 RULE FILE:                _Calibre_LVS_rules_
-CREATION TIME:            Sun Apr 13 16:12:12 2025
+CREATION TIME:            Sun Apr 13 20:46:26 2025
 CURRENT DIRECTORY:        /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nor2_lvs
 USER NAME:                ebw220000
 CALIBRE VERSION:          v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024

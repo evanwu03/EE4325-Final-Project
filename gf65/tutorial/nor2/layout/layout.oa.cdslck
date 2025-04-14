@@ -13,4 +13,4 @@ AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial/nor2/layout/layout.oa.cdslck
-TimeEditLocked                 Sun Apr 13 15:54:08 2025 CDT
+TimeEditLocked                 Sun Apr 13 17:54:45 2025 CDT

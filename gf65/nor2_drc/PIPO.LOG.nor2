@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 13-Apr-2025  16:08:15
+Started at: 13-Apr-2025  20:35:36
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -10,6 +10,7 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
+WARNING (XSTRM-20): Output Stream file '/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nor2_drc/nor2.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-217): Reading the layer map file, /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/cmos10lpe.layermap
 INFO (XSTRM-217): Reading the object map file, /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/cmos10lpe.objectmap
 INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
@@ -42,7 +43,7 @@ Summary of Objects Translated:
 	Donuts:                                 0
 	Dots:                                   0
 	Ellipses:                               0
-	Boundaries:                             1
+	Boundaries:                             0
 	Area Blockages:                         0
 	Layer Blockages:                        0
 	Area Halos:                             0
@@ -56,5 +57,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9556KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9560KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

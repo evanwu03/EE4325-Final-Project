@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 19-Mar-2025  01:11:04
+Started at: 13-Apr-2025  20:41:13
 User Name : ebw220000
-Host Name : engnx06a.utdallas.edu
+Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -29,17 +29,17 @@ case                                    Preserve
 convertDot                              node
 convertPcellPin                         geometry
 
-INFO (XSTRM-223): 1. Translating cellView cmos10lpe/rect/layout as STRUCTURE rect_CDNS_742364664471.
-INFO (XSTRM-223): 2. Translating cellView cmos10lpe/rectArray/layout as STRUCTURE rectArray_CDNS_742364664470.
+INFO (XSTRM-223): 1. Translating cellView cmos10lpe/rect/layout as STRUCTURE rect_CDNS_744594873611.
+INFO (XSTRM-223): 2. Translating cellView cmos10lpe/rectArray/layout as STRUCTURE rectArray_CDNS_744594873610.
 INFO (XSTRM-223): 3. Translating cellView tutorial/inv/layout as STRUCTURE inv.
-WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'error'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 
 Summary of Objects Translated:
-	Scalar Instances:                       3
+	Scalar Instances:                       2
 	Array Instances:                        1
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             37
+	Rectangles:                             38
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -54,10 +54,10 @@ Summary of Objects Translated:
 	Standard Vias                           0
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               2
+	Pathsegs:                               3
 	Text:                                   4
 	TextDisplay:                            0
 	Cells:                                  3
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 10792KB
+Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 10800KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

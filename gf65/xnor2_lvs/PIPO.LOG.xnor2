@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 13-Apr-2025  15:07:24
+Started at: 13-Apr-2025  20:47:10
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -30,7 +30,7 @@ convertDot                              node
 convertPcellPin                         geometry
 
 INFO (XSTRM-223): 1. Translating cellView tutorial/xnor2/layout as STRUCTURE xnor2.
-WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
+WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'error'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0
@@ -52,10 +52,10 @@ Summary of Objects Translated:
 	Standard Vias                           0
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               15
+	Pathsegs:                               14
 	Text:                                   5
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9568KB
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9572KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

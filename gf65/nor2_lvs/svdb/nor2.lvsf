@@ -8,4 +8,4 @@ lvs_LayoutCase NO
 lvs_LvsOutFile LVS_REPORT nor2.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST nor2.src.net
 lvs_LvsOutFile RULES_FILE _Calibre_LVS_rules_
-lvs_LvsRunTimes 1744578732 1744578732
+lvs_LvsRunTimes 1744595186 1744595186

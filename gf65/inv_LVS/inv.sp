@@ -103,9 +103,9 @@
 .SUBCKT rfline in out gnd
 .ENDS
 ***************************************
-.SUBCKT inv IN VDD! GND! OUT
+.SUBCKT inv INA GND! VDD! OUT
 ** N=4 EP=4 IP=0 FDC=2
-M0 OUT IN GND! GND! nfet L=6.4e-08 W=3.5e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=649 $Y=1088 $D=168
-M1 OUT IN VDD! VDD! pfet L=6.4e-08 W=8.4e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=649 $Y=2043 $D=181
+M0 OUT INA GND! GND! nfet L=6.5e-08 W=5.6e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=-196 $Y=-800 $D=168
+M1 OUT INA VDD! VDD! pfet L=6.5e-08 W=9.55e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=-196 $Y=812 $D=181
 .ENDS
 ***************************************
