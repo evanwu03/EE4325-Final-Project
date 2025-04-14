@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 13-Apr-2025  17:51:25
+Started at: 13-Apr-2025  21:23:47
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -29,8 +29,8 @@ case                                    Preserve
 convertDot                              node
 convertPcellPin                         geometry
 
-INFO (XSTRM-223): 1. Translating cellView cmos10lpe/rect/layout as STRUCTURE rect_CDNS_744584685441.
-INFO (XSTRM-223): 2. Translating cellView cmos10lpe/rectArray/layout as STRUCTURE rectArray_CDNS_744584685440.
+INFO (XSTRM-223): 1. Translating cellView cmos10lpe/rect/layout as STRUCTURE rect_CDNS_744597427771.
+INFO (XSTRM-223): 2. Translating cellView cmos10lpe/rectArray/layout as STRUCTURE rectArray_CDNS_744597427770.
 INFO (XSTRM-223): 3. Translating cellView tutorial/inv/layout as STRUCTURE inv.
 WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'error'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
@@ -60,5 +60,5 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  3
 
-Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 10796KB
+Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 10800KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.

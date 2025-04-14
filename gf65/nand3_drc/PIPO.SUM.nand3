@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 04-Apr-2025  19:31:16
+Started at: 13-Apr-2025  21:27:09
 User Name : ebw220000
-Host Name : engnx04a.utdallas.edu
+Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -15,14 +15,14 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-tutorial/nand3/layout           0        0       0        59     0      11        6      0             0      0     0     0       0       
+tutorial/nand3/layout           0        0       0        59     0      12        6      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
 ---------------------------------------------------------------------------------------------------------------------------------------
-tutorial/nand3/layout           0        0          0          0          0          0     0        0         0         0        
+tutorial/nand3/layout           1        0          0          0          0          0     0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Statistics of Layers 
@@ -38,7 +38,7 @@ JX              drawing         212     137       0        2        0        0  
 RX              drawing         2       0         0        4        0        0        0             0    0   0   0     0      0      
 M2              drawing         17      0         0        4        0        0        0             0    0   0   0     0      0      
 M1              label           15      20        0        0        0        2        0             0    0   0   0     0      0      
-M1              drawing         15      0         0        5        0        0        0             0    0   0   0     0      11     
+M1              drawing         15      0         0        5        0        0        0             0    0   0   0     0      12     
 PC              drawing         7       0         0        6        0        0        0             0    0   0   0     0      0      
 JZ              drawing         212     138       0        2        0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -54,7 +54,7 @@ Summary of Objects Translated:
 	Donuts:				0
 	Dots:				0
 	Ellipses:			0
-	Boundaries:			0
+	Boundaries:			1
 	Area Blockages:			0
 	Layer Blockages:		0
 	Area Halos:			0
@@ -63,7 +63,7 @@ Summary of Objects Translated:
 	Standard Vias:			0
 	Custom Vias:			0
 	CdsGen Vias:			0
-	Pathsegs:			11
+	Pathsegs:			12
 	Text:				6
 	TextDisplay:		0
 	Cells:				1

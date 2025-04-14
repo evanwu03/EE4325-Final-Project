@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 13-Apr-2025  20:25:16
+Started at: 13-Apr-2025  21:31:44
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -15,18 +15,18 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
+tutorial/combined_cells/layout  2        0       0        339    0      59        32     0             0      0     0     0       0       
 cmos10lpe/rect/layout           0        0       0        1      0      0         0      0             0      0     0     0       0       
 cmos10lpe/rectArray/layout      0        1       0        0      0      0         0      0             0      0     0     0       0       
-tutorial/combined_cells/layout  2        0       0        339    0      59        32     0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
 ---------------------------------------------------------------------------------------------------------------------------------------
+tutorial/combined_cells/layout  1        0          0          0          0          0     0        0         0         0        
 cmos10lpe/rect/layout           0        0          0          0          0          0     0        0         0         0        
 cmos10lpe/rectArray/layout      0        0          0          0          0          0     0        0         0         0        
-tutorial/combined_cells/layout  1        0          0          0          0          0     0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Statistics of Layers 

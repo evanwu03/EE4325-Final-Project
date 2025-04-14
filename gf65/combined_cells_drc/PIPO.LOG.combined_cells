@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 13-Apr-2025  20:25:16
+Started at: 13-Apr-2025  21:31:43
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -10,6 +10,7 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
+WARNING (XSTRM-20): Output Stream file '/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/combined_cells_drc/combined_cells.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-217): Reading the layer map file, /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/cmos10lpe.layermap
 INFO (XSTRM-217): Reading the object map file, /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/cmos10lpe.objectmap
 INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
@@ -28,10 +29,9 @@ case                                    Preserve
 convertDot                              node
 convertPcellPin                         geometry
 
-INFO (XSTRM-223): 1. Translating cellView cmos10lpe/rect/layout as STRUCTURE rect_CDNS_744593916771.
-INFO (XSTRM-223): 2. Translating cellView cmos10lpe/rectArray/layout as STRUCTURE rectArray_CDNS_744593916770.
+INFO (XSTRM-223): 1. Translating cellView cmos10lpe/rect/layout as STRUCTURE rect_CDNS_744597903991.
+INFO (XSTRM-223): 2. Translating cellView cmos10lpe/rectArray/layout as STRUCTURE rectArray_CDNS_744597903990.
 INFO (XSTRM-223): 3. Translating cellView tutorial/combined_cells/layout as STRUCTURE combined_cells.
-WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'error'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 
 Summary of Objects Translated:

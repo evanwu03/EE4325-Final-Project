@@ -1,19 +1,19 @@
 //
-//  Rule file generated on Sun Apr 13 20:38:36 2025
+//  Rule file generated on Sun Apr 13 21:23:47 2025
 //  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "xnor2.calibre.db"
+LAYOUT PATH "inv.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "xnor2"
+LAYOUT PRIMARY "inv"
 
-DRC RESULTS DATABASE "xnor2.drc.results" ASCII
+DRC RESULTS DATABASE "inv.drc.results" ASCII
 DRC CELL NAME YES CELL SPACE XFORM
 
-DRC SUMMARY REPORT "xnor2.drc.summary" REPLACE HIER
+DRC SUMMARY REPORT "inv.drc.summary" REPLACE HIER
 
 DRC MAXIMUM RESULTS 1000
 
