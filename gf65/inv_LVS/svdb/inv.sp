@@ -70,10 +70,10 @@
 .SUBCKT rfline in out gnd
 .ENDS
 ***************************************
-.SUBCKT inv GND! OUT VDD! IN
+.SUBCKT inv GND! OUT VDD! INA
 ** N=17 EP=4 IP=0 FDC=3
-D0 GND! VDD! diodenwx AREA=2.34264e-12 perim=6.212e-06 $X=2 $Y=1617 $D=0
-M1 OUT IN GND! GND! nfet L=6.4e-08 W=3.5e-07 AD=1.113e-13 AS=1.0745e-13 PD=1.336e-06 PS=1.314e-06 NRD=0.285714 NRS=0.607143 m=1 nf=1 cnr_switch=0 pccrit=0 par=1 ptwell=0 sa=3.07e-07 sb=3.18e-07 sd=0 panw1=7.744e-15 panw2=3.2e-15 panw3=3.2e-15 panw4=3.2e-15 panw5=3.2e-15 panw6=1.856e-15 panw7=0 panw8=0 panw9=0 panw10=0 $X=649 $Y=1088 $D=176
-M2 OUT IN VDD! VDD! pfet L=6.4e-08 W=8.4e-07 AD=2.772e-13 AS=2.4864e-13 PD=2.34e-06 PS=2.272e-06 NRD=0.120833 NRS=0.23869 m=1 nf=1 cnr_switch=0 pccrit=0 par=1 ptwell=1 sa=2.96e-07 sb=3.3e-07 sd=0 panw1=0 panw2=0 panw3=0 panw4=1.536e-15 panw5=3.2e-15 panw6=2.724e-14 panw7=1.1548e-13 panw8=2.56e-14 panw9=4.1984e-14 panw10=0 $X=649 $Y=2043 $D=189
+D0 GND! VDD! diodenwx AREA=3.5464e-12 perim=8.056e-06 $X=-722 $Y=583 $D=0
+M1 OUT INA GND! GND! nfet L=6.5e-08 W=5.6e-07 AD=2.1616e-13 AS=1.232e-13 PD=1.892e-06 PS=1.56e-06 NRD=0.576786 NRS=0.283929 m=1 nf=1 cnr_switch=0 pccrit=0 par=1 ptwell=0 sa=2.2e-07 sb=3.86e-07 sd=0 panw1=0 panw2=0 panw3=0 panw4=0 panw5=0 panw6=0 panw7=0 panw8=1.1505e-14 panw9=2.4895e-14 panw10=0 $X=-196 $Y=-800 $D=176
+M2 OUT INA VDD! VDD! pfet L=6.5e-08 W=9.55e-07 AD=3.6863e-13 AS=2.101e-13 PD=2.682e-06 PS=2.35e-06 NRD=0.33822 NRS=0.164398 m=1 nf=1 cnr_switch=0 pccrit=0 par=1 ptwell=1 sa=2.2e-07 sb=3.86e-07 sd=0 panw1=4.615e-15 panw2=3.25e-15 panw3=3.25e-15 panw4=3.25e-15 panw5=3.25e-15 panw6=6.8575e-14 panw7=7.5075e-14 panw8=1.3e-14 panw9=1.196e-14 panw10=2.964e-14 $X=-196 $Y=812 $D=189
 .ENDS
 ***************************************

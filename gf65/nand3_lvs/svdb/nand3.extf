@@ -1,12 +1,13 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1744595075 1744595076
+lvs_ExtRunTimes 1744751650 1744751656
 lvs_ExtOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand3_lvs
-lvs_ExtOutFile RULES_FILE _Calibre_LVS_rules_
+lvs_ExtOutFile RULES_FILE _Calibre_PEX_nom_rules_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST nand3.sp
+lvs_ExtOutFile LAYOUT_NETLIST svdb/nand3.sp
 lvs_ExtOutFile EXTRACTION_REPORT nand3.lvs.report.ext
-lvs_ExtOutFile ERC_DATABASE nand3.erc.results
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/nand3.pdsp }
+lvs_ExtOutFile ERC_DATABASE ./ERC_results.asc
 lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep

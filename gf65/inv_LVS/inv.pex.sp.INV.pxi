@@ -1,0 +1,48 @@
+* File: inv.pex.sp.INV.pxi
+* Created: Tue Apr 15 13:45:43 2025
+* 
+x_PM_INV%GND! N_GND!_D0_noxref_pos N_GND!_MMN0_s GND! N_GND!_c_3_p PM_INV%GND!
+x_PM_INV%OUT N_OUT_MMP0_d N_OUT_MMN0_d N_OUT_c_19_n OUT PM_INV%OUT
+x_PM_INV%VDD! N_VDD!_D0_noxref_neg N_VDD!_MMP0_s VDD! N_VDD!_c_40_n PM_INV%VDD!
+x_PM_INV%INA N_INA_MMN0_g N_INA_MMP0_g N_INA_c_52_n N_INA_c_53_n N_INA_c_56_n
++ N_INA_c_57_n INA PM_INV%INA
+cc_1 N_GND!_D0_noxref_pos N_OUT_c_19_n 0.0577501f
+cc_2 GND! N_OUT_c_19_n 0.00152817f
+cc_3 N_GND!_c_3_p N_OUT_c_19_n 0.0163125f
+cc_4 N_GND!_D0_noxref_pos OUT 0.0135118f
+cc_5 N_GND!_D0_noxref_pos N_INA_MMN0_g 0.014569f
+cc_6 N_GND!_MMN0_s N_INA_MMN0_g 0.0238089f
+cc_7 N_GND!_c_3_p N_INA_MMN0_g 0.0148138f
+cc_8 N_GND!_D0_noxref_pos N_INA_c_52_n 0.00939574f
+cc_9 N_GND!_D0_noxref_pos N_INA_c_53_n 0.0466311f
+cc_10 N_GND!_MMN0_s N_INA_c_53_n 0.00650473f
+cc_11 N_GND!_c_3_p N_INA_c_53_n 0.00120484f
+cc_12 N_GND!_D0_noxref_pos N_INA_c_56_n 0.0312343f
+cc_13 N_GND!_D0_noxref_pos N_INA_c_57_n 0.0117741f
+cc_14 N_GND!_MMN0_s N_INA_c_57_n 0.00289713f
+cc_15 N_GND!_c_3_p N_INA_c_57_n 0.00276003f
+cc_16 N_GND!_D0_noxref_pos INA 0.0145182f
+cc_17 N_GND!_MMN0_s INA 0.00215565f
+cc_18 N_GND!_c_3_p INA 0.00234038f
+cc_19 N_OUT_MMP0_d N_VDD!_D0_noxref_neg 0.00718032f
+cc_20 N_OUT_c_19_n N_VDD!_D0_noxref_neg 0.0414842f
+cc_21 N_OUT_c_19_n VDD! 0.00102476f
+cc_22 N_OUT_c_19_n N_VDD!_c_40_n 0.0285527f
+cc_23 N_OUT_MMN0_d N_INA_MMN0_g 0.0115584f
+cc_24 N_OUT_c_19_n N_INA_MMN0_g 0.00635373f
+cc_25 N_OUT_MMP0_d N_INA_MMP0_g 0.0145947f
+cc_26 N_OUT_c_19_n N_INA_MMP0_g 0.0107603f
+cc_27 N_OUT_c_19_n N_INA_c_56_n 0.0276791f
+cc_28 OUT N_INA_c_56_n 0.0046398f
+cc_29 N_OUT_c_19_n N_INA_c_57_n 0.00695203f
+cc_30 OUT N_INA_c_57_n 0.00226689f
+cc_31 N_OUT_c_19_n INA 0.00285441f
+cc_32 OUT INA 0.0118894f
+cc_33 N_VDD!_D0_noxref_neg N_INA_MMP0_g 0.0160555f
+cc_34 N_VDD!_MMP0_s N_INA_MMP0_g 0.0367346f
+cc_35 N_VDD!_c_40_n N_INA_MMP0_g 0.0222691f
+cc_36 N_VDD!_D0_noxref_neg N_INA_c_52_n 0.0181683f
+cc_37 N_VDD!_MMP0_s N_INA_c_53_n 0.00935618f
+cc_38 N_VDD!_c_40_n N_INA_c_53_n 0.00236012f
+cc_39 N_VDD!_c_40_n N_INA_c_57_n 0.00264479f
+cc_40 N_VDD!_c_40_n INA 0.00197559f

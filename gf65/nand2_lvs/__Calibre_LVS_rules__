@@ -1,0 +1,32 @@
+#!tvf
+tvf::VERBATIM {
+//
+//  Rule file generated on Tue Apr 15 12:55:05 2025
+//  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "nand2.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "nand2"
+
+SOURCE PATH "nand2.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "nand2"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "nand2.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "nand2.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+}
+
+source "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand2_lvs/_Calibre_LVS_rules_"

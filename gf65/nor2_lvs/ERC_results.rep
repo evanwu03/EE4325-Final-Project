@@ -3,9 +3,9 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Sun Apr 13 20:46:24 2025
+Execution Date/Time:          Tue Apr 15 16:32:53 2025
 Calibre Version:              v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
-Rule File Pathname:           _Calibre_LVS_rules_
+Rule File Pathname:           _Calibre_PEX_nom_rules_
 Rule File Title:              
 Layout System:                GDSII
 Layout Path(s):               nor2.calibre.db
@@ -14,7 +14,7 @@ Current Directory:            /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/g
 User Name:                    ebw220000
 Maximum Results/ERC Check:    1000
 Maximum ERC Result Vertices:  4096
-ERC Results Database:         nor2.erc.results (ASCII)
+ERC Results Database:         ./ERC_results.asc (ASCII)
 Layout Depth:                 ALL
 Text Depth:                   PRIMARY
 Summary Report File:          ./ERC_results.rep (REPLACE)
@@ -151,6 +151,7 @@ LAYER VIA4_0 .......... TOTAL Original Geometry Count = 0  (0)
 LAYER VIA5_0 .......... TOTAL Original Geometry Count = 0  (0)
 LAYER VIANT_0 ......... TOTAL Original Geometry Count = 0  (0)
 LAYER VNCAP ........... TOTAL Original Geometry Count = 0  (0)
+LAYER DIFFNCAP ........ TOTAL Original Geometry Count = 0  (0)
 LAYER LV .............. TOTAL Original Geometry Count = 0  (0)
 LAYER DV .............. TOTAL Original Geometry Count = 0  (0)
 LAYER VNCAP_B1 ........ TOTAL Original Geometry Count = 0  (0)
@@ -184,8 +185,8 @@ RULECHECK check_symindp_ctap_vias ... TOTAL Result Count = 0 (0)
 ----------------------------------------------------------------------------------
 --- SUMMARY
 ---
-TOTAL CPU Time:                              0
-TOTAL REAL Time:                             1
+TOTAL CPU Time:                              3
+TOTAL REAL Time:                             6
 TOTAL Original Layer Geometries:             89 (89)
 TOTAL ERC RuleChecks Executed:               11
 TOTAL ERC RuleCheck Results Generated:       0 (0)
