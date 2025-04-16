@@ -1,0 +1,77 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-2 linux64"
+* "format" "HSP"
+* "rundate" "14:05:56 04/15/2025 "
+* "netlist" "nand2.sp "
+* "runtitle" "$ ====== nand2 hspice testbench ======="
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ ina =   0.            
++ inb =   1.2000        
++ out =   1.2000        
++ vdd! =   1.2000        
++ xu.n_gnd!_d0_noxref_pos = 104.4649p       
++ xu.n_vdd!_d0_noxref_neg =   1.2000        
++ xu.n_gnd!_c_64_n =  30.5951p       
++ xu.n_gnd!_c_65_n = 102.6668p       
++ xu.n_gnd!_mmn1_s = 717.4965p       
++ xu.n_ina_c_112_n =  79.5745p       
++ xu.n_ina_c_114_n =  34.2015p       
++ xu.n_ina_c_115_n =  35.6182p       
++ xu.n_ina_c_116_n =   2.3995p       
++ xu.n_ina_mmn0_g =  47.8790p       
++ xu.n_ina_mmp0_g = 130.2945p       
++ xu.n_inb_c_143_n =   1.2000        
++ xu.n_inb_c_145_n =   1.2000        
++ xu.n_inb_c_147_n =   1.2000        
++ xu.n_inb_c_148_n =   1.2000        
++ xu.n_inb_mmn1_g =   1.2000        
++ xu.n_inb_mmp1_g =   1.2000        
++ xu.n_out_c_13_p =   1.2000        
++ xu.n_out_c_15_p =   1.2000        
++ xu.n_out_c_16_p =   1.2000        
++ xu.n_out_c_17_p =   1.2000        
++ xu.n_out_c_1_p =   1.2000        
++ xu.n_out_c_2_p =   1.2000        
++ xu.n_out_c_3_p =   1.2000        
++ xu.n_out_mmn0_d =   1.2000        
++ xu.n_out_mmp0_d =   1.2000        
++ xu.n_out_mmp1_d =   1.2000        
++ xu.n_vdd!_c_93_n =   1.2000        
++ xu.n_vdd!_c_97_n =   1.2000        
++ xu.n_vdd!_mmp0_s =   1.2000        
++ xu.net1 =  57.0967n       
++ xu.x_pm_nand2%out.9 =   1.2000        
++ xu.x_pm_nand2%out.13 =   1.2000        
++ xu.x_pm_nand2%out.14 =   1.2000        
++ xu.x_pm_nand2%out.15 =   1.2000        
++ xu.x_pm_nand2%out.19 =   1.2000        
++ xu.x_pm_nand2%out.22 =   1.2000        
++ xu.x_pm_nand2%out.23 =   1.2000        
++ xu.x_pm_nand2%out.24 =   1.2000        
++ xu.x_pm_nand2%out.25 =   1.2000        
++ xu.x_pm_nand2%out.26 =   1.2000        
++ xu.x_pm_nand2%out.27 =   1.2000        
++ xu.x_pm_nand2%out.28 =   1.2000        
++ xu.x_pm_nand2%out.29 =   1.2000        
++ xu.x_pm_nand2%out.33 =   1.2000        
++ xu.x_pm_nand2%out.37 =   1.2000        
++ xu.x_pm_nand2%out.45 =   1.2000        
++ xu.x_pm_nand2%gnd!.16 =  33.7364p       
++ xu.x_pm_nand2%gnd!.21 =  31.9589p       
++ xu.x_pm_nand2%vdd!.16 =   1.2000        
++ xu.x_pm_nand2%vdd!.21 =   1.2000        
++ xu.x_pm_nand2%vdd!.22 =   1.2000        
++ xu.x_pm_nand2%ina.4 =  42.8819p       
++ xu.x_pm_nand2%ina.16 =  42.5711p       
++ xu.x_pm_nand2%ina.21 =   2.4059p       
++ xu.x_pm_nand2%ina.27 = 237.4025f       
++ xu.x_pm_nand2%inb.4 =   1.2000        
++ xu.x_pm_nand2%inb.16 =   1.2000        
++ xu.x_pm_nand2%inb.21 =   1.2000        
++ xu.x_pm_nand2%inb.27 =   1.2000        
+***   END: Saved Operating Point ***                     

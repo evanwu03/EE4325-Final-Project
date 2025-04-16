@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=0
+.TITLE '$ ====== oai22 hspice testbench ======='
+ trise            tfall            tavg             tdiff           
+ delay            temper           alter#          
+ -1.249e-08        1.249e-08          0.             2.498e-08      
+  1.249e-08         25.0000        1               

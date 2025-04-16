@@ -1,0 +1,415 @@
+### WaveView ADV log file, revision W-2024.09-SP1-1 (build Dec 11, ) ###
+### created at 19:16:45 on Tue Apr 15 2025 (Linux AMD64) ###
+### Host Name: engnx05a.utdallas.edu   User ID: ebw220000   PID: 667148   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_select_window {WaveView} 
+wv_move_window {WaveView} {} 38 65
+wv_move_window {WaveView} {} 0 27
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_combox_item {FileDialog} {} {Path} "spice/" 8
+wv_select_list_item {FileDialog} {} {FileList} {inv} 2
+wv_dclick_list_item {FileDialog} {} {FileList} {inv} 2
+wv_select_list_item {FileDialog} {} {FileList} {inv.tr0} 14
+wv_select_combox_item {FileDialog} {} {Path} "spice/" 8
+wv_select_list_item {FileDialog} {} {FileList} {inv} 2
+wv_dclick_list_item {FileDialog} {} {FileList} {inv} 2
+wv_select_list_item {FileDialog} {} {FileList} {inv.tr0} 14
+wv_press_button {FileDialog} {} {Ok} 
+wv_waveview_context_menu WV1.TAB
+wv_waveview_context_menu WV1.TAB
+wv_waveview_context_menu WV1.TAB
+wv_press_tool_button {WaveView} {} {LoadSigList0} 
+wv_select_dialog {FileDialog} 
+wv_close_dialog {FileDialog} 
+wv_select_window {WaveView} 
+wv_select_tab {WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_combox_item {FileDialog} {} {Path} "spice/" 8
+wv_select_list_item {FileDialog} {} {FileList} {nand2} 3
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_list_item {FileDialog} {} {FileList} {nand2.tr0} 16
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_window {WaveView} 
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_combox_item {FileDialog} {} {Path} "spice/" 8
+wv_select_list_item {FileDialog} {} {FileList} {nand3} 4
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_list_item {FileDialog} {} {FileList} {nand3.tr0} 12
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_window {WaveView} 
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_combox_item {FileDialog} {} {Path} "spice/" 8
+wv_select_list_item {FileDialog} {} {FileList} {nor2} 5
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_list_item {FileDialog} {} {FileList} {nor2.tr0} 12
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_window {WaveView} 
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_combox_item {FileDialog} {} {Path} "spice/" 8
+wv_select_list_item {FileDialog} {} {FileList} {xnor2} 7
+wv_press_button {FileDialog} {} {Apply} 
+wv_select_list_item {FileDialog} {} {FileList} {xnor2.tr0} 13
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_window {WaveView} 
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_combox_item {FileDialog} {} {Path} "spice/" 8
+wv_select_list_item {FileDialog} {} {FileList} {oai22} 6
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_list_item {FileDialog} {} {FileList} {oai22.tr0} 13
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_window {WaveView} 
+wv_select_tree_item {WaveView} {} {hierview} {D0:inv.tr0(0)} {0} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D0:inv.tr0(0)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D0:inv.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_tree_context_menu {WaveView} {} {hierview} 90 29 {D0:inv.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 4
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 4
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 4 52 79
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 3
+wv_list_context_menu {WaveView} {} {sigview} {v(ina)} 3 44 60
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 4
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 4
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 4 51 80
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 4
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 4 53 82
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_tab {WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Waveform}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {WaveView} {} {SaveSession0} 
+wv_select_dialog {FileDialog} 
+wv_close_dialog {FileDialog} 
+wv_select_window {WaveView} 
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Configuration}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Waveform}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Configuration}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Waveform}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Tools}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Configuration}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Waveform}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Waveform}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {WaveView} {} {RBMenu} {Bar.Waveform}
+wv_press_tool_button {WaveView} {} {ExportWaveform0} 
+wv_select_dialog {WaveformExportParameters} 
+wv_move_window {WaveformExportParameters} {} 605 193
+wv_close_dialog {WaveformExportParameters} 
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1 2.30982e-09 0.625131
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_close_dialog {SaveScreenDump} 
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_ctrl_select_panel WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Export Waveforms} 
+wv_select_dialog {WaveformExportParameters} 
+wv_move_window {WaveformExportParameters} {} 605 193
+wv_close_dialog {WaveformExportParameters} 
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.YAXIS1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_list_context_menu {FileDialog} {} {FileList}  225 134
+wv_list_context_menu {FileDialog} {} {FileList}  244 120
+wv_list_context_menu {FileDialog} {} {FileList}  243 96
+wv_press_button {FileDialog} {} {Up} 
+wv_list_context_menu {FileDialog} {} {FileList}  177 96
+wv_list_context_menu {FileDialog} {} {FileList}  177 96
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_list_context_menu {FileDialog} {} {FileList}  222 51
+wv_press_button {FileDialog} {} {Cancel} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Cancel} 
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {waveview_img} 7
+wv_dclick_list_item {FileDialog} {} {FileList} {waveview_img} 7
+wv_set_text {FileDialog} {} {FileName} "inv_wave"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 4.80158e-09 1.06492
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1 1.84311e-09 0.687958
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_press_key Delete 297 248
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_press_key Delete 298 423
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_tree_item {WaveView} {} {hierview} {D1:nand2.tr0(1)} {0} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D1:nand2.tr0(1)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D1:nand2.tr0(1)@toplevel(0)} {0} {+sep=@}
+wv_collapse_tree_item {WaveView} {} {hierview} {D0:inv.tr0(0)} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_list_context_menu {WaveView} {} {sigview} {v(ina)} 4 49 80
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_list_context_menu {WaveView} {} {sigview} {v(inb)} 5 37 97
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 6 47 120
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL2:1.LEGEND
+wv_release_wv_item WV1 71 334
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL3:1.LEGEND
+wv_release_wv_item WV1 57 601
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_set_text {FileDialog} {} {FileName} "nand2_wave"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_window {WaveView} 
+wv_press_key Delete 342 334
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_collapse_tree_item {WaveView} {} {hierview} {D1:nand2.tr0(1)} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D2:nand3.tr0(2)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D2:nand3.tr0(2)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 5
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 5
+wv_list_context_menu {WaveView} {} {sigview} {v(ina)} 5 47 103
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 6
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 6
+wv_list_context_menu {WaveView} {} {sigview} {v(inb)} 6 58 117
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 7
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 7
+wv_list_context_menu {WaveView} {} {sigview} {v(inc)} 7 37 135
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 8
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 8
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 8 40 149
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL2:1.LEGEND
+wv_release_wv_item WV1 59 341
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL3:1.LEGEND
+wv_release_wv_item WV1 67 532
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL4:1.LEGEND
+wv_release_wv_item WV1 70 663
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL3:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_set_text {FileDialog} {} {FileName} "nand3_wave"
+wv_press_button {FileDialog} {} {Ok} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_window {WaveView} 
+wv_press_key Delete 462 301
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_collapse_tree_item {WaveView} {} {hierview} {D2:nand3.tr0(2)} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D3:nor2.tr0(3)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D3:nor2.tr0(3)} {0} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D3:nor2.tr0(3)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_list_context_menu {WaveView} {} {sigview} {v(ina)} 4 44 80
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_list_context_menu {WaveView} {} {sigview} {v(inb)} 5 47 93
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 6 32 111
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL2:1.LEGEND
+wv_release_wv_item WV1 52 371
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL3:1.LEGEND
+wv_release_wv_item WV1 54 602
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_set_text {FileDialog} {} {FileName} "nor2_wave"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_window {WaveView} 
+wv_press_key Backspace 411 381
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_tree_item {WaveView} {} {hierview} {D4:xnor2.tr0(4)} {0} {+sep=@}
+wv_collapse_tree_item {WaveView} {} {hierview} {D3:nor2.tr0(3)} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D4:xnor2.tr0(4)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D4:xnor2.tr0(4)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_list_context_menu {WaveView} {} {sigview} {v(ina)} 4 46 76
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_list_context_menu {WaveView} {} {sigview} {v(inb)} 5 43 94
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 6 57 117
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL2:1.LEGEND
+wv_release_wv_item WV1 49 381
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL3:1.LEGEND
+wv_release_wv_item WV1 59 582
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_set_text {FileDialog} {} {FileName} "xnor2_wave"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_window {WaveView} 
+wv_press_key Delete 529 319
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_tree_item {WaveView} {} {hierview} {D5:oai22.tr0(5)} {0} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D5:oai22.tr0(5)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D5:oai22.tr0(5)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 6
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 6
+wv_list_context_menu {WaveView} {} {sigview} {v(ina)} 6 47 119
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 7
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 7
+wv_list_context_menu {WaveView} {} {sigview} {v(inb)} 7 49 134
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 8
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 8
+wv_list_context_menu {WaveView} {} {sigview} {v(inc)} 8 55 155
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(ind)} 9
+wv_select_list_item {WaveView} {} {sigview} {v(ind)} 9
+wv_list_context_menu {WaveView} {} {sigview} {v(ind)} 9 45 172
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 10
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 10
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 10 49 190
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL2:1.LEGEND
+wv_release_wv_item WV1 45 248
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL3:1.LEGEND
+wv_release_wv_item WV1 63 398
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL4:1.LEGEND
+wv_release_wv_item WV1 77 587
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL5:1.LEGEND
+wv_release_wv_item WV1 40 706
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL4:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_select_dialog {SaveScreenDump} 
+wv_move_window {SaveScreenDump} {} 743 386
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_select_dialog {FileDialog} 
+wv_set_text {FileDialog} {} {FileName} "oai22_wave"
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.81938e-07 1.11081
+wv_close_window {WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

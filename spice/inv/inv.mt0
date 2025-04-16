@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=0
+.TITLE ''
+ trise            tfall            tavg             tdiff           
+ delay            temper           alter#          
+  1.045e-10        8.313e-11        9.382e-11        2.138e-11      
+  1.045e-10         25.0000        1               

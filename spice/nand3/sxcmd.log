@@ -1,0 +1,43 @@
+### WaveView ADV log file, revision W-2024.09-SP1-1 (build Dec 11, ) ###
+### created at 16:27:51 on Tue Apr 15 2025 (Linux AMD64) ###
+### Host Name: engnx05a.utdallas.edu   User ID: ebw220000   PID: 524215   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_select_window {WaveView} 
+wv_move_window {WaveView} {} 38 65
+wv_move_window {WaveView} {} 0 27
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {nand3.tr0} 12
+wv_press_button {FileDialog} {} {Ok} 
+wv_expand_tree_item {WaveView} {} {hierview} {D0:nand3.tr0(0)} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D0:nand3.tr0(0)@toplevel(0)} {+sep=@}
+wv_collapse_tree_item {WaveView} {} {hierview} {D0:nand3.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D0:nand3.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 7
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 5
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 5
+wv_list_context_menu {WaveView} {} {sigview} {v(ina)} 5 48 93
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 6
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 6
+wv_list_context_menu {WaveView} {} {sigview} {v(inb)} 6 40 116
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....Different Panel (SHIFT+P)} 
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 7
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 7
+wv_list_context_menu {WaveView} {} {sigview} {v(inc)} 7 55 137
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....Append to Panel} 
+wv_press_key "u" 241 716
+wv_select_list_item {WaveView} {} {sigview} {v(inc)} 7
+wv_list_context_menu {WaveView} {} {sigview} {v(inc)} 7 60 128
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....Different Panel (SHIFT+P)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 8
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 8
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 8 48 148
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....New Panel (SHIFT+O)} 
+wv_close_window {WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

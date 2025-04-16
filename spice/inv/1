@@ -1,0 +1,39 @@
+
+$ ====== INV HSPICE TESTBENCH =======
+
+$transistor model
+.include "/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/models/YI-SM00030/Hspice/models/design.inc"
+
+$source file 
+.include "inv.pex.sp"
+
+$ SPICE directives 
+.option post runlvl=5
+
+
+$ ==== SUBCKT DEFINITION ====
+
+xu GND! OUT VDD! INA inv
+
+
+
+$ ===== STIMULUS ==== 
+
+vdd VDD! GND! 1.2v 
+vss GND! 0 0 
+cout OUT GND! 30f
+
+
+$transient analysis
+.tr 100ps 12ns
+$example of parameter sweep, replace numeric value W of pfet with WP in invlvs.sp
+$.tr 100ps 12ns sweep WP 1u 9u 0.5u
+.measure tran trise trig v(IN) val=0.6v fall=1 targ v(OUT) val=0.6v rise=1 $measure tlh at
+0.6v
+.measure tran tfall trig v(IN) val=0.6v rise=1 targ v(OUT) val=0.6v fall=1 $measure tpl at
+0.6v
+.measure tavg param = '(trise+tfall)/2' $calculate average delay
+.measure tdiff param='abs(trise-tfall)' $calculate delay difference
+.measure delay param='max(trise,tfall)' $calculate worst case delay
+
+.end

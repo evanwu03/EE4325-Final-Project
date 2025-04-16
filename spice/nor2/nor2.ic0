@@ -1,0 +1,69 @@
+* "simulator" "HSPICE" 
+* "version" "O-2018.09-2 linux64"
+* "format" "HSP"
+* "rundate" "16:35:40 04/15/2025 "
+* "netlist" "nor2.sp "
+* "runtitle" "$ ====== nor2 hspice testbench ======="
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ ina =   0.            
++ inb =   1.2000        
++ out =  24.4973n       
++ vdd! =   1.2000        
++ xu.n_gnd!_d0_noxref_pos =  51.2833p       
++ xu.n_vdd!_d0_noxref_neg =   1.2000        
++ xu.n_gnd!_c_2_p =   3.8201a       
++ xu.n_gnd!_c_3_p =  14.6757p       
++ xu.n_gnd!_c_4_p =  47.1386p       
++ xu.n_gnd!_mmn0_s =  24.5517a       
++ xu.n_gnd!_mmn1_s = 324.0540p       
++ xu.n_ina_c_82_n =  74.6587p       
++ xu.n_ina_c_83_n =  29.2859p       
++ xu.n_ina_c_84_n =  29.2859p       
++ xu.n_ina_c_85_n =   2.0546p       
++ xu.n_ina_mmn0_g =  29.2859p       
++ xu.n_ina_mmp0_g = 125.3787p       
++ xu.n_inb_c_108_n =   1.2000        
++ xu.n_inb_c_109_n =   1.2000        
++ xu.n_inb_c_110_n =   1.2000        
++ xu.n_inb_c_111_n =   1.2000        
++ xu.n_inb_mmn1_g =   1.2000        
++ xu.n_inb_mmp1_g =   1.2000        
++ xu.n_out_c_29_n =  24.4641n       
++ xu.n_out_c_33_n =  24.4889n       
++ xu.n_out_c_36_n =  24.4734n       
++ xu.n_out_c_37_n =  24.4973n       
++ xu.n_out_mmn0_d =  24.2428n       
++ xu.n_out_mmp1_d =  24.6481n       
++ xu.n_vdd!_c_66_n =   1.2000        
++ xu.n_vdd!_mmp0_s =   1.2000        
++ xu.net1 =   1.2000        
++ xu.x_pm_nor2%gnd!.15 =   1.4777a       
++ xu.x_pm_nor2%gnd!.20 =   1.3749a       
++ xu.x_pm_nor2%gnd!.22 =  16.0927p       
++ xu.x_pm_nor2%gnd!.27 =  15.2826p       
++ xu.x_pm_nor2%out.7 =  24.4723n       
++ xu.x_pm_nor2%out.13 =  24.4763n       
++ xu.x_pm_nor2%out.14 =  24.4799n       
++ xu.x_pm_nor2%out.15 =  24.4886n       
++ xu.x_pm_nor2%out.16 =  24.4900n       
++ xu.x_pm_nor2%out.20 =  24.5140n       
++ xu.x_pm_nor2%out.22 =  24.5174n       
++ xu.x_pm_nor2%out.28 =  24.4973n       
++ xu.x_pm_nor2%vdd!.13 =   1.2000        
++ xu.x_pm_nor2%vdd!.18 =   1.2000        
++ xu.x_pm_nor2%vdd!.19 =   1.2000        
++ xu.x_pm_nor2%vdd!.21 =   1.2000        
++ xu.x_pm_nor2%ina.4 =  29.2859p       
++ xu.x_pm_nor2%ina.16 =  37.6554p       
++ xu.x_pm_nor2%ina.21 =   2.0599p       
++ xu.x_pm_nor2%ina.27 = 203.2829f       
++ xu.x_pm_nor2%inb.4 =   1.2000        
++ xu.x_pm_nor2%inb.16 =   1.2000        
++ xu.x_pm_nor2%inb.21 =   1.2000        
++ xu.x_pm_nor2%inb.27 =   1.2000        
+***   END: Saved Operating Point ***                     

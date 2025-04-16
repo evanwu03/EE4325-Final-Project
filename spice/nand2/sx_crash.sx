@@ -1,0 +1,16 @@
+### WaveView session file (version W-2024.09-SP1-1 build Dec 11, ) ###
+### saved at 12:51:57 on Tue Apr 15 2025 ###
+wdf 0 "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/spice/nand2/nand2.tr0" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 name_width=66 "name=waveview 1" 
+  panel_begin linear pidx=0 spath=name+file xlabel="TIME(sec)" ylabel="V" xmin=0e+00 xmax=4e-07 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(ina)" attr=0:0:1:0 autoset=true disp=show 
+  panel_end
+  panel_begin linear pidx=1 spath=name+file xlabel="TIME(sec)" ylabel="V" xmin=0e+00 xmax=4e-07 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(inb)" attr=1:1:1:0 autoset=true disp=show 
+  panel_end
+  panel_begin linear pidx=2 spath=name+file xlabel="TIME(sec)" ylabel="V" xmin=0e+00 xmax=4e-07 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(out)" attr=2:2:1:0 autoset=true disp=show 
+  panel_end
+waveview_end
+browserOpened

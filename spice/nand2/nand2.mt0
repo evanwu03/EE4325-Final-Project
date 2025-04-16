@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='O-2018.09-2 linux64' PARAM_COUNT=0
+.TITLE '$ ====== nand2 hspice testbench ======='
+ trise            tfall            tavg             tdiff           
+ delay            temper           alter#          
+  4.989e-08       -4.989e-08          0.             9.979e-08      
+  4.989e-08         25.0000        1               

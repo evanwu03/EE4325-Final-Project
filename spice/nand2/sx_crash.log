@@ -1,0 +1,500 @@
+### WaveView ADV log file, revision W-2024.09-SP1-1 (build Dec 11, ) ###
+### created at 12:42:30 on Tue Apr 15 2025 (Linux AMD64) ###
+### Host Name: engnx05a.utdallas.edu   User ID: ebw220000   PID: 354633   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_select_window {WaveView} 
+wv_move_window {WaveView} {} 38 65
+wv_move_window {WaveView} {} 0 27
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+wv_select_dialog {FileDialog} 
+wv_select_list_item {FileDialog} {} {FileList} {nand2.tr0} 13
+wv_press_button {FileDialog} {} {Apply} 
+wv_press_button {FileDialog} {} {Ok} 
+wv_select_dialog {FileReopenDialog} 
+wv_close_dialog {FileReopenDialog} 
+wv_select_dialog {FileDialog} 
+wv_close_dialog {FileDialog} 
+wv_select_window {WaveView} 
+wv_select_tree_item {WaveView} {} {hierview} {D0:nand2.tr0(0)} {0} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D0:nand2.tr0(0)} {+sep=@}
+wv_select_tree_item {WaveView} {} {hierview} {D0:nand2.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_expand_tree_item {WaveView} {} {hierview} {D0:nand2.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_dclick_list_item {WaveView} {} {sigview} {v(ina)} 4
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_select_list_item {WaveView} {} {sigview} {v(inb)} 5
+wv_list_context_menu {WaveView} {} {sigview} {v(inb)} 5 46 98
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....Different Panel (SHIFT+P)} 
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_list_context_menu {WaveView} {} {sigview} {v(out)} 6 39 117
+wv_select_menu_item {WaveView} {} {SigViewPopMenu.Plot Waveform to ....Different Panel (SHIFT+P)} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL3:1 2.90046e-08 0.031174
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL3:1.LINE1
+wv_drag_item_to WV1 51 550
+wv_select_line WV1.PANEL3:1.LINE1
+wv_drag_enter WV1
+wv_drag_to WV1 51 550
+wv_drop_on WV1
+wv_drag_item_to WV1 51 550
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL3:1 7.48846e-08 0.0202788
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL3:1 7.51483e-08 0.0222015
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.77456e-07 0.0761905
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL3:1 1.56625e-07 0.0455943
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL3:1 1.53461e-07 0.0516828
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.47132e-07 0.509524
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.55043e-07 0.457143
+wv_select_panel WV1.PANEL2:1 1.55043e-07 0.457143 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.40013e-07 0.390476
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.21819e-07 0.42381
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 8.38497e-08 0.42381
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL3:1 7.40936e-08 0.0273287
+wv_drag_item_to WV1 409 624
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.2472e-07 0.704762
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 9.80883e-08 0.761905
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.03626e-07 0.695238
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.04944e-07 0.695238
+wv_select_panel WV1.PANEL1:1 1.04944e-07 0.695238 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.1619
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.1619 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.06667
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.06667 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619
+wv_select_panel WV1.PANEL2:1 5.48451e-08 1.07619 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 2.10943e-09 0.933333
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 3.6915e-09 0.866667
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 6.32828e-09 0.833333
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 5.00989e-09 0.885714
+wv_select_panel WV1.PANEL2:1 5.00989e-09 0.885714 btnup
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1 5.00989e-09 0.885714
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL3:1 4.66711e-08 0.000410917
+wv_drag_item_to WV1 305 708
+wv_select_panel WV1.PANEL3:1 4.71984e-08 9.04679e-05 btnup
+wv_select_list_item {WaveView} {} {sigview} {v(out)} 6
+wv_select_window {WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.50824e-07 0.966667
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.55834e-07 0.928571
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.53724e-07 0.933333
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.53724e-07 0.933333
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 9.51879e-08 1.19524
+wv_drag_item_to WV1 489 285
+wv_zoom WV1.PANEL2:1 9.51879e-08 1.19524 1.31312e-07 2.55238
+wv_press_key "u" 842 284
+wv_select_tab {WaveView} {} {RBMenu} {Bar.File}
+wv_press_tool_button {WaveView} {} {OpenWaveform0} 
+## TYPE S abort
+## memory usage 1135.40MB
+#0x910945 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv() [0x910945]
+#0x910ECA /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv() [0x910eca]
+#0x21A4BEF /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv() [0x21a4bef]
+#0xE4D0C5AF /lib64/libc.so.6(+0x4e5af) [0x7f79e4d0c5af]
+#0x5737530 [0x5737530]
+#0x1701D69 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv(qiCloseDialog+0x8) [0x1701d69]
+#0xF65894 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv(qiFileDialog+0x68) [0xf65894]
+#0xF667CE /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv(qxWDFLoadPopup+0xd) [0xf667ce]
+#0xD3A1A4 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv(gfWDFLoadPopup+0x8) [0xd3a1a4]
+#0xD3E76A /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv(menuLoadWaveformFiles+0xd) [0xd3e76a]
+#0x167CAC3 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv(_ZN10QX_ToolBtn11callFuctionEv+0x12b) [0x167cac3]
+#0x167D4BD /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/bin/wv() [0x167d4bd]
+#0xEDF2649B /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5(+0x2f749b) [0x7f79edf2649b]
+#0xED80A8E1 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN15QAbstractButton7clickedEb+0x31) [0x7f79ed80a8e1]
+#0xED80AAC9 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(+0x263ac9) [0x7f79ed80aac9]
+#0xED80BE5E /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(+0x264e5e) [0x7f79ed80be5e]
+#0xED80BFFF /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent+0xbf) [0x7f79ed80bfff]
+#0xED8F4049 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN11QToolButton17mouseReleaseEventEP11QMouseEvent+0x9) [0x7f79ed8f4049]
+#0xED759A75 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0x255) [0x7f79ed759a75]
+#0xED8F40E3 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN11QToolButton5eventEP6QEvent+0x23) [0x7f79ed8f40e3]
+#0xED7197B5 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0xa5) [0x7f79ed7197b5]
+#0xED722351 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x501) [0x7f79ed722351]
+#0xEDEF3CF1 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x171) [0x7f79edef3cf1]
+#0xED72151F /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Ebb+0x19f) [0x7f79ed72151f]
+#0xED773B16 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(+0x1ccb16) [0x7f79ed773b16]
+#0xED776CDB /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(+0x1cfcdb) [0x7f79ed776cdb]
+#0xED7197B5 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0xa5) [0x7f79ed7197b5]
+#0xED721FD7 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x187) [0x7f79ed721fd7]
+#0xEDEF3CF1 /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x171) [0x7f79edef3cf1]
+#0xEE3A177F /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Gui.so.5(_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+0x63f) [0x7f79ee3a177f]
+#session saved in: 'sx_crash.sx'
+### auto-generated spxrc ###
+archive_data_on_crash false
+quick_bar_position false
+bar_grip_scroll false
+browser_width_last 0
+waveview_geom_last 1
+calc_eng false
+disable_star_expand_tree false
+hide_cursor_distance false
+normal_eyediagram_cursor false
+hide_ribbon false
+hide_signaltype false
+hiersensitive_filter false
+keep_signalsearchstring false
+limit_zoom_range false
+load_data_at_open false
+panel_fs_margin 0
+panel_fs_margin_x 0
+panel_fs_margin_y 0
+plotsig_bottompanel false
+ref_cursor_value_indv false
+cursor_type vertical
+cursor_font 0
+drawingtool_font 0
+sensitive_filter false
+show_console false
+show_wvrbbar false
+show_wvtbbar true
+show_cross_label false
+hide_cross_label_x_value false
+show_ytype false
+show_unit_prefix false
+show_x_param_string false
+show_value_unit false
+smart_hsort false
+snap_interp false
+snap_marker false
+SNR_inc_floor_noise false
+spice_inst_casesensitive false
+spice_parm_casesensitive false
+spice_smart_sort false
+spice_sort_subckt_cells false
+support_substr_search false
+suppress_eqn_func_completion false
+SX_DM_DMScale false
+SX_DM_ResultPanelScale false
+use_qtfsb false
+okbtn_autocenter false
+wdf_filter allfiles
+gui_color bright
+group_display_order file
+signal_filter_option glob
+grid_brightness normal
+spice_netlist_erc off
+cds_link_plot_mode replace
+logic_style_default vcd
+left_button_action zoom
+def_zoom_dir xyzoom
+init_xy_mode hvsel
+def_ac_stack complex
+def_acy_type linear
+def_trx_type linear
+def_try_type linear
+signal_dnd_mode move
+signal_mode 0
+enable_panel_selection 0
+disable_autocopy_clipboard false
+delete_confirm true
+exit_confirm true
+reload_confirm true
+disable_autostrip0 false
+private_colormap false
+a2d_single_threshold true
+auto_connect_split_files true
+click_move_cursor true
+d2a_fullext true
+d2a_xtol true
+dynamic_filter true
+logic_cursor_snap true
+logic_glitch_highlight true
+real_time_scroll true
+show_eqn_err_msg 1
+spice_cell_index_depth true
+wv_iconizable 1
+cds_link_update_mode append
+grid_default on
+def_acx_type log
+def_noise_xscale db10
+def_noise_yscale auto
+def_sp_xscale db10
+def_sp_yscale auto
+def_stb_xscale db10
+def_stb_yscale auto
+def_acmatch_xscale db10
+def_acmatch_yscale auto
+def_dcmatch_xscale db10
+def_dcmatch_yscale auto
+def_pz_xscale db10
+def_pz_yscale auto
+def_xf_xscale db10
+def_xf_yscale auto
+def_sens_xscale db10
+def_sens_yscale auto
+def_include_xscale db10
+def_include_yscale auto
+def_pss_xscale db10
+def_pss_yscale auto
+def_pac_xscale db10
+def_pac_yscale auto
+def_pxf_xscale db10
+def_pxf_yscale auto
+def_pnoise_xscale db10
+def_pnoise_yscale auto
+def_psp_xscale db10
+def_psp_yscale auto
+def_pstb_xscale db10
+def_pstb_yscale auto
+def_hb_xscale db10
+def_hb_yscale auto
+def_hbac_xscale db10
+def_hbac_yscale auto
+def_hbxf_xscale db10
+def_hbxf_yscale auto
+def_hbnoise_xscale db10
+def_hbnoise_yscale auto
+def_hbsp_xscale db10
+def_hbsp_yscale auto
+def_hbstb_xscale db10
+def_hbstb_yscale auto
+def_envlp_xscale db10
+def_envlp_yscale auto
+def_fft_xscale linear
+def_fft_yscale db
+def_fft_display pwl
+cycle_color_by panel+waveview
+y_label_width 30
+horizontal_slider_step 50
+zoom_in_ratio 50
+startup_mode viewer
+axis_font 0
+lines_per_panel 0
+max_visible_panels 0
+panel_spacing 0
+unit_scale 0
+user_colors false
+include_sub_sig false
+waveview_TabPos top
+waveview_background black
+gui_font small
+center_axis_label false
+analog_panel_height 120
+browser_width 250
+default_hist_binsize 10
+default_panels_perrow 4
+max_log_span 25
+min_panel_height 20
+horz_panel_height 80
+logic_panel_height 24
+precision_digits 3
+trace_param_precision_digits 6
+read_top_hier_threshold    5.000E+00
+replay_delay 1
+add_toplevel_for_fsdb false
+alias_signal_name_only false
+auto_x_extend false
+bus_diff_color false
+case_sens_tr0 false
+convert_s_to_yz false
+default_hist_one false
+disable_reload_wdf_confirm false
+disable_update_equation false
+disable_update_signal false
+dm_diff_movelabel false
+enable_mul_click_items false
+extend_waveform false
+filter_byxrange false
+hide_panel_div false
+lock_color false
+auto_switch_horz off
+loop_linestyles_sweep false
+panel_mode_only false
+remove_dupsig false
+same_color_sweep false
+show_inf_data false
+show_MP_prefix false
+show_SM_button false
+auto_y_axes off
+auto_y_width off
+auto_y_margin off
+auto_x_margin off
+signame_popup false
+trace_parm_popup false
+switch_mouse_button false
+right_mouse_zoom false
+thick_line 0
+use_ade_append_replace false
+use_hspiceini false
+use_little_endian false
+use_snn false
+use_leaf_name false
+user_fixed_yrange false
+signame_width 60
+signame_align left
+signal_font normal
+signame_spacing normal
+signal_path path+name
+fast_vnc_mode false
+drag_plot_line false
+plot_single_point_sweep_on_2d false
+sync_eqnbuilder false
+show_panel_mode false
+x-probing_color_schem false
+white_label_color false
+use_cc_keybindings false
+alias_bracket true
+auto_x_extend_dig true
+clamp_ac_phase true
+enable_wv_highlight true
+enable_line_selection true
+flatten_segs true
+flatten_single_point_sweep true
+line_thickness 1
+sig_corner_fmt 2
+logic_real_pwc_fsdb true
+amsreal_pwc_fsdb false
+not_show_vhdl_processes true
+meas_file_xstart_1 false
+read_top_hier true
+sync_alias true
+adjust_small_y_range true
+default_x_var true
+stack_auto_fit on
+sweep_expand user
+xaxis_auto_grid on
+yaxis_auto_grid on
+y2axis_auto_grid on
+signal_name name+file
+d2a_low_value    0.000E+00
+dm_low_logic    0.000E+00
+d2a_fall_slew    1.000E-11
+d2a_rise_slew    1.000E-11
+lint_min_mos_length    1.000E-08
+lint_min_mos_width    1.000E-08
+lint_min_resistance    1.000E-05
+lint_max_capacitance    1.000E-03
+lint_max_mos_length    1.000E-02
+lint_max_mos_width    1.000E-02
+a2d_low_threshold    1.000E+00
+a2d_center_threshold    2.500E+00
+d2a_high_value    3.300E+00
+dm_high_logic    3.300E+00
+a2d_high_threshold    4.000E+00
+dm_low_margin    1.000E+01
+smith_char_impedance    5.000E+01
+dm_high_margin    9.000E+01
+imin 0
+vmin 0
+vmax 3.3
+inf_value    1.000E+50
+imax 1m
+lint_suppress_list 
+export_notation true
+simplified_rms_calc false
+disable_auto_close_msg false
+suppress_load_session_msg false
+merge_digital_time false
+show_tbname_in_wvtab false
+raise_wv_main_window true
+pre_signal_to_dash_line true
+check_xrange_for_yval_in_ace false
+show_wvbrowser false
+Thread 3 (Thread 0x7f79c70dc700 (LWP 354635)):
+#0  0x00007f79e4df0ac1 in poll () from /lib64/libc.so.6
+#1  0x00007f79e37cfe16 in g_main_context_iterate.isra () from /lib64/libglib-2.0.so.0
+#2  0x00007f79e37cff40 in g_main_context_iteration () from /lib64/libglib-2.0.so.0
+#3  0x00007f79edf47d7a in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#4  0x00007f79edef0abb in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#5  0x00007f79edd0486e in QThread::exec() () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#6  0x00007f79cfda04d7 in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5DBus.so.5
+#7  0x00007f79edd0591f in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#8  0x00007f79e89151ca in start_thread () from /lib64/libpthread.so.0
+#9  0x00007f79e4cf78d3 in clone () from /lib64/libc.so.6
+Thread 2 (Thread 0x7f79cc902700 (LWP 354634)):
+#0  0x00007f79e4df0ac1 in poll () from /lib64/libc.so.6
+#1  0x00007f79e985d6cf in _xcb_conn_wait () from /lib64/libxcb.so.1
+#2  0x00007f79e985f35a in xcb_wait_for_event () from /lib64/libxcb.so.1
+#3  0x00007f79cfe99000 in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5XcbQpa.so.5
+#4  0x00007f79edd0591f in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#5  0x00007f79e89151ca in start_thread () from /lib64/libpthread.so.0
+#6  0x00007f79e4cf78d3 in clone () from /lib64/libc.so.6
+Thread 1 (Thread 0x7f79fa5ef800 (LWP 354633)):
+#0  0x00007f79e4dc5e42 in waitpid () from /lib64/libc.so.6
+#1  0x00007f79e4d19747 in do_system () from /lib64/libc.so.6
+#2  0x0000000000910bc6 in ?? ()
+#3  0x0000000000910ecb in ?? ()
+#4  0x00000000021a4bf0 in ?? ()
+#5  <signal handler called>
+#6  0x0000000005737530 in ?? ()
+#7  0x0000000001701bb5 in qiDlgCloseDialog ()
+#8  0x0000000001701d6a in qiCloseDialog ()
+#9  0x0000000000f65895 in qiFileDialog ()
+#10 0x0000000000f667cf in qxWDFLoadPopup ()
+#11 0x0000000000d3a1a5 in gfWDFLoadPopup ()
+#12 0x0000000000d3e76b in menuLoadWaveformFiles ()
+#13 0x000000000167cac4 in QX_ToolBtn::callFuction() ()
+#14 0x000000000167d4be in ?? ()
+#15 0x00007f79edf2649c in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#16 0x00007f79ed80a8e2 in QAbstractButton::clicked(bool) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#17 0x00007f79ed80aaca in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#18 0x00007f79ed80be5f in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#19 0x00007f79ed80c000 in QAbstractButton::mouseReleaseEvent(QMouseEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#20 0x00007f79ed8f404a in QToolButton::mouseReleaseEvent(QMouseEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#21 0x00007f79ed759a76 in QWidget::event(QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#22 0x00007f79ed8f40e4 in QToolButton::event(QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#23 0x00007f79ed7197b6 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#24 0x00007f79ed722352 in QApplication::notify(QObject*, QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#25 0x00007f79edef3cf2 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#26 0x00007f79ed721520 in QApplicationPrivate::sendMouseEvent(QWidget*, QMouseEvent*, QWidget*, QWidget*, QWidget**, QPointer<QWidget>&, bool, bool) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#27 0x00007f79ed773b17 in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#28 0x00007f79ed776cdc in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#29 0x00007f79ed7197b6 in QApplicationPrivate::notify_helper(QObject*, QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#30 0x00007f79ed721fd8 in QApplication::notify(QObject*, QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Widgets.so.5
+#31 0x00007f79edef3cf2 in QCoreApplication::notifyInternal2(QObject*, QEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#32 0x00007f79ee3a1780 in QGuiApplicationPrivate::processMouseEvent(QWindowSystemInterfacePrivate::MouseEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Gui.so.5
+#33 0x00007f79ee3a2d89 in QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Gui.so.5
+#34 0x00007f79ee37c36c in QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Gui.so.5
+#35 0x00007f79cfe99fca in ?? () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5XcbQpa.so.5
+#36 0x00007f79e37cfaed in g_main_context_dispatch () from /lib64/libglib-2.0.so.0
+#37 0x00007f79e37cfea8 in g_main_context_iterate.isra () from /lib64/libglib-2.0.so.0
+#38 0x00007f79e37cff40 in g_main_context_iteration () from /lib64/libglib-2.0.so.0
+#39 0x00007f79edf47d7a in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#40 0x00007f79edef0abb in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#41 0x00007f79edef87cc in QCoreApplication::exec() () from /proj/cad/synopsys/synopsys_2024/wv/W-2024.09-SP1-1/platforms/linux64/lib/libQt5Core.so.5
+#42 0x00000000016da44e in qxLoop ()
+#43 0x0000000000901001 in main ()
