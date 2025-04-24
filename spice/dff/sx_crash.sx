@@ -1,0 +1,25 @@
+### WaveView session file (version W-2024.09-SP1-1 build Dec 11, ) ###
+### saved at 22:23:48 on Wed Apr 23 2025 ###
+wdf 0 "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/spice/dff/dff.tr0" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 name_width=66 "name=waveview 1" 
+  panel_begin linear pidx=0 spath=name+file xlabel="TIME(sec)" ylabel="V" xmin=0e+00 xmax=1e-08 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(clk)" attr=0:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=1 spath=name+file xlabel="TIME(sec)" ylabel="V" xmin=0e+00 xmax=1e-08 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(d)" attr=7:4:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=2 spath=name+file xlabel="TIME(sec)" ylabel="V" xmin=0e+00 xmax=1e-08 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(q)" attr=6:0:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=3 spath=name+file xlabel="TIME(sec)" ylabel="V" xmin=0e+00 xmax=1e-08 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=v(r)" attr=5:3:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=4 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=xu.x_pm_dff%a.v(18)" attr=6:6:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+  panel_begin linear pidx=5 spath=name+file xlabel="TIME(sec)" ylabel="V" 
+    line src=wdf lidx=0 fidx=0 "delim=." sigtype=1 "name=xu.x_pm_dff%a.v(18)" attr=5:1:1:0 autoset=true disp=show swphead=true swpline=true 
+  panel_end
+waveview_end
+browserOpened

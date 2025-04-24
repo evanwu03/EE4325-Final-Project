@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 23-Apr-2025  12:13:33
+Started at: 24-Apr-2025  01:10:31
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -31,14 +31,13 @@ convertPcellPin                         geometry
 
 INFO (XSTRM-223): 1. Translating cellView tutorial/dff/layout as STRUCTURE dff.
 WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
-WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'error'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 
 Summary of Objects Translated:
 	Scalar Instances:                       0
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             236
+	Rectangles:                             224
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -53,10 +52,10 @@ Summary of Objects Translated:
 	Standard Vias                           0
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               48
+	Pathsegs:                               72
 	Text:                                   6
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9580KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.
+Elapsed Time: 2.1s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9572KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

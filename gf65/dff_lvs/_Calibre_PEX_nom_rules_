@@ -1,0 +1,30 @@
+#!tvf
+tvf::VERBATIM {
+//
+//  Rule file generated on Thu Apr 24 01:11:39 2025
+//  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "dff.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "dff"
+
+SOURCE PATH "dff.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "dff"
+
+PEX NETLIST "dff.pex.sp" HSPICE SOURCENAMES CLAYER CLOCATION
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "dff.lvs.report"
+PEX REPORT "dff.pex.report" SOURCENAMES
+
+DRC ICSTATION YES
+
+}
+
+source "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/Calibre_PEX_nom_rules"

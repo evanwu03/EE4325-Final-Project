@@ -7,5 +7,5 @@ lvs_SourceCase NO
 lvs_LayoutCase NO
 lvs_LvsOutFile LVS_REPORT dff.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST dff.src.net
-lvs_LvsOutFile RULES_FILE _Calibre_LVS_rules_
-lvs_LvsRunTimes 1745428448 1745428448
+lvs_LvsOutFile RULES_FILE _Calibre_PEX_nom_rules_
+lvs_LvsRunTimes 1745475117 1745475117

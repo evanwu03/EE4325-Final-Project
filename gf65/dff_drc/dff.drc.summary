@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Wed Apr 23 12:13:34 2025
+Execution Date/Time:       Thu Apr 24 01:10:32 2025
 Calibre Version:           v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
 Rule File Pathname:        _Calibre_DRC_rules_
 Rule File Title:           YI-DM00054.09 - YI-RT00052.12
@@ -613,14 +613,14 @@ LAYER M6FILL .......... TOTAL Original Geometry Count = 0   (0)
 LAYER VNCAP_M6 ........ TOTAL Original Geometry Count = 0   (0)
 LAYER YT .............. TOTAL Original Geometry Count = 0   (0)
 LAYER RX .............. TOTAL Original Geometry Count = 8   (8)
-LAYER PC .............. TOTAL Original Geometry Count = 69  (69)
+LAYER PC .............. TOTAL Original Geometry Count = 60  (60)
 LAYER NW .............. TOTAL Original Geometry Count = 1   (1)
 LAYER JZ .............. TOTAL Original Geometry Count = 2   (2)
 LAYER JX .............. TOTAL Original Geometry Count = 2   (2)
 LAYER LOGOBND ......... TOTAL Original Geometry Count = 0   (0)
 LAYER T3 .............. TOTAL Original Geometry Count = 0   (0)
 LAYER N3 .............. TOTAL Original Geometry Count = 0   (0)
-LAYER CA .............. TOTAL Original Geometry Count = 141 (141)
+LAYER CA .............. TOTAL Original Geometry Count = 138 (138)
 LAYER DG .............. TOTAL Original Geometry Count = 0   (0)
 LAYER IG .............. TOTAL Original Geometry Count = 0   (0)
 LAYER EG .............. TOTAL Original Geometry Count = 0   (0)
@@ -684,7 +684,7 @@ LAYER VV .............. TOTAL Original Geometry Count = 0   (0)
 LAYER PCFILL .......... TOTAL Original Geometry Count = 0   (0)
 LAYER RXFILL .......... TOTAL Original Geometry Count = 0   (0)
 LAYER M1FILL .......... TOTAL Original Geometry Count = 0   (0)
-LAYER M1 .............. TOTAL Original Geometry Count = 53  (53)
+LAYER M1 .............. TOTAL Original Geometry Count = 77  (77)
 LAYER M2FILL .......... TOTAL Original Geometry Count = 0   (0)
 LAYER M2 .............. TOTAL Original Geometry Count = 4   (4)
 LAYER M3FILL .......... TOTAL Original Geometry Count = 0   (0)
@@ -3825,7 +3825,7 @@ RULECHECK GRESD40 ................... TOTAL Result Count = 0 (0)
 --- SUMMARY
 ---
 TOTAL CPU Time:                  1
-TOTAL REAL Time:                 4
-TOTAL Original Layer Geometries: 284 (284)
+TOTAL REAL Time:                 6
+TOTAL Original Layer Geometries: 296 (296)
 TOTAL DRC RuleChecks Executed:   2076
 TOTAL DRC Results Generated:     0 (0)

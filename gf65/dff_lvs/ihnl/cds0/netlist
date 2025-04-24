@@ -10,7 +10,7 @@ MMP14 Q C vdd! vdd! pfet W=955n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 pccrit=0
 + plnest=-1.0 plorient=-1.0 pld200=-1.0 sa=160n sb=160n sd=0 p_vta=0 panw1=0p 
 + panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p 
 + panw10=0p
-MMP13 C CLK- net11 vdd! pfet W=955n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
+MMP13 C CLK+ net11 vdd! pfet W=955n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
 + pccrit=0 plnest=-1.0 plorient=-1.0 pld200=-1.0 sa=160n sb=160n sd=0 p_vta=0 
 + panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p 
 + panw9=0p panw10=0p
@@ -50,7 +50,7 @@ MMP4 B R net14 vdd! pfet W=955n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 pccrit=0
 + plnest=-1.0 plorient=-1.0 pld200=-1.0 sa=160n sb=160n sd=0 p_vta=0 panw1=0p 
 + panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p panw9=0p 
 + panw10=0p
-MMP3 A CLK- net13 vdd! pfet W=955n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
+MMP3 A CLK+ net13 vdd! pfet W=955n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
 + pccrit=0 plnest=-1.0 plorient=-1.0 pld200=-1.0 sa=160n sb=160n sd=0 p_vta=0 
 + panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p 
 + panw9=0p panw10=0p
@@ -70,7 +70,7 @@ MMN14 Q C gnd! gnd! nfet W=560n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 PTWELL=0
 + plnest=-1.0 plorient=-1.0 pld200=-1.0 pccrit=0 sa=160n sb=160n sd=0 p_vta=0 
 + panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p 
 + panw9=0p panw10=0p
-MMN13 C CLK+ net10 gnd! nfet W=560n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
+MMN13 C CLK- net10 gnd! nfet W=560n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
 + PTWELL=0 plnest=-1.0 plorient=-1.0 pld200=-1.0 pccrit=0 sa=160n sb=160n sd=0 
 + p_vta=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p 
 + panw8=0p panw9=0p panw10=0p
@@ -110,7 +110,7 @@ MMN4 B A gnd! gnd! nfet W=560n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 PTWELL=0
 + plnest=-1.0 plorient=-1.0 pld200=-1.0 pccrit=0 sa=160n sb=160n sd=0 p_vta=0 
 + panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p panw8=0p 
 + panw9=0p panw10=0p
-MMN3 A CLK+ net12 gnd! nfet W=560n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
+MMN3 A CLK- net12 gnd! nfet W=560n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
 + PTWELL=0 plnest=-1.0 plorient=-1.0 pld200=-1.0 pccrit=0 sa=160n sb=160n sd=0 
 + p_vta=0 panw1=0p panw2=0p panw3=0p panw4=0p panw5=0p panw6=0p panw7=0p 
 + panw8=0p panw9=0p panw10=0p
