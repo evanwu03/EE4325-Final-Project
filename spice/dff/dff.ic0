@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "O-2018.09-2 linux64"
 * "format" "HSP"
-* "rundate" "02:07:34 04/24/2025 "
+* "rundate" "11:45:52 04/24/2025 "
 * "netlist" "dff.sp "
 * "runtitle" ""
 * time =    0.            

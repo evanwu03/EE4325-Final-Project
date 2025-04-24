@@ -19,7 +19,7 @@ Args:        -p hsp -t spi -f dff.pvadir/pvaHDL.lis -o dff.pvadir
 
 ### optimize mode ###
 
-Begin of pVA compiling on Thu Apr 24 02:07:35 2025	GTM/In-use: 0.6250/0.5384 MB
+Begin of pVA compiling on Thu Apr 24 11:45:53 2025	GTM/In-use: 0.6250/0.5384 MB
 
 Parsing '/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/models/YI-SM00030/Hspice/models/./ncap.va'
 Parsing include file '/proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/include/constants.vams'
@@ -49,10 +49,10 @@ Parsing '/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/mod
 Parsing include file '/proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/include/constants.vams'
 Parsing include file '/proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/include/disciplines.vams'
 
-End of pVA compiling on Thu Apr 24 02:07:35 2025	GTM/In-use: 33.6250/33.4631 MB
+End of pVA compiling on Thu Apr 24 11:45:53 2025	GTM/In-use: 33.6250/33.4631 MB
 
 
-End of build pVA DB on Thu Apr 24 02:07:36 2025	GTM/In-use: 46.1250/46.0357 MB
+End of build pVA DB on Thu Apr 24 11:45:53 2025	GTM/In-use: 46.1250/46.0357 MB
 
 *pvaI* Module (mosvarcap): 2 unexpanded port, 0 init, 85 behav, 5 contrib, 53/76 expr(s)
 *pvaI*        No DIS, 0/0 afCount, 0 MT, dlg, IO(0/0/0/0)
@@ -130,18 +130,18 @@ End of build pVA DB on Thu Apr 24 02:07:36 2025	GTM/In-use: 46.1250/46.0357 MB
 *pvaW*        variable 'M0' initialized but not used in RHS, deleted (/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/models/YI-SM00030/Hspice/models/coupled_cpw.va:2344)
 *pvaI*        generated 6 flow node(s) during compilation.
 
-End of pVA genC on Thu Apr 24 02:07:42 2025	GTM/In-use: 61.0000/60.2320 MB
+End of pVA genC on Thu Apr 24 11:45:59 2025	GTM/In-use: 61.0000/60.2320 MB
 
 *pvaI* #### Total 4247 line-size(s), 463/9104 expr(s), 164 contr(s), 0 init(s), 7711 behav(s), 26 port(s)
 
 dff.pvadir/pvaRTL_linux64.so is reused
 
-End of pVA elaboration on Thu Apr 24 02:07:42 2025	GTM/In-use: 61.0000/59.8561 MB
+End of pVA elaboration on Thu Apr 24 11:45:59 2025	GTM/In-use: 61.0000/59.8561 MB
 
-End of pVA setup    on Thu Apr 24 02:07:42 2025	GTM/In-use: 61.0000/49.9860 MB
+End of pVA setup    on Thu Apr 24 11:46:00 2025	GTM/In-use: 61.0000/49.9860 MB
 
 
-End of pVA simulation reached at time 0 on Thu Apr 24 02:07:52 2025	GTM/In-use: 61.0000/49.6116 MB
+End of pVA simulation reached at time 0 on Thu Apr 24 11:46:10 2025	GTM/In-use: 61.0000/49.6116 MB
 
 
 			pVA malloc          4.840 Mbytes       100792 times
@@ -155,5 +155,5 @@ End of pVA simulation reached at time 0 on Thu Apr 24 02:07:52 2025	GTM/In-use: 
 			pVA strdup          0.000 Mbytes            0 times
 
 
-pVA concluded on Thu Apr 24 02:07:52 2025	GTM/In-use: 61.0000/49.6116 MB
+pVA concluded on Thu Apr 24 11:46:10 2025	GTM/In-use: 61.0000/49.6116 MB
 
