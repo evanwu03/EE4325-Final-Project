@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "dff2"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/dff2_lvs"
+ )
+( model
+( "tutorial/dff2/schematic" "dff2" )
+ )
+( "dff2" "ihnl/cds0/map" )
+ )
