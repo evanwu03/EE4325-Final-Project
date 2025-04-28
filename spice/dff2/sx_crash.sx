@@ -1,0 +1,7 @@
+### WaveView session file (version W-2024.09-SP1-1 build Dec 11, ) ###
+### saved at 20:26:27 on Sun Apr 27 2025 ###
+wdf 0 "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/spice/dff2/dff2.tr0" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=0 mntr_b=0 name_width=66 "name=waveview 1" 
+waveview_end
+browserOpened
