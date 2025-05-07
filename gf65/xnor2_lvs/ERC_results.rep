@@ -3,9 +3,9 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Tue Apr 15 16:39:44 2025
+Execution Date/Time:          Wed May  7 15:44:01 2025
 Calibre Version:              v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
-Rule File Pathname:           _Calibre_PEX_nom_rules_
+Rule File Pathname:           _Calibre_LVS_rules_
 Rule File Title:              
 Layout System:                GDSII
 Layout Path(s):               xnor2.calibre.db
@@ -14,7 +14,7 @@ Current Directory:            /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/g
 User Name:                    ebw220000
 Maximum Results/ERC Check:    1000
 Maximum ERC Result Vertices:  4096
-ERC Results Database:         ./ERC_results.asc (ASCII)
+ERC Results Database:         xnor2.erc.results (ASCII)
 Layout Depth:                 ALL
 Text Depth:                   PRIMARY
 Summary Report File:          ./ERC_results.rep (REPLACE)
@@ -100,7 +100,7 @@ LAYER PCCRIT .......... TOTAL Original Geometry Count = 0  (0)
 LAYER PCXPNE25 ........ TOTAL Original Geometry Count = 0  (0)
 LAYER CA .............. TOTAL Original Geometry Count = 45 (45)
 LAYER M1_RES .......... TOTAL Original Geometry Count = 0  (0)
-LAYER M1 .............. TOTAL Original Geometry Count = 18 (18)
+LAYER M1 .............. TOTAL Original Geometry Count = 19 (19)
 LAYER WVR ............. TOTAL Original Geometry Count = 0  (0)
 LAYER PCFUSE .......... TOTAL Original Geometry Count = 0  (0)
 LAYER VAR ............. TOTAL Original Geometry Count = 0  (0)
@@ -151,7 +151,6 @@ LAYER VIA4_0 .......... TOTAL Original Geometry Count = 0  (0)
 LAYER VIA5_0 .......... TOTAL Original Geometry Count = 0  (0)
 LAYER VIANT_0 ......... TOTAL Original Geometry Count = 0  (0)
 LAYER VNCAP ........... TOTAL Original Geometry Count = 0  (0)
-LAYER DIFFNCAP ........ TOTAL Original Geometry Count = 0  (0)
 LAYER LV .............. TOTAL Original Geometry Count = 0  (0)
 LAYER DV .............. TOTAL Original Geometry Count = 0  (0)
 LAYER VNCAP_B1 ........ TOTAL Original Geometry Count = 0  (0)
@@ -161,7 +160,7 @@ LAYER EA_DRAW ......... TOTAL Original Geometry Count = 0  (0)
 LAYER M6_DRAW ......... TOTAL Original Geometry Count = 0  (0)
 LAYER M1FILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER OUTLINE_SPIND ... TOTAL Original Geometry Count = 0  (0)
-LAYER M1_DRAW ......... TOTAL Original Geometry Count = 18 (18)
+LAYER M1_DRAW ......... TOTAL Original Geometry Count = 19 (19)
 LAYER LVS1_DRAWING6 ... TOTAL Original Geometry Count = 0  (0)
 LAYER LVS_DRAWING6 .... TOTAL Original Geometry Count = 0  (0)
 LAYER LD .............. TOTAL Original Geometry Count = 0  (0)
@@ -185,8 +184,8 @@ RULECHECK check_symindp_ctap_vias ... TOTAL Result Count = 0 (0)
 ----------------------------------------------------------------------------------
 --- SUMMARY
 ---
-TOTAL CPU Time:                              3
-TOTAL REAL Time:                             6
-TOTAL Original Layer Geometries:             153 (153)
+TOTAL CPU Time:                              0
+TOTAL REAL Time:                             1
+TOTAL Original Layer Geometries:             155 (155)
 TOTAL ERC RuleChecks Executed:               11
 TOTAL ERC RuleCheck Results Generated:       0 (0)

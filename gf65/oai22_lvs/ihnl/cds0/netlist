@@ -1,10 +1,10 @@
 ************************************************************************
 * Library Name: tutorial
-* Cell Name:    aoi22
+* Cell Name:    oai22
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT aoi22 INA INB INC IND OUT
+.SUBCKT oai22 INA INB INC IND OUT
 *.PININFO INA:I INB:I INC:I IND:I OUT:O
 MMP3 OUT IND net1 vdd! pfet W=955n L=65n M=1 NF=1 MPL=1 mSwitch=0 idg=0 
 + pccrit=0 plnest=-1.0 plorient=-1.0 pld200=-1.0 sa=160n sb=160n sd=0 p_vta=0 

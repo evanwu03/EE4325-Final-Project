@@ -1,0 +1,12 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 09/08/2022 08:41 (sjfdcl1034) $
+\o Sub version:		sub-version  s284 
+\o Arguments:		-cdslib /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib -mpssession virtuoso3444843 -mpshost engnx05a.utdallas.edu -mpsversion 6.18 
+\o Working Directory:	engnx05a.utdallas.edu:/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(38 65 500 400))
+\a exit(0)

@@ -1,13 +1,12 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1744742716 1744742723
+lvs_ExtRunTimes 1746576287 1746576289
 lvs_ExtOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/inv_LVS
-lvs_ExtOutFile RULES_FILE _Calibre_PEX_nom_rules_
+lvs_ExtOutFile RULES_FILE _Calibre_LVS_rules_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST svdb/inv.sp
+lvs_ExtOutFile LAYOUT_NETLIST inv.sp
 lvs_ExtOutFile EXTRACTION_REPORT inv.lvs.report.ext
-lvs_ExtOutFile LAYOUT_PDSP {  svdb/inv.pdsp }
-lvs_ExtOutFile ERC_DATABASE ./ERC_results.asc
+lvs_ExtOutFile ERC_DATABASE inv.erc.results
 lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep

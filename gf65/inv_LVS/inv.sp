@@ -105,7 +105,7 @@
 ***************************************
 .SUBCKT inv INA GND! VDD! OUT
 ** N=4 EP=4 IP=0 FDC=2
-M0 OUT INA GND! GND! nfet L=6.5e-08 W=5.6e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=-196 $Y=-800 $D=168
-M1 OUT INA VDD! VDD! pfet L=6.5e-08 W=9.55e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=-196 $Y=812 $D=181
+M0 OUT INA GND! GND! nfet L=6.5e-08 W=5.6e-07 m=1 nf=1 mpl=1 par=1 ptwell=0 cnr_switch=0 pccrit=0 $X=-92 $Y=-1488 $D=168
+M1 OUT INA VDD! VDD! pfet L=6.5e-08 W=9.55e-07 m=1 nf=1 mpl=1 par=1 ptwell=1 cnr_switch=0 pccrit=0 $X=-92 $Y=1301 $D=181
 .ENDS
 ***************************************

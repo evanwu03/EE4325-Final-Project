@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1746649095 1746649097
+lvs_ExtOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_lvs
+lvs_ExtOutFile RULES_FILE _Calibre_LVS_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST oai22.sp
+lvs_ExtOutFile EXTRACTION_REPORT oai22.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE oai22.erc.results
+lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep
