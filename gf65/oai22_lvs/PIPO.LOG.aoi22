@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 15-Apr-2025  17:43:27
+Started at: 07-May-2025  20:47:18
 User Name : ebw220000
 Host Name : engnx05a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -10,17 +10,17 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/aoi22_lvs/aoi22.calibre.db' already exists. It will be overwritten.
+WARNING (XSTRM-20): Output Stream file '/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_lvs/aoi22.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-217): Reading the layer map file, /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/cmos10lpe.layermap
 INFO (XSTRM-217): Reading the object map file, /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/cmos10lpe.objectmap
 INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
 
 Summary of Options :
 library                                 tutorial
-strmFile                                /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/aoi22_lvs/aoi22.calibre.db
+strmFile                                /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_lvs/aoi22.calibre.db
 topCell                                 aoi22
 view                                    layout
-runDir                                  /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/aoi22_lvs/
+runDir                                  /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_lvs/
 logFile                                 PIPO.LOG.aoi22
 summaryFile                             PIPO.SUM.aoi22
 layerMap                                /proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/cmos10lpe.layermap
@@ -30,6 +30,7 @@ convertDot                              node
 convertPcellPin                         geometry
 
 INFO (XSTRM-223): 1. Translating cellView tutorial/aoi22/layout as STRUCTURE aoi22.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'prBoundary:boundary' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
 WARNING (XSTRM-154): The object map file does not contain any mapping for the OpenAccess object 'Marker' and the sub-object 'annotation'. Therefore, these objects in the design will not be translated. To enable the translation of these objects in the Stream file, provide a valid mapping in the object map file.
 
 Summary of Objects Translated:
@@ -43,7 +44,7 @@ Summary of Objects Translated:
 	Donuts:                                 0
 	Dots:                                   0
 	Ellipses:                               0
-	Boundaries:                             1
+	Boundaries:                             0
 	Area Blockages:                         0
 	Layer Blockages:                        0
 	Area Halos:                             0
@@ -52,10 +53,10 @@ Summary of Objects Translated:
 	Standard Vias                           0
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               15
+	Pathsegs:                               14
 	Text:                                   7
 	TextDisplay:                            0
 	Cells:                                  1
 
-Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9564KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 9560KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.

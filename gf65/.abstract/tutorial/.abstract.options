@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Abstract Options File
-;; Abstract_Generator version sub-version  IC6.1.8-64b.500.28  on Apr 15 20:24:44 2025
+;; Abstract_Generator version sub-version  IC6.1.8-64b.500.28  on May  7 20:48:04 2025
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 absSetOption( "DateTimeLog"                "false")
@@ -111,7 +111,7 @@ absSetOption( "numOfPointsInEllipseOrDonut" "64")
 
 
 absSelectBin("Core" )
-absSetBinOption( "Core" "PinsTextPinMap"             "")
+absSetBinOption( "Core" "PinsTextPinMap"             "(M2 M2) (M1 M1)")
 absSetBinOption( "Core" "PinsPowerNames"             "^((V(DD|CC))|(v(dd|cc)))(!)?$")
 absSetBinOption( "Core" "PinsGroundNames"            "^((VSS|GND)|(vss|gnd))(!)?$")
 absSetBinOption( "Core" "PinsClockNames"             "")
@@ -210,7 +210,7 @@ absSetBinOption( "Core" "AbstractAdjustExcludeNetNames" "^((V(DD|CC))|(v(dd|cc))
 absSetBinOption( "Core" "AbstractAdjustFollowRingPin" "false")
 absSetBinOption( "Core" "AbstractAdjustPowerGeometryGroups" "single")
 absSetBinOption( "Core" "AbstractAdjustPowerGeometryGroupsEastWest" "none")
-absSetBinOption( "Core" "AbstractAdjustPowerRailOp"  "")
+absSetBinOption( "Core" "AbstractAdjustPowerRailOp"  "GND! abutment 0.154 -3.998 VDD! abutment 0.143 1.839")
 absSetBinOption( "Core" "AbstractAdjustPowerRailOpTable" "")
 absSetBinOption( "Core" "AbstractAdjustPowerRailWidth" "0")
 absSetBinOption( "Core" "AbstractAdjustEdgeTowardsCore" "north")

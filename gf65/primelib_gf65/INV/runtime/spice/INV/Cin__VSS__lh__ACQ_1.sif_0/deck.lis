@@ -1,0 +1,69 @@
+ ****** HSPICE -- O-2018.09-2 linux64 (Oct 18 2018) ******                      
+  Copyright (c) 1986 - 2025 by Synopsys, Inc. All Rights Reserved.              
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: deck.cir                                                          
+  Command line options: /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/linux64/hspice deck.cir -o deck -SIS-cchar  
+  **info**  the obsolete option acct is ignored
+  **info**  the obsolete option nopage is ignored
+  **info**  the obsolete option acct is ignored
+  **info**  the obsolete option nopage is ignored
+  **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name.
+  **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:15) Definition of model/subckt "nfet" is not found for the element "xinv_inst.xmmn0". Please specify a defined model/subckt name.
+  **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:20) Definition of model/subckt "pfet" is not found for the element "xinv_inst.xmmp0". Please specify a defined model/subckt name.
+
+          ***** job aborted
+1****** HSPICE -- O-2018.09-2 linux64 (Oct 18 2018) ******                      
+ ******  
+ .title cin__vss__lh__acq_1
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: AMD EPYC 7F32 8-Core Processor
+ cpu MHz	: 3692.894
+  
+ OS:
+ Linux version 4.18.0-553.46.1.el8_10.x86_64 (mockbuild@x86-64-02.build.eng.rdu2.redhat.com) (gcc version 8.5.0 20210514 (Red Hat 8.5.0-24) (GCC)) #1 SMP Sat Mar 15 01:37:33 EDT 2025
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :    32
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       0 # elements   =      88
+  # resistors   =      32 # capacitors =      49 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       7
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       0 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           0
+  readin             0.00
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        255.76 megabytes
+           total cpu time            0.00 seconds
+           total elapsed time        0.02 seconds
+           job started at     21:39:35 05/07/2025
+           job ended   at     21:39:35 05/07/2025
+
+

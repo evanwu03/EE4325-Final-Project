@@ -1,8 +1,8 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1746645715 1746645717
+lvs_ExtRunTimes 1746668641 1746668643
 lvs_ExtOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand3_lvs
-lvs_ExtOutFile RULES_FILE __Calibre_LVS_rules__
+lvs_ExtOutFile RULES_FILE _Calibre_LVS_rules_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}

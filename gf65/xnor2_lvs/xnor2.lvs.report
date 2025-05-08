@@ -15,7 +15,7 @@ REPORT FILE NAME:         xnor2.lvs.report
 LAYOUT NAME:              xnor2.sp ('xnor2')
 SOURCE NAME:              xnor2.src.net ('xnor2')
 RULE FILE:                _Calibre_LVS_rules_
-CREATION TIME:            Wed May  7 15:44:03 2025
+CREATION TIME:            Wed May  7 20:45:23 2025
 CURRENT DIRECTORY:        /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/xnor2_lvs
 USER NAME:                ebw220000
 CALIBRE VERSION:          v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024

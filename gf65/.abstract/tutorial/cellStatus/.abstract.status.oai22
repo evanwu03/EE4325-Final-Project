@@ -1,5 +1,5 @@
 cUiSetViewStatus {oai22} {layout} {1}
 cUiSetViewStatus {oai22} {logical} {0}
-cUiSetViewStatus {oai22} {abstract.pin} {1}
+cUiSetViewStatus {oai22} {abstract.pin} {3}
 cUiSetViewStatus {oai22} {abstract.ext} {1}
-cUiSetViewStatus {oai22} {abstract} {1}
+cUiSetViewStatus {oai22} {abstract} {3}

@@ -3,14 +3,14 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue Apr 15 17:36:29 2025
+Execution Date/Time:       Wed May  7 20:38:12 2025
 Calibre Version:           v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
 Rule File Pathname:        _Calibre_DRC_rules_
 Rule File Title:           YI-DM00054.09 - YI-RT00052.12
 Layout System:             GDS
 Layout Path(s):            aoi22.calibre.db
 Layout Primary Cell:       aoi22
-Current Directory:         /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/aoi22_drc
+Current Directory:         /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_drc
 User Name:                 ebw220000
 Maximum Results/RuleCheck: 1000
 Maximum Result Vertices:   4096
@@ -684,7 +684,7 @@ LAYER VV .............. TOTAL Original Geometry Count = 0  (0)
 LAYER PCFILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER RXFILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER M1FILL .......... TOTAL Original Geometry Count = 0  (0)
-LAYER M1 .............. TOTAL Original Geometry Count = 21 (21)
+LAYER M1 .............. TOTAL Original Geometry Count = 20 (20)
 LAYER M2FILL .......... TOTAL Original Geometry Count = 0  (0)
 LAYER M2 .............. TOTAL Original Geometry Count = 5  (5)
 LAYER M3FILL .......... TOTAL Original Geometry Count = 0  (0)
@@ -3825,7 +3825,7 @@ RULECHECK GRESD40 ................... TOTAL Result Count = 0 (0)
 --- SUMMARY
 ---
 TOTAL CPU Time:                  1
-TOTAL REAL Time:                 5
-TOTAL Original Layer Geometries: 84 (84)
+TOTAL REAL Time:                 4
+TOTAL Original Layer Geometries: 83 (83)
 TOTAL DRC RuleChecks Executed:   2076
 TOTAL DRC Results Generated:     0 (0)

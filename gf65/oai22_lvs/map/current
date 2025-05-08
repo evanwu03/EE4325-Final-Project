@@ -1,7 +1,7 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "oai22"
+  blockName "aoi22"
   repList "auCdl schematic"
   stopList "auCdl"
   globalList "vdd! gnd!"
@@ -9,7 +9,7 @@
   netlistDir "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_lvs"
  )
 ( model
-( "tutorial/oai22/schematic" "oai22" )
+( "tutorial/aoi22/schematic" "aoi22" )
  )
-( "oai22" "ihnl/cds0/map" )
+( "aoi22" "ihnl/cds0/map" )
  )

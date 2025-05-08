@@ -14,8 +14,8 @@
 REPORT FILE NAME:         nand3.lvs.report
 LAYOUT NAME:              nand3.sp ('nand3')
 SOURCE NAME:              nand3.src.net ('nand3')
-RULE FILE:                __Calibre_LVS_rules__
-CREATION TIME:            Wed May  7 14:21:57 2025
+RULE FILE:                _Calibre_LVS_rules_
+CREATION TIME:            Wed May  7 20:44:03 2025
 CURRENT DIRECTORY:        /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand3_lvs
 USER NAME:                ebw220000
 CALIBRE VERSION:          v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024

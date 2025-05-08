@@ -2,5 +2,5 @@
 # FILE: svdb/dff2.dv
 dv_start matched                                  
 dv_cell {dff2} {dff2} matched
-dv_obj_count -transformed_nets {12 12} -transformed_inst {20 20} -transformed_port {6 6}
+dv_obj_count -transformed_nets {12 12} -transformed_inst {13 13} -transformed_port {6 6}
 dv_end
