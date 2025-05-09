@@ -1,3 +1,4 @@
+cUiSelectCellP {combined_cells}
 cUiSetViewStatus {combined_cells} {layout} {1}
 cUiSetViewStatus {combined_cells} {logical} {0}
 cUiSetViewStatus {combined_cells} {abstract.pin} {3}

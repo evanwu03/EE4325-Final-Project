@@ -1,0 +1,98 @@
+* File: NAND2.pex.sp.NAND2.pxi
+* Created: Thu May  8 20:21:40 2025
+* 
+x_PM_NAND2%OUT N_OUT_MMP0_d N_OUT_MMP1_d N_OUT_MMN0_d N_OUT_c_1_p N_OUT_c_11_p
++ N_OUT_c_12_p N_OUT_c_2_p N_OUT_c_14_p N_OUT_c_15_p N_OUT_c_16_p OUT
++ PM_NAND2%OUT
+x_PM_NAND2%GND! N_GND!_D0_noxref_pos N_GND!_MMN1_s GND! N_GND!_c_55_n
++ N_GND!_c_56_n PM_NAND2%GND!
+x_PM_NAND2%VDD! N_VDD!_D0_noxref_neg N_VDD!_MMP0_s VDD! N_VDD!_c_85_n
++ N_VDD!_c_89_n PM_NAND2%VDD!
+x_PM_NAND2%A N_A_MMN0_g N_A_MMP0_g N_A_c_108_n N_A_c_110_n N_A_c_111_n
++ N_A_c_112_n A PM_NAND2%A
+x_PM_NAND2%B N_B_MMN1_g N_B_MMP1_g N_B_c_137_n N_B_c_139_n N_B_c_141_n
++ N_B_c_142_n B PM_NAND2%B
+cc_1 N_OUT_c_1_p N_GND!_D0_noxref_pos 0.0884186f
+cc_2 N_OUT_c_2_p N_GND!_D0_noxref_pos 0.00997673f
+cc_3 OUT N_GND!_D0_noxref_pos 0.00925681f
+cc_4 N_OUT_c_1_p N_GND!_c_55_n 0.00121255f
+cc_5 N_OUT_c_1_p N_GND!_c_56_n 0.00379898f
+cc_6 N_OUT_c_2_p N_GND!_c_56_n 5.51542e-19
+cc_7 OUT N_GND!_c_56_n 9.50819e-19
+cc_8 N_OUT_MMP0_d N_VDD!_D0_noxref_neg 0.00847679f
+cc_9 N_OUT_MMP1_d N_VDD!_D0_noxref_neg 0.00803719f
+cc_10 N_OUT_c_1_p N_VDD!_D0_noxref_neg 0.0265048f
+cc_11 N_OUT_c_11_p N_VDD!_D0_noxref_neg 0.0422252f
+cc_12 N_OUT_c_12_p N_VDD!_D0_noxref_neg 0.0489037f
+cc_13 N_OUT_c_2_p N_VDD!_D0_noxref_neg 0.0292984f
+cc_14 N_OUT_c_14_p N_VDD!_D0_noxref_neg 0.0429654f
+cc_15 N_OUT_c_15_p N_VDD!_D0_noxref_neg 0.00458512f
+cc_16 N_OUT_c_16_p N_VDD!_D0_noxref_neg 0.0048802f
+cc_17 OUT N_VDD!_D0_noxref_neg 0.00544325f
+cc_18 N_OUT_MMP0_d N_VDD!_MMP0_s 0.00240717f
+cc_19 N_OUT_c_11_p N_VDD!_MMP0_s 0.0047493f
+cc_20 N_OUT_c_12_p N_VDD!_MMP0_s 0.020608f
+cc_21 N_OUT_c_14_p VDD! 0.00123238f
+cc_22 N_OUT_MMP0_d N_VDD!_c_85_n 0.0047493f
+cc_23 N_OUT_c_11_p N_VDD!_c_85_n 0.0447309f
+cc_24 N_OUT_c_12_p N_VDD!_c_85_n 0.0048718f
+cc_25 N_OUT_c_14_p N_VDD!_c_85_n 0.0117012f
+cc_26 N_OUT_c_11_p N_VDD!_c_89_n 0.00123238f
+cc_27 N_OUT_MMN0_d N_A_MMN0_g 0.0461236f
+cc_28 N_OUT_c_1_p N_A_MMN0_g 0.0155602f
+cc_29 N_OUT_MMP0_d N_A_MMP0_g 0.070256f
+cc_30 N_OUT_c_11_p N_A_MMP0_g 0.01542f
+cc_31 N_OUT_c_11_p N_A_c_108_n 0.0116851f
+cc_32 N_OUT_c_12_p N_A_c_108_n 0.0067928f
+cc_33 N_OUT_c_12_p N_A_c_110_n 0.00396076f
+cc_34 N_OUT_c_1_p N_A_c_111_n 0.069787f
+cc_35 N_OUT_c_1_p N_A_c_112_n 0.0180798f
+cc_36 N_OUT_c_12_p N_A_c_112_n 0.00301196f
+cc_37 N_OUT_c_1_p A 0.00786469f
+cc_38 N_OUT_c_12_p A 0.00233505f
+cc_39 N_OUT_MMP1_d N_B_MMP1_g 0.0121718f
+cc_40 N_OUT_c_14_p N_B_MMP1_g 0.0132327f
+cc_41 N_OUT_c_12_p N_B_c_137_n 0.0137709f
+cc_42 N_OUT_c_14_p N_B_c_137_n 0.00718753f
+cc_43 N_OUT_c_12_p N_B_c_139_n 0.00397378f
+cc_44 N_OUT_c_2_p N_B_c_139_n 0.014789f
+cc_45 OUT N_B_c_141_n 0.00429328f
+cc_46 N_OUT_c_12_p N_B_c_142_n 0.00302865f
+cc_47 N_OUT_c_2_p N_B_c_142_n 0.00512123f
+cc_48 OUT N_B_c_142_n 0.00283145f
+cc_49 N_OUT_c_12_p B 0.00212838f
+cc_50 N_OUT_c_2_p B 0.00215467f
+cc_51 OUT B 0.0120366f
+cc_52 N_GND!_D0_noxref_pos N_A_MMN0_g 0.0158573f
+cc_53 N_GND!_D0_noxref_pos N_A_c_110_n 0.022395f
+cc_54 N_GND!_D0_noxref_pos N_A_c_111_n 0.084846f
+cc_55 N_GND!_D0_noxref_pos N_A_c_112_n 0.00462259f
+cc_56 N_GND!_D0_noxref_pos A 0.00742172f
+cc_57 N_GND!_D0_noxref_pos N_B_MMN1_g 0.0142049f
+cc_58 N_GND!_MMN1_s N_B_MMN1_g 0.00933635f
+cc_59 N_GND!_c_56_n N_B_MMN1_g 0.0129756f
+cc_60 N_GND!_D0_noxref_pos N_B_c_139_n 0.0226591f
+cc_61 N_GND!_D0_noxref_pos N_B_c_141_n 0.0991118f
+cc_62 N_GND!_D0_noxref_pos N_B_c_142_n 0.00530471f
+cc_63 N_GND!_D0_noxref_pos B 0.00450954f
+cc_64 N_VDD!_D0_noxref_neg N_A_MMP0_g 0.0142288f
+cc_65 N_VDD!_MMP0_s N_A_MMP0_g 0.0229043f
+cc_66 N_VDD!_c_85_n N_A_MMP0_g 0.0162389f
+cc_67 N_VDD!_D0_noxref_neg N_A_c_108_n 0.0626492f
+cc_68 N_VDD!_D0_noxref_neg N_A_c_110_n 0.016829f
+cc_69 N_VDD!_D0_noxref_neg N_A_c_112_n 0.00108167f
+cc_70 N_VDD!_D0_noxref_neg A 0.00538136f
+cc_71 N_VDD!_D0_noxref_neg N_B_MMP1_g 0.0146079f
+cc_72 N_VDD!_MMP0_s N_B_MMP1_g 0.00424528f
+cc_73 N_VDD!_c_85_n N_B_MMP1_g 0.0113695f
+cc_74 N_VDD!_D0_noxref_neg N_B_c_137_n 0.0637172f
+cc_75 N_VDD!_D0_noxref_neg N_B_c_139_n 0.0171827f
+cc_76 N_VDD!_D0_noxref_neg N_B_c_142_n 0.00132342f
+cc_77 N_VDD!_D0_noxref_neg B 0.00328352f
+cc_78 N_A_c_110_n N_B_c_139_n 0.0104983f
+cc_79 N_A_c_112_n N_B_c_139_n 0.00208462f
+cc_80 N_A_c_110_n N_B_c_142_n 0.0017888f
+cc_81 N_A_c_112_n N_B_c_142_n 0.00621138f
+cc_82 A N_B_c_142_n 0.0019715f
+cc_83 N_A_c_112_n B 0.00196988f
+cc_84 A B 0.00946292f

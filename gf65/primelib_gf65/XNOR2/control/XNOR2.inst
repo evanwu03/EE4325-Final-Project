@@ -2,22 +2,22 @@
 
 
 
-set_netlist_file [get_location]/netlists/xnor2.pex.sp
+set_netlist_file [get_location]/netlists/XNOR2.pex.sp
 
 ## 
 ## Pin definitions.
 ## 
 add_pin VSS default -inout
 add_pin VDD default -inout
-add_pin INA default -input
-add_pin INB default -input
+add_pin A default -input
+add_pin B default -input
 add_pin OUT default -output
 
 
 ## 
 ## Cell function definition.
 ## 
-add_function OUT {(!(((!INA)&INB)+((!INB)&INA)))}
+add_function OUT {(!(((!A)&B)+((!B)&A)))}
 
 
 
@@ -27,7 +27,7 @@ add_function OUT {(!(((!INA)&INB)+((!INB)&INA)))}
 ## 
 
 create_parameter cut_netlist
-set_config_opt -opcond __default__ -- cut_netlist xnor2.pex.sp
+set_config_opt -opcond __default__ -- cut_netlist XNOR2.pex.sp
 
 ## add_user_stimulus
 

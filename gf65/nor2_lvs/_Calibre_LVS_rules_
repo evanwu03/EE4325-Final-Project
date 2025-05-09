@@ -1,28 +1,28 @@
 #!tvf
 tvf::VERBATIM {
 //
-//  Rule file generated on Wed May 7 20:44:35 2025
+//  Rule file generated on Thu May 8 20:27:36 2025
 //  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "nor2.calibre.db"
+LAYOUT PATH "NOR2.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "nor2"
+LAYOUT PRIMARY "NOR2"
 
-SOURCE PATH "nor2.src.net"
+SOURCE PATH "NOR2.src.net"
 SOURCE SYSTEM SPICE
-SOURCE PRIMARY "nor2"
+SOURCE PRIMARY "NOR2"
 
 MASK SVDB DIRECTORY "svdb" QUERY
 
-LVS REPORT "nor2.lvs.report"
+LVS REPORT "NOR2.lvs.report"
 
 LVS EXECUTE ERC YES
 
-ERC RESULTS DATABASE "nor2.erc.results"
+ERC RESULTS DATABASE "NOR2.erc.results"
 ERC CELL NAME YES CELL SPACE XFORM
 
 DRC ICSTATION YES

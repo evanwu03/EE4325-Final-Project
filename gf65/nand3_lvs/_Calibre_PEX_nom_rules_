@@ -1,26 +1,26 @@
 #!tvf
 tvf::VERBATIM {
 //
-//  Rule file generated on Thu May 8 13:25:07 2025
+//  Rule file generated on Thu May 8 20:25:00 2025
 //  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "nand3.calibre.db"
+LAYOUT PATH "NAND3.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "nand3"
+LAYOUT PRIMARY "NAND3"
 
-SOURCE PATH "nand3.src.net"
+SOURCE PATH "NAND3.src.net"
 SOURCE SYSTEM SPICE
-SOURCE PRIMARY "nand3"
+SOURCE PRIMARY "NAND3"
 
-PEX NETLIST "nand3.pex.sp" HSPICE SOURCENAMES
+PEX NETLIST "NAND3.pex.sp" HSPICE SOURCENAMES
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 
-LVS REPORT "nand3.lvs.report"
+LVS REPORT "NAND3.lvs.report"
 
 DRC ICSTATION YES
 

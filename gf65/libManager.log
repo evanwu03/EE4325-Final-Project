@@ -572,3 +572,361 @@
 \a cdsLibManager->libLineEdit->value = "tutorial"
 \a nrSetWindowVisibility(cdsLibManager "show")
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "dff"
+\a cdsLibManager->cellLineEdit->value = "dff"
+\a lmgrLogShowPopup("mainListPopup1" 25 19 2 "dff")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1028 194 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1207 324 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "dff" from library "tutorial".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a nrResizeWindow(deleteForm list(1028 120 627 425))
+\o Deleted cell 'tutorial/dff'.
+\o Deletion of 1 cell done.
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\a cdsLibManager->cellListBox->value = "dff2"
+\a cdsLibManager->cellLineEdit->value = "dff2"
+\a lmgrLogShowPopup("mainListPopup1" 30 30 2 "dff2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "dff2"
+\a basicRenameForm->basicRenameToEdit->value = "dff2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "DFF"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "dff2" to "DFF" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->cellListBox->value = "combined_cells"
+\a cdsLibManager->cellLineEdit->value = "combined_cells"
+\a cdsLibManager->cellListBox->value = "filler"
+\a cdsLibManager->cellLineEdit->value = "filler"
+\a lmgrLogShowPopup("mainListPopup1" 18 42 2 "filler")
+\a lmgrLogShowPopup("mainListPopup1" 12 46 2 "filler")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "filler"
+\a basicRenameForm->basicRenameToEdit->value = "filler"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "FILLER"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "filler" to "FILLER" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->cellListBox->value = "inv"
+\a cdsLibManager->cellLineEdit->value = "inv"
+\a lmgrLogShowPopup("mainListPopup1" 44 54 2 "inv")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "inv"
+\a basicRenameForm->basicRenameToEdit->value = "inv"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "INV"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "inv" to "INV" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a lmgrLogShowPopup("mainListPopup1" 39 75 2 "nand2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "nand2"
+\a basicRenameForm->basicRenameToEdit->value = "nand2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "NAND2"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o View file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial/nand2/layout/layout.oa is locked by ebw220000 at host engnx05a.utdallas.edu
+\o ERROR (CLM-223): Cell tutorial/nand2 has files that are locked or are checked out.\nCheck the "Messages" window for a list of which files are causing problem\nRename failed.
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a nrResizeWindow(errorDialog list(1126 343 450 134))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(errorDialog list(1126 306 450 134))
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 58 78 2 "nand2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameToEdit->value = "nand2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "NAND2"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o View file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial/nand2/layout/layout.oa is locked by ebw220000 at host engnx05a.utdallas.edu
+\o ERROR (CLM-223): Cell tutorial/nand2 has files that are locked or are checked out.\nCheck the "Messages" window for a list of which files are causing problem\nRename failed.
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a nrResizeWindow(errorDialog list(1126 343 450 134))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(errorDialog list(1126 306 450 134))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 20 77 2 "nand2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameToEdit->value = "nand2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "NAND2"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "nand2" to "NAND2" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->cellListBox->value = "nand3"
+\a cdsLibManager->cellLineEdit->value = "nand3"
+\a lmgrLogShowPopup("mainListPopup1" 78 98 2 "nand3")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "nand3"
+\a basicRenameForm->basicRenameToEdit->value = "nand3"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "NAND3"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o View file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial/nand3/layout/layout.oa is locked by ebw220000 at host engnx05a.utdallas.edu
+\o ERROR (CLM-223): Cell tutorial/nand3 has files that are locked or are checked out.\nCheck the "Messages" window for a list of which files are causing problem\nRename failed.
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a nrResizeWindow(errorDialog list(1126 343 450 134))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(errorDialog list(1126 306 450 134))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "nand3"
+\a cdsLibManager->cellLineEdit->value = "nand3"
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 62 96 2 "nand3")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameToEdit->value = "nand3"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "NAND3"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "nand3" to "NAND3" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->cellListBox->value = "combined_cells"
+\a cdsLibManager->cellLineEdit->value = "combined_cells"
+\a cdsLibManager->cellListBox->value = "nor2"
+\a cdsLibManager->cellLineEdit->value = "nor2"
+\a lmgrLogShowPopup("mainListPopup1" 36 111 2 "nor2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "nor2"
+\a basicRenameForm->basicRenameToEdit->value = "nor2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "NOR2"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "nor2" to "NOR2" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->cellListBox->value = "oai22"
+\a cdsLibManager->cellLineEdit->value = "oai22"
+\a lmgrLogShowPopup("mainListPopup1" 86 129 2 "oai22")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "oai22"
+\a basicRenameForm->basicRenameToEdit->value = "oai22"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "OAI22"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "oai22" to "OAI22" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a lmgrLogShowPopup("mainListPopup1" 36 147 2 "xnor2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "xnor2"
+\a basicRenameForm->basicRenameToEdit->value = "xnor2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "XNOR2"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "xnor2" to "XNOR2" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\o Rename succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

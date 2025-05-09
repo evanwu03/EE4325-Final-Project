@@ -1,7 +1,7 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "inv"
+  blockName "INV"
   repList "auCdl schematic"
   stopList "auCdl"
   globalList "vdd! gnd!"
@@ -9,7 +9,7 @@
   netlistDir "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/inv_LVS"
  )
 ( model
-( "tutorial/inv/schematic" "inv" )
+( "tutorial/INV/schematic" "INV" )
  )
-( "inv" "ihnl/cds0/map" )
+( "INV" "ihnl/cds0/map" )
  )

@@ -1,6 +1,6 @@
 CADENCE IHNL11140
 $model
-tutorial/dff/schematic dff
+tutorial/DFF/schematic DFF
 $endmodel
 $net
 gnd! gnd!

@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand3_lvs
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_LvsOutFile LVS_REPORT NAND3.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST NAND3.src.net
+lvs_LvsOutFile RULES_FILE _Calibre_PEX_nom_rules_
+lvs_LvsRunTimes 1746753918 1746753919

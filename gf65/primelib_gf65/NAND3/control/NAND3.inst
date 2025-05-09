@@ -2,23 +2,23 @@
 
 
 
-set_netlist_file [get_location]/netlists/nand3.pex.sp
+set_netlist_file [get_location]/netlists/NAND3.pex.sp
 
 ## 
 ## Pin definitions.
 ## 
 add_pin VSS default -inout
 add_pin VDD default -inout
-add_pin INA default -input
-add_pin INB default -input
-add_pin INC default -input
+add_pin A default -input
+add_pin B default -input
+add_pin C default -input
 add_pin OUT default -output
 
 
 ## 
 ## Cell function definition.
 ## 
-add_function OUT {(!(INA&INB&INC))}
+add_function OUT {(!(A&B&C))}
 
 
 
@@ -28,7 +28,7 @@ add_function OUT {(!(INA&INB&INC))}
 ## 
 
 create_parameter cut_netlist
-set_config_opt -opcond __default__ -- cut_netlist nand3.pex.sp
+set_config_opt -opcond __default__ -- cut_netlist NAND3.pex.sp
 
 ## add_user_stimulus
 

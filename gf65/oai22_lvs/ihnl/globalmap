@@ -1,6 +1,6 @@
 CADENCE IHNL11140
 $model
-tutorial/oai22/schematic oai22
+tutorial/OAI22/schematic OAI22
 $endmodel
 $net
 gnd! gnd!

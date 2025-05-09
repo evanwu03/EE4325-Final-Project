@@ -1,7 +1,7 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "nand2"
+  blockName "NAND2"
   repList "auCdl schematic"
   stopList "auCdl"
   globalList "vdd! gnd!"
@@ -9,7 +9,7 @@
   netlistDir "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand2_lvs"
  )
 ( model
-( "tutorial/nand2/schematic" "nand2" )
+( "tutorial/NAND2/schematic" "NAND2" )
  )
-( "nand2" "ihnl/cds0/map" )
+( "NAND2" "ihnl/cds0/map" )
  )

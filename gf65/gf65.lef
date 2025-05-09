@@ -327,11 +327,10 @@ SITE  Core
 END  Core
 
 
-
-MACRO dff2
+MACRO DFF
   CLASS CORE ;
   ORIGIN 4.427 2.002 ;
-  FOREIGN dff2 -4.427 -2.002 ;
+  FOREIGN DFF -4.427 -2.002 ;
   SIZE 8.32 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
@@ -453,13 +452,13 @@ MACRO dff2
       RECT -4.128 0.428 -3.455 0.538 ;
       RECT 2.152 0.866 3.228 0.976 ;
   END
+ 
+END DFF
 
-END dff2
-
-MACRO filler
-  CLASS CORE ;
+MACRO FILLER
+  CLASS CORE;
   ORIGIN 0.263 3.998 ;
-  FOREIGN filler -0.263 -3.998 ;
+  FOREIGN FILLER -0.263 -3.998 ;
   SIZE 0.26 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
@@ -482,16 +481,16 @@ MACRO filler
     END
   END VDD!
 
-END filler
+END FILLER
 
-MACRO inv
+MACRO INV
   CLASS CORE ;
   ORIGIN 0.618 2.538 ;
-  FOREIGN inv -0.618 -2.538 ;
+  FOREIGN INV -0.618 -2.538 ;
   SIZE 1.3 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
-  PIN INA
+  PIN IN
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -502,7 +501,7 @@ MACRO inv
       LAYER V1 ;
         RECT -0.28 0.264 -0.18 0.364 ;
     END
-  END INA
+  END IN
   PIN OUT
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -535,17 +534,17 @@ MACRO inv
         RECT -0.305 1.295 -0.195 3.442 ;
     END
   END VDD!
+  
+END INV
 
-END inv
-
-MACRO nand2
+MACRO NAND2
   CLASS CORE ;
   ORIGIN 0.916 2.835 ;
-  FOREIGN nand2 -0.916 -2.835 ;
+  FOREIGN NAND2 -0.916 -2.835 ;
   SIZE 2.08 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
-  PIN INA
+  PIN A
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -556,8 +555,8 @@ MACRO nand2
       LAYER V1 ;
         RECT -0.315 -0.036 -0.215 0.064 ;
     END
-  END INA
-  PIN INB
+  END A
+  PIN B
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -568,7 +567,7 @@ MACRO nand2
       LAYER V1 ;
         RECT 0.206 -0.034 0.306 0.066 ;
     END
-  END INB
+  END B
   PIN OUT
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -603,17 +602,17 @@ MACRO nand2
         RECT -0.232 1.004 -0.122 3.145 ;
     END
   END VDD!
+  
+END NAND2
 
-END nand2
-
-MACRO nand3
+MACRO NAND3
   CLASS CORE ;
   ORIGIN 1.273 2.268 ;
-  FOREIGN nand3 -1.273 -2.268 ;
+  FOREIGN NAND3 -1.273 -2.268 ;
   SIZE 2.6 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
-  PIN INA
+  PIN A
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -624,8 +623,8 @@ MACRO nand3
       LAYER V1 ;
         RECT -0.671 0.536 -0.571 0.636 ;
     END
-  END INA
-  PIN INB
+  END A
+  PIN B
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -636,8 +635,8 @@ MACRO nand3
       LAYER V1 ;
         RECT -0.152 0.529 -0.052 0.629 ;
     END
-  END INB
-  PIN INC
+  END B
+  PIN C
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -648,7 +647,7 @@ MACRO nand3
       LAYER V1 ;
         RECT 0.889 0.538 0.989 0.638 ;
     END
-  END INC
+  END C
   PIN OUT
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -686,17 +685,17 @@ MACRO nand3
         RECT -0.964 1.565 -0.854 3.712 ;
     END
   END VDD!
+  
+END NAND3
 
-END nand3
-
-MACRO nor2
+MACRO NOR2
   CLASS CORE ;
   ORIGIN 1.149 2.627 ;
-  FOREIGN nor2 -1.149 -2.627 ;
+  FOREIGN NOR2 -1.149 -2.627 ;
   SIZE 2.08 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
-  PIN INA
+  PIN A
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -707,8 +706,8 @@ MACRO nor2
       LAYER V1 ;
         RECT -0.548 0.179 -0.448 0.279 ;
     END
-  END INA
-  PIN INB
+  END A
+  PIN B
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -719,7 +718,7 @@ MACRO nor2
       LAYER V1 ;
         RECT -0.027 0.179 0.073 0.279 ;
     END
-  END INB
+  END B
   PIN OUT
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -755,17 +754,17 @@ MACRO nor2
         RECT -0.858 1.208 -0.748 3.353 ;
     END
   END VDD!
+  
+END NOR2
 
-END nor2
-
-MACRO oai22
+MACRO OAI22
   CLASS CORE ;
   ORIGIN 1.401 1.167 ;
-  FOREIGN oai22 -1.401 -1.167 ;
+  FOREIGN OAI22 -1.401 -1.167 ;
   SIZE 2.86 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
-  PIN INA
+  PIN A
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -776,8 +775,8 @@ MACRO oai22
       LAYER V1 ;
         RECT -1.079 1.636 -0.979 1.736 ;
     END
-  END INA
-  PIN INB
+  END A
+  PIN B
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -788,8 +787,8 @@ MACRO oai22
       LAYER V1 ;
         RECT -0.541 1.636 -0.441 1.736 ;
     END
-  END INB
-  PIN INC
+  END B
+  PIN C
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -800,8 +799,8 @@ MACRO oai22
       LAYER V1 ;
         RECT 1.02 1.636 1.12 1.736 ;
     END
-  END INC
-  PIN IND
+  END C
+  PIN D
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -812,7 +811,7 @@ MACRO oai22
       LAYER V1 ;
         RECT -0.02 1.636 0.08 1.736 ;
     END
-  END IND
+  END D
   PIN OUT
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -858,17 +857,17 @@ MACRO oai22
       RECT -1.097 -0.507 -0.987 0.444 ;
       RECT -1.097 -0.507 -0.036 -0.397 ;
   END
+  
+END OAI22
 
-END oai22
-
-MACRO xnor2
+MACRO XNOR2
   CLASS CORE ;
-  ORIGIN 1.21 1.183 ;
-  FOREIGN xnor2 -1.21 -1.183 ;
-  SIZE 2.86 BY 6.5 ;
+  ORIGIN 1.21 0.964 ;
+  FOREIGN XNOR2 -1.21 -0.964 ;
+  SIZE 2.86 BY 5.98 ;
   SYMMETRY X Y ;
   SITE CoreSite ;
-  PIN INA
+  PIN A
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -879,8 +878,8 @@ MACRO xnor2
       LAYER V1 ;
         RECT 1.213 1.865 1.313 1.965 ;
     END
-  END INA
-  PIN INB
+  END A
+  PIN B
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
@@ -891,7 +890,7 @@ MACRO xnor2
       LAYER V1 ;
         RECT -0.344 1.864 -0.244 1.964 ;
     END
-  END INB
+  END B
   PIN OUT
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -909,18 +908,20 @@ MACRO xnor2
   PIN GND!
     DIRECTION INOUT ;
     USE GROUND ;
+    SHAPE ABUTMENT ;
     PORT
       LAYER M1 ;
-        RECT -0.943 -0.964 1.326 -0.81 ;
+        RECT -1.21 -0.964 1.65 -0.81 ;
         RECT -0.104 -0.964 0.006 0.645 ;
     END
   END GND!
   PIN VDD!
     DIRECTION INOUT ;
     USE POWER ;
+    SHAPE ABUTMENT ;
     PORT
       LAYER M1 ;
-        RECT -0.943 4.873 1.326 5.016 ;
+        RECT -1.21 4.873 1.65 5.016 ;
         RECT 1.205 2.872 1.315 5.016 ;
         RECT -0.092 2.872 0.018 5.016 ;
         RECT -0.935 2.875 -0.825 5.016 ;
@@ -935,7 +936,7 @@ MACRO xnor2
       RECT -0.935 2.254 0.254 2.364 ;
       RECT -0.935 0.086 -0.825 2.364 ;
   END
-
-END xnor2
+  
+END XNOR2
 
 END LIBRARY

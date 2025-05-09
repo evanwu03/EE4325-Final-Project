@@ -1,11 +1,11 @@
 {
     "PLEASE DON'T EDIT OR PARSE": "This is automatically generated file for extracting in QS",
-    "CREATION TIME": "Thu May  8 13:46:12 2025",
+    "CREATION TIME": "Thu May  8 20:46:30 2025",
     "VERSION": "1",
     "LVS CORRECT CELLS": [
         [
-            "xnor2",
-            "xnor2"
+            "XNOR2",
+            "XNOR2"
         ]
     ]
 }

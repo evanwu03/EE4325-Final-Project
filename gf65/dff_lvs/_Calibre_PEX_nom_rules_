@@ -1,27 +1,26 @@
 #!tvf
 tvf::VERBATIM {
 //
-//  Rule file generated on Thu Apr 24 01:11:39 2025
+//  Rule file generated on Thu May 8 20:09:08 2025
 //  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "dff.calibre.db"
+LAYOUT PATH "DFF.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "dff"
+LAYOUT PRIMARY "DFF"
 
-SOURCE PATH "dff.src.net"
+SOURCE PATH "DFF.src.net"
 SOURCE SYSTEM SPICE
-SOURCE PRIMARY "dff"
+SOURCE PRIMARY "DFF"
 
-PEX NETLIST "dff.pex.sp" HSPICE SOURCENAMES CLAYER CLOCATION
+PEX NETLIST "DFF.pex.sp" HSPICE SOURCENAMES
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 
-LVS REPORT "dff.lvs.report"
-PEX REPORT "dff.pex.report" SOURCENAMES
+LVS REPORT "DFF.lvs.report"
 
 DRC ICSTATION YES
 

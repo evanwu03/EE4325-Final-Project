@@ -3,13 +3,13 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Thu May  8 13:25:18 2025
+Execution Date/Time:          Thu May  8 20:25:12 2025
 Calibre Version:              v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
 Rule File Pathname:           _Calibre_PEX_nom_rules_
 Rule File Title:              
 Layout System:                GDSII
-Layout Path(s):               nand3.calibre.db
-Layout Primary Cell:          nand3
+Layout Path(s):               NAND3.calibre.db
+Layout Primary Cell:          NAND3
 Current Directory:            /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/nand3_lvs
 User Name:                    ebw220000
 Maximum Results/ERC Check:    1000
@@ -186,7 +186,7 @@ RULECHECK check_symindp_ctap_vias ... TOTAL Result Count = 0 (0)
 --- SUMMARY
 ---
 TOTAL CPU Time:                              3
-TOTAL REAL Time:                             7
+TOTAL REAL Time:                             6
 TOTAL Original Layer Geometries:             119 (119)
 TOTAL ERC RuleChecks Executed:               11
 TOTAL ERC RuleCheck Results Generated:       0 (0)

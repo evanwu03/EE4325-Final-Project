@@ -1,0 +1,160 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 3224703 (PPID: 3224700)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (8.0 GB free), 4 GB Swap (3.8 GB free)
+System load average: 13.22, 11.99, 12.33 (22891 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib -server /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/runtime/cdpl/pid3224281/driver_3224281.tcl
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/etc/cell.stat.gz
+Thu May 08 21:04:25 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Thu May 08 21:04:25 CDT 2025: Environment set up done (0 seconds)
+Create and link tmpdir /var/tmp/pl.engnx05a.771092.3224700 -> /var/tmp/primelib.engnx05a.utdallas.edu.771092.3224703 
+[CDPL] Loading settings for stage: characterization.0
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
+Thu May 08 21:04:25 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Thu May 08 21:04:25 CDT 2025: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.0
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/delay__A__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Error:   Simulation delay__A__lh__OUT__hl__ACQ_1.sif for cell INV failed: Element 'A_meter' is undefined. (SC-39) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__A__lh__OUT__hl__ACQ_1 0.11 0.01 0.05 0.09 1 0.358158111572 engnx05a.utdallas.edu 1746756265.31 1746756265.66 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/delay__A__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Error:   Simulation delay__A__hl__OUT__lh__ACQ_1.sif for cell INV failed: Element 'A_meter' is undefined. (SC-39) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__A__hl__OUT__lh__ACQ_1 0.05 0.01 0.0 0.0 1 0.0852839946747 engnx05a.utdallas.edu 1746756265.67 1746756265.75 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.3224703/INV/leakage_power__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV
+Simulation INV::leakage_power__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ INV leakage_power__ACQ_1 0.04 0.0 5.87 1.15 1 7.51517701149 engnx05a.utdallas.edu 1746756265.75 1746756273.27 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VSS__lh__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV
+Simulation INV::Cin__VSS__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ INV Cin__VSS__lh__ACQ_1 0.03 0.01 5.9 1.14 1 7.46987104416 engnx05a.utdallas.edu 1746756273.27 1746756280.74 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VSS__hl__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV
+Simulation INV::Cin__VSS__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ INV Cin__VSS__hl__ACQ_1 0.04 0.0 5.95 1.14 1 7.61103796959 engnx05a.utdallas.edu 1746756280.74 1746756288.35 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VDD__lh__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV
+Simulation INV::Cin__VDD__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ INV Cin__VDD__lh__ACQ_1 0.06 0.04 6.03 1.18 1 7.77143383026 engnx05a.utdallas.edu 1746756288.35 1746756296.12 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/delay__A__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Error:   Simulation delay__A__lh__OUT__hl__ACQ_1.sif for cell INV failed: Element 'A_meter' is undefined. (SC-39) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__A__lh__OUT__hl__ACQ_1 0.05 0.0 0.0 0.0 1 0.0771589279175 engnx05a.utdallas.edu 1746756296.12 1746756296.2 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/delay__A__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Error:   Simulation delay__A__hl__OUT__lh__ACQ_1.sif for cell INV failed: Element 'A_meter' is undefined. (SC-39) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__A__hl__OUT__lh__ACQ_1 0.05 0.0 0.0 0.0 1 0.0732958316803 engnx05a.utdallas.edu 1746756296.2 1746756296.27 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.3224703/INV/Cin__VDD__hl__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV
+Simulation INV::Cin__VDD__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ INV Cin__VDD__hl__ACQ_1 0.03 0.0 6.1 1.23 1 7.83141994476 engnx05a.utdallas.edu 1746756296.27 1746756304.1 1
+[CDPL] Loading settings for stage: characterization.1
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/etc/cell.stat.gz
+Thu May 08 21:06:52 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Thu May 08 21:06:52 CDT 2025: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.1
+Loading information for cell INV
+Error:   leakage_power__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV leakage_power__ACQ_1 0.04 0.0 0.0 0.0 0 0.0536057949066 engnx05a.utdallas.edu 1746756412.63 1746756412.68 1
+Loading information for cell INV
+Error:   delay__A__lh__OUT__hl__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV delay__A__lh__OUT__hl__ACQ_1 0.02 0.0 0.0 0.0 0 0.0219869613647 engnx05a.utdallas.edu 1746756412.68 1746756412.7 1
+Loading information for cell INV
+Error:   delay__A__hl__OUT__lh__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV delay__A__hl__OUT__lh__ACQ_1 0.02 0.0 0.0 0.0 0 0.0216219425201 engnx05a.utdallas.edu 1746756412.7 1746756412.72 1
+Loading information for cell INV
+Error:   Cin__VSS__lh__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VSS__lh__ACQ_1 0.01 0.0 0.0 0.0 0 0.0219120979309 engnx05a.utdallas.edu 1746756412.72 1746756412.75 1
+Loading information for cell INV
+Error:   Cin__VSS__hl__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VSS__hl__ACQ_1 0.02 0.0 0.0 0.0 0 0.0201089382172 engnx05a.utdallas.edu 1746756412.75 1746756412.77 1
+Loading information for cell INV
+Error:   Cin__VDD__lh__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VDD__lh__ACQ_1 0.01 0.01 0.0 0.0 0 0.0196349620819 engnx05a.utdallas.edu 1746756412.77 1746756412.79 1
+Loading information for cell INV
+Error:   Cin__VDD__hl__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VDD__hl__ACQ_1 0.02 0.0 0.0 0.0 0 0.0192761421204 engnx05a.utdallas.edu 1746756412.79 1746756412.81 1
+Loading information for cell INV
+Error:   leakage_power__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV leakage_power__ACQ_1 0.02 0.0 0.0 0.0 0 0.0218398571014 engnx05a.utdallas.edu 1746756442.54 1746756442.57 1
+Loading information for cell INV
+Error:   delay__A__lh__OUT__hl__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV delay__A__lh__OUT__hl__ACQ_1 0.02 0.0 0.0 0.0 0 0.027969121933 engnx05a.utdallas.edu 1746756442.57 1746756442.59 1
+Loading information for cell INV
+Error:   delay__A__hl__OUT__lh__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV delay__A__hl__OUT__lh__ACQ_1 0.02 0.0 0.0 0.0 0 0.0290968418121 engnx05a.utdallas.edu 1746756442.59 1746756442.62 1
+Loading information for cell INV
+Error:   Cin__VSS__lh__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VSS__lh__ACQ_1 0.01 0.0 0.0 0.0 0 0.0205080509186 engnx05a.utdallas.edu 1746756442.63 1746756442.65 1
+Loading information for cell INV
+Error:   Cin__VSS__hl__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VSS__hl__ACQ_1 0.02 0.0 0.0 0.0 0 0.0194418430328 engnx05a.utdallas.edu 1746756442.65 1746756442.67 1
+Loading information for cell INV
+Error:   Cin__VDD__lh__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VDD__lh__ACQ_1 0.01 0.0 0.0 0.0 0 0.0205340385437 engnx05a.utdallas.edu 1746756442.67 1746756442.69 1
+Loading information for cell INV
+Error:   Cin__VDD__hl__ACQ_1: Error: <class 'wtCommon.wtException'>: Parameter 'portIsActive' has been defined but no value has been set.  Possible port name mismatch between .inst and .t.  Reconfigure?  
+Attempt to access parameter 'portIsActive' on port 'A' has failed.
+----------------------
+__recordTaskStats__ INV Cin__VDD__hl__ACQ_1 0.02 0.0 0.0 0.0 0 0.0208678245544 engnx05a.utdallas.edu 1746756442.69 1746756442.71 1
+Warning: /var/tmp/worker.771092.W1.engnx05a.utdallas.edu.3224703.log: No such file or directory
+   [CDPL] Shutting down worker
+Thu May  8 21:07:58 2025: Program time: 213.00 seconds | 3.55 minutes | 0.06 hours
+CDPL worker exited normally.
+Reset log file
+Maximum virtual memory size: 1020.45 MB

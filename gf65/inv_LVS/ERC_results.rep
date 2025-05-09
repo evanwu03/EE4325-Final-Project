@@ -3,13 +3,13 @@
 ==================================================================================
 === CALIBRE::ERC-H SUMMARY REPORT
 ===
-Execution Date/Time:          Wed May  7 21:08:15 2025
+Execution Date/Time:          Thu May  8 20:15:52 2025
 Calibre Version:              v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
 Rule File Pathname:           _Calibre_PEX_nom_rules_
 Rule File Title:              
 Layout System:                GDSII
-Layout Path(s):               inv.calibre.db
-Layout Primary Cell:          inv
+Layout Path(s):               INV.calibre.db
+Layout Primary Cell:          INV
 Current Directory:            /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/inv_LVS
 User Name:                    ebw220000
 Maximum Results/ERC Check:    1000

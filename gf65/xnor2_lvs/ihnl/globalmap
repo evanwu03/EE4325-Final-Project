@@ -1,6 +1,6 @@
 CADENCE IHNL11140
 $model
-tutorial/xnor2/schematic xnor2
+tutorial/XNOR2/schematic XNOR2
 $endmodel
 $net
 gnd! gnd!

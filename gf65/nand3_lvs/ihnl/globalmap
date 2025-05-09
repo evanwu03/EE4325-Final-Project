@@ -1,6 +1,6 @@
 CADENCE IHNL11140
 $model
-tutorial/nand3/schematic nand3
+tutorial/NAND3/schematic NAND3
 $endmodel
 $net
 gnd! gnd!

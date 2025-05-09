@@ -1,26 +1,26 @@
 #!tvf
 tvf::VERBATIM {
 //
-//  Rule file generated on Thu May 8 13:34:30 2025
+//  Rule file generated on Thu May 8 20:29:01 2025
 //  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "nor2.calibre.db"
+LAYOUT PATH "NOR2.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "nor2"
+LAYOUT PRIMARY "NOR2"
 
-SOURCE PATH "nor2.src.net"
+SOURCE PATH "NOR2.src.net"
 SOURCE SYSTEM SPICE
-SOURCE PRIMARY "nor2"
+SOURCE PRIMARY "NOR2"
 
-PEX NETLIST "nor2.pex.sp" HSPICE SOURCENAMES
+PEX NETLIST "NOR2.pex.sp" HSPICE SOURCENAMES
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 
-LVS REPORT "nor2.lvs.report"
+LVS REPORT "NOR2.lvs.report"
 
 DRC ICSTATION YES
 
