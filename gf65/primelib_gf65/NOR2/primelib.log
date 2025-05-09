@@ -1,0 +1,116 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2837491 (PPID: 1241565)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (15.9 GB free), 4 GB Swap (3.8 GB free)
+System load average: 10.18, 7.12, 7.65 (21738 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2
+Malibu mode 2 activated
+Thu May  8 16:41:50 2025: Establishing connection to license server
+Thu May  8 16:41:50 2025: Testing server connection using feature PrimeLib_CHAR
+Thu May  8 16:41:50 2025: License server connection established
+Thu May  8 16:41:51 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+.			       .nx
+..			       .path
+.HSPICE.html		       .pki
+.ICEauthority		       .plan
+.Xauthority		       .profile
+.Xdefaults		       .qt
+.Xdefaults.maker	       .qtermtab
+.bash_history		       .rve
+.bash_profile		       .rvedb
+.bashrc			       .setow
+.cache			       .setx
+.cadence		       .spxlast
+.cds_pvsui		       .sx
+.cgidfmdb		       .synopsys_dv_prefs.tcl
+.cgindrcdb		       .tcshrc
+.cginlvsdb		       .viminfo
+.cginpexdb		       .xserverrc
+.cgirvedb		       .xsession
+.config			       CDS.log
+.cshrc			       CDS.log.1
+.cx_hostport		       CDS.log.1.cdslck
+.dbus			       CDS.log.2
+.defaults		       CDS.log.2.cdslck
+.elmrc			       CDS.log.3
+.emacs.d		       CDS.log.cdslck
+.engdmv.utdallas.edu_1700.txt  CE4370
+.esd_auth		       CE4370_FINAL
+.exrc			       Desktop
+.flexllm0x6d		       Documents
+.fvwm2rc		       Downloads
+.gitconfig		       Music
+.history		       Pictures
+.ipynb_checkpoints	       Public
+.ipython		       Templates
+.itools			       Videos
+.jupyter		       cad
+.kde			       debug
+.keras			       panic.log.engnx04a.utdallas.edu.1716453
+.lesshst		       panic.log.engnx05a.utdallas.edu.1431758
+.libmgr			       panic.log.engnx05a.utdallas.edu.1694738
+.libsel			       panic.log.engnx05a.utdallas.edu.2974143
+.local			       panic.log.engnx05a.utdallas.edu.3211246
+.login			       panic.log.engnx05a.utdallas.edu.3289304
+.logout			       panic.log.engnx05a.utdallas.edu.700503
+.modelsim		       panic.log.engnx06a.utdallas.edu.2104746
+.modelsim.bak		       public_html
+.mozilla		       sim
+.nfs00000003a6ef923800005c0f   synopsys_cache_O-2018.06-SP1
+.nv			       tensorflow_datasets
+.			       .nx
+..			       .path
+.HSPICE.html		       .pki
+.ICEauthority		       .plan
+.Xauthority		       .profile
+.Xdefaults		       .qt
+.Xdefaults.maker	       .qtermtab
+.bash_history		       .rve
+.bash_profile		       .rvedb
+.bashrc			       .setow
+.cache			       .setx
+.cadence		       .spxlast
+.cds_pvsui		       .sx
+.cgidfmdb		       .synopsys_dv_prefs.tcl
+.cgindrcdb		       .tcshrc
+.cginlvsdb		       .viminfo
+.cginpexdb		       .xserverrc
+.cgirvedb		       .xsession
+.config			       CDS.log
+.cshrc			       CDS.log.1
+.cx_hostport		       CDS.log.1.cdslck
+.dbus			       CDS.log.2
+.defaults		       CDS.log.2.cdslck
+.elmrc			       CDS.log.3
+.emacs.d		       CDS.log.cdslck
+.engdmv.utdallas.edu_1700.txt  CE4370
+.esd_auth		       CE4370_FINAL
+.exrc			       Desktop
+.flexllm0x6d		       Documents
+.fvwm2rc		       Downloads
+.gitconfig		       Music
+.history		       Pictures
+.ipynb_checkpoints	       Public
+.ipython		       Templates
+.itools			       Videos
+.jupyter		       cad
+.kde			       debug
+.keras			       panic.log.engnx04a.utdallas.edu.1716453
+.lesshst		       panic.log.engnx05a.utdallas.edu.1431758
+.libmgr			       panic.log.engnx05a.utdallas.edu.1694738
+.libsel			       panic.log.engnx05a.utdallas.edu.2974143
+.local			       panic.log.engnx05a.utdallas.edu.3211246
+.login			       panic.log.engnx05a.utdallas.edu.3289304
+.logout			       panic.log.engnx05a.utdallas.edu.700503
+.modelsim		       panic.log.engnx06a.utdallas.edu.2104746
+.modelsim.bak		       public_html
+.mozilla		       sim
+.nfs00000003a6ef923800005c0f   synopsys_cache_O-2018.06-SP1
+.nv			       tensorflow_datasets
+Error:   Interrupt
+Error:   Interrupt
+Error:   Interrupt

@@ -1,26 +1,26 @@
 #!tvf
 tvf::VERBATIM {
 //
-//  Rule file generated on Tue Apr 15 17:43:29 2025
+//  Rule file generated on Thu May 8 14:36:55 2025
 //  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH "aoi22.calibre.db"
+LAYOUT PATH "oai22.calibre.db"
 LAYOUT SYSTEM GDSII
-LAYOUT PRIMARY "aoi22"
+LAYOUT PRIMARY "oai22"
 
-SOURCE PATH "aoi22.src.net"
+SOURCE PATH "oai22.src.net"
 SOURCE SYSTEM SPICE
-SOURCE PRIMARY "aoi22"
+SOURCE PRIMARY "oai22"
 
 PEX NETLIST "oai22.pex.sp" HSPICE SOURCENAMES
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 
-LVS REPORT "aoi22.lvs.report"
+LVS REPORT "oai22.lvs.report"
 
 DRC ICSTATION YES
 

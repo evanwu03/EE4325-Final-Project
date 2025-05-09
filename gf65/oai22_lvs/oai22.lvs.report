@@ -12,10 +12,10 @@
 
 
 REPORT FILE NAME:         oai22.lvs.report
-LAYOUT NAME:              oai22.sp ('oai22')
+LAYOUT NAME:              svdb/oai22.sp ('oai22')
 SOURCE NAME:              oai22.src.net ('oai22')
-RULE FILE:                _Calibre_LVS_rules_
-CREATION TIME:            Wed May  7 15:18:17 2025
+RULE FILE:                _Calibre_PEX_nom_rules_
+CREATION TIME:            Thu May  8 14:37:13 2025
 CURRENT DIRECTORY:        /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_lvs
 USER NAME:                ebw220000
 CALIBRE VERSION:          v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
@@ -67,7 +67,7 @@ o LVS Setup:
    LVS ALL CAPACITOR PINS SWAPPABLE       NO
    LVS DISCARD PINS BY DEVICE             NO
    LVS SOFT SUBSTRATE PINS                NO
-   LVS INJECT LOGIC                       YES
+   LVS INJECT LOGIC                       NO
    LVS EXPAND UNBALANCED CELLS            YES
    LVS FLATTEN INSIDE CELL                NO
    LVS EXPAND SEED PROMOTIONS             NO
@@ -134,22 +134,16 @@ o LVS Setup:
    LVS REDUCE PARALLEL DIODES             YES
 
    LVS REDUCE  MN(nfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
-   LVS REDUCE  nfettw  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MP(pfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  M(lvtnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
-   LVS REDUCE  lvtnfettw  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  M(lvtpfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  M(hvtnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
-   LVS REDUCE  hvtnfettw  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  M(hvtpfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MD(dgvnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
-   LVS REDUCE  dgvnfettw  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MD(dgvpfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MD(dgnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
-   LVS REDUCE  dgnfettw  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MD(dgpfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MD(dgxnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
-   LVS REDUCE  dgxnfettw  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MD(dgxpfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MN(natnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MN(natdgnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
@@ -205,19 +199,14 @@ o LVS Setup:
    LVS REDUCE  M(srpddnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  M(srpgdnfet)  PARALLEL [ TOLERANCE L 0 nf 0 ]
    LVS REDUCE  MN(nfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
-   LVS REDUCE  nfettw_rf  PARALLEL NO
    LVS REDUCE  MP(pfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
    LVS REDUCE  M(lvtnfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
-   LVS REDUCE  lvtnfettw_rf  PARALLEL NO
    LVS REDUCE  M(lvtpfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
    LVS REDUCE  M(hvtnfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
-   LVS REDUCE  hvtnfettw_rf  PARALLEL NO
    LVS REDUCE  M(hvtpfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
    LVS REDUCE  MD(dgvnfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
-   LVS REDUCE  dgvnfettw_rf  PARALLEL NO
    LVS REDUCE  MD(dgvpfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
    LVS REDUCE  MD(dgnfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
-   LVS REDUCE  dgnfettw_rf  PARALLEL NO
    LVS REDUCE  MD(dgpfet_rf)  PARALLEL [ TOLERANCE l 0 ngcon 0 gateca 0 ring 0 ]
    LVS REDUCE  C(mimcap)  PARALLEL NO
    LVS REDUCE  C(mimcap)  SERIES POS NEG NO
@@ -264,10 +253,6 @@ o LVS Setup:
    TRACE PROPERTY  mn(nfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  mn(nfet)  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  mn(nfet)  m m 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  nfettw  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  nfettw  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  nfettw  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  nfettw  m m 2.5e-09 ABSOLUTE
    TRACE PROPERTY  mp(pfet)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  mp(pfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  mp(pfet)  nf nf 0.5 ABSOLUTE
@@ -276,10 +261,6 @@ o LVS Setup:
    TRACE PROPERTY  m(lvtnfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(lvtnfet)  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  m(lvtnfet)  m m 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw  m m 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(lvtpfet)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(lvtpfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(lvtpfet)  nf nf 0.5 ABSOLUTE
@@ -288,10 +269,6 @@ o LVS Setup:
    TRACE PROPERTY  m(hvtnfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(hvtnfet)  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  m(hvtnfet)  m m 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw  m m 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(hvtpfet)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(hvtpfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(hvtpfet)  nf nf 0.5 ABSOLUTE
@@ -300,10 +277,6 @@ o LVS Setup:
    TRACE PROPERTY  md(dgvnfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgvnfet)  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  md(dgvnfet)  m m 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw  m m 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgvpfet)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgvpfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgvpfet)  nf nf 0.5 ABSOLUTE
@@ -312,10 +285,6 @@ o LVS Setup:
    TRACE PROPERTY  md(dgnfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgnfet)  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  md(dgnfet)  m m 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgnfettw  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgnfettw  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgnfettw  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  dgnfettw  m m 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgpfet)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgpfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgpfet)  nf nf 0.5 ABSOLUTE
@@ -324,10 +293,6 @@ o LVS Setup:
    TRACE PROPERTY  md(dgxnfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgxnfet)  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  md(dgxnfet)  m m 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgxnfettw  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgxnfettw  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgxnfettw  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  dgxnfettw  m m 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgxpfet)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgxpfet)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgxpfet)  nf nf 0.5 ABSOLUTE
@@ -526,13 +491,6 @@ o LVS Setup:
    TRACE PROPERTY  mn(nfet_rf)  pcext pcext 0 ABSOLUTE
    TRACE PROPERTY  mn(nfet_rf)  ring ring 0
    TRACE PROPERTY  mn(nfet_rf)  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  nfettw_rf  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  nfettw_rf  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  nfettw_rf  ngcon ngcon 0.5 ABSOLUTE
-   TRACE PROPERTY  nfettw_rf  gateca gateca 0.5 ABSOLUTE
-   TRACE PROPERTY  nfettw_rf  pcext pcext 0 ABSOLUTE
-   TRACE PROPERTY  nfettw_rf  ring ring 0
-   TRACE PROPERTY  nfettw_rf  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  mp(pfet_rf)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  mp(pfet_rf)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  mp(pfet_rf)  ngcon ngcon 0.5 ABSOLUTE
@@ -547,13 +505,6 @@ o LVS Setup:
    TRACE PROPERTY  m(lvtnfet_rf)  pcext pcext 0 ABSOLUTE
    TRACE PROPERTY  m(lvtnfet_rf)  ring ring 0
    TRACE PROPERTY  m(lvtnfet_rf)  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw_rf  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw_rf  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw_rf  ngcon ngcon 0.5 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw_rf  gateca gateca 0.5 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw_rf  pcext pcext 0 ABSOLUTE
-   TRACE PROPERTY  lvtnfettw_rf  ring ring 0
-   TRACE PROPERTY  lvtnfettw_rf  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  m(lvtpfet_rf)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(lvtpfet_rf)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(lvtpfet_rf)  ngcon ngcon 0.5 ABSOLUTE
@@ -568,13 +519,6 @@ o LVS Setup:
    TRACE PROPERTY  m(hvtnfet_rf)  pcext pcext 0 ABSOLUTE
    TRACE PROPERTY  m(hvtnfet_rf)  ring ring 0
    TRACE PROPERTY  m(hvtnfet_rf)  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw_rf  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw_rf  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw_rf  ngcon ngcon 0.5 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw_rf  gateca gateca 0.5 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw_rf  pcext pcext 0 ABSOLUTE
-   TRACE PROPERTY  hvtnfettw_rf  ring ring 0
-   TRACE PROPERTY  hvtnfettw_rf  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  m(hvtpfet_rf)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(hvtpfet_rf)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  m(hvtpfet_rf)  ngcon ngcon 0.5 ABSOLUTE
@@ -589,13 +533,6 @@ o LVS Setup:
    TRACE PROPERTY  md(dgvnfet_rf)  pcext pcext 0 ABSOLUTE
    TRACE PROPERTY  md(dgvnfet_rf)  ring ring 0
    TRACE PROPERTY  md(dgvnfet_rf)  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw_rf  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw_rf  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw_rf  ngcon ngcon 0.5 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw_rf  gateca gateca 0.5 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw_rf  pcext pcext 0 ABSOLUTE
-   TRACE PROPERTY  dgvnfettw_rf  ring ring 0
-   TRACE PROPERTY  dgvnfettw_rf  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  md(dgvpfet_rf)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgvpfet_rf)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgvpfet_rf)  ngcon ngcon 0.5 ABSOLUTE
@@ -610,13 +547,6 @@ o LVS Setup:
    TRACE PROPERTY  md(dgnfet_rf)  pcext pcext 0 ABSOLUTE
    TRACE PROPERTY  md(dgnfet_rf)  ring ring 0
    TRACE PROPERTY  md(dgnfet_rf)  nf nf 0.5 ABSOLUTE
-   TRACE PROPERTY  dgnfettw_rf  l l 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgnfettw_rf  w w 2.5e-09 ABSOLUTE
-   TRACE PROPERTY  dgnfettw_rf  ngcon ngcon 0.5 ABSOLUTE
-   TRACE PROPERTY  dgnfettw_rf  gateca gateca 0.5 ABSOLUTE
-   TRACE PROPERTY  dgnfettw_rf  pcext pcext 0 ABSOLUTE
-   TRACE PROPERTY  dgnfettw_rf  ring ring 0
-   TRACE PROPERTY  dgnfettw_rf  nf nf 0.5 ABSOLUTE
    TRACE PROPERTY  md(dgpfet_rf)  l l 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgpfet_rf)  w w 2.5e-09 ABSOLUTE
    TRACE PROPERTY  md(dgpfet_rf)  ngcon ngcon 0.5 ABSOLUTE
@@ -766,8 +696,9 @@ INITIAL NUMBERS OF OBJECTS
 
  Instances:          4         4         MN (4 pins)
                      4         4         MP (4 pins)
+                     1         0    *    D (2 pins)
                 ------    ------
- Total Inst:         8         8
+ Total Inst:         9         8
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -779,10 +710,13 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Nets:               7         7
 
- Instances:          1         1         SPMN_2_2 (6 pins)
-                     2         2         _smp2v (4 pins)
+ Instances:          2         2         SMP2 (4 pins)
+                     1         1         SPMN_2_2 (6 pins)
                 ------    ------
  Total Inst:         3         3
+
+
+       * = Number of objects in layout different from number in source.
 
 
 
@@ -798,15 +732,20 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
    Nets:                7          7            0            0
 
-   Instances:           1          1            0            0    SPMN_2_2
-                        2          2            0            0    _smp2v
+   Instances:           2          2            0            0    SMP2
+                        1          1            0            0    SPMN_2_2
                   -------    -------    ---------    ---------
    Total Inst:          3          3            0            0
 
 
+o Statistics:
+
+   1 layout instance was filtered and its pins removed from adjoining nets.
+
+
 o Initial Correspondence Points:
 
-   Ports:        INA INB IND OUT GND! INC VDD!
+   Ports:        OUT GND! VDD! INA INB IND INC
 
 
 **************************************************************************************************************

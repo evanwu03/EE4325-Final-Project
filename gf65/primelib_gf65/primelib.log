@@ -2,218 +2,101 @@
 PrimeLib version T-2022.03-SP1 (Malibu 2)
 Build date: Apr 12, 2022 13:01:04
 Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-Host: engnx05a.utdallas.edu, User: ebw220000, PID: 1476931 (PPID: 1241565)
-CPU: 32 x 3887 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
-Memory: 257 GB RAM (13.2 GB free), 4 GB Swap (3.8 GB free)
-System load average: 15.86, 13.47, 12.48 (22651 processes)
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2837900 (PPID: 1241565)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (15.9 GB free), 4 GB Swap (3.8 GB free)
+System load average: 11.60, 7.62, 7.80 (21795 processes)
 Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
 Malibu mode 2 activated
-Wed May  7 21:34:26 2025: Establishing connection to license server
-Wed May  7 21:34:27 2025: Testing server connection using feature PrimeLib_CHAR
-Wed May  7 21:34:27 2025: License server connection established
-Wed May  7 21:34:27 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Thu May  8 16:42:10 2025: Establishing connection to license server
+Thu May  8 16:42:11 2025: Testing server connection using feature PrimeLib_CHAR
+Thu May  8 16:42:11 2025: License server connection established
+Thu May  8 16:42:11 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
 Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Warning: Environment check: Supply in default::power_meas_supplies (VDD) cannot be found in any operating condition
-Warning: Environment check: Supply in liberty_model::power_meas_supplies (VDD) cannot be found in any operating condition
+.   DFF2  NAND2  NOR2	     OAI22  gf65		  primelib.log
+..  INV   NAND3  New Folder  XNOR2  lc_shell_command.log  primelib.log.bak
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/etc/cell.stat.gz
 ===================================================
-Wed May 07 21:34:48 CDT 2025: Begin configure stage
-AC analysis for decap not supported for finesim. Defaulting to transient analysis
+Thu May 08 16:42:22 CDT 2025: Begin configure stage
 Optimizing dispatch of 1 cells for efficiency
-Reading instance file for cell INV
-Warning: Port VSS in cell INV has no associated function
-Warning: Port VDD in cell INV has no associated function
+Reading instance file for cell NOR2
+Warning: Port VSS in cell NOR2 has no associated function
+Warning: Port VDD in cell NOR2 has no associated function
 Generating timing tests.
 Generating power tests.
-Generating template at Wed May  7 21:34:48 2025 
-Done generating template at Wed May  7 21:34:48 2025
-Generate Templates: Maximum virtual memory size: 790.75 MB
-Cell INV configured for characterization.
-Wed May 07 21:34:48 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 790.75MB)
+Generating template at Thu May  8 16:42:22 2025 
+Done generating template at Thu May  8 16:42:22 2025
+Generate Templates: Maximum virtual memory size: 790.824 MB
+Cell NOR2 configured for characterization.
+Thu May 08 16:42:22 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 790.82MB)
 ======================================================================================================
 ======================================================
-Wed May 07 21:35:05 CDT 2025: Begin characterize stage
-Error:   characterize failed: Operating condition 'op_cond' does not exist. (TBD-1)
-	Use error_info for more info. (CMD-013)
-===============================================
-Wed May 07 21:35:46 CDT 2025: Begin model stage
-Creating new libraries.
-Error:   Error while trying read operating condition info for library op_cond. Error raised: op_cond is not a valid operating condition. Make sure operating conditions are specified correctly in config files 
-Error:   Error while trying to create library op_cond. Error raised: local variable 'opc' referenced before assignment
-Error:   Error constructing cell INV. Error raised: 'op_cond'
-Error:   Error while creating cell INV 
-Merging cell level models...
-===============================================
-Wed May 07 21:35:46 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells
-Error:   Model results file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells/INV_op_cond_op_cond.lib is missing.  File covers cells: INV (SMSC-87)
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/liberty_op_cond.lib.
-Wed May 07 21:36:04 CDT 2025: Done merge stage (Elapsed: 18 seconds | 0.01 hours  Memory: 790.75MB)
-===================================================================================================
-Wed May 07 21:36:04 CDT 2025: Done model stage (Elapsed: 18 seconds | 0.01 hours  Memory: 790.75MB)
-===================================================================================================
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/etc/cell.stat.gz
-===================================================
-Wed May 07 21:38:59 CDT 2025: Begin configure stage
-Reading instance file for cell INV
-Warning: Port VSS in cell INV has no associated function
-Warning: Port VDD in cell INV has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Wed May  7 21:38:59 2025 
-Done generating template at Wed May  7 21:38:59 2025
-Generate Templates: Maximum virtual memory size: 792.008 MB
-Cell INV configured for characterization.
-Wed May 07 21:38:59 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 792.01MB)
-======================================================================================================
-======================================================
-Wed May 07 21:39:04 CDT 2025: Begin characterize stage
+Thu May 08 16:42:28 CDT 2025: Begin characterize stage
 Simulator used is hspice HSPICE O-2018.09-2
 Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
 [CDPL] Initialized with 1 standalone slot
 [CDPL] Master initialized (0 seconds)
 Start generating characterization tasks
-Wed May  7 21:39:04 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Wed May  7 21:39:04 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-Wed May  7 21:39:04 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Wed May  7 21:39:04 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Thu May  8 16:42:29 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Thu May  8 16:42:29 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Thu May  8 16:42:29 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Thu May  8 16:42:29 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
 Library has standard-cells
-INV: generated 7 tasks (7 total)
+NOR2: generated 9 tasks (9 total)
 Using 1 standalone slots
-[CDPL] Tasks: 0/7, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
-Warning: Task 0 (leakage_power__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation leakage_power__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Re-submitting leakage_power__ACQ_1 of INV (1/1)
-Warning: Task 1 (Cin__VSS__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Re-submitting Cin__VSS__lh__ACQ_1 of INV (1/1)
-Warning: Task 2 (Cin__VSS__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Re-submitting Cin__VSS__hl__ACQ_1 of INV (1/1)
-Warning: Task 3 (delay__INA__lh__OUT__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INA__lh__OUT__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Re-submitting delay__INA__lh__OUT__hl__ACQ_1 of INV (1/1)
-Warning: Task 4 (delay__INA__hl__OUT__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INA__hl__OUT__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Re-submitting delay__INA__hl__OUT__lh__ACQ_1 of INV (1/1)
-Warning: Task 5 (Cin__VDD__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Re-submitting Cin__VDD__lh__ACQ_1 of INV (1/1)
-Warning: Task 6 (Cin__VDD__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Re-submitting Cin__VDD__hl__ACQ_1 of INV (1/1)
-[CDPL] Tasks: 7/14, (50.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
-Error:   Task 7 (leakage_power__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation leakage_power__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-Error:   Task 8 (Cin__VSS__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-Error:   Task 9 (Cin__VSS__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-Error:   Task 10 (delay__INA__lh__OUT__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INA__lh__OUT__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-Error:   Task 11 (delay__INA__hl__OUT__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INA__hl__OUT__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-Error:   Task 12 (Cin__VDD__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-Error:   Task 13 (Cin__VDD__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name. . (SC-59) (SMSC-95) (CDPL-12)
-[CDPL] Tasks: 14/14, (100.0%, 0 Cached, 7 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
-Long task: INV::leakage_power__ACQ_1 30.00 seconds
-[CDPL] Summary: 
-Failed tasks:
-  INV:
-      leakage_power__ACQ_1
-      Cin__VSS__lh__ACQ_1
-      Cin__VSS__hl__ACQ_1
-      delay__INA__lh__OUT__hl__ACQ_1
-      delay__INA__hl__OUT__lh__ACQ_1
-      Cin__VDD__lh__ACQ_1
-      Cin__VDD__hl__ACQ_1
-Wed May  7 21:40:34 2025: Released license FEATURE PrimeLib_CORE(all)
-Wed May  7 21:40:34 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
-Peak worker count: 1
-Wed May 07 21:40:34 CDT 2025: Done characterize stage (Elapsed: 90 seconds | 0.03 hours  Memory: 1081.63MB)
-===========================================================================================================
-===============================================
-Wed May 07 21:40:34 CDT 2025: Begin model stage
-Creating new libraries.
-Error:   SOF /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VSS__hl__ACQ_1.sof.gz does not exist.
-Error:   Internal Error: 
-Error:   SOF /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/delay__INA__lh__OUT__hl__ACQ_1.sof.gz does not exist.
-Error:   Internal Error: 
-Error:   SOF /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VDD__hl__ACQ_1.sof.gz does not exist.
-Error:   Internal Error: 
-Error:   SOF /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VDD__lh__ACQ_1.sof.gz does not exist.
-Error:   Internal Error: 
-Error:   SOF /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VSS__lh__ACQ_1.sof.gz does not exist.
-Error:   Internal Error: 
-Error:   SOF /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/delay__INA__hl__OUT__lh__ACQ_1.sof.gz does not exist.
-Error:   Internal Error: 
-Error:   SOF /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/leakage_power__ACQ_1.sof.gz does not exist.
-Error:   Internal Error: 
-Error:   Error constructing cell INV. Error raised: acquisition failed to model
-Error:   Error while creating cell INV 
-Warning: Total number of SOFs expected  = 7 
-Warning: Total number of SOFs missing  = 7 
-Warning:   Missing SOFs for cell INV:
-Warning:     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VSS__hl__ACQ_1.sof
-Warning:     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/delay__INA__lh__OUT__hl__ACQ_1.sof
-Warning:     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VDD__hl__ACQ_1.sof
-Warning:     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VDD__lh__ACQ_1.sof
-Warning:     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/Cin__VSS__lh__ACQ_1.sof
-Warning:     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/delay__INA__hl__OUT__lh__ACQ_1.sof
-Warning:     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/results/INV/leakage_power__ACQ_1.sof
-Warning:   Model may contain 0 values for these acquisitions.
-Merging cell level models...
-===============================================
-Wed May 07 21:40:34 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells
-Error:   Model results file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells/INV_op_cond_op_cond.lib is missing.  File covers cells: INV (SMSC-87)
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/liberty_op_cond.lib.
-Wed May 07 21:40:52 CDT 2025: Done merge stage (Elapsed: 18 seconds | 0.01 hours  Memory: 1082.05MB)
-====================================================================================================
-Wed May 07 21:40:52 CDT 2025: Done model stage (Elapsed: 18 seconds | 0.01 hours  Memory: 1082.05MB)
-====================================================================================================
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/etc/cell.stat.gz
-===================================================
-Wed May 07 21:43:44 CDT 2025: Begin configure stage
-Reading instance file for cell INV
-Warning: Port VSS in cell INV has no associated function
-Warning: Port VDD in cell INV has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Wed May  7 21:43:44 2025 
-Done generating template at Wed May  7 21:43:44 2025
-Generate Templates: Maximum virtual memory size: 1082.25 MB
-Cell INV configured for characterization.
-Wed May 07 21:43:44 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1082.25MB)
-=======================================================================================================
-======================================================
-Wed May 07 21:43:47 CDT 2025: Begin characterize stage
-Simulator used is hspice HSPICE O-2018.09-2
-Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
-Start generating characterization tasks
-INV: generated 7 tasks (7 total)
-Using 1 standalone slots
-Wed May  7 21:43:48 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Wed May  7 21:43:48 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-Wed May  7 21:43:48 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Wed May  7 21:43:48 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-[CDPL] Tasks: 0/7, (0.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m00s
-[CDPL] Tasks: 3/7, (42.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
-[CDPL] Tasks: 7/7, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
-Long task: INV::leakage_power__ACQ_1 30.00 seconds
+[CDPL] Tasks: 0/9, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 3/9, (33.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 7/9, (77.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 9/9, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
+Long task: NOR2::delay__INA__lh__OUT__hl__ACQ_1 30.00 seconds
 [CDPL] Summary: 
   All tasks finished successfully.
-Wed May  7 21:45:18 2025: Released license FEATURE PrimeLib_CORE(all)
-Wed May  7 21:45:18 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
+Thu May  8 16:44:29 2025: Released license FEATURE PrimeLib_CORE(all)
+Thu May  8 16:44:29 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
 Peak worker count: 1
-Wed May 07 21:45:18 CDT 2025: Done characterize stage (Elapsed: 91 seconds | 0.03 hours  Memory: 1082.96MB)
-===========================================================================================================
+Thu May 08 16:44:29 CDT 2025: Done characterize stage (Elapsed: 121 seconds | 0.03 hours  Memory: 1078.84MB)
+============================================================================================================
 ===============================================
-Wed May 07 21:46:19 CDT 2025: Begin model stage
+Thu May 08 16:44:36 CDT 2025: Begin model stage
 Creating new libraries.
 info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
 info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
 =================================================
-Wed May 07 21:46:19 CDT 2025: Begin write library
-Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells/INV_op_cond.lib".
-Wed May 07 21:46:19 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1083.14MB)
+Thu May 08 16:44:36 CDT 2025: Begin write library
+Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells/NOR2_op_cond.lib".
+Thu May 08 16:44:36 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1080.06MB)
 =====================================================================================================
 Merging cell level models...
 ===============================================
-Wed May 07 21:46:19 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/liberty_op_cond.lib.
-Wed May 07 21:46:19 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1083.14MB)
+Thu May 08 16:44:36 CDT 2025: Begin merge stage
+Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells
+Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/liberty_op_cond.lib.
+Thu May 08 16:44:36 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1080.80MB)
 ===================================================================================================
-Wed May 07 21:46:19 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1083.14MB)
+Thu May 08 16:44:36 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1080.80MB)
 ===================================================================================================
+===============================================
+Thu May 08 16:44:38 CDT 2025: Begin model stage
+Creating new libraries.
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
+=================================================
+Thu May 08 16:44:38 CDT 2025: Begin write library
+Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells/NOR2_op_cond.lib".
+Thu May 08 16:44:38 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1082.04MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Thu May 08 16:44:38 CDT 2025: Begin merge stage
+Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells
+Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/liberty_op_cond.lib.
+Thu May 08 16:44:38 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1082.91MB)
+===================================================================================================
+Thu May 08 16:44:38 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1082.91MB)
+===================================================================================================
+Shutting down modules
+[CDPL] Shutting down CDPL master.
+Thu May  8 16:44:41 2025: Released license FEATURE PrimeLib_CHAR
+Thu May  8 16:44:41 2025: Program time: 151.00 seconds | 2.52 minutes | 0.04 hours
+Maximum virtual memory size: 1082.91 MB

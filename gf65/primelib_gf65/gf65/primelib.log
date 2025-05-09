@@ -1,0 +1,810 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2835714 (PPID: 1241565)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (16.1 GB free), 4 GB Swap (3.8 GB free)
+System load average: 8.20, 6.39, 7.56 (21712 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/gf65
+Malibu mode 2 activated
+Thu May  8 16:39:48 2025: Establishing connection to license server
+Thu May  8 16:39:48 2025: Testing server connection using feature PrimeLib_CHAR
+Thu May  8 16:39:48 2025: License server connection established
+Thu May  8 16:39:49 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Error:   unknown command 'liberty_check' (CMD-005)
+.  ..  gf65.db	gf65.lib  lc_shell_command.log	primelib.log
+Error:   unknown command 'liberty_check' (CMD-005)
+Error:   unknown command 'report_lib' (CMD-005)
+Command                   Usage
+------------------------- ------------------------------------------------------
+active_cell               active_cell (HELP-227)
+add_back_bias_supplies    add_back_bias_supplies { <bias_pin> <pg_type>
+                          <related_supply_pin> } (HELP-229)
+add_channel_length_variation add_channel_length_variation <transistor_name>
+                          -dependent_parameters <dependent_parameter_list>
+                          -values <value_list> (HELP-1)
+add_channel_width_variation add_channel_width_variation <transistor_name>
+                          -dependent_parameters <dependent_parameter_list>
+                          -values <value_list> (HELP-3)
+add_fixed_value           add_fixed_value pin value (HELP-5)
+add_flop                  add_flop ?-clear expression? ?-preset expression?
+                          ?-preset_clear  values? register inv_register
+                          clock_expr data_expr (HELP-7)
+add_forbidden_state       add_forbidden_state expr (HELP-9)
+add_function              add_function ?-hi_z expression? ?-illegal expression?
+                          pin expression (HELP-11)
+add_harness_elements      add_harness_elements name element_list (HELP-13)
+add_input_pin             add_input_pin name ?-width <width> (HELP-353)
+add_latch                 add_latch ?-clear expression? ?-preset expression?
+                          ?-preset_clear values? register inv_register
+                          enable_expr data_expr (HELP-15)
+add_liberty_group         add_liberty_group [-explicit] [-library] [-cell <cell
+                          name>] [-pin <pin name>] <group type> <group name>
+                          <key_value_pairs or explicit_liberty_tree> (HELP-55)
+add_one_hot               add_one_hot ?-hi_z expression? ?-tuple_addition_type
+                          <type>? output_pin select_exprs data_exprs (HELP-17)
+add_opc_grounds           add_opc_grounds opc_cond supply voltage ?supply
+                          voltage? (HELP-23)
+add_opc_statistical_parameter add_opc_statistical_parameter <opc_name>
+                          (-intercell|-intracell) <param1> [param2] ...
+                          (HELP-19)
+add_opc_supplies          add_opc_supplies opc_cond supply voltage ?supply
+                          voltage? (HELP-21)
+add_output_pin            add_output_pin name ?-width <width> -function
+                          <function> -hiZ_function <hiZ_function> (HELP-355)
+add_pin                   add_pin (-input | -output | -inout | -clock | -async |
+                          -internal | -retention | -supply) ?-spice_node node?
+                          ?-alias name? ?-no_model? pin_name pin_type (HELP-25)
+add_process_parameter_variation add_process_parameter_variation <opc_name>
+                          <transistor_name> <parameter_name> (HELP-27)
+add_switch_tuple          add_swtich_tuple list_of_pins (HELP-29)
+add_switching_set         add_switching_set list_of_pins (HELP-31)
+add_table                 A truth table is defined with the following syntax:
+                          (HELP-33)
+add_transistor            add_transistor <transistor name> <channel length>
+                          <channel width> (HELP-35)
+add_user_arc              add_user_arc -type <type> ?-from <pin>?
+                          ?-from_direction <direction>? ?-to <pin>?
+                          ?-to_direction <direction>? ?-reference <pin>?
+                          ?-reference_direction <direction>? ?-when <exp>?
+                          ?-state <exp>? ?-monitor {pin1 trans1 pin2 trans2...}
+                          ?-side_pin_switching {pin1 trans1 pin2 trans2...}?
+                          (HELP-387)
+add_user_stimulus         add_user_stimulus <sequence> (HELP-37)
+cell_families_by_name     cell_families_by_name ?-pattern? <cells> (HELP-205)
+characterize              characterize ?cells? (HELP-49)
+check_coupling_effect     check_coupling_effect ?cells? (HELP-221)
+check_history_effect      check_history_effect ?cells? (HELP-219)
+clear_config_opts         clear_config_opts (HELP-57)
+clear_function            clear_function (HELP-393)
+clear_liberty_attribute   clear_liberty_attribute ?-library ? ?-cell <cell> ?
+                          ?-pin <pin> ? ?-group <group> ? { attribute1
+                          attribute2 ...... }? (HELP-51)
+clear_liberty_group       clear_liberty_group [-cell <cell name>] [-pin <pin
+                          name>] <group type> <group name> (HELP-53)
+clear_optimized_process_models clear_optimized_process_models ?cells? (HELP-201)
+compare_aocv              compare_aocv -ref_dir dir -test_dir dir [-output name]
+                          ?cells? (HELP-67)
+configure                 configure ?-timing? ?-ecsm? ?-ccs? ?-ccs_noise?
+                          ?-power? ?-ecsm_power? ?-low_power? ?-ccs_power?
+                          ?-fast? ?-si? ?-ibis? ?cells? ?-em? ?-emx? (HELP-69)
+create                    create ?-configure configure.tcl? ?-import_char_point
+                          charpoint_path? ?-control link|copy?  ?-templates
+                          link|copy? ?-netlists link|copy? ?-cellmodels
+                          link|copy? ?-stat_files link|copy? char_dir (HELP-71)
+create_harness            create_harness name (HELP-73)
+create_operating_condition create_operating_condition op_cond_name (HELP-77)
+create_parameter          create_parameter name
+create_readwrite_port     create_readwrite_port port_name (HELP-277)
+define_cell_ccb           define_cell_ccb -relevant_pin <cell input pin or output
+                          pin> ?-inputs (pin | list of ccb input pin names)?
+                          -output <ccb output pin name> ?-transistors <list of
+                          transistor names of the ccb>? ?-switching_set <list of
+                          netnames that should switch together>? ?-input_vectors
+                          <list of input vectors to use for the ccb>? (HELP-207)
+define_differential_receiver define_differential_receiver output_pin pos_input
+                          neg_input (HELP-79)
+define_parameters         define_parameters ?-append? name ?-> parent? block
+delete_cache              delete_cache ?-no_parent? ?-preview? ?-types <type_name
+                          list>? ?cells? (HELP-223)
+em_validation             em_validation -lib <lib> -ratau <ratau> -num_cycles
+                          <num_cycles> -ra_cycles <ra_cycles> -sim_level
+                          <sim_level> -second_load_index <second_load_index>
+                          -skip_pins <skip_pins> -ref_table_type
+                          <ref_table_type> -output_dir <output_dir> <cells>
+                          (HELP-383)
+enable_api                enable_api api_name
+enable_gui                enable_gui ?-port port_num? (HELP-85)
+enable_prechar_inherit_timing enable_prechar_inherit_timing (HELP-403)
+expand_side_inputs        expand_side_inputs ?-whens? ?-side_inputs?
+                          ?-expansion_type (ones_count|complete_binary|one_hot)?
+                          (HELP-203)
+find_internal_nodes_for_constraint find_internal_nodes_for_constraint ?-match <tcl regular
+                          expression>? ?-mem_int_node <dummy node name>?
+                          (HELP-213)
+find_potential_internal_nodes find_potential_internal_nodes ?-match <tcl regular
+                          expression>? ?-mem_int_node <dummy node name>?
+                          (HELP-209)
+fugues_to_aus             fugues_to_aus ?-types? ?-source_dir? (HELP-39)
+generate_auto_index       generate_auto_index ?cells? (HELP-225)
+generate_datasheet        generate_datasheet ?-output outdir? ?-parameter_blocks
+                          param_block_list?  ?-operating_condition opc_list?
+                          ?-lib <library file>? ?-override_lib_unit? ?cells?
+                          (HELP-87)
+generate_esp_setups       generate_esp_setups -lib_file <liberty file> -out_file
+                          <XML_file> (HELP-389)
+generate_schematic        generate_schematic ?-output_dir? (HELP-41)
+get_cell_name             get_cell_name (HELP-231)
+get_cells                 get_cells ?cells? (HELP-89)
+get_config_opt            get_config_opt -cell <cell> ?-type (decap_ccs | delay |
+                          zen | zdis | energy | timing | setup | hold | recovery
+                          | asynch_recovery | removal | asynch_removal |
+                          leakage_power | constraint | cmpw | ncmpw | mpw |
+                          input_capacitance | noise | noise_iv | noise_immunity
+                          | noise_prop | ccs_noise | ibis_iv | ibis_vt |
+                          statistical_delay| statistical_hold |
+                          statistical_setup | em_current) ?-from (pin |
+                          pin_list)? ?-from_direction (direction |
+                          direction_list)? ?-reference pin?
+                          ?-reference_direction (direction | direction_list)?
+                          ?-pin pin? ?-to (pin|pin_list|none)? ?-to_direction
+                          (direction | direction_list)? ?-when expression?
+                          option (HELP-139)
+get_location              get_location
+get_opc_default_voltage   get_opc_default_voltage op_cond_name (HELP-237)
+get_opc_parameter         get_opc_parameter op_cond_name parameter_name
+                          (HELP-167)
+get_opc_process           get_opc_process op_cond_name (HELP-239)
+get_opc_supply            get_opc_supply op_cond_name supply_name (HELP-235)
+get_opc_temperature       get_opc_temperature op_cond_name (HELP-233)
+get_parameter             get_parameter ?-quiet? ?-default value? ?block? name
+get_parameter_for_driver  get_parameter_for_driver ?-quiet? ?-default value?
+                          ?block? name
+get_pintype_parameter     get_pintype_parameter ?-quiet? ?-default value? pintype
+                          param_name
+get_pintype_parameter_for_driver get_pintype_parameter_for_driver ?-quiet? ?-default
+                          value? pintype param_name
+get_subckt_ports          get_subckt_ports cell_list (HELP-187)
+help                      help ?command? (HELP-99)
+import                    import ?-char_point cr_char_point? ?-liberty file?
+                          ?-netlist file? ?-recognize? ?-overwrite? ?-configure?
+                          ?-netlist_dir dir? ?-extension netlist_extension?
+                          ?-state_independent? ?-use_default_slews?
+                          ?-use_default_loads? ?-use_constraint_seeds?
+                          ?-use_default_whens? ?-compress_flops?
+                          ?-write_internal_nodes? ?-noheader? ?-nocellmodel?
+                          ?-sensitization? ?-no_copy 1|0?  ?-instance_dir?
+                          ?-add_slew_load_indices? ?-skeleton? ?cells?
+                          ?-split_netlist (HELP-103)
+import_delay_matching_cin_driver import_delay_matching_cin_driver cell -netlist netlist
+                          -input_pin pin -output_pin pin ?-characterize?
+import_driver             import_driver cell -netlist netlist -input_pin pin
+                          -output_pin pin ?-ground_pin? ?-supply_pin?
+                          ?-inverting? ?-driver_db driver_file?
+                          ?-in_driver_pintype pintype? ?-characterize?
+list_parameter_blocks     list_parameter_blocks ?pattern?
+list_parameters           list_parameters ?block? ?pattern?
+list_pintype_parameters   list_pintype_parameters pintype ?pattern?
+list_pintypes             list_pintypes ?pattern?
+log_error                 log_error message
+log_info                  log_info message
+log_num_errors            log_num_errors
+log_verbose               log_verbose message
+log_warning               log_warning message
+man                       man ?param? (HELP-101)
+merge                     merge ?-directory <dir>? ?-output <file>? ?-extension
+                          <ext>? ?-compact? ?-header <file>? ?cells? (HELP-43)
+model                     model ?-timing? ?-ecsm? ?-ccs? ?-ccs_noise? ?-power?
+                          ?-low_power? ?-ccs_power? ?-si? ?-pocv? ?-directory?
+                          ?-em? ?-skeleton? ?-no_backslash? (HELP-115)
+optimize_process_models   optimize_process_models ?-operating_conditions
+                          list_of_pvts? ?cells? (HELP-199)
+pintype                   pintype name ?-> parent? { settings }
+precharacterize           precharacterize [-fast] [-by_family] [-reanalyze]
+                          [-report <report_file>] [-mbff_data_reuse] <cells>
+                          (HELP-119)
+print_options             print_options (HELP-217)
+remove_driver             remove_driver name
+remove_parameter_block    remove_parameter_block block
+remove_pintype            remove_pintype pintype
+report_arcs               report_arcs ?-tcl? ?-prechar? ?-output <filename>?
+                          ?cells? ?-show_whens? (HELP-125)
+report_bug                report_bug ?-no_netlist? ?-no_runtime? ?-no_spice?
+                          ?-get_process_model? ?-output? ?-no_compress? ?cells?
+                          (HELP-127)
+report_drivers            report_drivers ?-verbose? ?pattern?
+report_pruning            report_pruning  ?-output <filename>? (HELP-391)
+report_sim_results        report_sim_results -cell <cell_pattern|all> [-sof <sof
+                          pattern>] [-prechar] [-tcl]|[-outputDir <directory>]
+                          [-outputParams <pattern list>] (HELP-131)
+report_sim_stats          report_sim_stats [-characterize] [-precharacterize]
+                          [-import] [-configure] [-model] [-preconfigure]
+                          [-verbose] [-output <filename>] [cells...] (HELP-133)
+reset_log_file            reset_log_file
+run_mission_profiles_aging_legacy run_mission_profiles_aging_legacy (HELP-401)
+set_address_bus           set_address_bus name ?-width <width> -port <port>
+                          (HELP-281)
+set_asynchronous_reset    set_asynchronous_reset name ?-width <width> -active
+                          <L|H> (HELP-273)
+set_asynchronous_write_through set_asynchronous_write_through name ?-width <width>
+                          -active <L/H> -port <port> (HELP-285)
+set_asynchronous_write_through_logic set_asynchronous_write_through_logic logic_operation
+                          (HELP-287)
+set_bist_enable           set_bist_enable name ?-width <width> -active <L/H>
+                          ?-port <port> (HELP-303)
+set_bist_mode             set_bist_mode on|off (HELP-261)
+set_boundary_distance     set_boundary_distance {lower_left_distance
+                          upper_left_distance lower_right_distance
+                          upper_right_distance} (HELP-135)
+set_bypass_enable         set_bypass_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-299)
+set_bypass_mode           set_bypass_mode on|off (HELP-255)
+set_cell_type             set_cell_type <type_name> (HELP-137)
+set_chip_enable           set_chip_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-295)
+set_clock                 set_clock pin_name -port <port> -active <r/f>
+                          (HELP-279)
+set_config_opt            set_config_opt -cell <cell> -ccb <ccb> -opcond <opcond>
+                          ?-type (decap_ccs | delay | zen | zdis | energy |
+                          timing | setup | hold | recovery | asynch_recovery |
+                          removal | asynch_removal | leakage_power | constraint
+                          | cmpw | ncmpw | mpw | input_capacitance | noise |
+                          noise_iv | noise_immunity | noise_prop | ccs_noise |
+                          ibis_iv | ibis_vt | statistical_delay|
+                          statistical_hold | statistical_setup | em_current |
+                          min_current | max_current | constInit | driver) ?-from
+                          (pin | pin_list)? ?-from_direction (direction |
+                          direction_list)? ?-reference pin?
+                          ?-reference_direction (direction | direction_list)?
+                          ?-pin pin? ?-to (pin|pin_list|none)? ?-to_direction
+                          (direction | direction_list)
+                          ?-state_partition_exclude_whens <whens> ?-when
+                          expression? ?-tag <tag>? option value (HELP-141)
+set_data_bus              set_data_bus name ?-width <width> -port <port>
+                          (HELP-283)
+set_data_output           set_data_output name -port port (HELP-317)
+set_deep_sleep_enable     set_deep_sleep_enable name ?-width <width> -active
+                          <L|H> (HELP-269)
+set_extramargin_adjustment set_extramargin_adjustment name ?-width <width> -port
+                          <port> (HELP-309)
+set_extramargin_adjustment_enable set_extramargin_adjustment_enable name ?-width <width>
+                          -active <L/H> ?-port <port> (HELP-307)
+set_extramargin_adjustment_mode set_extramargin_adjustment_mode on|off (HELP-263)
+set_harness_parent        set_harness_parent name parent (HELP-75)
+set_input_pins_tiedto_high set_input_pins_tiedto_high {pinName1 pinName2 pinName3
+                          ...} (HELP-359)
+set_input_pins_tiedto_low set_input_pins_tiedto_low {pinName1 pinName2 pinName3
+                          ...} (HELP-357)
+set_internal_supply       set_internal_supply name_of_internal_supply (HELP-361)
+set_length_unit           set_length_unit <lenth_unit> (HELP-145)
+set_liberty_attribute     set_liberty_attribute ?-library? ?-cell <cell>? ?-pin
+                          <pin>]? {attr1 attrva1 att2 attrval2 . . } (HELP-147)
+set_light_sleep_enable    set_light_sleep_enable name ?-width <width> -active
+                          <L|H> (HELP-267)
+set_location              set_location directory
+set_log_file              set_log_file file_name
+set_log_level             set_log_level level
+set_log_max_size          set_log_max_size size_in_bytes
+set_log_stdout_level      set_log_stdout_level level
+set_maskablewrite_enable  set_maskablewrite_enable name ?-width <width> -port
+                          <port> -active <L/H> (HELP-315)
+set_maskablewrite_enable_control_output set_maskablewrite_enable_control_output on|off
+                          (HELP-265)
+set_maximum_addressable_word set_maximum_addressable_word value (HELP-249)
+set_measurement_node      set_measurement_node harness_name pin_name node_name
+                          (HELP-157)
+set_mem_internal_node     set_mem_internal_node mem_internal_node_name (HELP-247)
+set_memory_enable         set_memory_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-297)
+set_memory_name           set_memory_name memory_name (HELP-245)
+set_memory_type           set_memory_type memory_type (HELP-243)
+set_netlist_file          set_netlist_file file ?tag ?file tag? ...? (HELP-159)
+set_new_log_file          set_new_log_file file_name
+set_opc_default_voltage   set_opc_default_voltage opc_name voltage (HELP-163)
+set_opc_parameter         set_opc_parameter op_cond_name parameter_name value
+                          (HELP-165)
+set_opc_parameter_distribution set_opc_parameter_distribution <opc_name> -points {list
+                          of points} -nominal_value value -distribution_type
+                          distribution -sigma value -type {list of strings}
+                          param1 ?param2? ... (HELP-169)
+set_opc_process           set_opc_process op_cond_name process_list (HELP-171)
+set_opc_statistical_parameter_derate set_opc_statistical_parameter_derate <opc_name>
+                          -passgate_derate <derate> -model <models> <derate1>
+                          <derate2> ... (HELP-385)
+set_opc_temperature       set_opc_temperature op_cond_name temperature (HELP-175)
+set_output_differential   set_output_differential pos_output neg_output
+                          ?-absolute_separation <value> | -relative_separation
+                          <value>? (HELP-177)
+set_output_enable         set_output_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-289)
+set_output_state_on_shutdown set_output_state_on_shutdown 0|1 (HELP-363)
+set_parameter             set_parameter ?block? name value (HELP-179)
+set_pins_to_bundle_map    set_pins_to_bundle_map -bundle bundle_name -pins
+                          pin_list (HELP-193)
+set_pins_to_bus_map       set_pins_to_bus_map -bus bus_name -pins pin_list
+                          (HELP-191)
+set_pintype_parameter     set_pintype_parameter pintype name value (HELP-181)
+set_pipeline_mode         set_pipeline_mode on|off (HELP-257)
+set_pipeline_output       set_pipeline_output name -port <port> (HELP-319)
+set_pipelinemode_enable   set_pipelinemode_enable name ?-width <width> -active
+                          <L/H> ?-port <port> (HELP-305)
+set_points_boundary_distance set_points_boundary_distance <boundary> <values>
+                          (HELP-173)
+set_read_enable           set_read_enable name ?width <width> -active <L/H> -port
+                          <port> (HELP-291)
+set_register_scan_reset   set_register_scan_reset name -active <r/f> (HELP-275)
+set_replay_file           set_replay_file [-mode 1|2|3] [-cells] [-record_inst]
+                          [-record_configure] file_name
+set_rom_code_file         set_rom_code_file file_name (HELP-251)
+set_scan_chain            set_scan_chain -cycles <integer> -port <port>
+                          (HELP-367)
+set_scan_chain_def        set_scan_chain_def value <integer> -port <port>
+                          (HELP-369)
+set_scan_clock            set_scan_clock pin -port <port> (HELP-373)
+set_scan_input            set_scan_input pin -port <port> (HELP-371)
+set_scan_internal_node    set_scan_internal_node node_name -port <port>
+                          (HELP-381)
+set_scan_output           set_scan_output pin -port <port> (HELP-379)
+set_scan_preset           set_scan_preset pin -port <port> (HELP-377)
+set_scan_reset            set_scan_reset pin -port <port> (HELP-375)
+set_separate_statetable_mode set_separate_statetable_mode on|off (HELP-253)
+set_shut_down_enable      set_shut_down_enable name ?-width <width> -active <L|H>
+                          (HELP-271)
+set_stimulus_node         set_stimulus_node harness_name pin_name node_name
+                          (HELP-183)
+set_stress_input          set_stress_input ?-cell <celllist>? ?-pin <pinlist>?
+                          aging_when | aging_state | aging_pwl | aging_pulse
+                          <data> (HELP-395)
+set_subckt_ports          set_subckt_ports pin_list (HELP-185)
+set_sweep_parameter       set_sweep_parameter ?-load pin? harness_name parameter
+                          (HELP-189)
+set_testclk_enable        set_testclk_enable name -active <L/H> -port <port>
+                          (HELP-311)
+set_testmode_address_bus  set_testmode_address_bus name ?-width width -port
+                          <port> (HELP-323)
+set_testmode_bypass_enable set_testmode_bypass_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-335)
+set_testmode_chip_enable  set_testmode_chip_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-331)
+set_testmode_clock        set_testmode_clock pin_name -port <port> -active <r/f>
+                          (HELP-321)
+set_testmode_data_bus     set_testmode_data_bus name ?-width width -port <port>
+                          (HELP-325)
+set_testmode_data_output  set_testmode_data_output name -port <port> (HELP-349)
+set_testmode_extramargin_adjustment set_testmode_extramargin_adjustment name ?-width
+                          <width> -port <port> (HELP-345)
+set_testmode_extramargin_adjustment_enable set_testmode_extramargin_adjustment_enable name ?-width
+                          <width> -active <L/H> -port <port> (HELP-343)
+set_testmode_maskablewrite_enable set_testmode_maskablewrite_enable name ?-width <width>
+                          -port <port> -active<L/H> (HELP-347)
+set_testmode_memory_enable set_testmode_memory_enable name ?-width <width> -active
+                          <L/H> -poprt <port> (HELP-333)
+set_testmode_pipeline_output set_testmode_pipeline_output name -port <port>
+                          (HELP-351)
+set_testmode_pipelinemode_enable set_testmode_pipelinemode_enable name ?-width <width>
+                          -active <L/H> -port <port> (HELP-341)
+set_testmode_read_enable  set_testmode_read_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-327)
+set_testmode_write_enable set_testmode_write_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-329)
+set_testmode_writethrough_enable set_testmode_writethrough_enable name ?-width <width>
+                          -active <L/H> -port <port> (HELP-337)
+set_write_enable          set_write_enable name ?width <width> -active <L/H>
+                          -port <port> (HELP-293)
+set_writethrough_enable   set_writethrough_enable name ?-width <width> -active
+                          <L/H> ?-port <port> (HELP-301)
+set_writethrough_mode     set_writethrough_mode on|off (HELP-259)
+stress                    stress ?-debug? ?-arc? ?stimuli? ?cells? (HELP-397)
+test_internal_nodes_for_constraint test_internal_nodes_for_constraint -node_list <list of
+                          potential candidates for internal nodes> ?-match <tcl
+                          regular expression>? ?-mem_int_node <dummy node name>?
+                          (HELP-211)
+use_stress                use_stress (HELP-399)
+validate_hdl              validate_hdl [-verilog | -vhdl] -lib_file <liberty
+                          file> -hdl_file <hdl file> [-skip_sdf] [-skip_hdl_sim]
+                          [-no_map] (HELP-195)
+write_config_opts         write_config_opts ?-output file? (HELP-197)
+write_liberty_attributes  write_liberty_attributes ?-output file? ?-cell <cell> ?
+                          (HELP-241)
+Error:   sis_help failed: can't read "toolName": no such variable (TBD-1)
+	Use error_info for more info. (CMD-013)
+Command                   Usage
+------------------------- ------------------------------------------------------
+active_cell               active_cell (HELP-227)
+add_back_bias_supplies    add_back_bias_supplies { <bias_pin> <pg_type>
+                          <related_supply_pin> } (HELP-229)
+add_channel_length_variation add_channel_length_variation <transistor_name>
+                          -dependent_parameters <dependent_parameter_list>
+                          -values <value_list> (HELP-1)
+add_channel_width_variation add_channel_width_variation <transistor_name>
+                          -dependent_parameters <dependent_parameter_list>
+                          -values <value_list> (HELP-3)
+add_fixed_value           add_fixed_value pin value (HELP-5)
+add_flop                  add_flop ?-clear expression? ?-preset expression?
+                          ?-preset_clear  values? register inv_register
+                          clock_expr data_expr (HELP-7)
+add_forbidden_state       add_forbidden_state expr (HELP-9)
+add_function              add_function ?-hi_z expression? ?-illegal expression?
+                          pin expression (HELP-11)
+add_harness_elements      add_harness_elements name element_list (HELP-13)
+add_input_pin             add_input_pin name ?-width <width> (HELP-353)
+add_latch                 add_latch ?-clear expression? ?-preset expression?
+                          ?-preset_clear values? register inv_register
+                          enable_expr data_expr (HELP-15)
+add_liberty_group         add_liberty_group [-explicit] [-library] [-cell <cell
+                          name>] [-pin <pin name>] <group type> <group name>
+                          <key_value_pairs or explicit_liberty_tree> (HELP-55)
+add_one_hot               add_one_hot ?-hi_z expression? ?-tuple_addition_type
+                          <type>? output_pin select_exprs data_exprs (HELP-17)
+add_opc_grounds           add_opc_grounds opc_cond supply voltage ?supply
+                          voltage? (HELP-23)
+add_opc_statistical_parameter add_opc_statistical_parameter <opc_name>
+                          (-intercell|-intracell) <param1> [param2] ...
+                          (HELP-19)
+add_opc_supplies          add_opc_supplies opc_cond supply voltage ?supply
+                          voltage? (HELP-21)
+add_output_pin            add_output_pin name ?-width <width> -function
+                          <function> -hiZ_function <hiZ_function> (HELP-355)
+add_pin                   add_pin (-input | -output | -inout | -clock | -async |
+                          -internal | -retention | -supply) ?-spice_node node?
+                          ?-alias name? ?-no_model? pin_name pin_type (HELP-25)
+add_process_parameter_variation add_process_parameter_variation <opc_name>
+                          <transistor_name> <parameter_name> (HELP-27)
+add_switch_tuple          add_swtich_tuple list_of_pins (HELP-29)
+add_switching_set         add_switching_set list_of_pins (HELP-31)
+add_table                 A truth table is defined with the following syntax:
+                          (HELP-33)
+add_transistor            add_transistor <transistor name> <channel length>
+                          <channel width> (HELP-35)
+add_user_arc              add_user_arc -type <type> ?-from <pin>?
+                          ?-from_direction <direction>? ?-to <pin>?
+                          ?-to_direction <direction>? ?-reference <pin>?
+                          ?-reference_direction <direction>? ?-when <exp>?
+                          ?-state <exp>? ?-monitor {pin1 trans1 pin2 trans2...}
+                          ?-side_pin_switching {pin1 trans1 pin2 trans2...}?
+                          (HELP-387)
+add_user_stimulus         add_user_stimulus <sequence> (HELP-37)
+cell_families_by_name     cell_families_by_name ?-pattern? <cells> (HELP-205)
+characterize              characterize ?cells? (HELP-49)
+check_coupling_effect     check_coupling_effect ?cells? (HELP-221)
+check_history_effect      check_history_effect ?cells? (HELP-219)
+clear_config_opts         clear_config_opts (HELP-57)
+clear_function            clear_function (HELP-393)
+clear_liberty_attribute   clear_liberty_attribute ?-library ? ?-cell <cell> ?
+                          ?-pin <pin> ? ?-group <group> ? { attribute1
+                          attribute2 ...... }? (HELP-51)
+clear_liberty_group       clear_liberty_group [-cell <cell name>] [-pin <pin
+                          name>] <group type> <group name> (HELP-53)
+clear_optimized_process_models clear_optimized_process_models ?cells? (HELP-201)
+compare_aocv              compare_aocv -ref_dir dir -test_dir dir [-output name]
+                          ?cells? (HELP-67)
+configure                 configure ?-timing? ?-ecsm? ?-ccs? ?-ccs_noise?
+                          ?-power? ?-ecsm_power? ?-low_power? ?-ccs_power?
+                          ?-fast? ?-si? ?-ibis? ?cells? ?-em? ?-emx? (HELP-69)
+create                    create ?-configure configure.tcl? ?-import_char_point
+                          charpoint_path? ?-control link|copy?  ?-templates
+                          link|copy? ?-netlists link|copy? ?-cellmodels
+                          link|copy? ?-stat_files link|copy? char_dir (HELP-71)
+create_harness            create_harness name (HELP-73)
+create_operating_condition create_operating_condition op_cond_name (HELP-77)
+create_parameter          create_parameter name
+create_readwrite_port     create_readwrite_port port_name (HELP-277)
+define_cell_ccb           define_cell_ccb -relevant_pin <cell input pin or output
+                          pin> ?-inputs (pin | list of ccb input pin names)?
+                          -output <ccb output pin name> ?-transistors <list of
+                          transistor names of the ccb>? ?-switching_set <list of
+                          netnames that should switch together>? ?-input_vectors
+                          <list of input vectors to use for the ccb>? (HELP-207)
+define_differential_receiver define_differential_receiver output_pin pos_input
+                          neg_input (HELP-79)
+define_parameters         define_parameters ?-append? name ?-> parent? block
+delete_cache              delete_cache ?-no_parent? ?-preview? ?-types <type_name
+                          list>? ?cells? (HELP-223)
+em_validation             em_validation -lib <lib> -ratau <ratau> -num_cycles
+                          <num_cycles> -ra_cycles <ra_cycles> -sim_level
+                          <sim_level> -second_load_index <second_load_index>
+                          -skip_pins <skip_pins> -ref_table_type
+                          <ref_table_type> -output_dir <output_dir> <cells>
+                          (HELP-383)
+enable_api                enable_api api_name
+enable_gui                enable_gui ?-port port_num? (HELP-85)
+enable_prechar_inherit_timing enable_prechar_inherit_timing (HELP-403)
+expand_side_inputs        expand_side_inputs ?-whens? ?-side_inputs?
+                          ?-expansion_type (ones_count|complete_binary|one_hot)?
+                          (HELP-203)
+find_internal_nodes_for_constraint find_internal_nodes_for_constraint ?-match <tcl regular
+                          expression>? ?-mem_int_node <dummy node name>?
+                          (HELP-213)
+find_potential_internal_nodes find_potential_internal_nodes ?-match <tcl regular
+                          expression>? ?-mem_int_node <dummy node name>?
+                          (HELP-209)
+fugues_to_aus             fugues_to_aus ?-types? ?-source_dir? (HELP-39)
+generate_auto_index       generate_auto_index ?cells? (HELP-225)
+generate_datasheet        generate_datasheet ?-output outdir? ?-parameter_blocks
+                          param_block_list?  ?-operating_condition opc_list?
+                          ?-lib <library file>? ?-override_lib_unit? ?cells?
+                          (HELP-87)
+generate_esp_setups       generate_esp_setups -lib_file <liberty file> -out_file
+                          <XML_file> (HELP-389)
+generate_schematic        generate_schematic ?-output_dir? (HELP-41)
+get_cell_name             get_cell_name (HELP-231)
+get_cells                 get_cells ?cells? (HELP-89)
+get_config_opt            get_config_opt -cell <cell> ?-type (decap_ccs | delay |
+                          zen | zdis | energy | timing | setup | hold | recovery
+                          | asynch_recovery | removal | asynch_removal |
+                          leakage_power | constraint | cmpw | ncmpw | mpw |
+                          input_capacitance | noise | noise_iv | noise_immunity
+                          | noise_prop | ccs_noise | ibis_iv | ibis_vt |
+                          statistical_delay| statistical_hold |
+                          statistical_setup | em_current) ?-from (pin |
+                          pin_list)? ?-from_direction (direction |
+                          direction_list)? ?-reference pin?
+                          ?-reference_direction (direction | direction_list)?
+                          ?-pin pin? ?-to (pin|pin_list|none)? ?-to_direction
+                          (direction | direction_list)? ?-when expression?
+                          option (HELP-139)
+get_location              get_location
+get_opc_default_voltage   get_opc_default_voltage op_cond_name (HELP-237)
+get_opc_parameter         get_opc_parameter op_cond_name parameter_name
+                          (HELP-167)
+get_opc_process           get_opc_process op_cond_name (HELP-239)
+get_opc_supply            get_opc_supply op_cond_name supply_name (HELP-235)
+get_opc_temperature       get_opc_temperature op_cond_name (HELP-233)
+get_parameter             get_parameter ?-quiet? ?-default value? ?block? name
+get_parameter_for_driver  get_parameter_for_driver ?-quiet? ?-default value?
+                          ?block? name
+get_pintype_parameter     get_pintype_parameter ?-quiet? ?-default value? pintype
+                          param_name
+get_pintype_parameter_for_driver get_pintype_parameter_for_driver ?-quiet? ?-default
+                          value? pintype param_name
+get_subckt_ports          get_subckt_ports cell_list (HELP-187)
+help                      help ?command? (HELP-99)
+import                    import ?-char_point cr_char_point? ?-liberty file?
+                          ?-netlist file? ?-recognize? ?-overwrite? ?-configure?
+                          ?-netlist_dir dir? ?-extension netlist_extension?
+                          ?-state_independent? ?-use_default_slews?
+                          ?-use_default_loads? ?-use_constraint_seeds?
+                          ?-use_default_whens? ?-compress_flops?
+                          ?-write_internal_nodes? ?-noheader? ?-nocellmodel?
+                          ?-sensitization? ?-no_copy 1|0?  ?-instance_dir?
+                          ?-add_slew_load_indices? ?-skeleton? ?cells?
+                          ?-split_netlist (HELP-103)
+import_delay_matching_cin_driver import_delay_matching_cin_driver cell -netlist netlist
+                          -input_pin pin -output_pin pin ?-characterize?
+import_driver             import_driver cell -netlist netlist -input_pin pin
+                          -output_pin pin ?-ground_pin? ?-supply_pin?
+                          ?-inverting? ?-driver_db driver_file?
+                          ?-in_driver_pintype pintype? ?-characterize?
+list_parameter_blocks     list_parameter_blocks ?pattern?
+list_parameters           list_parameters ?block? ?pattern?
+list_pintype_parameters   list_pintype_parameters pintype ?pattern?
+list_pintypes             list_pintypes ?pattern?
+log_error                 log_error message
+log_info                  log_info message
+log_num_errors            log_num_errors
+log_verbose               log_verbose message
+log_warning               log_warning message
+man                       man ?param? (HELP-101)
+merge                     merge ?-directory <dir>? ?-output <file>? ?-extension
+                          <ext>? ?-compact? ?-header <file>? ?cells? (HELP-43)
+model                     model ?-timing? ?-ecsm? ?-ccs? ?-ccs_noise? ?-power?
+                          ?-low_power? ?-ccs_power? ?-si? ?-pocv? ?-directory?
+                          ?-em? ?-skeleton? ?-no_backslash? (HELP-115)
+optimize_process_models   optimize_process_models ?-operating_conditions
+                          list_of_pvts? ?cells? (HELP-199)
+pintype                   pintype name ?-> parent? { settings }
+precharacterize           precharacterize [-fast] [-by_family] [-reanalyze]
+                          [-report <report_file>] [-mbff_data_reuse] <cells>
+                          (HELP-119)
+print_options             print_options (HELP-217)
+remove_driver             remove_driver name
+remove_parameter_block    remove_parameter_block block
+remove_pintype            remove_pintype pintype
+report_arcs               report_arcs ?-tcl? ?-prechar? ?-output <filename>?
+                          ?cells? ?-show_whens? (HELP-125)
+report_bug                report_bug ?-no_netlist? ?-no_runtime? ?-no_spice?
+                          ?-get_process_model? ?-output? ?-no_compress? ?cells?
+                          (HELP-127)
+report_drivers            report_drivers ?-verbose? ?pattern?
+report_pruning            report_pruning  ?-output <filename>? (HELP-391)
+report_sim_results        report_sim_results -cell <cell_pattern|all> [-sof <sof
+                          pattern>] [-prechar] [-tcl]|[-outputDir <directory>]
+                          [-outputParams <pattern list>] (HELP-131)
+report_sim_stats          report_sim_stats [-characterize] [-precharacterize]
+                          [-import] [-configure] [-model] [-preconfigure]
+                          [-verbose] [-output <filename>] [cells...] (HELP-133)
+reset_log_file            reset_log_file
+run_mission_profiles_aging_legacy run_mission_profiles_aging_legacy (HELP-401)
+set_address_bus           set_address_bus name ?-width <width> -port <port>
+                          (HELP-281)
+set_asynchronous_reset    set_asynchronous_reset name ?-width <width> -active
+                          <L|H> (HELP-273)
+set_asynchronous_write_through set_asynchronous_write_through name ?-width <width>
+                          -active <L/H> -port <port> (HELP-285)
+set_asynchronous_write_through_logic set_asynchronous_write_through_logic logic_operation
+                          (HELP-287)
+set_bist_enable           set_bist_enable name ?-width <width> -active <L/H>
+                          ?-port <port> (HELP-303)
+set_bist_mode             set_bist_mode on|off (HELP-261)
+set_boundary_distance     set_boundary_distance {lower_left_distance
+                          upper_left_distance lower_right_distance
+                          upper_right_distance} (HELP-135)
+set_bypass_enable         set_bypass_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-299)
+set_bypass_mode           set_bypass_mode on|off (HELP-255)
+set_cell_type             set_cell_type <type_name> (HELP-137)
+set_chip_enable           set_chip_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-295)
+set_clock                 set_clock pin_name -port <port> -active <r/f>
+                          (HELP-279)
+set_config_opt            set_config_opt -cell <cell> -ccb <ccb> -opcond <opcond>
+                          ?-type (decap_ccs | delay | zen | zdis | energy |
+                          timing | setup | hold | recovery | asynch_recovery |
+                          removal | asynch_removal | leakage_power | constraint
+                          | cmpw | ncmpw | mpw | input_capacitance | noise |
+                          noise_iv | noise_immunity | noise_prop | ccs_noise |
+                          ibis_iv | ibis_vt | statistical_delay|
+                          statistical_hold | statistical_setup | em_current |
+                          min_current | max_current | constInit | driver) ?-from
+                          (pin | pin_list)? ?-from_direction (direction |
+                          direction_list)? ?-reference pin?
+                          ?-reference_direction (direction | direction_list)?
+                          ?-pin pin? ?-to (pin|pin_list|none)? ?-to_direction
+                          (direction | direction_list)
+                          ?-state_partition_exclude_whens <whens> ?-when
+                          expression? ?-tag <tag>? option value (HELP-141)
+set_data_bus              set_data_bus name ?-width <width> -port <port>
+                          (HELP-283)
+set_data_output           set_data_output name -port port (HELP-317)
+set_deep_sleep_enable     set_deep_sleep_enable name ?-width <width> -active
+                          <L|H> (HELP-269)
+set_extramargin_adjustment set_extramargin_adjustment name ?-width <width> -port
+                          <port> (HELP-309)
+set_extramargin_adjustment_enable set_extramargin_adjustment_enable name ?-width <width>
+                          -active <L/H> ?-port <port> (HELP-307)
+set_extramargin_adjustment_mode set_extramargin_adjustment_mode on|off (HELP-263)
+set_harness_parent        set_harness_parent name parent (HELP-75)
+set_input_pins_tiedto_high set_input_pins_tiedto_high {pinName1 pinName2 pinName3
+                          ...} (HELP-359)
+set_input_pins_tiedto_low set_input_pins_tiedto_low {pinName1 pinName2 pinName3
+                          ...} (HELP-357)
+set_internal_supply       set_internal_supply name_of_internal_supply (HELP-361)
+set_length_unit           set_length_unit <lenth_unit> (HELP-145)
+set_liberty_attribute     set_liberty_attribute ?-library? ?-cell <cell>? ?-pin
+                          <pin>]? {attr1 attrva1 att2 attrval2 . . } (HELP-147)
+set_light_sleep_enable    set_light_sleep_enable name ?-width <width> -active
+                          <L|H> (HELP-267)
+set_location              set_location directory
+set_log_file              set_log_file file_name
+set_log_level             set_log_level level
+set_log_max_size          set_log_max_size size_in_bytes
+set_log_stdout_level      set_log_stdout_level level
+set_maskablewrite_enable  set_maskablewrite_enable name ?-width <width> -port
+                          <port> -active <L/H> (HELP-315)
+set_maskablewrite_enable_control_output set_maskablewrite_enable_control_output on|off
+                          (HELP-265)
+set_maximum_addressable_word set_maximum_addressable_word value (HELP-249)
+set_measurement_node      set_measurement_node harness_name pin_name node_name
+                          (HELP-157)
+set_mem_internal_node     set_mem_internal_node mem_internal_node_name (HELP-247)
+set_memory_enable         set_memory_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-297)
+set_memory_name           set_memory_name memory_name (HELP-245)
+set_memory_type           set_memory_type memory_type (HELP-243)
+set_netlist_file          set_netlist_file file ?tag ?file tag? ...? (HELP-159)
+set_new_log_file          set_new_log_file file_name
+set_opc_default_voltage   set_opc_default_voltage opc_name voltage (HELP-163)
+set_opc_parameter         set_opc_parameter op_cond_name parameter_name value
+                          (HELP-165)
+set_opc_parameter_distribution set_opc_parameter_distribution <opc_name> -points {list
+                          of points} -nominal_value value -distribution_type
+                          distribution -sigma value -type {list of strings}
+                          param1 ?param2? ... (HELP-169)
+set_opc_process           set_opc_process op_cond_name process_list (HELP-171)
+set_opc_statistical_parameter_derate set_opc_statistical_parameter_derate <opc_name>
+                          -passgate_derate <derate> -model <models> <derate1>
+                          <derate2> ... (HELP-385)
+set_opc_temperature       set_opc_temperature op_cond_name temperature (HELP-175)
+set_output_differential   set_output_differential pos_output neg_output
+                          ?-absolute_separation <value> | -relative_separation
+                          <value>? (HELP-177)
+set_output_enable         set_output_enable name ?-width <width> -active <L/H>
+                          -port <port> (HELP-289)
+set_output_state_on_shutdown set_output_state_on_shutdown 0|1 (HELP-363)
+set_parameter             set_parameter ?block? name value (HELP-179)
+set_pins_to_bundle_map    set_pins_to_bundle_map -bundle bundle_name -pins
+                          pin_list (HELP-193)
+set_pins_to_bus_map       set_pins_to_bus_map -bus bus_name -pins pin_list
+                          (HELP-191)
+set_pintype_parameter     set_pintype_parameter pintype name value (HELP-181)
+set_pipeline_mode         set_pipeline_mode on|off (HELP-257)
+set_pipeline_output       set_pipeline_output name -port <port> (HELP-319)
+set_pipelinemode_enable   set_pipelinemode_enable name ?-width <width> -active
+                          <L/H> ?-port <port> (HELP-305)
+set_points_boundary_distance set_points_boundary_distance <boundary> <values>
+                          (HELP-173)
+set_read_enable           set_read_enable name ?width <width> -active <L/H> -port
+                          <port> (HELP-291)
+set_register_scan_reset   set_register_scan_reset name -active <r/f> (HELP-275)
+set_replay_file           set_replay_file [-mode 1|2|3] [-cells] [-record_inst]
+                          [-record_configure] file_name
+set_rom_code_file         set_rom_code_file file_name (HELP-251)
+set_scan_chain            set_scan_chain -cycles <integer> -port <port>
+                          (HELP-367)
+set_scan_chain_def        set_scan_chain_def value <integer> -port <port>
+                          (HELP-369)
+set_scan_clock            set_scan_clock pin -port <port> (HELP-373)
+set_scan_input            set_scan_input pin -port <port> (HELP-371)
+set_scan_internal_node    set_scan_internal_node node_name -port <port>
+                          (HELP-381)
+set_scan_output           set_scan_output pin -port <port> (HELP-379)
+set_scan_preset           set_scan_preset pin -port <port> (HELP-377)
+set_scan_reset            set_scan_reset pin -port <port> (HELP-375)
+set_separate_statetable_mode set_separate_statetable_mode on|off (HELP-253)
+set_shut_down_enable      set_shut_down_enable name ?-width <width> -active <L|H>
+                          (HELP-271)
+set_stimulus_node         set_stimulus_node harness_name pin_name node_name
+                          (HELP-183)
+set_stress_input          set_stress_input ?-cell <celllist>? ?-pin <pinlist>?
+                          aging_when | aging_state | aging_pwl | aging_pulse
+                          <data> (HELP-395)
+set_subckt_ports          set_subckt_ports pin_list (HELP-185)
+set_sweep_parameter       set_sweep_parameter ?-load pin? harness_name parameter
+                          (HELP-189)
+set_testclk_enable        set_testclk_enable name -active <L/H> -port <port>
+                          (HELP-311)
+set_testmode_address_bus  set_testmode_address_bus name ?-width width -port
+                          <port> (HELP-323)
+set_testmode_bypass_enable set_testmode_bypass_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-335)
+set_testmode_chip_enable  set_testmode_chip_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-331)
+set_testmode_clock        set_testmode_clock pin_name -port <port> -active <r/f>
+                          (HELP-321)
+set_testmode_data_bus     set_testmode_data_bus name ?-width width -port <port>
+                          (HELP-325)
+set_testmode_data_output  set_testmode_data_output name -port <port> (HELP-349)
+set_testmode_extramargin_adjustment set_testmode_extramargin_adjustment name ?-width
+                          <width> -port <port> (HELP-345)
+set_testmode_extramargin_adjustment_enable set_testmode_extramargin_adjustment_enable name ?-width
+                          <width> -active <L/H> -port <port> (HELP-343)
+set_testmode_maskablewrite_enable set_testmode_maskablewrite_enable name ?-width <width>
+                          -port <port> -active<L/H> (HELP-347)
+set_testmode_memory_enable set_testmode_memory_enable name ?-width <width> -active
+                          <L/H> -poprt <port> (HELP-333)
+set_testmode_pipeline_output set_testmode_pipeline_output name -port <port>
+                          (HELP-351)
+set_testmode_pipelinemode_enable set_testmode_pipelinemode_enable name ?-width <width>
+                          -active <L/H> -port <port> (HELP-341)
+set_testmode_read_enable  set_testmode_read_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-327)
+set_testmode_write_enable set_testmode_write_enable name ?-width <width> -active
+                          <L/H> -port <port> (HELP-329)
+set_testmode_writethrough_enable set_testmode_writethrough_enable name ?-width <width>
+                          -active <L/H> -port <port> (HELP-337)
+set_write_enable          set_write_enable name ?width <width> -active <L/H>
+                          -port <port> (HELP-293)
+set_writethrough_enable   set_writethrough_enable name ?-width <width> -active
+                          <L/H> ?-port <port> (HELP-301)
+set_writethrough_mode     set_writethrough_mode on|off (HELP-259)
+stress                    stress ?-debug? ?-arc? ?stimuli? ?cells? (HELP-397)
+test_internal_nodes_for_constraint test_internal_nodes_for_constraint -node_list <list of
+                          potential candidates for internal nodes> ?-match <tcl
+                          regular expression>? ?-mem_int_node <dummy node name>?
+                          (HELP-211)
+use_stress                use_stress (HELP-399)
+validate_hdl              validate_hdl [-verilog | -vhdl] -lib_file <liberty
+                          file> -hdl_file <hdl file> [-skip_sdf] [-skip_hdl_sim]
+                          [-no_map] (HELP-195)
+write_config_opts         write_config_opts ?-output file? (HELP-197)
+write_liberty_attributes  write_liberty_attributes ?-output file? ?-cell <cell> ?
+                          (HELP-241)
+Error:   sis_help failed: can't read "toolName": no such variable (TBD-1)
+	Use error_info for more info. (CMD-013)
+Error:   unknown command 'clear' (CMD-005)
+Error:   Interrupt
+Error:   Interrupt
+Error:   Interrupt
+Maximum virtual memory size: 781.445 MB

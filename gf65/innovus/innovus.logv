@@ -1,0 +1,1535 @@
+[05/08 17:57:07      0s] 
+[05/08 17:57:07      0s] Cadence Innovus(TM) Implementation System.
+[05/08 17:57:07      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[05/08 17:57:07      0s] 
+[05/08 17:57:07      0s] Version:	v17.10-p006_1, built Wed May 31 11:06:15 PDT 2017
+[05/08 17:57:07      0s] Options:	
+[05/08 17:57:07      0s] Date:		Thu May  8 17:57:07 2025
+[05/08 17:57:07      0s] Host:		engnx05a.utdallas.edu (x86_64 w/Linux 4.18.0-553.46.1.el8_10.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB)
+[05/08 17:57:07      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[05/08 17:57:07      0s] 
+[05/08 17:57:07      0s] License:
+[05/08 17:57:07      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[05/08 17:57:07      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[05/08 17:57:08      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+[05/08 17:57:08      0s] 
+[05/08 17:57:08      0s] **ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /proj/cad/cadence/innovus-17.10.000/tools/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+[05/08 17:57:08      0s] 
+[05/08 17:57:08      0s] **ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+[05/08 17:57:08      0s] 
+[05/08 17:57:16      6s] @(#)CDS: Innovus v17.10-p006_1 (64bit) 05/31/2017 11:06 (Linux 2.6.18-194.el5)
+[05/08 17:57:16      6s] @(#)CDS: NanoRoute 17.10-p006_1 NR170516-1601/17_10-UB (database version 2.30, 378.7.1) {superthreading v1.44}
+[05/08 17:57:16      6s] @(#)CDS: AAE 17.10-p003 (64bit) 05/31/2017 (Linux 2.6.18-194.el5)
+[05/08 17:57:16      6s] @(#)CDS: CTE 17.10-p002_1 () May 18 2017 07:46:32 ( )
+[05/08 17:57:16      6s] @(#)CDS: SYNTECH 17.10-p001_1 () May 17 2017 01:24:45 ( )
+[05/08 17:57:16      6s] @(#)CDS: CPE v17.10-p003
+[05/08 17:57:16      6s] @(#)CDS: IQRC/TQRC 16.1.1-s140 (64bit) Fri Mar 17 16:46:12 PDT 2017 (Linux 2.6.18-194.el5)
+[05/08 17:57:16      6s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[05/08 17:57:16      6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[05/08 17:57:16      6s] @(#)CDS: RCDB 11.10
+[05/08 17:57:16      6s] --- Running on engnx05a.utdallas.edu (x86_64 w/Linux 4.18.0-553.46.1.el8_10.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB) ---
+[05/08 17:57:16      6s] Create and set the environment variable TMPDIR to /usr/tmp/innovus_temp_2935066_engnx05a.utdallas.edu_ebw220000_I7604e.
+
+[05/08 17:57:16      6s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[05/08 17:57:16      7s] 
+[05/08 17:57:16      7s] **INFO:  MMMC transition support version v31-84 
+[05/08 17:57:16      7s] 
+[05/08 17:57:16      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[05/08 17:57:16      7s] <CMD> suppressMessage ENCEXT-2799
+[05/08 17:57:16      7s] <CMD> getDrawView
+[05/08 17:57:16      7s] <CMD> loadWorkspace -name Physical
+[05/08 17:57:16      7s] <CMD> win
+[05/08 18:15:04    416s] <CMD> set init_gnd_net GND!
+[05/08 18:15:04    416s] <CMD> set init_lef_file ../gf65.lef
+[05/08 18:15:04    416s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:15:04    416s] <CMD> set init_pwr_net VDD!
+[05/08 18:15:04    416s] <CMD> init_design
+[05/08 18:15:04    416s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:15:04    416s] 
+[05/08 18:15:04    416s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:15:04    416s] 
+[05/08 18:15:04    416s] Loading LEF file ../gf65.lef ...
+[05/08 18:15:04    416s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:15:04    416s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:15:04    416s] cause false DRC violations to occur.
+[05/08 18:15:04    416s] 
+[05/08 18:15:04    416s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:15:04    416s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:15:04    416s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:15:04    416s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:15:04    416s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:04    416s] The LEF parser will ignore this statement.
+[05/08 18:15:04    416s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:15:04    416s] Set DBUPerIGU to M2 pitch 260.
+[05/08 18:15:04    416s] **ERROR: (IMPLF-186):	The property 'CatenaDesignType' is not defined or the object containing the property does not match the object type in PROPERTYDEFINITIONS section.
+[05/08 18:15:04    416s] **ERROR: (IMPLF-3):	Error found when processing LEF file '../gf65.lef'. The subsequent file content is ignored. Refer to error messages above for details. Fix the errors, and restart 'Innovus' again.
+[05/08 18:15:04    416s] Type 'man IMPLF-3' for more detail.
+[05/08 18:15:08    418s] **ERROR: **ERROR: (IMPSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Please exit the tools and fix the errors first, then re-load design again.
+[05/08 18:15:08    418s] 
+[05/08 18:15:22    419s] <CMD> set init_gnd_net GND!
+[05/08 18:15:22    419s] <CMD> set init_lef_file ../gf65.lef
+[05/08 18:15:22    419s] <CMD> set init_design_settop 0
+[05/08 18:15:22    419s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:15:22    419s] <CMD> set init_pwr_net VDD!
+[05/08 18:15:22    419s] <CMD> init_design
+[05/08 18:15:22    419s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/08 18:15:22    419s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:15:22    419s] 
+[05/08 18:15:22    419s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:15:22    419s] 
+[05/08 18:15:22    419s] Loading LEF file ../gf65.lef ...
+[05/08 18:15:22    419s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-119' for more detail.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:15:22    419s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:15:22    419s] cause false DRC violations to occur.
+[05/08 18:15:22    419s] 
+[05/08 18:15:22    419s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:15:22    419s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:15:22    419s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:15:22    419s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:15:22    419s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-223' for more detail.
+[05/08 18:15:22    419s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-223' for more detail.
+[05/08 18:15:22    419s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-223' for more detail.
+[05/08 18:15:22    419s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-223' for more detail.
+[05/08 18:15:22    419s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-223' for more detail.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:15:22    419s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:15:22    419s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:15:22    419s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:15:22    419s] The LEF parser will ignore this statement.
+[05/08 18:15:22    419s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:15:22    419s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[05/08 18:15:22    419s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[05/08 18:15:22    419s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[05/08 18:15:22    419s] **WARN: (IMPLF-58):	MACRO 'dff2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-58' for more detail.
+[05/08 18:15:22    419s] **ERROR: (IMPLF-186):	The property 'CatenaDesignType' is not defined or the object containing the property does not match the object type in PROPERTYDEFINITIONS section.
+[05/08 18:15:22    419s] **ERROR: (IMPLF-3):	Error found when processing LEF file '../gf65.lef'. The subsequent file content is ignored. Refer to error messages above for details. Fix the errors, and restart 'Innovus' again.
+[05/08 18:15:22    419s] Type 'man IMPLF-3' for more detail.
+[05/08 18:15:22    419s] **WARN: (IMPLF-61):	1 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[05/08 18:15:22    419s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:15:22    419s] Type 'man IMPLF-61' for more detail.
+[05/08 18:15:26    422s] **ERROR: **ERROR: (IMPSYT-16013):	Loading LEF file(s) failed, and has aborted. Refer to error messages above for details. Please exit the tools and fix the errors first, then re-load design again.
+[05/08 18:15:26    422s] 
+[05/08 18:30:58    472s] <CMD> set init_gnd_net GND!
+[05/08 18:30:58    472s] <CMD> set init_lef_file ../gf65.lef
+[05/08 18:30:58    472s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:30:58    472s] <CMD> set init_pwr_net VDD!
+[05/08 18:30:58    472s] <CMD> init_design
+[05/08 18:30:58    472s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/08 18:30:58    472s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:30:58    472s] 
+[05/08 18:30:58    472s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:30:58    472s] 
+[05/08 18:30:58    472s] Loading LEF file ../gf65.lef ...
+[05/08 18:30:58    472s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-119' for more detail.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:30:58    472s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:30:58    472s] cause false DRC violations to occur.
+[05/08 18:30:58    472s] 
+[05/08 18:30:58    472s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:30:58    472s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:30:58    472s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:30:58    472s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:30:58    472s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-223' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-223' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-223' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-223' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-223' for more detail.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:30:58    472s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:30:58    472s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:30:58    472s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:30:58    472s] The LEF parser will ignore this statement.
+[05/08 18:30:58    472s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:30:58    472s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[05/08 18:30:58    472s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[05/08 18:30:58    472s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[05/08 18:30:58    472s] **WARN: (IMPLF-58):	MACRO 'dff2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-58' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-58):	MACRO 'filler' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-58' for more detail.
+[05/08 18:30:58    472s] **WARN: (IMPLF-61):	2 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[05/08 18:30:58    472s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:30:58    472s] Type 'man IMPLF-61' for more detail.
+[05/08 18:30:58    472s] 
+[05/08 18:30:58    472s] viaInitial starts at Thu May  8 18:30:58 2025
+viaInitial ends at Thu May  8 18:30:58 2025
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=7.87min, fe_real=33.85min, fe_mem=534.4M) ***
+[05/08 18:30:58    472s] #% Begin Load netlist data ... (date=05/08 18:30:58, mem=516.2M)
+[05/08 18:30:58    472s] *** Begin netlist parsing (mem=534.4M) ***
+[05/08 18:30:58    472s] Created 0 new cells from 0 timing libraries.
+[05/08 18:30:58    472s] Reading netlist ...
+[05/08 18:30:58    472s] Backslashed names will retain backslash and a trailing blank character.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm in of cell inv is not defined in LEF.
+[05/08 18:30:58    472s] Warning: fterm out of cell inv is not defined in lef file,
+[05/08 18:30:58    472s]          but OUT is defined in lef file and is used in this
+[05/08 18:30:58    472s]          case.  Please check lef file to make it consistent.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm a of cell nand2 is not defined in LEF.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm b of cell nand2 is not defined in LEF.
+[05/08 18:30:58    472s] Warning: fterm out of cell nand2 is not defined in lef file,
+[05/08 18:30:58    472s]          but OUT is defined in lef file and is used in this
+[05/08 18:30:58    472s]          case.  Please check lef file to make it consistent.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm a of cell nand3 is not defined in LEF.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm b of cell nand3 is not defined in LEF.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm c of cell nand3 is not defined in LEF.
+[05/08 18:30:58    472s] Warning: fterm out of cell nand3 is not defined in lef file,
+[05/08 18:30:58    472s]          but OUT is defined in lef file and is used in this
+[05/08 18:30:58    472s]          case.  Please check lef file to make it consistent.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm a of cell nor2 is not defined in LEF.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm b of cell nor2 is not defined in LEF.
+[05/08 18:30:58    472s] Warning: fterm out of cell nor2 is not defined in lef file,
+[05/08 18:30:58    472s]          but OUT is defined in lef file and is used in this
+[05/08 18:30:58    472s]          case.  Please check lef file to make it consistent.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm a of cell oai22 is not defined in LEF.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm b of cell oai22 is not defined in LEF.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm c of cell oai22 is not defined in LEF.
+[05/08 18:30:58    472s] **WARN: (IMPDB-2079):	fterm d of cell oai22 is not defined in LEF.
+[05/08 18:30:58    472s] Warning: fterm out of cell oai22 is not defined in lef file,
+[05/08 18:30:58    472s]          but OUT is defined in lef file and is used in this
+[05/08 18:30:58    472s]          case.  Please check lef file to make it consistent.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 77 near the text @ for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 77 near the text posedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 77 near the text gclk for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 77 near the text or for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 77 near the text negedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 77 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 77 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text if for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text else for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 81 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 81 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:30:58    472s] Type 'man IMPVL-209' for more detail.
+[05/08 18:30:58    472s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[05/08 18:30:58    472s] To increase the message display limit, refer to the product command reference manual.
+[05/08 18:30:58    472s] Verilog file '../../synopsys/project6/uart_syn.v' has errors!  See above.
+[05/08 18:30:58    472s] 
+[05/08 18:30:58    472s] *** Memory Usage v#1 (Current mem = 534.359M, initial mem = 186.555M) ***
+[05/08 18:30:59    472s] #% End Load netlist data ... (date=05/08 18:30:58, total cpu=0:00:00.0, real=0:00:01.0, peak res=517.7M, current mem=517.7M)
+[05/08 18:31:02    474s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../../synopsys/project6/uart_syn.v. See previous error messages for details.  Resolve the issues and reload the design.
+[05/08 18:31:02    474s] 
+[05/08 18:34:07    489s] <CMD> set init_gnd_net GND!
+[05/08 18:34:07    489s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:34:07    489s] <CMD> set init_pwr_net VDD!
+[05/08 18:34:07    489s] <CMD> init_design
+[05/08 18:34:07    489s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/08 18:34:07    489s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:34:07    489s] 
+[05/08 18:34:07    489s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:34:07    489s] 
+[05/08 18:34:07    489s] Loading LEF file ../gf65.lef ...
+[05/08 18:34:07    489s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-119' for more detail.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:34:07    489s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:34:07    489s] cause false DRC violations to occur.
+[05/08 18:34:07    489s] 
+[05/08 18:34:07    489s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:34:07    489s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:34:07    489s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:34:07    489s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:34:07    489s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-223' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-223' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-223' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-223' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-223' for more detail.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:34:07    489s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:34:07    489s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:34:07    489s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:34:07    489s] The LEF parser will ignore this statement.
+[05/08 18:34:07    489s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:34:07    489s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[05/08 18:34:07    489s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[05/08 18:34:07    489s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'dff2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'filler' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'inv' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'nand2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'nand3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'nor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'oai22' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-58):	MACRO 'xnor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-58' for more detail.
+[05/08 18:34:07    489s] **WARN: (IMPLF-61):	8 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[05/08 18:34:07    489s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:34:07    489s] Type 'man IMPLF-61' for more detail.
+[05/08 18:34:07    489s] *** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=8.16min, fe_real=37.00min, fe_mem=534.4M) ***
+[05/08 18:34:07    489s] #% Begin Load netlist data ... (date=05/08 18:34:07, mem=519.5M)
+[05/08 18:34:07    489s] *** Begin netlist parsing (mem=534.4M) ***
+[05/08 18:34:07    489s] Created 0 new cells from 0 timing libraries.
+[05/08 18:34:07    489s] Reading netlist ...
+[05/08 18:34:07    489s] Backslashed names will retain backslash and a trailing blank character.
+[05/08 18:34:07    489s] **WARN: (IMPDB-2079):	fterm in of cell inv is not defined in LEF.
+[05/08 18:34:07    489s] Warning: fterm out of cell inv is not defined in lef file,
+[05/08 18:34:07    489s]          but OUT is defined in lef file and is used in this
+[05/08 18:34:07    489s]          case.  Please check lef file to make it consistent.
+[05/08 18:34:07    489s] **WARN: (IMPDB-2079):	fterm a of cell nand2 is not defined in LEF.
+[05/08 18:34:07    489s] **WARN: (IMPDB-2079):	fterm b of cell nand2 is not defined in LEF.
+[05/08 18:34:07    489s] Warning: fterm out of cell nand2 is not defined in lef file,
+[05/08 18:34:07    489s]          but OUT is defined in lef file and is used in this
+[05/08 18:34:07    489s]          case.  Please check lef file to make it consistent.
+[05/08 18:34:07    489s] **WARN: (IMPDB-2079):	fterm a of cell nand3 is not defined in LEF.
+[05/08 18:34:07    489s] **WARN: (IMPDB-2079):	fterm b of cell nand3 is not defined in LEF.
+[05/08 18:34:07    489s] **WARN: (IMPDB-2079):	fterm c of cell nand3 is not defined in LEF.
+[05/08 18:34:07    489s] Warning: fterm out of cell nand3 is not defined in lef file,
+[05/08 18:34:07    489s]          but OUT is defined in lef file and is used in this
+[05/08 18:34:07    489s]          case.  Please check lef file to make it consistent.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text @ for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text posedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text gclk for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text or for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text negedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text if for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 55 near the text else for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 56 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 56 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:34:07    489s] Type 'man IMPVL-209' for more detail.
+[05/08 18:34:07    489s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[05/08 18:34:07    489s] To increase the message display limit, refer to the product command reference manual.
+[05/08 18:34:07    489s] Verilog file '../../synopsys/project6/uart_syn.v' has errors!  See above.
+[05/08 18:34:07    489s] 
+[05/08 18:34:07    489s] *** Memory Usage v#1 (Current mem = 534.359M, initial mem = 186.555M) ***
+[05/08 18:34:07    489s] #% End Load netlist data ... (date=05/08 18:34:07, total cpu=0:00:00.0, real=0:00:00.0, peak res=519.5M, current mem=518.4M)
+[05/08 18:34:09    490s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../../synopsys/project6/uart_syn.v. See previous error messages for details.  Resolve the issues and reload the design.
+[05/08 18:34:09    490s] 
+[05/08 18:41:26    523s] <CMD> set init_gnd_net GND!
+[05/08 18:41:26    523s] <CMD> set init_design_settop 0
+[05/08 18:41:26    523s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:41:26    523s] <CMD> set init_pwr_net VDD!
+[05/08 18:41:26    523s] <CMD> init_design
+[05/08 18:41:26    523s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/08 18:41:26    523s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:41:26    523s] 
+[05/08 18:41:26    523s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:41:26    523s] 
+[05/08 18:41:26    523s] Loading LEF file ../gf65.lef ...
+[05/08 18:41:26    523s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-119' for more detail.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:41:26    523s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:41:26    523s] cause false DRC violations to occur.
+[05/08 18:41:26    523s] 
+[05/08 18:41:26    523s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:41:26    523s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:41:26    523s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:41:26    523s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:41:26    523s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-223' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-223' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-223' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-223' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-223' for more detail.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:41:26    523s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:41:26    523s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:41:26    523s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:41:26    523s] The LEF parser will ignore this statement.
+[05/08 18:41:26    523s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:41:26    523s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[05/08 18:41:26    523s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[05/08 18:41:26    523s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'dff2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'filler' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'inv' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'nand2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'nand3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'nor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'oai22' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-58):	MACRO 'xnor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-58' for more detail.
+[05/08 18:41:26    523s] **WARN: (IMPLF-61):	8 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[05/08 18:41:26    523s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:41:26    523s] Type 'man IMPLF-61' for more detail.
+[05/08 18:41:26    523s] *** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=8.73min, fe_real=44.32min, fe_mem=535.4M) ***
+[05/08 18:41:26    523s] #% Begin Load netlist data ... (date=05/08 18:41:26, mem=520.3M)
+[05/08 18:41:26    523s] *** Begin netlist parsing (mem=535.4M) ***
+[05/08 18:41:26    523s] Created 0 new cells from 0 timing libraries.
+[05/08 18:41:26    523s] Reading netlist ...
+[05/08 18:41:26    523s] Backslashed names will retain backslash and a trailing blank character.
+[05/08 18:41:26    523s] **WARN: (IMPDB-2079):	fterm in of cell inv is not defined in LEF.
+[05/08 18:41:26    523s] Warning: fterm out of cell inv is not defined in lef file,
+[05/08 18:41:26    523s]          but OUT is defined in lef file and is used in this
+[05/08 18:41:26    523s]          case.  Please check lef file to make it consistent.
+[05/08 18:41:26    523s] **WARN: (IMPDB-2079):	fterm a of cell nand2 is not defined in LEF.
+[05/08 18:41:26    523s] **WARN: (IMPDB-2079):	fterm b of cell nand2 is not defined in LEF.
+[05/08 18:41:26    523s] Warning: fterm out of cell nand2 is not defined in lef file,
+[05/08 18:41:26    523s]          but OUT is defined in lef file and is used in this
+[05/08 18:41:26    523s]          case.  Please check lef file to make it consistent.
+[05/08 18:41:26    523s] **WARN: (IMPDB-2079):	fterm a of cell nand3 is not defined in LEF.
+[05/08 18:41:26    523s] **WARN: (IMPDB-2079):	fterm b of cell nand3 is not defined in LEF.
+[05/08 18:41:26    523s] **WARN: (IMPDB-2079):	fterm c of cell nand3 is not defined in LEF.
+[05/08 18:41:26    523s] Warning: fterm out of cell nand3 is not defined in lef file,
+[05/08 18:41:26    523s]          but OUT is defined in lef file and is used in this
+[05/08 18:41:26    523s]          case.  Please check lef file to make it consistent.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text @ for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text posedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text gclk for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text or for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text negedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text if for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 55 near the text else for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 56 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 56 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:41:26    523s] Type 'man IMPVL-209' for more detail.
+[05/08 18:41:26    523s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[05/08 18:41:26    523s] To increase the message display limit, refer to the product command reference manual.
+[05/08 18:41:26    523s] Verilog file '../../synopsys/project6/uart_syn.v' has errors!  See above.
+[05/08 18:41:26    523s] 
+[05/08 18:41:26    523s] *** Memory Usage v#1 (Current mem = 535.359M, initial mem = 186.555M) ***
+[05/08 18:41:27    523s] #% End Load netlist data ... (date=05/08 18:41:26, total cpu=0:00:00.0, real=0:00:01.0, peak res=520.3M, current mem=519.0M)
+[05/08 18:41:28    524s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../../synopsys/project6/uart_syn.v. See previous error messages for details.  Resolve the issues and reload the design.
+[05/08 18:41:28    524s] 
+[05/08 18:44:16    544s] <CMD> set init_gnd_net GND!
+[05/08 18:44:16    544s] <CMD> set init_design_settop 0
+[05/08 18:44:16    544s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:44:16    544s] <CMD> set init_pwr_net VDD!
+[05/08 18:44:16    544s] <CMD> init_design
+[05/08 18:44:16    544s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/08 18:44:16    544s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:44:16    544s] 
+[05/08 18:44:16    544s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:44:16    544s] 
+[05/08 18:44:16    544s] Loading LEF file ../gf65.lef ...
+[05/08 18:44:16    544s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-119' for more detail.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:44:16    544s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:44:16    544s] cause false DRC violations to occur.
+[05/08 18:44:16    544s] 
+[05/08 18:44:16    544s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:44:16    544s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:44:16    544s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:44:16    544s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:44:16    544s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-223' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-223' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-223' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-223' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-223' for more detail.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:44:16    544s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:44:16    544s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:44:16    544s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:44:16    544s] The LEF parser will ignore this statement.
+[05/08 18:44:16    544s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:44:16    544s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[05/08 18:44:16    544s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[05/08 18:44:16    544s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'dff2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'filler' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'inv' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'nand2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'nand3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'nor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'oai22' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-58):	MACRO 'xnor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-58' for more detail.
+[05/08 18:44:16    544s] **WARN: (IMPLF-61):	8 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[05/08 18:44:16    544s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:44:16    544s] Type 'man IMPLF-61' for more detail.
+[05/08 18:44:16    544s] *** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=9.07min, fe_real=47.15min, fe_mem=536.4M) ***
+[05/08 18:44:16    544s] #% Begin Load netlist data ... (date=05/08 18:44:16, mem=519.6M)
+[05/08 18:44:16    544s] *** Begin netlist parsing (mem=536.4M) ***
+[05/08 18:44:16    544s] Created 0 new cells from 0 timing libraries.
+[05/08 18:44:16    544s] Reading netlist ...
+[05/08 18:44:16    544s] Backslashed names will retain backslash and a trailing blank character.
+[05/08 18:44:16    544s] **WARN: (IMPDB-2079):	fterm in of cell inv is not defined in LEF.
+[05/08 18:44:16    544s] Warning: fterm out of cell inv is not defined in lef file,
+[05/08 18:44:16    544s]          but OUT is defined in lef file and is used in this
+[05/08 18:44:16    544s]          case.  Please check lef file to make it consistent.
+[05/08 18:44:16    544s] **WARN: (IMPDB-2079):	fterm a of cell nand2 is not defined in LEF.
+[05/08 18:44:16    544s] **WARN: (IMPDB-2079):	fterm b of cell nand2 is not defined in LEF.
+[05/08 18:44:16    544s] Warning: fterm out of cell nand2 is not defined in lef file,
+[05/08 18:44:16    544s]          but OUT is defined in lef file and is used in this
+[05/08 18:44:16    544s]          case.  Please check lef file to make it consistent.
+[05/08 18:44:16    544s] **WARN: (IMPDB-2079):	fterm a of cell nand3 is not defined in LEF.
+[05/08 18:44:16    544s] **WARN: (IMPDB-2079):	fterm b of cell nand3 is not defined in LEF.
+[05/08 18:44:16    544s] **WARN: (IMPDB-2079):	fterm c of cell nand3 is not defined in LEF.
+[05/08 18:44:16    544s] Warning: fterm out of cell nand3 is not defined in lef file,
+[05/08 18:44:16    544s]          but OUT is defined in lef file and is used in this
+[05/08 18:44:16    544s]          case.  Please check lef file to make it consistent.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text @ for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text posedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text gclk for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text or for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text negedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 52 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 53 near the text begin for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text if for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 54 near the text begin for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 55 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 55 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 55 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 55 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 56 near the text end for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:44:16    544s] Type 'man IMPVL-209' for more detail.
+[05/08 18:44:16    544s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[05/08 18:44:16    544s] To increase the message display limit, refer to the product command reference manual.
+[05/08 18:44:16    544s] Verilog file '../../synopsys/project6/uart_syn.v' has errors!  See above.
+[05/08 18:44:16    544s] 
+[05/08 18:44:16    544s] *** Memory Usage v#1 (Current mem = 536.359M, initial mem = 186.555M) ***
+[05/08 18:44:16    544s] #% End Load netlist data ... (date=05/08 18:44:16, total cpu=0:00:00.0, real=0:00:00.0, peak res=519.6M, current mem=519.6M)
+[05/08 18:44:18    545s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../../synopsys/project6/uart_syn.v. See previous error messages for details.  Resolve the issues and reload the design.
+[05/08 18:44:18    545s] 
+[05/08 18:46:16    559s] <CMD> set init_gnd_net GND!
+[05/08 18:46:16    559s] <CMD> set init_design_settop 0
+[05/08 18:46:16    559s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:46:16    559s] <CMD> set init_pwr_net VDD!
+[05/08 18:46:16    559s] <CMD> init_design
+[05/08 18:46:16    559s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/08 18:46:16    559s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:46:16    559s] 
+[05/08 18:46:16    559s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:46:16    559s] 
+[05/08 18:46:16    559s] Loading LEF file ../gf65.lef ...
+[05/08 18:46:16    559s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-119' for more detail.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:46:16    559s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:46:16    559s] cause false DRC violations to occur.
+[05/08 18:46:16    559s] 
+[05/08 18:46:16    559s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:46:16    559s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:46:16    559s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:46:16    559s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:46:16    559s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-223' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-223' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-223' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-223' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-223' for more detail.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:46:16    559s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:46:16    559s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:46:16    559s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:46:16    559s] The LEF parser will ignore this statement.
+[05/08 18:46:16    559s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:46:16    559s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[05/08 18:46:16    559s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[05/08 18:46:16    559s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'dff2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'filler' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'inv' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'nand2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'nand3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'nor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'oai22' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-58):	MACRO 'xnor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-58' for more detail.
+[05/08 18:46:16    559s] **WARN: (IMPLF-61):	8 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[05/08 18:46:16    559s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:46:16    559s] Type 'man IMPLF-61' for more detail.
+[05/08 18:46:16    559s] *** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=9.33min, fe_real=49.15min, fe_mem=536.4M) ***
+[05/08 18:46:16    559s] #% Begin Load netlist data ... (date=05/08 18:46:16, mem=519.9M)
+[05/08 18:46:16    559s] *** Begin netlist parsing (mem=536.4M) ***
+[05/08 18:46:16    559s] Created 0 new cells from 0 timing libraries.
+[05/08 18:46:16    559s] Reading netlist ...
+[05/08 18:46:16    559s] Backslashed names will retain backslash and a trailing blank character.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module inv in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm in of cell inv is not defined in LEF.
+[05/08 18:46:16    559s] Warning: fterm out of cell inv is not defined in lef file,
+[05/08 18:46:16    559s]          but OUT is defined in lef file and is used in this
+[05/08 18:46:16    559s]          case.  Please check lef file to make it consistent.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module nand2 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm a of cell nand2 is not defined in LEF.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm b of cell nand2 is not defined in LEF.
+[05/08 18:46:16    559s] Warning: fterm out of cell nand2 is not defined in lef file,
+[05/08 18:46:16    559s]          but OUT is defined in lef file and is used in this
+[05/08 18:46:16    559s]          case.  Please check lef file to make it consistent.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module nand3 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm a of cell nand3 is not defined in LEF.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm b of cell nand3 is not defined in LEF.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm c of cell nand3 is not defined in LEF.
+[05/08 18:46:16    559s] Warning: fterm out of cell nand3 is not defined in lef file,
+[05/08 18:46:16    559s]          but OUT is defined in lef file and is used in this
+[05/08 18:46:16    559s]          case.  Please check lef file to make it consistent.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module nand4 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module nor2 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm a of cell nor2 is not defined in LEF.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm b of cell nor2 is not defined in LEF.
+[05/08 18:46:16    559s] Warning: fterm out of cell nor2 is not defined in lef file,
+[05/08 18:46:16    559s]          but OUT is defined in lef file and is used in this
+[05/08 18:46:16    559s]          case.  Please check lef file to make it consistent.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module nor3 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module xor2 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module aoi12 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module aoi22 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module oai12 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module oai22 in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm a of cell oai22 is not defined in LEF.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm b of cell oai22 is not defined in LEF.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm c of cell oai22 is not defined in LEF.
+[05/08 18:46:16    559s] **WARN: (IMPDB-2079):	fterm d of cell oai22 is not defined in LEF.
+[05/08 18:46:16    559s] Warning: fterm out of cell oai22 is not defined in lef file,
+[05/08 18:46:16    559s]          but OUT is defined in lef file and is used in this
+[05/08 18:46:16    559s]          case.  Please check lef file to make it consistent.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text @ for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text posedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text gclk for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text or for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text negedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text if for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 81 near the text else for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 82 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 82 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:46:16    559s] Type 'man IMPVL-209' for more detail.
+[05/08 18:46:16    559s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[05/08 18:46:16    559s] To increase the message display limit, refer to the product command reference manual.
+[05/08 18:46:16    559s] **WARN: (IMPVL-324):	Module UART in ../../synopsys/project6/uart_syn.v will overwrite the previous definition in the same file.
+[05/08 18:46:16    559s] Verilog file '../../synopsys/project6/uart_syn.v' has errors!  See above.
+[05/08 18:46:16    559s] 
+[05/08 18:46:16    559s] *** Memory Usage v#1 (Current mem = 536.359M, initial mem = 186.555M) ***
+[05/08 18:46:17    559s] #% End Load netlist data ... (date=05/08 18:46:16, total cpu=0:00:00.0, real=0:00:01.0, peak res=519.9M, current mem=519.9M)
+[05/08 18:46:18    560s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../../synopsys/project6/uart_syn.v. See previous error messages for details.  Resolve the issues and reload the design.
+[05/08 18:46:18    560s] 
+[05/08 18:53:35    590s] <CMD> set init_gnd_net GND!
+[05/08 18:53:35    590s] <CMD> set init_design_settop 0
+[05/08 18:53:35    590s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/08 18:53:35    590s] <CMD> set init_pwr_net VDD!
+[05/08 18:53:35    590s] <CMD> init_design
+[05/08 18:53:35    590s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/08 18:53:35    590s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/08 18:53:35    590s] 
+[05/08 18:53:35    590s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/08 18:53:35    590s] 
+[05/08 18:53:35    590s] Loading LEF file ../gf65.lef ...
+[05/08 18:53:35    590s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'M1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'V1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'M2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'V2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'M3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'V3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'M4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'V4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'M5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'V5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'M6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-119):	LAYER 'OVERLAP' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-119' for more detail.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/08 18:53:35    590s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/08 18:53:35    590s] cause false DRC violations to occur.
+[05/08 18:53:35    590s] 
+[05/08 18:53:35    590s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/08 18:53:35    590s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/08 18:53:35    590s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/08 18:53:35    590s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/08 18:53:35    590s] **ERROR: (IMPLF-223):	The LEF via 'via5' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-223' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPLF-223):	The LEF via 'via4' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-223' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPLF-223):	The LEF via 'via3' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-223' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPLF-223):	The LEF via 'via2' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-223' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPLF-223):	The LEF via 'via1' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-223' for more detail.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/08 18:53:35    590s] **WARN: (IMPLF-151):	The viaRule 'via1Array' has been defined, the content will be skipped.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/08 18:53:35    590s] **WARN: (IMPLF-151):	The viaRule 'via2Array' has been defined, the content will be skipped.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/08 18:53:35    590s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/08 18:53:35    590s] The LEF parser will ignore this statement.
+[05/08 18:53:35    590s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/08 18:53:35    590s] **WARN: (IMPLF-151):	The viaRule 'via3Array' has been defined, the content will be skipped.
+[05/08 18:53:35    590s] **WARN: (IMPLF-151):	The viaRule 'via4Array' has been defined, the content will be skipped.
+[05/08 18:53:35    590s] **WARN: (IMPLF-151):	The viaRule 'via5Array' has been defined, the content will be skipped.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'dff2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'filler' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'inv' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'nand2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'nand3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'nor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'oai22' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-58):	MACRO 'xnor2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data will be ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-58' for more detail.
+[05/08 18:53:35    590s] **WARN: (IMPLF-61):	8 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data have been ignored.
+[05/08 18:53:35    590s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/08 18:53:35    590s] Type 'man IMPLF-61' for more detail.
+[05/08 18:53:35    590s] *** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=9.84min, fe_real=56.47min, fe_mem=536.4M) ***
+[05/08 18:53:35    590s] #% Begin Load netlist data ... (date=05/08 18:53:35, mem=521.7M)
+[05/08 18:53:35    590s] *** Begin netlist parsing (mem=536.4M) ***
+[05/08 18:53:35    590s] Created 0 new cells from 0 timing libraries.
+[05/08 18:53:35    590s] Reading netlist ...
+[05/08 18:53:35    590s] Backslashed names will retain backslash and a trailing blank character.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm in of cell inv is not defined in LEF.
+[05/08 18:53:35    590s] Warning: fterm out of cell inv is not defined in lef file,
+[05/08 18:53:35    590s]          but OUT is defined in lef file and is used in this
+[05/08 18:53:35    590s]          case.  Please check lef file to make it consistent.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm a of cell nand2 is not defined in LEF.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm b of cell nand2 is not defined in LEF.
+[05/08 18:53:35    590s] Warning: fterm out of cell nand2 is not defined in lef file,
+[05/08 18:53:35    590s]          but OUT is defined in lef file and is used in this
+[05/08 18:53:35    590s]          case.  Please check lef file to make it consistent.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm a of cell nand3 is not defined in LEF.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm b of cell nand3 is not defined in LEF.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm c of cell nand3 is not defined in LEF.
+[05/08 18:53:35    590s] Warning: fterm out of cell nand3 is not defined in lef file,
+[05/08 18:53:35    590s]          but OUT is defined in lef file and is used in this
+[05/08 18:53:35    590s]          case.  Please check lef file to make it consistent.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm a of cell nor2 is not defined in LEF.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm b of cell nor2 is not defined in LEF.
+[05/08 18:53:35    590s] Warning: fterm out of cell nor2 is not defined in lef file,
+[05/08 18:53:35    590s]          but OUT is defined in lef file and is used in this
+[05/08 18:53:35    590s]          case.  Please check lef file to make it consistent.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm a of cell oai22 is not defined in LEF.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm b of cell oai22 is not defined in LEF.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm c of cell oai22 is not defined in LEF.
+[05/08 18:53:35    590s] **WARN: (IMPDB-2079):	fterm d of cell oai22 is not defined in LEF.
+[05/08 18:53:35    590s] Warning: fterm out of cell oai22 is not defined in lef file,
+[05/08 18:53:35    590s]          but OUT is defined in lef file and is used in this
+[05/08 18:53:35    590s]          case.  Please check lef file to make it consistent.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text @ for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text posedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text gclk for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text or for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text negedge for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 78 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text if for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text rnot for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 79 near the text ) for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text 1'b0 for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 80 near the text ; for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 81 near the text else for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 82 near the text q for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **ERROR: (IMPVL-209):	In Verilog file '../../synopsys/project6/uart_syn.v', check line 82 near the text = for the issue: 'syntax error'.  Update the text accordingly.
+[05/08 18:53:35    590s] Type 'man IMPVL-209' for more detail.
+[05/08 18:53:35    590s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[05/08 18:53:35    590s] To increase the message display limit, refer to the product command reference manual.
+[05/08 18:53:35    590s] Verilog file '../../synopsys/project6/uart_syn.v' has errors!  See above.
+[05/08 18:53:35    590s] 
+[05/08 18:53:35    590s] *** Memory Usage v#1 (Current mem = 536.359M, initial mem = 186.555M) ***
+[05/08 18:53:35    590s] #% End Load netlist data ... (date=05/08 18:53:35, total cpu=0:00:00.0, real=0:00:00.0, peak res=521.7M, current mem=520.5M)
+[05/08 18:53:36    591s] **ERROR: **ERROR: (IMPVL-902):	Failed to read netlist ../../synopsys/project6/uart_syn.v. See previous error messages for details.  Resolve the issues and reload the design.
+[05/08 18:53:36    591s] 

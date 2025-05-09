@@ -1,0 +1,32 @@
+# Legend: N(newborn) R(running) F(failed) K(killed) C(complete)
+C initialization__ACQ_6 of DFF2 T0 W1
+F setup_hbm__D__lh__CLK__lh__ACQ_1 of DFF2 T1 W1
+C initialization__ACQ_5 of DFF2 T2 W1
+F setup_hbm__D__hl__CLK__lh__ACQ_1 of DFF2 T3 W1
+C initialization__ACQ_3 of DFF2 T4 W1
+N leakage_power__ACQ_1 of DFF2
+N Cin__D__hl__ACQ_1 of DFF2
+N Cin__D__lh__ACQ_1 of DFF2
+N Cin__VSS__hl__ACQ_1 of DFF2
+N Cin__VSS__lh__ACQ_1 of DFF2
+C initialization__ACQ_4 of DFF2 T10 W1
+F ncmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of DFF2 T11 W1
+C removal_hbm__R__hl__CLK__lh__ACQ_1 of DFF2 T12 W1
+F recover_hbm__R__hl__CLK__lh__ACQ_1 of DFF2 T13 W1
+C initialization__ACQ_1 of DFF2 T14 W1
+C initialization__ACQ_2 of DFF2 T15 W1
+R cmpw_hbm__CLK__lh__CLK__hl__ACQ_1 of DFF2 T16 W1
+N cmpw_hbm__R__lh__R__hl__ACQ_1 of DFF2
+N delay__CLK__lh__Q__hl__ACQ_1 of DFF2
+N delay__CLK__lh__Q__lh__ACQ_1 of DFF2
+N hold_hbm__D__lh__CLK__lh__ACQ_1 of DFF2
+N hold_hbm__D__hl__CLK__lh__ACQ_1 of DFF2
+N Cin__CLK__hl__ACQ_1 of DFF2
+N Cin__VDD__hl__ACQ_1 of DFF2
+N Cin__VDD__lh__ACQ_1 of DFF2
+N delay__R__lh__Q__hl__ACQ_1 of DFF2
+N Cin__R__hl__ACQ_1 of DFF2
+N recover_hbm__R__hl__CLK__lh__ACQ_1 of DFF2
+N setup_hbm__D__lh__CLK__lh__ACQ_1 of DFF2
+N setup_hbm__D__hl__CLK__lh__ACQ_1 of DFF2
+N ncmpw_hbm__CLK__hl__CLK__lh__ACQ_1 of DFF2

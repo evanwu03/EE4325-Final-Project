@@ -452,3 +452,123 @@
 \a cdsLibManager->libLineEdit->value = "tutorial"
 \a cdsLibManager->cellListBox->value = "xnor2"
 \a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "xnor2"
+\a cdsLibManager->cellLineEdit->value = "xnor2"
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "aoi22"
+\a cdsLibManager->cellLineEdit->value = "aoi22"
+\a lmgrLogShowPopup("mainListPopup1" 32 14 2 "aoi22")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "aoi22"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "oai22"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o View file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial/aoi22/layout/layout.oa is locked by ebw220000 at host engnx05a.utdallas.edu
+\o ERROR (CLM-223): Cell tutorial/aoi22 has files that are locked or are checked out.\nCheck the "Messages" window for a list of which files are causing problem\nRename failed.
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a nrResizeWindow(errorDialog list(1126 343 450 134))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(errorDialog list(1126 306 450 134))
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup1" 53 10 2 "aoi22")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameToEdit->value = "aoi22"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1222 311 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "oai22"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "aoi22" to "oai22" in library "tutorial".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1207 340 268 133))
+\o Rename succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrResizeWindow(workingDialogForm list(1207 303 268 133))
+\a nrResizeWindow(basicRenameForm list(1222 274 239 190))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)

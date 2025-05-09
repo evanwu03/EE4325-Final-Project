@@ -2,102 +2,143 @@
 PrimeLib version T-2022.03-SP1 (Malibu 2)
 Build date: Apr 12, 2022 13:01:04
 Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-Host: engnx05a.utdallas.edu, User: ebw220000, PID: 1257808 (PPID: 1241565)
-CPU: 32 x 3889 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
-Memory: 257 GB RAM (6.3 GB free), 4 GB Swap (3.9 GB free)
-System load average: 11.81, 13.32, 16.46 (23066 processes)
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2728338 (PPID: 1241565)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (15.4 GB free), 4 GB Swap (3.8 GB free)
+System load average: 6.92, 7.46, 9.80 (21849 processes)
 Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
 Malibu mode 2 activated
-Wed May  7 19:08:50 2025: Establishing connection to license server
-Wed May  7 19:08:50 2025: Testing server connection using feature PrimeLib_CHAR
-Wed May  7 19:08:50 2025: License server connection established
-Wed May  7 19:08:51 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Thu May  8 15:14:29 2025: Establishing connection to license server
+Thu May  8 15:14:30 2025: Testing server connection using feature PrimeLib_CHAR
+Thu May  8 15:14:30 2025: License server connection established
+Thu May  8 15:14:30 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
 Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-================================================
-Wed May 07 19:09:24 CDT 2025: Begin create stage
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Wed May 07 19:09:24 CDT 2025: Done create stage (Elapsed: 0 seconds | 0.00 hours  Memory: 783.60MB)
-===================================================================================================
-Error:   set_location failed: INV is not a valid characterization point. (TBD-1)
-	Use error_info for more info. (CMD-013)
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Warning: Environment check: Supply in default::power_meas_supplies (VDD) cannot be found in any operating condition
-Warning: Environment check: Supply in liberty_model::power_meas_supplies (VDD) cannot be found in any operating condition
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/etc/cell.stat.gz
 ===================================================
-Wed May 07 21:19:02 CDT 2025: Begin configure stage
-AC analysis for decap not supported for finesim. Defaulting to transient analysis
+Thu May 08 15:15:36 CDT 2025: Begin configure stage
 Optimizing dispatch of 1 cells for efficiency
-Reading instance file for cell INV
-Warning: Port VSS in cell INV has no associated function
-Warning: Port VDD in cell INV has no associated function
+Reading instance file for cell DFF2
+Warning: Port VSS in cell DFF2 has no associated function
+Warning: Port VDD in cell DFF2 has no associated function
 Generating timing tests.
 Generating power tests.
-Generating template at Wed May  7 21:19:02 2025 
-Done generating template at Wed May  7 21:19:02 2025
-Generate Templates: Maximum virtual memory size: 792.906 MB
-Cell INV configured for characterization.
-Wed May 07 21:19:02 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 792.91MB)
+Generating template at Thu May  8 15:15:36 2025 
+Done generating template at Thu May  8 15:15:37 2025
+Generate Templates: Maximum virtual memory size: 791.953 MB
+Cell DFF2 configured for characterization.
+Thu May 08 15:15:37 CDT 2025: Done configure stage (Elapsed: 1 seconds | 0.00 hours  Memory: 792.11MB)
 ======================================================================================================
 ======================================================
-Wed May 07 21:19:09 CDT 2025: Begin characterize stage
-Error:   characterize failed: Operating condition 'op_cond' does not exist. (TBD-1)
-	Use error_info for more info. (CMD-013)
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Warning: Environment check: Supply in default::power_meas_supplies (VDD) cannot be found in any operating condition
-Warning: Environment check: Supply in liberty_model::power_meas_supplies (VDD) cannot be found in any operating condition
-===================================================
-Wed May 07 21:22:25 CDT 2025: Begin configure stage
-AC analysis for decap not supported for finesim. Defaulting to transient analysis
-Reading instance file for cell INV
-Warning: Port VSS in cell INV has no associated function
-Warning: Port VDD in cell INV has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Wed May  7 21:22:25 2025 
-Done generating template at Wed May  7 21:22:25 2025
-Generate Templates: Maximum virtual memory size: 792.906 MB
-Cell INV configured for characterization.
-Wed May 07 21:22:25 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 792.91MB)
-======================================================================================================
-======================================================
-Wed May 07 21:22:29 CDT 2025: Begin characterize stage
-Error:   characterize failed: Operating condition 'op_cond' does not exist. (TBD-1)
-	Use error_info for more info. (CMD-013)
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Warning: Environment check: Supply in default::power_meas_supplies (VDD) cannot be found in any operating condition
-Warning: Environment check: Supply in liberty_model::power_meas_supplies (VDD) cannot be found in any operating condition
-Error:   unknown command 'cls' (CMD-005)
-Error:   unknown command 'clear' (CMD-005)
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
-Warning: Environment check: Supply in default::power_meas_supplies (VDD) cannot be found in any operating condition
-Warning: Environment check: Supply in liberty_model::power_meas_supplies (VDD) cannot be found in any operating condition
-===================================================
-Wed May 07 21:27:35 CDT 2025: Begin configure stage
-AC analysis for decap not supported for finesim. Defaulting to transient analysis
-Reading instance file for cell INV
-Warning: Port VSS in cell INV has no associated function
-Warning: Port VDD in cell INV has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Wed May  7 21:27:35 2025 
-Done generating template at Wed May  7 21:27:35 2025
-Generate Templates: Maximum virtual memory size: 792.906 MB
-Cell INV configured for characterization.
-Wed May 07 21:27:35 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 792.91MB)
-======================================================================================================
-======================================================
-Wed May 07 21:27:40 CDT 2025: Begin characterize stage
-Error:   characterize failed: Operating condition 'op_cond' does not exist. (TBD-1)
-	Use error_info for more info. (CMD-013)
-Extended error info:
-characterize failed: Operating condition 'op_cond' does not exist.
-    while executing
-"error "$name failed: $msg""
-    (procedure "::smc_shell::command_body" line 29)
-    invoked from within
-"characterize"
- -- End Extended Error Info
+Thu May 08 15:15:48 CDT 2025: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+[CDPL] Initialized with 1 standalone slot
+[CDPL] Master initialized (0 seconds)
+Start generating characterization tasks
+Thu May  8 15:15:48 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Thu May  8 15:15:48 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Thu May  8 15:15:48 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Thu May  8 15:15:48 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Library has standard-cells
+DFF2: generated 27 tasks (27 total)
+Using 1 standalone slots
+[CDPL] Tasks: 0/27, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 3/27, (11.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 5/27, (18.5%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+[CDPL] Tasks: 8/27, (29.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
+[CDPL] Tasks: 9/27, (33.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 2m00s
+[CDPL] Tasks: 12/27, (44.4%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 2m30s
+[CDPL] Tasks: 14/27, (51.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 3m00s
+[CDPL] Tasks: 16/27, (59.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 3m30s
+[CDPL] Tasks: 20/27, (74.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 4m00s
+[CDPL] Tasks: 24/27, (88.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 4m30s
+[CDPL] Tasks: 27/27, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 5m00s
+Long task: DFF2::initialization__ACQ_6 30.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Thu May  8 15:21:18 2025: Released license FEATURE PrimeLib_CORE(all)
+Thu May  8 15:21:18 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Thu May 08 15:21:18 CDT 2025: Done characterize stage (Elapsed: 330 seconds | 0.09 hours  Memory: 1081.90MB)
+============================================================================================================
+===============================================
+Thu May 08 15:21:26 CDT 2025: Begin model stage
+Creating new libraries.
+Warning: DFF2. The arc from  R to Q doesn't have cell_rise groups. setting 'default_timing_arc_mode' to cell_fall for this arc. (MODL-28)
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+=================================================
+Thu May 08 15:21:26 CDT 2025: Begin write library
+Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/models/liberty/cells/DFF2_op_cond.lib".
+Thu May 08 15:21:26 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1088.19MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Thu May 08 15:21:26 CDT 2025: Begin merge stage
+Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/models/liberty/cells
+Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/models/liberty/liberty_op_cond.lib.
+Thu May 08 15:21:26 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1088.89MB)
+===================================================================================================
+Thu May 08 15:21:26 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1088.89MB)
+===================================================================================================
+===============================================
+Thu May 08 15:21:28 CDT 2025: Begin model stage
+Creating new libraries.
+Warning: DFF2. The arc from  R to Q doesn't have cell_rise groups. setting 'default_timing_arc_mode' to cell_fall for this arc. (MODL-28)
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: R->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+Warning: DFF2: D->CLK (default) non-monotonicity detected in table values
+=================================================
+Thu May 08 15:21:28 CDT 2025: Begin write library
+Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/models/liberty/cells/DFF2_op_cond.lib".
+Thu May 08 15:21:28 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1092.39MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Thu May 08 15:21:28 CDT 2025: Begin merge stage
+Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/models/liberty/cells
+Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/models/liberty/liberty_op_cond.lib.
+Thu May 08 15:21:28 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1093.24MB)
+===================================================================================================
+Thu May 08 15:21:28 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1093.24MB)
+===================================================================================================
 Error:   Interrupt
 Error:   Interrupt
 Error:   Interrupt
-Maximum virtual memory size: 792.906 MB
+Maximum virtual memory size: 1093.24 MB

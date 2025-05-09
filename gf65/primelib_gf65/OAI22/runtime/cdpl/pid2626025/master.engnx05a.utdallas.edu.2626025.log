@@ -1,0 +1,650 @@
+1746732082.725013: 2626025-7f7a4fd000c0: cdpl_log.c:228: in cdpl_log_open(): info: @@start_of_log@@
+1746732082.725033: 2626025-7f7a4fd000c0: cdpl_log.c:866: in cdpl_log_dump_sysinfo(): info: time: 2025/05/08 14:21:22 CDT -0500
+1746732082.725037: 2626025-7f7a4fd000c0: cdpl_log.c:868: in cdpl_log_dump_sysinfo(): info: version: T-2022.03 
+1746732082.725039: 2626025-7f7a4fd000c0: cdpl_log.c:870: in cdpl_log_dump_sysinfo(): info: system: Linux 4.18.0-553.46.1.el8_10.x86_64 #1 SMP Sat Mar 15 01:37:33 EDT 2025
+1746732082.725041: 2626025-7f7a4fd000c0: cdpl_log.c:875: in cdpl_log_dump_sysinfo(): info: processor: x86_64 64-bits
+1746732082.725043: 2626025-7f7a4fd000c0: cdpl_log.c:879: in cdpl_log_dump_sysinfo(): info: hostname: engnx05a.utdallas.edu
+1746732082.725046: 2626025-7f7a4fd000c0: cdpl_log.c:230: in cdpl_log_open(): debug: path: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/master.engnx05a.utdallas.edu.2626025.log
+1746732082.725049: 2626025-7f7a4fd000c0: cdpl_log.c:231: in cdpl_log_open(): debug: dir: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025
+1746732082.725055: 2626025-7f7a4fd000c0: cdpl_log.c:758: in cdpl_log_set_filter(): info: filter level 1
+1746732082.725077: 2626025-7f7a4fd000c0: cdpl_server.c:543: in cdpl_sv_init(): info: new server S125743263
+1746732082.725088: 2626025-7f7a4fd000c0: cdpl_ipc.c:3030: in cdpl_ipc_init(): info: requesting IPv4 protocol
+1746732082.725697: 2626025-7f7a4fd000c0: cdpl_ipc.c:800: in _selectaddrfamily(): info: selected IPv4 protocol
+1746732082.726077: 2626025-7f7a4fd000c0: cdpl_server.c:657: in cdpl_sv_new_master(): info: new master M1
+1746732082.726090: 2626025-7f7a4fd000c0: cdpl_server.c:5494: in cdpl_sv_ctl_master(): info: Setting worker heartbeat to 60 seconds
+1746732082.726092: 2626025-7f7a4fd000c0: cdpl_server.c:5503: in cdpl_sv_ctl_master(): info: Setting worker heartbeat timeout to 3 heartbeats
+1746732082.726097: 2626025-7f7a4fd000c0: cdpl_compat_master.c:2407: in cdplInitMaster(): info: bcast dir is `/dev/null'
+1746732082.726151: 2626025-7f7a4fd000c0: cdpl_server.c:5394: in cdpl_sv_ctl_master(): info: farm worker timeout set to 36000
+1746732082.726154: 2626025-7f7a4fd000c0: cdpl_server.c:5410: in cdpl_sv_ctl_master(): info: grid worker timeout set to 36000
+1746732082.726157: 2626025-7f7a4fd000c0: cdpl_server.c:5438: in cdpl_sv_ctl_master(): info: farm submit command failure threshold set to 100
+1746732082.726177: 2626025-7f7a4fd000c0: cdpl_farm.c:2268: in cdpl_farm_new_sh(): info: creating SH farm on localhost
+1746732082.726188: 2626025-7f7a4fd000c0: cdpl_compat_master.c:207: in _set_farm_env(): info: exporting CDPL_LOGDIR as `/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025'
+1746732082.726190: 2626025-7f7a4fd000c0: cdpl_compat_master.c:213: in _set_farm_env(): info: exporting CDPL_TMPDIR as `/var/tmp'
+1746732082.726193: 2626025-7f7a4fd000c0: cdpl_compat_master.c:220: in _set_farm_env(): info: exporting CDPL_HOME as `/proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/cdpl_runtime_linux64'
+1746732082.726195: 2626025-7f7a4fd000c0: cdpl_compat_master.c:227: in _set_farm_env(): info: exporting SNPSLMD_LICENSE_FILE as `1700@engdmv.utdallas.edu'
+1746732082.726199: 2626025-7f7a4fd000c0: cdpl_compat_master.c:247: in _set_farm_env(): info: exporting CDPL_OPTIONS as `[filter][nowlogs]'
+1746732082.726201: 2626025-7f7a4fd000c0: cdpl_compat_master.c:254: in _set_farm_env(): info: exporting DISPLAY as `:1052'
+1746732082.726204: 2626025-7f7a4fd000c0: cdpl_compat_master.c:262: in _set_farm_env(): info: exporting CDPL_HEARTBEAT as `60'
+1746732082.726209: 2626025-7f7a4fd000c0: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SIS_MALIBU as `2'
+1746732082.726211: 2626025-7f7a4fd000c0: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SIS_CDPL as `5'
+1746732082.809074: 2626025-7f7a4fd000c0: cdpl_server.c:738: in cdpl_sv_new_job(): info: new job J1 in M1
+1746732082.809089: 2626025-7f7a4fd000c0: cdpl_compat_master.c:1314: in _add_worker(): info: new worker type 100, min:1, max:1, cmd:`/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh'
+1746732082.809102: 2626025-7f7a4fd000c0: cdpl_server.c:900: in cdpl_sv_new_bin_withfarm(): info: new bin B1 in J1
+1746732082.816349: 2626025-7f7a4fd000c0: cdpl_server.c:3116: in cdpl_sv_start_job(): info: starting job J1
+1746732082.834215: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T0 in B1 (prio 3)
+1746732082.834224: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T0 label to "leakage_power__ACQ_1 of AOI22"
+1746732082.834281: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T1 in B1 (prio 5)
+1746732082.834410: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W1 (as C1) in bin B1
+1746732082.834444: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T1 label to "Cin__VSS__hl__ACQ_1 of AOI22"
+1746732082.834460: 2626025-7f7a355ae700: cdpl_farm.c:1899: in _schedule(): info: worker submit failure threshold set to 100
+1746732082.834489: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T2 in B1 (prio 5)
+1746732082.834499: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T2 label to "Cin__VSS__lh__ACQ_1 of AOI22"
+1746732082.834507: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746732082.834537: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T3 in B1 (prio 2)
+1746732082.834544: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T3 label to "delay__INA__hl__OUT__lh__ACQ_1 of AOI22"
+1746732082.851490: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T4 in B1 (prio 2)
+1746732082.851512: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T4 label to "delay__INA__lh__OUT__hl__ACQ_1 of AOI22"
+1746732082.851630: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T5 in B1 (prio 5)
+1746732082.851634: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T5 label to "Cin__VDD__hl__ACQ_1 of AOI22"
+1746732082.851723: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T6 in B1 (prio 5)
+1746732082.851726: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T6 label to "Cin__VDD__lh__ACQ_1 of AOI22"
+1746732082.851812: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T7 in B1 (prio 2)
+1746732082.851816: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T7 label to "delay__INB__hl__OUT__lh__ACQ_1 of AOI22"
+1746732082.851924: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T8 in B1 (prio 2)
+1746732082.851928: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T8 label to "delay__INB__lh__OUT__hl__ACQ_1 of AOI22"
+1746732082.852007: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T9 in B1 (prio 2)
+1746732082.852010: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T9 label to "delay__INC__hl__OUT__lh__ACQ_1 of AOI22"
+1746732082.852085: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T10 in B1 (prio 2)
+1746732082.852088: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T10 label to "delay__INC__lh__OUT__hl__ACQ_1 of AOI22"
+1746732082.852147: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T11 in B1 (prio 2)
+1746732082.852151: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T11 label to "delay__IND__hl__OUT__lh__ACQ_1 of AOI22"
+1746732082.852199: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T12 in B1 (prio 2)
+1746732082.852202: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T12 label to "delay__IND__lh__OUT__hl__ACQ_1 of AOI22"
+1746732083.701174: 2626025-7f7a365b0700: cdpl_server_ipc.c:452: in _sv_on_hello(): info: W1 is `10.182.66.70:60318'
+1746732083.701205: 2626025-7f7a365b0700: cdpl_server_ipc.c:454: in _sv_on_hello(): info: W1 log file is /dev/null
+1746732083.701223: 2626025-7f7a365b0700: cdpl_server_ipc.c:481: in _sv_on_hello(): info: up to 1 alive workers in B1
+1746732083.701321: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T3 to worker W1
+1746732092.325990: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T3
+1746732092.326573: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T4 to worker W1
+1746732100.633022: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T4
+1746732100.633078: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T7 to worker W1
+1746732108.882481: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T7
+1746732108.883127: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T8 to worker W1
+1746732112.889891: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T13 in B1 (prio 2)
+1746732112.889907: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T13 label to "delay__INA__hl__OUT__lh__ACQ_1 of AOI22"
+1746732112.912713: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T14 in B1 (prio 2)
+1746732112.912725: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T14 label to "delay__INA__lh__OUT__hl__ACQ_1 of AOI22"
+1746732112.921932: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T15 in B1 (prio 2)
+1746732112.921942: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T15 label to "delay__INB__hl__OUT__lh__ACQ_1 of AOI22"
+1746732117.280731: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T8
+1746732117.280790: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T9 to worker W1
+1746732125.839722: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T9
+1746732125.839771: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T10 to worker W1
+1746732134.079837: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T10
+1746732134.079884: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T11 to worker W1
+1746732142.294452: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T11
+1746732142.294496: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T12 to worker W1
+1746732142.957276: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T16 in B1 (prio 2)
+1746732142.957294: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T16 label to "delay__INB__lh__OUT__hl__ACQ_1 of AOI22"
+1746732142.975150: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T17 in B1 (prio 2)
+1746732142.975170: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T17 label to "delay__INC__hl__OUT__lh__ACQ_1 of AOI22"
+1746732142.996513: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T18 in B1 (prio 2)
+1746732142.996523: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T18 label to "delay__INC__lh__OUT__hl__ACQ_1 of AOI22"
+1746732143.012528: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T19 in B1 (prio 2)
+1746732143.012541: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T19 label to "delay__IND__hl__OUT__lh__ACQ_1 of AOI22"
+1746732150.372153: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T12
+1746732150.372197: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T13 to worker W1
+1746732159.118867: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T13
+1746732159.118897: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T14 to worker W1
+1746732167.206656: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T14
+1746732167.206683: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T15 to worker W1
+1746732172.027289: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T20 in B1 (prio 2)
+1746732172.027323: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T20 label to "delay__IND__lh__OUT__hl__ACQ_1 of AOI22"
+1746732175.806911: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T15
+1746732175.806939: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T16 to worker W1
+1746732184.220654: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T16
+1746732184.220687: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T17 to worker W1
+1746732192.560715: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T17
+1746732192.560756: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T18 to worker W1
+1746732200.759077: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T18
+1746732200.759110: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T19 to worker W1
+1746732209.350248: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T19
+1746732209.350285: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T20 to worker W1
+1746732217.741735: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T20
+1746732217.741781: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T0 to worker W1
+1746732225.284816: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T0
+1746732225.284863: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T1 to worker W1
+1746732233.070839: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T1
+1746732233.070870: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T2 to worker W1
+1746732240.981164: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T2
+1746732240.981203: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T5 to worker W1
+1746732248.608796: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T5
+1746732248.608832: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T6 to worker W1
+1746732256.232788: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T6
+1746732460.241771: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T21 in B1 (prio 3)
+1746732460.242353: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T21 label to "leakage_power__ACQ_1 of AOI22"
+1746732460.242382: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T21 to worker W1
+1746732460.242413: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T22 in B1 (prio 5)
+1746732460.242417: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T22 label to "Cin__VSS__hl__ACQ_1 of AOI22"
+1746732460.242442: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T23 in B1 (prio 5)
+1746732460.242445: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T23 label to "Cin__VSS__lh__ACQ_1 of AOI22"
+1746732460.242473: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T24 in B1 (prio 2)
+1746732460.242476: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T24 label to "delay__INA__hl__OUT__lh__ACQ_1 of AOI22"
+1746732460.242498: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T25 in B1 (prio 2)
+1746732460.242501: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T25 label to "delay__INA__lh__OUT__hl__ACQ_1 of AOI22"
+1746732460.242522: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T26 in B1 (prio 5)
+1746732460.242525: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T26 label to "Cin__VDD__hl__ACQ_1 of AOI22"
+1746732460.242547: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T27 in B1 (prio 5)
+1746732460.242550: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T27 label to "Cin__VDD__lh__ACQ_1 of AOI22"
+1746732460.242570: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T28 in B1 (prio 2)
+1746732460.242573: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T28 label to "delay__INB__hl__OUT__lh__ACQ_1 of AOI22"
+1746732460.242601: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T29 in B1 (prio 2)
+1746732460.242604: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T29 label to "delay__INB__lh__OUT__hl__ACQ_1 of AOI22"
+1746732460.242626: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T30 in B1 (prio 2)
+1746732460.242629: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T30 label to "delay__INC__hl__OUT__lh__ACQ_1 of AOI22"
+1746732460.242650: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T31 in B1 (prio 2)
+1746732460.242652: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T31 label to "delay__INC__lh__OUT__hl__ACQ_1 of AOI22"
+1746732460.242672: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T32 in B1 (prio 2)
+1746732460.242675: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T32 label to "delay__IND__hl__OUT__lh__ACQ_1 of AOI22"
+1746732460.242694: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T33 in B1 (prio 2)
+1746732460.242697: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T33 label to "delay__IND__lh__OUT__hl__ACQ_1 of AOI22"
+1746732467.800045: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T21
+1746732467.800079: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T24 to worker W1
+1746732475.793671: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T24
+1746732475.793709: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T25 to worker W1
+1746732483.687674: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T25
+1746732483.687719: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T28 to worker W1
+1746732490.279872: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T34 in B1 (prio 2)
+1746732490.279901: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T34 label to "delay__INA__hl__OUT__lh__ACQ_1 of AOI22"
+1746732490.303994: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T35 in B1 (prio 2)
+1746732490.304005: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T35 label to "delay__INA__lh__OUT__hl__ACQ_1 of AOI22"
+1746732491.603563: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T28
+1746732491.603618: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T29 to worker W1
+1746732499.645279: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T29
+1746732499.645321: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T30 to worker W1
+1746732507.876801: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T30
+1746732507.876850: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T31 to worker W1
+1746732515.955025: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T31
+1746732515.955077: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T32 to worker W1
+1746732520.335871: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T36 in B1 (prio 2)
+1746732520.335915: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T36 label to "delay__INB__hl__OUT__lh__ACQ_1 of AOI22"
+1746732520.349711: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T37 in B1 (prio 2)
+1746732520.349753: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T37 label to "delay__INB__lh__OUT__hl__ACQ_1 of AOI22"
+1746732520.368252: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T38 in B1 (prio 2)
+1746732520.368289: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T38 label to "delay__INC__hl__OUT__lh__ACQ_1 of AOI22"
+1746732520.409435: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T39 in B1 (prio 2)
+1746732520.409458: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T39 label to "delay__INC__lh__OUT__hl__ACQ_1 of AOI22"
+1746732523.887098: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T32
+1746732523.887150: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T33 to worker W1
+1746732531.771520: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T33
+1746732531.771571: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T34 to worker W1
+1746732539.541213: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T34
+1746732539.541273: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T35 to worker W1
+1746732547.291476: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T35
+1746732547.291522: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T36 to worker W1
+1746732550.423217: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T40 in B1 (prio 2)
+1746732550.423232: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T40 label to "delay__IND__hl__OUT__lh__ACQ_1 of AOI22"
+1746732550.433841: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T41 in B1 (prio 2)
+1746732550.433863: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T41 label to "delay__IND__lh__OUT__hl__ACQ_1 of AOI22"
+1746732555.011529: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T36
+1746732555.011594: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T37 to worker W1
+1746732562.831180: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T37
+1746732562.831221: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T38 to worker W1
+1746732570.876347: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T38
+1746732570.876387: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T39 to worker W1
+1746732578.777418: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T39
+1746732578.777461: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T40 to worker W1
+1746732586.842071: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T40
+1746732586.842120: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T41 to worker W1
+1746732595.054091: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T41
+1746732595.054136: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T22 to worker W1
+1746732602.478639: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T22
+1746732602.478680: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T23 to worker W1
+1746732609.753372: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T23
+1746732609.753416: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T26 to worker W1
+1746732617.316423: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T26
+1746732617.316470: 2626025-7f7a35daf700: cdpl_server_sched.c:955: in _assign(): info: assigning task T27 to worker W1
+1746732625.025165: 2626025-7f7a365b0700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T27
+1746733226.129250: 2626025-7f7a36db1700: cdpl_ipc.c:738: in _readv(): warning: read(): EOF
+1746733278.660401: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T42 in B1 (prio 3)
+1746733278.660418: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T42 label to "leakage_power__ACQ_1 of OAI22"
+1746733278.660464: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T43 in B1 (prio 5)
+1746733278.660468: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T43 label to "Cin__VSS__hl__ACQ_1 of OAI22"
+1746733278.660497: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W2 (as C2) in bin B1
+1746733278.660534: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733278.660559: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T44 in B1 (prio 5)
+1746733278.660565: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T44 label to "Cin__VSS__lh__ACQ_1 of OAI22"
+1746733278.667788: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T45 in B1 (prio 2)
+1746733278.667810: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T45 label to "delay__INA__hl__OUT__lh__ACQ_1 of OAI22"
+1746733278.668280: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T46 in B1 (prio 2)
+1746733278.668285: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T46 label to "delay__INA__lh__OUT__hl__ACQ_1 of OAI22"
+1746733278.668415: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T47 in B1 (prio 5)
+1746733278.668419: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T47 label to "Cin__VDD__hl__ACQ_1 of OAI22"
+1746733278.668477: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T48 in B1 (prio 5)
+1746733278.668480: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T48 label to "Cin__VDD__lh__ACQ_1 of OAI22"
+1746733278.668561: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T49 in B1 (prio 2)
+1746733278.668565: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T49 label to "delay__INB__hl__OUT__lh__ACQ_1 of OAI22"
+1746733278.668623: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T50 in B1 (prio 2)
+1746733278.668628: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T50 label to "delay__INB__lh__OUT__hl__ACQ_1 of OAI22"
+1746733278.668726: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T51 in B1 (prio 2)
+1746733278.668730: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T51 label to "delay__INC__hl__OUT__lh__ACQ_1 of OAI22"
+1746733278.668822: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T52 in B1 (prio 2)
+1746733278.668825: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T52 label to "delay__INC__lh__OUT__hl__ACQ_1 of OAI22"
+1746733278.668898: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T53 in B1 (prio 2)
+1746733278.668902: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T53 label to "delay__IND__hl__OUT__lh__ACQ_1 of OAI22"
+1746733278.668982: 2626025-7f7a4fd000c0: cdpl_server.c:1824: in _sv_gen_task(): info: new task T54 in B1 (prio 2)
+1746733278.668985: 2626025-7f7a4fd000c0: cdpl_server.c:2558: in cdpl_sv_label_task_va(): info: setting task T54 label to "delay__IND__lh__OUT__hl__ACQ_1 of OAI22"
+1746733278.967802: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C2 in bin B1 failed with exit code 2 on slot 0
+1746733278.967846: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W2
+1746733278.967889: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W3 (as C3) in bin B1
+1746733278.967909: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733279.273876: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C3 in bin B1 failed with exit code 2 on slot 0
+1746733279.273903: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W3
+1746733279.273938: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W4 (as C4) in bin B1
+1746733279.273955: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733279.579508: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C4 in bin B1 failed with exit code 2 on slot 0
+1746733279.579556: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W4
+1746733279.579619: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W5 (as C5) in bin B1
+1746733279.579649: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733279.885185: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C5 in bin B1 failed with exit code 2 on slot 0
+1746733279.885210: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W5
+1746733279.885243: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W6 (as C6) in bin B1
+1746733279.885271: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733280.190407: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C6 in bin B1 failed with exit code 2 on slot 0
+1746733280.190424: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W6
+1746733280.190461: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W7 (as C7) in bin B1
+1746733280.190478: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733280.497732: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C7 in bin B1 failed with exit code 2 on slot 0
+1746733280.497784: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W7
+1746733280.497824: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W8 (as C8) in bin B1
+1746733280.497846: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733280.803150: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C8 in bin B1 failed with exit code 2 on slot 0
+1746733280.803177: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W8
+1746733280.803229: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W9 (as C9) in bin B1
+1746733280.803253: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733281.110534: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C9 in bin B1 failed with exit code 2 on slot 0
+1746733281.110552: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W9
+1746733281.110608: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W10 (as C10) in bin B1
+1746733281.110625: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733281.417427: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C10 in bin B1 failed with exit code 2 on slot 0
+1746733281.417471: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W10
+1746733281.417534: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W11 (as C11) in bin B1
+1746733281.417563: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733281.723407: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C11 in bin B1 failed with exit code 2 on slot 0
+1746733281.723427: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W11
+1746733281.723462: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W12 (as C12) in bin B1
+1746733281.723479: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733282.029497: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C12 in bin B1 failed with exit code 2 on slot 0
+1746733282.029514: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W12
+1746733282.029542: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W13 (as C13) in bin B1
+1746733282.029572: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733282.335617: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C13 in bin B1 failed with exit code 2 on slot 0
+1746733282.335637: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W13
+1746733282.335691: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W14 (as C14) in bin B1
+1746733282.335716: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733282.641290: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C14 in bin B1 failed with exit code 2 on slot 0
+1746733282.641334: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W14
+1746733282.641381: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W15 (as C15) in bin B1
+1746733282.641392: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733282.946428: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C15 in bin B1 failed with exit code 2 on slot 0
+1746733282.946468: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W15
+1746733282.946511: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W16 (as C16) in bin B1
+1746733282.946522: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733283.251463: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C16 in bin B1 failed with exit code 2 on slot 0
+1746733283.251482: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W16
+1746733283.251504: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W17 (as C17) in bin B1
+1746733283.251510: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733283.556467: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C17 in bin B1 failed with exit code 2 on slot 0
+1746733283.556513: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W17
+1746733283.556556: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W18 (as C18) in bin B1
+1746733283.556567: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733283.861728: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C18 in bin B1 failed with exit code 2 on slot 0
+1746733283.861746: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W18
+1746733283.861771: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W19 (as C19) in bin B1
+1746733283.861780: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733284.168284: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C19 in bin B1 failed with exit code 2 on slot 0
+1746733284.168301: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W19
+1746733284.168323: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W20 (as C20) in bin B1
+1746733284.168338: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733284.473386: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C20 in bin B1 failed with exit code 2 on slot 0
+1746733284.473431: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W20
+1746733284.473471: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W21 (as C21) in bin B1
+1746733284.473481: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733284.778610: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C21 in bin B1 failed with exit code 2 on slot 0
+1746733284.778636: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W21
+1746733284.778675: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W22 (as C22) in bin B1
+1746733284.778684: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733285.084811: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C22 in bin B1 failed with exit code 2 on slot 0
+1746733285.084834: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W22
+1746733285.084864: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W23 (as C23) in bin B1
+1746733285.084873: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733285.390161: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C23 in bin B1 failed with exit code 2 on slot 0
+1746733285.390215: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W23
+1746733285.390266: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W24 (as C24) in bin B1
+1746733285.390276: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733285.696099: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C24 in bin B1 failed with exit code 2 on slot 0
+1746733285.696123: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W24
+1746733285.696155: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W25 (as C25) in bin B1
+1746733285.696164: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733286.001249: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C25 in bin B1 failed with exit code 2 on slot 0
+1746733286.001269: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W25
+1746733286.001299: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W26 (as C26) in bin B1
+1746733286.001308: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733286.308012: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C26 in bin B1 failed with exit code 2 on slot 0
+1746733286.308033: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W26
+1746733286.308062: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W27 (as C27) in bin B1
+1746733286.308077: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733286.613365: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C27 in bin B1 failed with exit code 2 on slot 0
+1746733286.613401: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W27
+1746733286.613441: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W28 (as C28) in bin B1
+1746733286.613451: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733286.918621: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C28 in bin B1 failed with exit code 2 on slot 0
+1746733286.918644: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W28
+1746733286.918675: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W29 (as C29) in bin B1
+1746733286.918684: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733287.223860: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C29 in bin B1 failed with exit code 2 on slot 0
+1746733287.223912: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W29
+1746733287.223984: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W30 (as C30) in bin B1
+1746733287.224008: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733287.530752: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C30 in bin B1 failed with exit code 2 on slot 0
+1746733287.530798: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W30
+1746733287.530865: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W31 (as C31) in bin B1
+1746733287.530903: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733287.838793: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C31 in bin B1 failed with exit code 2 on slot 0
+1746733287.838811: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W31
+1746733287.838886: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W32 (as C32) in bin B1
+1746733287.838922: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733288.145237: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C32 in bin B1 failed with exit code 2 on slot 0
+1746733288.145256: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W32
+1746733288.145345: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W33 (as C33) in bin B1
+1746733288.145382: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733288.452199: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C33 in bin B1 failed with exit code 2 on slot 0
+1746733288.452234: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W33
+1746733288.452305: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W34 (as C34) in bin B1
+1746733288.452358: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733288.758835: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C34 in bin B1 failed with exit code 2 on slot 0
+1746733288.758867: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W34
+1746733288.758946: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W35 (as C35) in bin B1
+1746733288.758986: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733289.067850: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C35 in bin B1 failed with exit code 2 on slot 0
+1746733289.067898: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W35
+1746733289.067950: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W36 (as C36) in bin B1
+1746733289.068029: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733289.374653: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C36 in bin B1 failed with exit code 2 on slot 0
+1746733289.374690: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W36
+1746733289.374738: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W37 (as C37) in bin B1
+1746733289.374747: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733289.681238: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C37 in bin B1 failed with exit code 2 on slot 0
+1746733289.681278: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W37
+1746733289.681323: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W38 (as C38) in bin B1
+1746733289.681334: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733289.987792: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C38 in bin B1 failed with exit code 2 on slot 0
+1746733289.987829: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W38
+1746733289.987874: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W39 (as C39) in bin B1
+1746733289.987884: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733290.294058: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C39 in bin B1 failed with exit code 2 on slot 0
+1746733290.294092: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W39
+1746733290.294134: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W40 (as C40) in bin B1
+1746733290.294145: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733290.600796: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C40 in bin B1 failed with exit code 2 on slot 0
+1746733290.600842: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W40
+1746733290.600888: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W41 (as C41) in bin B1
+1746733290.600908: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733290.907792: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C41 in bin B1 failed with exit code 2 on slot 0
+1746733290.907840: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W41
+1746733290.907885: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W42 (as C42) in bin B1
+1746733290.907895: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733291.214243: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C42 in bin B1 failed with exit code 2 on slot 0
+1746733291.214281: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W42
+1746733291.214324: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W43 (as C43) in bin B1
+1746733291.214335: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733291.520447: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C43 in bin B1 failed with exit code 2 on slot 0
+1746733291.520494: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W43
+1746733291.520540: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W44 (as C44) in bin B1
+1746733291.520550: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733291.826980: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C44 in bin B1 failed with exit code 2 on slot 0
+1746733291.827009: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W44
+1746733291.827088: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W45 (as C45) in bin B1
+1746733291.827100: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733292.133627: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C45 in bin B1 failed with exit code 2 on slot 0
+1746733292.133675: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W45
+1746733292.133724: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W46 (as C46) in bin B1
+1746733292.133735: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733292.440229: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C46 in bin B1 failed with exit code 2 on slot 0
+1746733292.440272: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W46
+1746733292.440320: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W47 (as C47) in bin B1
+1746733292.440332: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733292.746896: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C47 in bin B1 failed with exit code 2 on slot 0
+1746733292.746941: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W47
+1746733292.746991: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W48 (as C48) in bin B1
+1746733292.747006: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733293.056377: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C48 in bin B1 failed with exit code 2 on slot 0
+1746733293.056421: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W48
+1746733293.056473: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W49 (as C49) in bin B1
+1746733293.056483: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733293.363427: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C49 in bin B1 failed with exit code 2 on slot 0
+1746733293.363467: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W49
+1746733293.363524: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W50 (as C50) in bin B1
+1746733293.364082: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733293.671269: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C50 in bin B1 failed with exit code 2 on slot 0
+1746733293.671299: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W50
+1746733293.671343: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W51 (as C51) in bin B1
+1746733293.671354: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733293.977795: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C51 in bin B1 failed with exit code 2 on slot 0
+1746733293.977843: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W51
+1746733293.977898: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W52 (as C52) in bin B1
+1746733293.977908: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733294.285422: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C52 in bin B1 failed with exit code 2 on slot 0
+1746733294.285463: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W52
+1746733294.285512: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W53 (as C53) in bin B1
+1746733294.285522: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733294.592721: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C53 in bin B1 failed with exit code 2 on slot 0
+1746733294.592769: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W53
+1746733294.592821: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W54 (as C54) in bin B1
+1746733294.592832: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733294.899644: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C54 in bin B1 failed with exit code 2 on slot 0
+1746733294.899660: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W54
+1746733294.899685: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W55 (as C55) in bin B1
+1746733294.899700: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733295.206314: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C55 in bin B1 failed with exit code 2 on slot 0
+1746733295.206364: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W55
+1746733295.206413: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W56 (as C56) in bin B1
+1746733295.206425: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733295.513071: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C56 in bin B1 failed with exit code 2 on slot 0
+1746733295.513115: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W56
+1746733295.513160: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W57 (as C57) in bin B1
+1746733295.513170: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733295.828344: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C57 in bin B1 failed with exit code 2 on slot 0
+1746733295.828388: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W57
+1746733295.828447: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W58 (as C58) in bin B1
+1746733295.828471: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733296.135509: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C58 in bin B1 failed with exit code 2 on slot 0
+1746733296.135559: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W58
+1746733296.135610: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W59 (as C59) in bin B1
+1746733296.135627: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733296.443676: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C59 in bin B1 failed with exit code 2 on slot 0
+1746733296.443725: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W59
+1746733296.443793: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W60 (as C60) in bin B1
+1746733296.443820: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733296.751353: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C60 in bin B1 failed with exit code 2 on slot 0
+1746733296.751399: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W60
+1746733296.751450: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W61 (as C61) in bin B1
+1746733296.751459: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733297.059323: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C61 in bin B1 failed with exit code 2 on slot 0
+1746733297.059375: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W61
+1746733297.059430: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W62 (as C62) in bin B1
+1746733297.059449: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733297.366957: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C62 in bin B1 failed with exit code 2 on slot 0
+1746733297.366992: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W62
+1746733297.367037: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W63 (as C63) in bin B1
+1746733297.367049: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733297.677661: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C63 in bin B1 failed with exit code 2 on slot 0
+1746733297.677699: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W63
+1746733297.677749: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W64 (as C64) in bin B1
+1746733297.677834: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733297.984346: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C64 in bin B1 failed with exit code 2 on slot 0
+1746733297.984392: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W64
+1746733297.984447: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W65 (as C65) in bin B1
+1746733297.984457: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733298.291191: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C65 in bin B1 failed with exit code 2 on slot 0
+1746733298.291211: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W65
+1746733298.291243: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W66 (as C66) in bin B1
+1746733298.291251: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733298.598153: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C66 in bin B1 failed with exit code 2 on slot 0
+1746733298.598191: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W66
+1746733298.598237: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W67 (as C67) in bin B1
+1746733298.598247: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733298.904834: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C67 in bin B1 failed with exit code 2 on slot 0
+1746733298.904857: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W67
+1746733298.904889: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W68 (as C68) in bin B1
+1746733298.904897: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733299.211741: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C68 in bin B1 failed with exit code 2 on slot 0
+1746733299.211785: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W68
+1746733299.211831: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W69 (as C69) in bin B1
+1746733299.211851: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733299.518480: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C69 in bin B1 failed with exit code 2 on slot 0
+1746733299.518514: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W69
+1746733299.518559: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W70 (as C70) in bin B1
+1746733299.518570: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733299.826535: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C70 in bin B1 failed with exit code 2 on slot 0
+1746733299.826575: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W70
+1746733299.826639: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W71 (as C71) in bin B1
+1746733299.826650: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733300.134740: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C71 in bin B1 failed with exit code 2 on slot 0
+1746733300.134757: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W71
+1746733300.134780: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W72 (as C72) in bin B1
+1746733300.134788: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733300.441294: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C72 in bin B1 failed with exit code 2 on slot 0
+1746733300.441339: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W72
+1746733300.441390: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W73 (as C73) in bin B1
+1746733300.441413: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733300.748120: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C73 in bin B1 failed with exit code 2 on slot 0
+1746733300.748167: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W73
+1746733300.748216: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W74 (as C74) in bin B1
+1746733300.748226: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733301.055273: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C74 in bin B1 failed with exit code 2 on slot 0
+1746733301.055321: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W74
+1746733301.055369: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W75 (as C75) in bin B1
+1746733301.055379: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733301.362286: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C75 in bin B1 failed with exit code 2 on slot 0
+1746733301.362321: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W75
+1746733301.362372: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W76 (as C76) in bin B1
+1746733301.362386: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733301.669688: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C76 in bin B1 failed with exit code 2 on slot 0
+1746733301.669728: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W76
+1746733301.669775: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W77 (as C77) in bin B1
+1746733301.669786: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733301.977124: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C77 in bin B1 failed with exit code 2 on slot 0
+1746733301.977159: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W77
+1746733301.977201: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W78 (as C78) in bin B1
+1746733301.977212: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733302.283580: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C78 in bin B1 failed with exit code 2 on slot 0
+1746733302.283613: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W78
+1746733302.283653: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W79 (as C79) in bin B1
+1746733302.283664: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733302.590972: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C79 in bin B1 failed with exit code 2 on slot 0
+1746733302.590997: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W79
+1746733302.591031: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W80 (as C80) in bin B1
+1746733302.591042: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733302.897866: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C80 in bin B1 failed with exit code 2 on slot 0
+1746733302.897888: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W80
+1746733302.897916: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W81 (as C81) in bin B1
+1746733302.897924: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733303.204836: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C81 in bin B1 failed with exit code 2 on slot 0
+1746733303.204852: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W81
+1746733303.204876: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W82 (as C82) in bin B1
+1746733303.204884: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733303.511468: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C82 in bin B1 failed with exit code 2 on slot 0
+1746733303.511486: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W82
+1746733303.511511: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W83 (as C83) in bin B1
+1746733303.511535: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733303.818648: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C83 in bin B1 failed with exit code 2 on slot 0
+1746733303.818681: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W83
+1746733303.818720: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W84 (as C84) in bin B1
+1746733303.818730: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733304.126077: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C84 in bin B1 failed with exit code 2 on slot 0
+1746733304.126118: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W84
+1746733304.126161: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W85 (as C85) in bin B1
+1746733304.126172: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733304.435128: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C85 in bin B1 failed with exit code 2 on slot 0
+1746733304.435177: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W85
+1746733304.435226: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W86 (as C86) in bin B1
+1746733304.435238: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733304.744265: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C86 in bin B1 failed with exit code 2 on slot 0
+1746733304.744303: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W86
+1746733304.744350: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W87 (as C87) in bin B1
+1746733304.744361: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733305.050930: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C87 in bin B1 failed with exit code 2 on slot 0
+1746733305.050975: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W87
+1746733305.051025: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W88 (as C88) in bin B1
+1746733305.051036: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733305.358624: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C88 in bin B1 failed with exit code 2 on slot 0
+1746733305.358653: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W88
+1746733305.358697: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W89 (as C89) in bin B1
+1746733305.358724: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733305.666124: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C89 in bin B1 failed with exit code 2 on slot 0
+1746733305.666178: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W89
+1746733305.666226: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W90 (as C90) in bin B1
+1746733305.666242: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733305.973319: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C90 in bin B1 failed with exit code 2 on slot 0
+1746733305.973367: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W90
+1746733305.973422: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W91 (as C91) in bin B1
+1746733305.973434: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733306.285661: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C91 in bin B1 failed with exit code 2 on slot 0
+1746733306.285706: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W91
+1746733306.285758: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W92 (as C92) in bin B1
+1746733306.285769: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733306.592956: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C92 in bin B1 failed with exit code 2 on slot 0
+1746733306.592989: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W92
+1746733306.593035: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W93 (as C93) in bin B1
+1746733306.593045: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733306.900080: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C93 in bin B1 failed with exit code 2 on slot 0
+1746733306.900108: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W93
+1746733306.900147: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W94 (as C94) in bin B1
+1746733306.900157: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733307.207737: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C94 in bin B1 failed with exit code 2 on slot 0
+1746733307.207756: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W94
+1746733307.207782: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W95 (as C95) in bin B1
+1746733307.207791: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733307.514316: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C95 in bin B1 failed with exit code 2 on slot 0
+1746733307.514339: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W95
+1746733307.514370: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W96 (as C96) in bin B1
+1746733307.514379: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733307.821156: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C96 in bin B1 failed with exit code 2 on slot 0
+1746733307.821175: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W96
+1746733307.821201: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W97 (as C97) in bin B1
+1746733307.821222: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733308.128096: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C97 in bin B1 failed with exit code 2 on slot 0
+1746733308.128133: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W97
+1746733308.128180: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W98 (as C98) in bin B1
+1746733308.128190: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733308.442957: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C98 in bin B1 failed with exit code 2 on slot 0
+1746733308.442997: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W98
+1746733308.443043: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W99 (as C99) in bin B1
+1746733308.443054: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733308.753461: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C99 in bin B1 failed with exit code 2 on slot 0
+1746733308.753507: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W99
+1746733308.753553: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W100 (as C100) in bin B1
+1746733308.753564: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733309.060324: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C100 in bin B1 failed with exit code 2 on slot 0
+1746733309.060343: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W100
+1746733309.060370: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W101 (as C101) in bin B1
+1746733309.060378: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733309.368932: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C101 in bin B1 failed with exit code 2 on slot 0
+1746733309.368976: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W101
+1746733309.369027: 2626025-7f7a35daf700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W102 (as C102) in bin B1
+1746733309.369044: 2626025-7f7a355ae700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2626025/run_2626025.sh
+1746733309.674019: 2626025-7f7a355ae700: cdpl_farm.c:1050: in _onexit(): warning: C102 in bin B1 failed with exit code 2 on slot 0
+1746733309.674066: 2626025-7f7a355ae700: cdpl_farm.c:1213: in _onexit(): *** CRITICAL: looks like we cannot submit commands
+1746733309.674084: 2626025-7f7a355ae700: cdpl_server_sched.c:498: in _cancel_worker(): warning: trashing worker W102
+1746733309.674120: 2626025-7f7a35daf700: cdpl_farm.c:3291: in cdpl_farm_submit(): error: CDPL disables further farm-job submits
+1746733309.674130: 2626025-7f7a35daf700: cdpl_server_sched.c:1058: in _reducecap_impl(): *** CRITICAL: B1 has no workers, cannot continue!
+1746733309.674137: 2626025-7f7a35daf700: cdpl_server.c:2875: in cdpl_sv_halt_job_errno(): info: killing job J1
+1746733338.744836: 2626025-7f7a4fd000c0: cdpl_compat_master.c:5152: in cdplMasterLogInfo(): info: [non-CDPL log entry] CDPL_F_FARM: No farm worker alive to assign task.
+1746733361.099975: 2626025-7f7a4fd000c0: cdpl_compat_master.c:5152: in cdplMasterLogInfo(): info: [non-CDPL log entry] Ending current CDPL job
+1746733361.100007: 2626025-7f7a4fd000c0: cdpl_server.c:288: in _sv_free_job(): info: freeing job J1
+1746733361.100106: 2626025-7f7a4fd000c0: cdpl_farm.c:2395: in cdpl_farm_free(): info: freeing farm
+1746733361.100224: 2626025-7f7a4fd000c0: cdpl_server.c:3011: in cdpl_sv_free(): info: freeing server S125743263
+1746733361.100228: 2626025-7f7a4fd000c0: cdpl_server.c:2976: in cdpl_sv_kill_errno(): info: killing server
+1746733361.100270: 2626025-7f7a4fd000c0: cdpl_server.c:328: in _sv_free_master(): info: freeing master M1
+1746733361.100398: 2626025-7f7a4fd000c0: cdpl_log.c:371: in cdpl_log_close(): info: @@end_of_log@@

@@ -15,7 +15,7 @@ REPORT FILE NAME:         aoi22.lvs.report
 LAYOUT NAME:              aoi22.sp ('aoi22')
 SOURCE NAME:              aoi22.src.net ('aoi22')
 RULE FILE:                _Calibre_LVS_rules_
-CREATION TIME:            Wed May  7 20:47:26 2025
+CREATION TIME:            Thu May  8 14:18:26 2025
 CURRENT DIRECTORY:        /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/oai22_lvs
 USER NAME:                ebw220000
 CALIBRE VERSION:          v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024

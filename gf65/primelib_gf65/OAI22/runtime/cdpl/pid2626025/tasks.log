@@ -1,0 +1,56 @@
+# Legend: N(newborn) R(running) F(failed) K(killed) C(complete)
+C leakage_power__ACQ_1 of AOI22 T0 W1
+C Cin__VSS__hl__ACQ_1 of AOI22 T1 W1
+C Cin__VSS__lh__ACQ_1 of AOI22 T2 W1
+F delay__INA__hl__OUT__lh__ACQ_1 of AOI22 T3 W1
+F delay__INA__lh__OUT__hl__ACQ_1 of AOI22 T4 W1
+C Cin__VDD__hl__ACQ_1 of AOI22 T5 W1
+C Cin__VDD__lh__ACQ_1 of AOI22 T6 W1
+F delay__INB__hl__OUT__lh__ACQ_1 of AOI22 T7 W1
+F delay__INB__lh__OUT__hl__ACQ_1 of AOI22 T8 W1
+F delay__INC__hl__OUT__lh__ACQ_1 of AOI22 T9 W1
+F delay__INC__lh__OUT__hl__ACQ_1 of AOI22 T10 W1
+F delay__IND__hl__OUT__lh__ACQ_1 of AOI22 T11 W1
+F delay__IND__lh__OUT__hl__ACQ_1 of AOI22 T12 W1
+F delay__INA__hl__OUT__lh__ACQ_1 of AOI22 T13 W1
+F delay__INA__lh__OUT__hl__ACQ_1 of AOI22 T14 W1
+F delay__INB__hl__OUT__lh__ACQ_1 of AOI22 T15 W1
+F delay__INB__lh__OUT__hl__ACQ_1 of AOI22 T16 W1
+F delay__INC__hl__OUT__lh__ACQ_1 of AOI22 T17 W1
+F delay__INC__lh__OUT__hl__ACQ_1 of AOI22 T18 W1
+F delay__IND__hl__OUT__lh__ACQ_1 of AOI22 T19 W1
+F delay__IND__lh__OUT__hl__ACQ_1 of AOI22 T20 W1
+C leakage_power__ACQ_1 of AOI22 T21 W1
+C Cin__VSS__hl__ACQ_1 of AOI22 T22 W1
+C Cin__VSS__lh__ACQ_1 of AOI22 T23 W1
+F delay__INA__hl__OUT__lh__ACQ_1 of AOI22 T24 W1
+F delay__INA__lh__OUT__hl__ACQ_1 of AOI22 T25 W1
+C Cin__VDD__hl__ACQ_1 of AOI22 T26 W1
+C Cin__VDD__lh__ACQ_1 of AOI22 T27 W1
+F delay__INB__hl__OUT__lh__ACQ_1 of AOI22 T28 W1
+F delay__INB__lh__OUT__hl__ACQ_1 of AOI22 T29 W1
+F delay__INC__hl__OUT__lh__ACQ_1 of AOI22 T30 W1
+F delay__INC__lh__OUT__hl__ACQ_1 of AOI22 T31 W1
+F delay__IND__hl__OUT__lh__ACQ_1 of AOI22 T32 W1
+F delay__IND__lh__OUT__hl__ACQ_1 of AOI22 T33 W1
+F delay__INA__hl__OUT__lh__ACQ_1 of AOI22 T34 W1
+F delay__INA__lh__OUT__hl__ACQ_1 of AOI22 T35 W1
+F delay__INB__hl__OUT__lh__ACQ_1 of AOI22 T36 W1
+F delay__INB__lh__OUT__hl__ACQ_1 of AOI22 T37 W1
+F delay__INC__hl__OUT__lh__ACQ_1 of AOI22 T38 W1
+F delay__INC__lh__OUT__hl__ACQ_1 of AOI22 T39 W1
+F delay__IND__hl__OUT__lh__ACQ_1 of AOI22 T40 W1
+F delay__IND__lh__OUT__hl__ACQ_1 of AOI22 T41 W1
+N leakage_power__ACQ_1 of OAI22
+N Cin__VSS__hl__ACQ_1 of OAI22
+N Cin__VSS__lh__ACQ_1 of OAI22
+N delay__INA__hl__OUT__lh__ACQ_1 of OAI22
+N delay__INA__lh__OUT__hl__ACQ_1 of OAI22
+N Cin__VDD__hl__ACQ_1 of OAI22
+N Cin__VDD__lh__ACQ_1 of OAI22
+N delay__INB__hl__OUT__lh__ACQ_1 of OAI22
+N delay__INB__lh__OUT__hl__ACQ_1 of OAI22
+N delay__INC__hl__OUT__lh__ACQ_1 of OAI22
+N delay__INC__lh__OUT__hl__ACQ_1 of OAI22
+N delay__IND__hl__OUT__lh__ACQ_1 of OAI22
+N delay__IND__lh__OUT__hl__ACQ_1 of OAI22

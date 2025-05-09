@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2843878 (PPID: 1241565)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (15.5 GB free), 4 GB Swap (3.8 GB free)
+System load average: 15.39, 9.88, 8.57 (21961 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty
+Malibu mode 2 activated
+Thu May  8 16:46:43 2025: Establishing connection to license server
+Thu May  8 16:46:44 2025: Testing server connection using feature PrimeLib_CHAR
+Thu May  8 16:46:44 2025: License server connection established
+Thu May  8 16:46:44 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Error:   Interrupt
+Maximum virtual memory size: 781.449 MB

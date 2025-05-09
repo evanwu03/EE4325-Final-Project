@@ -1,0 +1,171 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2622179 (PPID: 2622176)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (14.8 GB free), 4 GB Swap (3.8 GB free)
+System load average: 15.32, 12.79, 11.92 (21829 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib -server /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/runtime/cdpl/pid2620931/driver_2620931.tcl
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/etc/cell.stat.gz
+Thu May 08 14:09:45 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Thu May 08 14:09:45 CDT 2025: Environment set up done (0 seconds)
+Create and link tmpdir /var/tmp/pl.engnx05a.771092.2622176 -> /var/tmp/primelib.engnx05a.utdallas.edu.771092.2622179 
+[CDPL] Loading settings for stage: characterization.0
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22
+Thu May 08 14:09:45 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Thu May 08 14:09:45 CDT 2025: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.0
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INA__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INA__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INA__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INA__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INA__hl__OUT__lh__ACQ_1 0.17 0.02 6.19 1.27 1 8.24521207809 engnx05a.utdallas.edu 1746731385.44 1746731393.68 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INA__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INA__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INA__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INA__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INA__lh__OUT__hl__ACQ_1 0.12 0.02 6.06 1.16 1 7.8851120472 engnx05a.utdallas.edu 1746731393.68 1746731401.57 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INB__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INB__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INB__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INB__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INB__hl__OUT__lh__ACQ_1 0.13 0.04 6.13 1.17 1 8.010242939 engnx05a.utdallas.edu 1746731401.57 1746731409.58 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INB__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INB__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INB__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INB__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INB__lh__OUT__hl__ACQ_1 0.11 0.02 6.0 1.17 1 7.75106596947 engnx05a.utdallas.edu 1746731409.58 1746731417.33 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INC__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INC__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INC__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INC__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INC__hl__OUT__lh__ACQ_1 0.11 0.01 6.0 1.19 1 7.7727022171 engnx05a.utdallas.edu 1746731417.33 1746731425.1 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INC__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INC__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INC__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INC__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INC__lh__OUT__hl__ACQ_1 0.11 0.01 6.14 1.2 1 8.03979110718 engnx05a.utdallas.edu 1746731425.11 1746731433.15 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__IND__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__IND__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__IND__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__IND__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__IND__hl__OUT__lh__ACQ_1 0.11 0.01 6.08 1.16 1 7.91905713081 engnx05a.utdallas.edu 1746731433.15 1746731441.07 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__IND__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__IND__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__IND__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__IND__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__IND__lh__OUT__hl__ACQ_1 0.11 0.01 6.07 1.14 1 7.82951688766 engnx05a.utdallas.edu 1746731441.07 1746731448.9 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INA__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INA__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INA__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INA__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INA__hl__OUT__lh__ACQ_1 0.1 0.01 5.96 1.13 1 7.6406109333 engnx05a.utdallas.edu 1746731448.9 1746731456.55 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INA__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INA__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INA__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INA__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INA__lh__OUT__hl__ACQ_1 0.11 0.01 6.17 1.17 1 7.95758700371 engnx05a.utdallas.edu 1746731456.55 1746731464.5 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INB__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INB__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INB__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INB__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INB__hl__OUT__lh__ACQ_1 0.11 0.01 6.06 1.11 1 7.78942108154 engnx05a.utdallas.edu 1746731464.5 1746731472.29 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INB__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INB__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INB__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INB__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INB__lh__OUT__hl__ACQ_1 0.1 0.02 5.9 1.15 1 7.67139601707 engnx05a.utdallas.edu 1746731472.29 1746731479.97 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INC__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INC__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INC__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INC__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INC__hl__OUT__lh__ACQ_1 0.11 0.01 5.95 1.14 1 7.66753911972 engnx05a.utdallas.edu 1746731479.97 1746731487.63 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__INC__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__INC__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__INC__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INC__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__INC__lh__OUT__hl__ACQ_1 0.12 0.0 6.09 1.21 1 7.89336681366 engnx05a.utdallas.edu 1746731487.64 1746731495.53 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__IND__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__IND__hl__OUT__lh : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__IND__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__IND__hl__OUT__lh'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__IND__hl__OUT__lh__ACQ_1 0.11 0.01 6.16 1.17 1 7.89445519447 engnx05a.utdallas.edu 1746731495.53 1746731503.42 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/delay__IND__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Error:   There are failed measurements in Tout__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   There are failed measurements in delay__IND__lh__OUT__hl : 49 failures at sweeps [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ...]. (SIM-4)
+Error:   Simulation delay__IND__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__IND__lh__OUT__hl'] (SMSC-95)
+----------------------
+__recordTaskStats__ AOI22 delay__IND__lh__OUT__hl__ACQ_1 0.11 0.01 6.0 1.19 1 7.79536414146 engnx05a.utdallas.edu 1746731503.43 1746731511.22 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2622179/AOI22/leakage_power__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/results/AOI22
+Simulation AOI22::leakage_power__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ AOI22 leakage_power__ACQ_1 0.04 0.01 5.81 1.17 1 7.42111992836 engnx05a.utdallas.edu 1746731511.22 1746731518.64 1
+Loading information for cell AOI22
+work dir: '/var/tmp/primelib.engnx05a.771092.2622179/AOI22/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2622179/AOI22/Cin__VSS__hl__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/AOI22/results/AOI22
+Simulation AOI22::Cin__VSS__hl__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ AOI22 Cin__VSS__hl__ACQ_1 0.06 0.0 5.88 1.18 1 7.48949098587 engnx05a.utdallas.edu 1746731518.64 1746731526.13 1
+Warning: Worker monitor thread not detected
+Warning: /var/tmp/worker.771092.W1.engnx05a.utdallas.edu.2622179.log: No such file or directory
+   [CDPL] Shutting down worker
+Thu May  8 14:12:06 2025: Program time: 141.00 seconds | 2.35 minutes | 0.04 hours
+CDPL worker exited normally.
+Reset log file
+Maximum virtual memory size: 1032.65 MB

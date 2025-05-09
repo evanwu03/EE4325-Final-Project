@@ -121,3 +121,13 @@
 1746672273.708118: 1476931-7f550d3eb700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T19
 1746672273.708158: 1476931-7f550cbea700: cdpl_server_sched.c:955: in _assign(): info: assigning task T20 to worker W1
 1746672281.150297: 1476931-7f550d3eb700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T20
+1746672882.252386: 1476931-7f550dbec700: cdpl_ipc.c:738: in _readv(): warning: read(): EOF
+1746726984.291751: 1476931-7f5526b3b0c0: cdpl_compat_master.c:5152: in cdplMasterLogInfo(): info: [non-CDPL log entry] Ending current CDPL job
+1746726984.292247: 1476931-7f5526b3b0c0: cdpl_server.c:2890: in cdpl_sv_halt_job_errno(): info: stopping job J1
+1746726984.292308: 1476931-7f5526b3b0c0: cdpl_server.c:2875: in cdpl_sv_halt_job_errno(): info: killing job J1
+1746726984.292316: 1476931-7f5526b3b0c0: cdpl_server.c:288: in _sv_free_job(): info: freeing job J1
+1746726984.292380: 1476931-7f5526b3b0c0: cdpl_farm.c:2395: in cdpl_farm_free(): info: freeing farm
+1746726984.292691: 1476931-7f5526b3b0c0: cdpl_server.c:3011: in cdpl_sv_free(): info: freeing server S562499836
+1746726984.292694: 1476931-7f5526b3b0c0: cdpl_server.c:2976: in cdpl_sv_kill_errno(): info: killing server
+1746726984.292756: 1476931-7f5526b3b0c0: cdpl_server.c:328: in _sv_free_master(): info: freeing master M1
+1746726984.292812: 1476931-7f5526b3b0c0: cdpl_log.c:371: in cdpl_log_close(): info: @@end_of_log@@

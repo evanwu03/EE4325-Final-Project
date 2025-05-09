@@ -1,0 +1,16 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2620931 (PPID: 1241565)
+CPU: 32 x 3887 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (14.9 GB free), 4 GB Swap (3.8 GB free)
+System load average: 15.32, 12.79, 11.92 (21848 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
+Error:   Task 13 (delay__INA__hl__OUT__lh__ACQ_1 of AOI22) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INA__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INA__hl__OUT__lh'] (SMSC-95) (CDPL-12)
+Error:   Task 14 (delay__INA__lh__OUT__hl__ACQ_1 of AOI22) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INA__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INA__lh__OUT__hl'] (SMSC-95) (CDPL-12)
+Error:   Task 15 (delay__INB__hl__OUT__lh__ACQ_1 of AOI22) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INB__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INB__hl__OUT__lh'] (SMSC-95) (CDPL-12)
+Error:   Task 16 (delay__INB__lh__OUT__hl__ACQ_1 of AOI22) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INB__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INB__lh__OUT__hl'] (SMSC-95) (CDPL-12)
+Error:   Task 17 (delay__INC__hl__OUT__lh__ACQ_1 of AOI22) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INC__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__INC__hl__OUT__lh'] (SMSC-95) (CDPL-12)
+Error:   Task 18 (delay__INC__lh__OUT__hl__ACQ_1 of AOI22) failed on W1 (engnx05a.utdallas.edu): Simulation delay__INC__lh__OUT__hl__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__hl', 'delay__INC__lh__OUT__hl'] (SMSC-95) (CDPL-12)
+Error:   Task 19 (delay__IND__hl__OUT__lh__ACQ_1 of AOI22) failed on W1 (engnx05a.utdallas.edu): Simulation delay__IND__hl__OUT__lh__ACQ_1.sif for cell AOI22 failed: There are failed measures in ['Tout__OUT__lh', 'delay__IND__hl__OUT__lh'] (SMSC-95) (CDPL-12)

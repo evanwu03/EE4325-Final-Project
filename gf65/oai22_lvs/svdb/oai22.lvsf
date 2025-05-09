@@ -7,5 +7,5 @@ lvs_SourceCase NO
 lvs_LayoutCase NO
 lvs_LvsOutFile LVS_REPORT oai22.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST oai22.src.net
-lvs_LvsOutFile RULES_FILE _Calibre_LVS_rules_
-lvs_LvsRunTimes 1746649097 1746649097
+lvs_LvsOutFile RULES_FILE _Calibre_PEX_nom_rules_
+lvs_LvsRunTimes 1746733033 1746733033

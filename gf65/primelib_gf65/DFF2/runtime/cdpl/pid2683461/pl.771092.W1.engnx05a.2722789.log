@@ -1,0 +1,113 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 2722789 (PPID: 2722786)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (15.4 GB free), 4 GB Swap (3.8 GB free)
+System load average: 5.74, 8.67, 10.87 (21867 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib -server /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/runtime/cdpl/pid2683461/driver_2683461.tcl
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/etc/cell.stat.gz
+Thu May 08 15:10:11 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Thu May 08 15:10:11 CDT 2025: Environment set up done (0 seconds)
+Create and link tmpdir /var/tmp/pl.engnx05a.771092.2722786 -> /var/tmp/primelib.engnx05a.utdallas.edu.771092.2722789 
+[CDPL] Loading settings for stage: characterization.1
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2
+Thu May 08 15:10:11 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Thu May 08 15:10:11 CDT 2025: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_6.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_6.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/results/DFF2
+Simulation DFF2::initialization__ACQ_6.sif completed successfully.
+----------------------
+__recordTaskStats__ DFF2 initialization__ACQ_6 0.1 0.01 6.25 1.35 1 8.12075901031 engnx05a.utdallas.edu 1746735011.35 1746735019.47 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_5.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_5.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/results/DFF2
+Simulation DFF2::initialization__ACQ_5.sif completed successfully.
+----------------------
+__recordTaskStats__ DFF2 initialization__ACQ_5 0.04 0.0 6.19 1.26 1 7.82358288765 engnx05a.utdallas.edu 1746735019.48 1746735027.3 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_3.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_3.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/results/DFF2
+Simulation DFF2::initialization__ACQ_3.sif completed successfully.
+----------------------
+__recordTaskStats__ DFF2 initialization__ACQ_3 0.04 0.01 6.23 1.25 1 7.8674659729 engnx05a.utdallas.edu 1746735027.3 1746735035.17 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_4.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_4.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/results/DFF2
+Simulation DFF2::initialization__ACQ_4.sif completed successfully.
+----------------------
+__recordTaskStats__ DFF2 initialization__ACQ_4 0.06 0.0 6.17 1.3 1 7.89609098434 engnx05a.utdallas.edu 1746735035.17 1746735043.06 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/removal_hbm__R__hl__CLK__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2722789/DFF2/removal_hbm__R__hl__CLK__lh__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/results/DFF2
+Simulation DFF2::removal_hbm__R__hl__CLK__lh__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ DFF2 removal_hbm__R__hl__CLK__lh__ACQ_1 0.07 0.01 42.17 1.74 1 44.5449409485 engnx05a.utdallas.edu 1746735043.07 1746735087.61 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/recover_hbm__R__hl__CLK__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 6.52 (1min) 7.88 (5min) 10.28 (15min)
+Error:   Simulation recover_hbm__R__hl__CLK__lh__ACQ_1.sif for cell DFF2 failed: Bad return code (rc=1) from 'hspice exited with code 1: >error          ***** hspice job aborted'. (SC-24) (SMSC-95)
+----------------------
+__recordTaskStats__ DFF2 recover_hbm__R__hl__CLK__lh__ACQ_1 0.1 0.03 48.26 1.67 1 50.7835800648 engnx05a.utdallas.edu 1746735087.61 1746735138.39 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_1.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/results/DFF2
+Simulation DFF2::initialization__ACQ_1.sif completed successfully.
+----------------------
+__recordTaskStats__ DFF2 initialization__ACQ_1 0.04 0.02 5.92 1.12 1 7.44063210487 engnx05a.utdallas.edu 1746735138.4 1746735145.84 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_2.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+moving /var/tmp/primelib.engnx05a.771092.2722789/DFF2/initialization__ACQ_2.sof.gz to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF2/results/DFF2
+Simulation DFF2::initialization__ACQ_2.sif completed successfully.
+----------------------
+__recordTaskStats__ DFF2 initialization__ACQ_2 0.04 0.0 6.09 1.14 1 7.65560102463 engnx05a.utdallas.edu 1746735145.84 1746735153.49 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/setup_hbm__D__lh__CLK__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 5.97 (1min) 7.41 (5min) 9.94 (15min)
+Error:   Simulation setup_hbm__D__lh__CLK__lh__ACQ_1.sif for cell DFF2 failed: Bad return code (rc=1) from 'hspice exited with code 1: >error          ***** hspice job aborted'. (SC-24) (SMSC-95)
+----------------------
+__recordTaskStats__ DFF2 setup_hbm__D__lh__CLK__lh__ACQ_1 0.12 0.01 53.56 1.7 1 56.0999519825 engnx05a.utdallas.edu 1746735153.49 1746735209.59 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/setup_hbm__D__hl__CLK__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 6.75 (1min) 7.47 (5min) 9.84 (15min)
+Error:   Simulation setup_hbm__D__hl__CLK__lh__ACQ_1.sif for cell DFF2 failed: Bad return code (rc=1) from 'hspice exited with code 1: >error          ***** hspice job aborted'. (SC-24) (SMSC-95)
+----------------------
+__recordTaskStats__ DFF2 setup_hbm__D__hl__CLK__lh__ACQ_1 0.11 0.01 44.35 1.66 1 46.9004528522 engnx05a.utdallas.edu 1746735209.59 1746735256.49 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/ncmpw_hbm__CLK__hl__CLK__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 6.57 (1min) 7.4 (5min) 9.79 (15min)
+Error:   Simulation ncmpw_hbm__CLK__hl__CLK__lh__ACQ_1.sif for cell DFF2 failed: deck.lis: **error** Both end of window has same sign. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ DFF2 ncmpw_hbm__CLK__hl__CLK__lh__ACQ_1 0.09 0.01 6.07 1.19 1 7.88307905197 engnx05a.utdallas.edu 1746735256.5 1746735264.38 1
+Loading information for cell DFF2
+work dir: '/var/tmp/primelib.engnx05a.771092.2722789/DFF2/cmpw_hbm__CLK__lh__CLK__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 7.17 (1min) 7.51 (5min) 9.8 (15min)
+Error:   Simulation cmpw_hbm__CLK__lh__CLK__hl__ACQ_1.sif for cell DFF2 failed: deck.lis: **error** Both end of window has same sign. . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ DFF2 cmpw_hbm__CLK__lh__CLK__hl__ACQ_1 0.08 0.01 6.1 1.22 1 7.9168150425 engnx05a.utdallas.edu 1746735264.38 1746735272.3 1
+Warning: Worker monitor thread not detected
+Warning: /var/tmp/worker.771092.W1.engnx05a.utdallas.edu.2722789.log: No such file or directory
+   [CDPL] Shutting down worker
+Thu May  8 15:14:32 2025: Program time: 261.00 seconds | 4.35 minutes | 0.07 hours
+CDPL worker exited normally.
+Reset log file
+Maximum virtual memory size: 1020.08 MB
