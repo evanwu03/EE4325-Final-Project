@@ -1,0 +1,13 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1746996092 1746996098
+lvs_ExtOutFile RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/DFF/netlists
+lvs_ExtOutFile RULES_FILE _Calibre_PEX_nom_rules_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {11 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/XNOR2.sp
+lvs_ExtOutFile EXTRACTION_REPORT XNOR2.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/XNOR2.pdsp }
+lvs_ExtOutFile ERC_DATABASE ./ERC_results.asc
+lvs_ExtOutFile ERC_SUMMARY ./ERC_results.rep

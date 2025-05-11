@@ -1,0 +1,723 @@
+Information: Updating graph... (UID-83)
+ 
+****************************************
+Report : cell
+Design : UART_1
+Version: O-2018.06-SP1
+Date   : Sun May 11 12:55:46 2025
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        INV             gf65            7.774000  
+U2                        INV             gf65            7.774000  
+U3                        INV             gf65            7.774000  
+U4                        INV             gf65            7.774000  
+U5                        INV             gf65            7.774000  
+U6                        INV             gf65            7.774000  
+U7                        INV             gf65            7.774000  
+U8                        INV             gf65            7.774000  
+U9                        INV             gf65            7.774000  
+U10                       INV             gf65            7.774000  
+U11                       INV             gf65            7.774000  
+U12                       INV             gf65            7.774000  
+U13                       INV             gf65            7.774000  
+U14                       INV             gf65            7.774000  
+U15                       INV             gf65            7.774000  
+U16                       INV             gf65            7.774000  
+U17                       INV             gf65            7.774000  
+U18                       INV             gf65            7.774000  
+U19                       INV             gf65            7.774000  
+U20                       INV             gf65            7.774000  
+U21                       INV             gf65            7.774000  
+U22                       INV             gf65            7.774000  
+U23                       INV             gf65            7.774000  
+U24                       INV             gf65            7.774000  
+U25                       INV             gf65            7.774000  
+U26                       INV             gf65            7.774000  
+U27                       INV             gf65            7.774000  
+U28                       INV             gf65            7.774000  
+U29                       INV             gf65            7.774000  
+U30                       INV             gf65            7.774000  
+U31                       INV             gf65            7.774000  
+U32                       INV             gf65            7.774000  
+U33                       INV             gf65            7.774000  
+U34                       INV             gf65            7.774000  
+U35                       INV             gf65            7.774000  
+U36                       INV             gf65            7.774000  
+U37                       NOR2            gf65            12.440000 
+U38                       NOR2            gf65            12.440000 
+U39                       NOR2            gf65            12.440000 
+U40                       NOR2            gf65            12.440000 
+U41                       NOR2            gf65            12.440000 
+U42                       NOR2            gf65            12.440000 
+U43                       NOR2            gf65            12.440000 
+U44                       NOR2            gf65            12.440000 
+U45                       XNOR2           gf65            17.100000 
+U46                       XNOR2           gf65            17.100000 
+U47                       XNOR2           gf65            17.100000 
+U48                       XNOR2           gf65            17.100000 
+U49                       XNOR2           gf65            17.100000 
+U50                       XNOR2           gf65            17.100000 
+U51                       XNOR2           gf65            17.100000 
+U52                       XNOR2           gf65            17.100000 
+U53                       XNOR2           gf65            17.100000 
+U54                       XNOR2           gf65            17.100000 
+U55                       XNOR2           gf65            17.100000 
+U56                       XNOR2           gf65            17.100000 
+U57                       XNOR2           gf65            17.100000 
+U58                       XNOR2           gf65            17.100000 
+U59                       XNOR2           gf65            17.100000 
+U60                       XNOR2           gf65            17.100000 
+U61                       XNOR2           gf65            17.100000 
+U62                       XNOR2           gf65            17.100000 
+U63                       XNOR2           gf65            17.100000 
+U64                       XNOR2           gf65            17.100000 
+U65                       XNOR2           gf65            17.100000 
+U66                       XNOR2           gf65            17.100000 
+U67                       XNOR2           gf65            17.100000 
+U68                       NAND3           gf65            15.550000 
+U69                       NAND3           gf65            15.550000 
+U70                       NAND3           gf65            15.550000 
+U71                       NAND3           gf65            15.550000 
+U72                       NAND3           gf65            15.550000 
+U73                       NAND3           gf65            15.550000 
+U74                       NAND3           gf65            15.550000 
+U75                       NAND3           gf65            15.550000 
+U76                       NAND3           gf65            15.550000 
+U77                       NAND3           gf65            15.550000 
+U78                       NOR2            gf65            12.440000 
+U79                       XNOR2           gf65            17.100000 
+U80                       XNOR2           gf65            17.100000 
+U81                       INV             gf65            7.774000  
+U82                       INV             gf65            7.774000  
+U83                       INV             gf65            7.774000  
+U84                       INV             gf65            7.774000  
+U85                       INV             gf65            7.774000  
+U86                       INV             gf65            7.774000  
+U87                       INV             gf65            7.774000  
+U88                       INV             gf65            7.774000  
+U89                       INV             gf65            7.774000  
+U90                       INV             gf65            7.774000  
+U91                       INV             gf65            7.774000  
+U92                       INV             gf65            7.774000  
+U93                       INV             gf65            7.774000  
+U94                       INV             gf65            7.774000  
+U95                       INV             gf65            7.774000  
+U96                       INV             gf65            7.774000  
+U97                       INV             gf65            7.774000  
+U98                       INV             gf65            7.774000  
+U99                       INV             gf65            7.774000  
+U100                      INV             gf65            7.774000  
+U101                      INV             gf65            7.774000  
+U102                      INV             gf65            7.774000  
+U103                      INV             gf65            7.774000  
+U104                      INV             gf65            7.774000  
+U105                      INV             gf65            7.774000  
+U106                      INV             gf65            7.774000  
+U107                      INV             gf65            7.774000  
+U108                      INV             gf65            7.774000  
+U109                      INV             gf65            7.774000  
+U110                      INV             gf65            7.774000  
+U111                      NOR2            gf65            12.440000 
+U112                      NAND2           gf65            12.440000 
+U113                      NAND2           gf65            12.440000 
+U114                      NAND2           gf65            12.440000 
+U115                      INV             gf65            7.774000  
+U116                      INV             gf65            7.774000  
+U117                      INV             gf65            7.774000  
+U118                      INV             gf65            7.774000  
+U119                      INV             gf65            7.774000  
+U120                      INV             gf65            7.774000  
+U121                      INV             gf65            7.774000  
+U122                      INV             gf65            7.774000  
+U123                      INV             gf65            7.774000  
+U124                      INV             gf65            7.774000  
+U125                      INV             gf65            7.774000  
+U126                      INV             gf65            7.774000  
+U127                      INV             gf65            7.774000  
+U128                      INV             gf65            7.774000  
+U129                      INV             gf65            7.774000  
+U130                      INV             gf65            7.774000  
+U131                      INV             gf65            7.774000  
+U132                      INV             gf65            7.774000  
+U133                      INV             gf65            7.774000  
+U134                      INV             gf65            7.774000  
+U135                      INV             gf65            7.774000  
+U136                      INV             gf65            7.774000  
+U137                      INV             gf65            7.774000  
+U138                      INV             gf65            7.774000  
+U139                      INV             gf65            7.774000  
+U140                      INV             gf65            7.774000  
+U141                      INV             gf65            7.774000  
+U142                      INV             gf65            7.774000  
+U143                      INV             gf65            7.774000  
+U144                      INV             gf65            7.774000  
+U145                      INV             gf65            7.774000  
+U146                      INV             gf65            7.774000  
+U147                      INV             gf65            7.774000  
+U148                      INV             gf65            7.774000  
+U149                      INV             gf65            7.774000  
+U150                      INV             gf65            7.774000  
+U151                      INV             gf65            7.774000  
+U152                      INV             gf65            7.774000  
+U153                      INV             gf65            7.774000  
+UART_RX_Inst/C12          NAND2           gf65            12.440000 
+UART_RX_Inst/C15          NAND2           gf65            12.440000 
+UART_RX_Inst/C19          NAND2           gf65            12.440000 
+UART_RX_Inst/C24          NAND2           gf65            12.440000 
+UART_RX_Inst/C28          NAND2           gf65            12.440000 
+UART_RX_Inst/C320         NAND2           gf65            12.440000 
+UART_RX_Inst/C321         NAND2           gf65            12.440000 
+UART_RX_Inst/C322         NAND2           gf65            12.440000 
+UART_RX_Inst/C323         NAND2           gf65            12.440000 
+UART_RX_Inst/C324         NAND2           gf65            12.440000 
+UART_RX_Inst/C325         NAND2           gf65            12.440000 
+UART_RX_Inst/C326         NAND2           gf65            12.440000 
+UART_RX_Inst/C327         NAND2           gf65            12.440000 
+UART_RX_Inst/C328         NAND2           gf65            12.440000 
+UART_RX_Inst/C329         NAND2           gf65            12.440000 
+UART_RX_Inst/C330         NAND2           gf65            12.440000 
+UART_RX_Inst/C331         NAND2           gf65            12.440000 
+UART_RX_Inst/C332         NAND2           gf65            12.440000 
+UART_RX_Inst/C333         NAND2           gf65            12.440000 
+UART_RX_Inst/C334         NAND2           gf65            12.440000 
+UART_RX_Inst/C335         NAND2           gf65            12.440000 
+UART_RX_Inst/I_1          INV             gf65            7.774000  
+UART_RX_Inst/I_2          INV             gf65            7.774000  
+UART_RX_Inst/I_3          INV             gf65            7.774000  
+UART_RX_Inst/I_4          INV             gf65            7.774000  
+UART_RX_Inst/I_5          INV             gf65            7.774000  
+UART_RX_Inst/I_6          INV             gf65            7.774000  
+UART_RX_Inst/I_7          INV             gf65            7.774000  
+UART_RX_Inst/I_8          INV             gf65            7.774000  
+UART_RX_Inst/I_9          INV             gf65            7.774000  
+UART_RX_Inst/I_10         INV             gf65            7.774000  
+UART_RX_Inst/I_11         INV             gf65            7.774000  
+UART_RX_Inst/I_12         INV             gf65            7.774000  
+UART_RX_Inst/I_14         INV             gf65            7.774000  
+UART_RX_Inst/I_15         INV             gf65            7.774000  
+UART_RX_Inst/I_16         INV             gf65            7.774000  
+UART_RX_Inst/I_18         INV             gf65            7.774000  
+UART_RX_Inst/I_19         INV             gf65            7.774000  
+UART_RX_Inst/I_20         INV             gf65            7.774000  
+UART_RX_Inst/I_21         INV             gf65            7.774000  
+UART_RX_Inst/U3           OAI22           gf65            17.100000 
+UART_RX_Inst/U4           INV             gf65            7.774000  
+UART_RX_Inst/U5           INV             gf65            7.774000  
+UART_RX_Inst/U6           OAI22           gf65            17.100000 
+UART_RX_Inst/U7           INV             gf65            7.774000  
+UART_RX_Inst/U8           INV             gf65            7.774000  
+UART_RX_Inst/U9           OAI22           gf65            17.100000 
+UART_RX_Inst/U10          INV             gf65            7.774000  
+UART_RX_Inst/U11          INV             gf65            7.774000  
+UART_RX_Inst/U14          OAI22           gf65            17.100000 
+UART_RX_Inst/U15          INV             gf65            7.774000  
+UART_RX_Inst/U16          INV             gf65            7.774000  
+UART_RX_Inst/U17          OAI22           gf65            17.100000 
+UART_RX_Inst/U18          INV             gf65            7.774000  
+UART_RX_Inst/U19          INV             gf65            7.774000  
+UART_RX_Inst/U20          OAI22           gf65            17.100000 
+UART_RX_Inst/U21          INV             gf65            7.774000  
+UART_RX_Inst/U22          INV             gf65            7.774000  
+UART_RX_Inst/U23          OAI22           gf65            17.100000 
+UART_RX_Inst/U24          INV             gf65            7.774000  
+UART_RX_Inst/U25          INV             gf65            7.774000  
+UART_RX_Inst/U26          OAI22           gf65            17.100000 
+UART_RX_Inst/U27          INV             gf65            7.774000  
+UART_RX_Inst/U28          INV             gf65            7.774000  
+UART_RX_Inst/U29          OAI22           gf65            17.100000 
+UART_RX_Inst/U30          INV             gf65            7.774000  
+UART_RX_Inst/U31          INV             gf65            7.774000  
+UART_RX_Inst/U32          OAI22           gf65            17.100000 
+UART_RX_Inst/U33          INV             gf65            7.774000  
+UART_RX_Inst/U34          INV             gf65            7.774000  
+UART_RX_Inst/U35          OAI22           gf65            17.100000 
+UART_RX_Inst/U36          INV             gf65            7.774000  
+UART_RX_Inst/U37          INV             gf65            7.774000  
+UART_RX_Inst/U38          OAI22           gf65            17.100000 
+UART_RX_Inst/U39          INV             gf65            7.774000  
+UART_RX_Inst/U40          INV             gf65            7.774000  
+UART_RX_Inst/U41          OAI22           gf65            17.100000 
+UART_RX_Inst/U42          INV             gf65            7.774000  
+UART_RX_Inst/U43          INV             gf65            7.774000  
+UART_RX_Inst/U44          OAI22           gf65            17.100000 
+UART_RX_Inst/U45          INV             gf65            7.774000  
+UART_RX_Inst/U46          INV             gf65            7.774000  
+UART_RX_Inst/U47          OAI22           gf65            17.100000 
+UART_RX_Inst/U48          INV             gf65            7.774000  
+UART_RX_Inst/U49          INV             gf65            7.774000  
+UART_RX_Inst/U50          OAI22           gf65            17.100000 
+UART_RX_Inst/U51          INV             gf65            7.774000  
+UART_RX_Inst/U52          INV             gf65            7.774000  
+UART_RX_Inst/U53          OAI22           gf65            17.100000 
+UART_RX_Inst/U54          INV             gf65            7.774000  
+UART_RX_Inst/U55          INV             gf65            7.774000  
+UART_RX_Inst/U56          OAI22           gf65            17.100000 
+UART_RX_Inst/U57          INV             gf65            7.774000  
+UART_RX_Inst/U58          INV             gf65            7.774000  
+UART_RX_Inst/U59          OAI22           gf65            17.100000 
+UART_RX_Inst/U60          INV             gf65            7.774000  
+UART_RX_Inst/U61          INV             gf65            7.774000  
+UART_RX_Inst/U62          OAI22           gf65            17.100000 
+UART_RX_Inst/U63          INV             gf65            7.774000  
+UART_RX_Inst/U64          INV             gf65            7.774000  
+UART_RX_Inst/U65          OAI22           gf65            17.100000 
+UART_RX_Inst/U66          INV             gf65            7.774000  
+UART_RX_Inst/U67          INV             gf65            7.774000  
+UART_RX_Inst/U68          OAI22           gf65            17.100000 
+UART_RX_Inst/U69          INV             gf65            7.774000  
+UART_RX_Inst/U70          INV             gf65            7.774000  
+UART_RX_Inst/U71          OAI22           gf65            17.100000 
+UART_RX_Inst/U72          INV             gf65            7.774000  
+UART_RX_Inst/U73          INV             gf65            7.774000  
+UART_RX_Inst/U74          OAI22           gf65            17.100000 
+UART_RX_Inst/U75          INV             gf65            7.774000  
+UART_RX_Inst/U76          OAI22           gf65            17.100000 
+UART_RX_Inst/U77          INV             gf65            7.774000  
+UART_RX_Inst/U78          OAI22           gf65            17.100000 
+UART_RX_Inst/U79          INV             gf65            7.774000  
+UART_RX_Inst/U80          INV             gf65            7.774000  
+UART_RX_Inst/U81          INV             gf65            7.774000  
+UART_RX_Inst/U82          OAI22           gf65            17.100000 
+UART_RX_Inst/U83          INV             gf65            7.774000  
+UART_RX_Inst/U84          INV             gf65            7.774000  
+UART_RX_Inst/U85          OAI22           gf65            17.100000 
+UART_RX_Inst/U86          INV             gf65            7.774000  
+UART_RX_Inst/U87          INV             gf65            7.774000  
+UART_RX_Inst/U88          INV             gf65            7.774000  
+UART_RX_Inst/U89          XNOR2           gf65            17.100000 
+UART_RX_Inst/U90          NAND2           gf65            12.440000 
+UART_RX_Inst/U91          XNOR2           gf65            17.100000 
+UART_RX_Inst/U92          INV             gf65            7.774000  
+UART_RX_Inst/U93          INV             gf65            7.774000  
+UART_RX_Inst/U95          INV             gf65            7.774000  
+UART_RX_Inst/U96          NOR2            gf65            12.440000 
+UART_RX_Inst/U97          NAND2           gf65            12.440000 
+UART_RX_Inst/U98          INV             gf65            7.774000  
+UART_RX_Inst/U99          INV             gf65            7.774000  
+UART_RX_Inst/U100         NOR2            gf65            12.440000 
+UART_RX_Inst/U101         NAND2           gf65            12.440000 
+UART_RX_Inst/U102         INV             gf65            7.774000  
+UART_RX_Inst/U103         NOR2            gf65            12.440000 
+UART_RX_Inst/U104         NOR2            gf65            12.440000 
+UART_RX_Inst/U105         NOR2            gf65            12.440000 
+UART_RX_Inst/U106         NOR2            gf65            12.440000 
+UART_RX_Inst/U107         NOR2            gf65            12.440000 
+UART_RX_Inst/U108         NOR2            gf65            12.440000 
+UART_RX_Inst/U109         NOR2            gf65            12.440000 
+UART_RX_Inst/U110         NOR2            gf65            12.440000 
+UART_RX_Inst/U111         INV             gf65            7.774000  
+UART_RX_Inst/U112         NAND3           gf65            15.550000 
+UART_RX_Inst/U113         NAND2           gf65            12.440000 
+UART_RX_Inst/U114         NAND3           gf65            15.550000 
+UART_RX_Inst/U115         NAND3           gf65            15.550000 
+UART_RX_Inst/U116         NAND2           gf65            12.440000 
+UART_RX_Inst/U117         INV             gf65            7.774000  
+UART_RX_Inst/U118         INV             gf65            7.774000  
+UART_RX_Inst/U119         NAND2           gf65            12.440000 
+UART_RX_Inst/U120         NAND2           gf65            12.440000 
+UART_RX_Inst/U121         NAND3           gf65            15.550000 
+UART_RX_Inst/U122         INV             gf65            7.774000  
+UART_RX_Inst/U123         NAND2           gf65            12.440000 
+UART_RX_Inst/U124         NOR2            gf65            12.440000 
+UART_RX_Inst/U125         INV             gf65            7.774000  
+UART_RX_Inst/U126         NOR2            gf65            12.440000 
+UART_RX_Inst/U127         INV             gf65            7.774000  
+UART_RX_Inst/U128         NOR2            gf65            12.440000 
+UART_RX_Inst/U129         INV             gf65            7.774000  
+UART_RX_Inst/U130         NOR2            gf65            12.440000 
+UART_RX_Inst/U131         INV             gf65            7.774000  
+UART_RX_Inst/U132         NOR2            gf65            12.440000 
+UART_RX_Inst/U133         INV             gf65            7.774000  
+UART_RX_Inst/U134         NOR2            gf65            12.440000 
+UART_RX_Inst/U135         INV             gf65            7.774000  
+UART_RX_Inst/U136         NOR2            gf65            12.440000 
+UART_RX_Inst/U137         INV             gf65            7.774000  
+UART_RX_Inst/U138         NOR2            gf65            12.440000 
+UART_RX_Inst/U139         INV             gf65            7.774000  
+UART_RX_Inst/U140         NOR2            gf65            12.440000 
+UART_RX_Inst/U141         INV             gf65            7.774000  
+UART_RX_Inst/U142         NOR2            gf65            12.440000 
+UART_RX_Inst/U143         INV             gf65            7.774000  
+UART_RX_Inst/U144         NOR2            gf65            12.440000 
+UART_RX_Inst/U145         INV             gf65            7.774000  
+UART_RX_Inst/U146         NOR2            gf65            12.440000 
+UART_RX_Inst/U147         INV             gf65            7.774000  
+UART_RX_Inst/U148         NOR2            gf65            12.440000 
+UART_RX_Inst/U149         INV             gf65            7.774000  
+UART_RX_Inst/U150         NOR2            gf65            12.440000 
+UART_RX_Inst/U151         INV             gf65            7.774000  
+UART_RX_Inst/U152         NOR2            gf65            12.440000 
+UART_RX_Inst/U153         INV             gf65            7.774000  
+UART_RX_Inst/U154         NOR2            gf65            12.440000 
+UART_RX_Inst/U155         INV             gf65            7.774000  
+UART_RX_Inst/U156         NAND2           gf65            12.440000 
+UART_RX_Inst/U157         NAND2           gf65            12.440000 
+UART_RX_Inst/U158         INV             gf65            7.774000  
+UART_RX_Inst/U159         NAND3           gf65            15.550000 
+UART_RX_Inst/U160         NAND2           gf65            12.440000 
+UART_RX_Inst/U161         NAND2           gf65            12.440000 
+UART_RX_Inst/U162         INV             gf65            7.774000  
+UART_RX_Inst/U163         NAND2           gf65            12.440000 
+UART_RX_Inst/U164         INV             gf65            7.774000  
+UART_RX_Inst/U165         INV             gf65            7.774000  
+UART_RX_Inst/U166         NOR2            gf65            12.440000 
+UART_RX_Inst/U167         INV             gf65            7.774000  
+UART_RX_Inst/U168         NOR2            gf65            12.440000 
+UART_RX_Inst/U169         INV             gf65            7.774000  
+UART_RX_Inst/U170         NOR2            gf65            12.440000 
+UART_RX_Inst/U171         INV             gf65            7.774000  
+UART_RX_Inst/U172         NAND3           gf65            15.550000 
+UART_RX_Inst/U173         NAND2           gf65            12.440000 
+UART_RX_Inst/U174         INV             gf65            7.774000  
+UART_RX_Inst/U175         NAND3           gf65            15.550000 
+UART_RX_Inst/U176         NAND3           gf65            15.550000 
+UART_RX_Inst/U177         INV             gf65            7.774000  
+UART_RX_Inst/U178         INV             gf65            7.774000  
+UART_RX_Inst/U179         INV             gf65            7.774000  
+UART_RX_Inst/U180         INV             gf65            7.774000  
+UART_RX_Inst/U181         INV             gf65            7.774000  
+UART_RX_Inst/U182         INV             gf65            7.774000  
+UART_RX_Inst/U183         INV             gf65            7.774000  
+UART_RX_Inst/U184         INV             gf65            7.774000  
+UART_RX_Inst/U185         INV             gf65            7.774000  
+UART_RX_Inst/U186         INV             gf65            7.774000  
+UART_RX_Inst/U187         INV             gf65            7.774000  
+UART_RX_Inst/U192         INV             gf65            7.774000  
+UART_RX_Inst/U193         INV             gf65            7.774000  
+UART_RX_Inst/lt_110/ULTI1 NAND2           gf65            12.440000 
+UART_RX_Inst/lt_110/ULTI1_1
+                          NAND2           gf65            12.440000 
+UART_RX_Inst/lt_110/ULTI2 NAND2           gf65            12.440000 
+UART_RX_Inst/lt_110/ULTI2_1
+                          NAND2           gf65            12.440000 
+UART_RX_Inst/r35/UEQI_1   XNOR2           gf65            17.100000 
+UART_RX_Inst/r35/UEQI_4   XNOR2           gf65            17.100000 
+UART_RX_Inst/r35/UEQI_6   XNOR2           gf65            17.100000 
+UART_RX_Inst/r35/UEQI_7   XNOR2           gf65            17.100000 
+UART_RX_Inst/r35/UEQI_9   XNOR2           gf65            17.100000 
+UART_RX_Inst/r35/ULTI0_0  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI0_1  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI0_4  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI0_6  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI0_7  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI0_9  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1    NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_1  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_2  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_3  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_4  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_5  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_6  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_7  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_8  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_9  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_10 NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_11 NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_12 NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_13 NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI1_14 NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI2_1  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI2_4  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI2_5  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI2_6  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI2_7  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI2_8  NAND2           gf65            12.440000 
+UART_RX_Inst/r35/ULTI2_9  NAND2           gf65            12.440000 
+UART_RX_Inst/r_Bit_Index_reg[0]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Bit_Index_reg[1]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Bit_Index_reg[2]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[0]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[1]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[2]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[3]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[4]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[5]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[6]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[7]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[8]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[9]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[10]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[11]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[12]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[13]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[14]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_Clock_Count_reg[15]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[0]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[1]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[2]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[3]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[4]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[5]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[6]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Byte_reg[7]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_Done_reg
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_State_reg[0]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_State_reg[1]
+                          DFF             gf65            49.750000 n
+UART_RX_Inst/r_RX_State_reg[2]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/C222         NAND2           gf65            12.440000 
+UART_TX_Inst/C223         NAND2           gf65            12.440000 
+UART_TX_Inst/C224         NAND2           gf65            12.440000 
+UART_TX_Inst/C225         NAND2           gf65            12.440000 
+UART_TX_Inst/C226         NAND2           gf65            12.440000 
+UART_TX_Inst/C227         NAND2           gf65            12.440000 
+UART_TX_Inst/C228         NAND2           gf65            12.440000 
+UART_TX_Inst/C229         NAND2           gf65            12.440000 
+UART_TX_Inst/C230         NAND2           gf65            12.440000 
+UART_TX_Inst/C231         NAND2           gf65            12.440000 
+UART_TX_Inst/I_6          INV             gf65            7.774000  
+UART_TX_Inst/I_10         INV             gf65            7.774000  
+UART_TX_Inst/I_13         INV             gf65            7.774000  
+UART_TX_Inst/U3           OAI22           gf65            17.100000 
+UART_TX_Inst/U4           INV             gf65            7.774000  
+UART_TX_Inst/U5           NOR2            gf65            12.440000 
+UART_TX_Inst/U6           INV             gf65            7.774000  
+UART_TX_Inst/U7           NAND2           gf65            12.440000 
+UART_TX_Inst/U8           OAI22           gf65            17.100000 
+UART_TX_Inst/U9           INV             gf65            7.774000  
+UART_TX_Inst/U10          INV             gf65            7.774000  
+UART_TX_Inst/U13          INV             gf65            7.774000  
+UART_TX_Inst/U14          OAI22           gf65            17.100000 
+UART_TX_Inst/U15          INV             gf65            7.774000  
+UART_TX_Inst/U16          OAI22           gf65            17.100000 
+UART_TX_Inst/U17          INV             gf65            7.774000  
+UART_TX_Inst/U18          OAI22           gf65            17.100000 
+UART_TX_Inst/U19          INV             gf65            7.774000  
+UART_TX_Inst/U20          OAI22           gf65            17.100000 
+UART_TX_Inst/U21          INV             gf65            7.774000  
+UART_TX_Inst/U22          OAI22           gf65            17.100000 
+UART_TX_Inst/U23          INV             gf65            7.774000  
+UART_TX_Inst/U24          OAI22           gf65            17.100000 
+UART_TX_Inst/U25          INV             gf65            7.774000  
+UART_TX_Inst/U26          OAI22           gf65            17.100000 
+UART_TX_Inst/U27          INV             gf65            7.774000  
+UART_TX_Inst/U28          OAI22           gf65            17.100000 
+UART_TX_Inst/U29          INV             gf65            7.774000  
+UART_TX_Inst/U30          INV             gf65            7.774000  
+UART_TX_Inst/U31          OAI22           gf65            17.100000 
+UART_TX_Inst/U32          INV             gf65            7.774000  
+UART_TX_Inst/U33          INV             gf65            7.774000  
+UART_TX_Inst/U34          OAI22           gf65            17.100000 
+UART_TX_Inst/U35          INV             gf65            7.774000  
+UART_TX_Inst/U36          OAI22           gf65            17.100000 
+UART_TX_Inst/U37          INV             gf65            7.774000  
+UART_TX_Inst/U38          OAI22           gf65            17.100000 
+UART_TX_Inst/U39          INV             gf65            7.774000  
+UART_TX_Inst/U40          INV             gf65            7.774000  
+UART_TX_Inst/U41          XNOR2           gf65            17.100000 
+UART_TX_Inst/U42          NOR2            gf65            12.440000 
+UART_TX_Inst/U43          INV             gf65            7.774000  
+UART_TX_Inst/U44          INV             gf65            7.774000  
+UART_TX_Inst/U45          XNOR2           gf65            17.100000 
+UART_TX_Inst/U46          INV             gf65            7.774000  
+UART_TX_Inst/U47          NAND2           gf65            12.440000 
+UART_TX_Inst/U48          NAND2           gf65            12.440000 
+UART_TX_Inst/U49          NOR2            gf65            12.440000 
+UART_TX_Inst/U50          INV             gf65            7.774000  
+UART_TX_Inst/U51          NAND2           gf65            12.440000 
+UART_TX_Inst/U52          NOR2            gf65            12.440000 
+UART_TX_Inst/U53          INV             gf65            7.774000  
+UART_TX_Inst/U56          NAND2           gf65            12.440000 
+UART_TX_Inst/U57          INV             gf65            7.774000  
+UART_TX_Inst/U58          INV             gf65            7.774000  
+UART_TX_Inst/U59          NAND2           gf65            12.440000 
+UART_TX_Inst/U60          NAND2           gf65            12.440000 
+UART_TX_Inst/U61          NAND3           gf65            15.550000 
+UART_TX_Inst/U62          NAND2           gf65            12.440000 
+UART_TX_Inst/U63          NAND2           gf65            12.440000 
+UART_TX_Inst/U64          INV             gf65            7.774000  
+UART_TX_Inst/U65          INV             gf65            7.774000  
+UART_TX_Inst/U66          NAND3           gf65            15.550000 
+UART_TX_Inst/U67          INV             gf65            7.774000  
+UART_TX_Inst/U68          NAND2           gf65            12.440000 
+UART_TX_Inst/U69          NAND3           gf65            15.550000 
+UART_TX_Inst/U70          INV             gf65            7.774000  
+UART_TX_Inst/U71          NOR2            gf65            12.440000 
+UART_TX_Inst/U72          INV             gf65            7.774000  
+UART_TX_Inst/U73          NOR2            gf65            12.440000 
+UART_TX_Inst/U74          INV             gf65            7.774000  
+UART_TX_Inst/U75          NOR2            gf65            12.440000 
+UART_TX_Inst/U76          INV             gf65            7.774000  
+UART_TX_Inst/U77          NAND2           gf65            12.440000 
+UART_TX_Inst/U78          NAND2           gf65            12.440000 
+UART_TX_Inst/U79          NAND2           gf65            12.440000 
+UART_TX_Inst/U80          NOR2            gf65            12.440000 
+UART_TX_Inst/U81          INV             gf65            7.774000  
+UART_TX_Inst/U82          NOR2            gf65            12.440000 
+UART_TX_Inst/U83          INV             gf65            7.774000  
+UART_TX_Inst/U84          NOR2            gf65            12.440000 
+UART_TX_Inst/U85          INV             gf65            7.774000  
+UART_TX_Inst/U86          NOR2            gf65            12.440000 
+UART_TX_Inst/U87          INV             gf65            7.774000  
+UART_TX_Inst/U88          NOR2            gf65            12.440000 
+UART_TX_Inst/U89          INV             gf65            7.774000  
+UART_TX_Inst/U90          NOR2            gf65            12.440000 
+UART_TX_Inst/U91          INV             gf65            7.774000  
+UART_TX_Inst/U92          NOR2            gf65            12.440000 
+UART_TX_Inst/U93          INV             gf65            7.774000  
+UART_TX_Inst/U94          NOR2            gf65            12.440000 
+UART_TX_Inst/U95          INV             gf65            7.774000  
+UART_TX_Inst/U96          NOR2            gf65            12.440000 
+UART_TX_Inst/U97          INV             gf65            7.774000  
+UART_TX_Inst/U98          NOR2            gf65            12.440000 
+UART_TX_Inst/U99          INV             gf65            7.774000  
+UART_TX_Inst/U100         NOR2            gf65            12.440000 
+UART_TX_Inst/U101         INV             gf65            7.774000  
+UART_TX_Inst/U102         NOR2            gf65            12.440000 
+UART_TX_Inst/U103         NOR2            gf65            12.440000 
+UART_TX_Inst/U104         INV             gf65            7.774000  
+UART_TX_Inst/U105         OAI22           gf65            17.100000 
+UART_TX_Inst/U106         INV             gf65            7.774000  
+UART_TX_Inst/U107         INV             gf65            7.774000  
+UART_TX_Inst/U108         INV             gf65            7.774000  
+UART_TX_Inst/U109         INV             gf65            7.774000  
+UART_TX_Inst/U110         INV             gf65            7.774000  
+UART_TX_Inst/U111         INV             gf65            7.774000  
+UART_TX_Inst/U112         INV             gf65            7.774000  
+UART_TX_Inst/U113         INV             gf65            7.774000  
+UART_TX_Inst/U114         INV             gf65            7.774000  
+UART_TX_Inst/U115         INV             gf65            7.774000  
+UART_TX_Inst/U116         INV             gf65            7.774000  
+UART_TX_Inst/U117         INV             gf65            7.774000  
+UART_TX_Inst/U118         INV             gf65            7.774000  
+UART_TX_Inst/U119         INV             gf65            7.774000  
+UART_TX_Inst/U120         INV             gf65            7.774000  
+UART_TX_Inst/U121         INV             gf65            7.774000  
+UART_TX_Inst/U126         INV             gf65            7.774000  
+UART_TX_Inst/U127         INV             gf65            7.774000  
+UART_TX_Inst/U128         INV             gf65            7.774000  
+UART_TX_Inst/U129         INV             gf65            7.774000  
+UART_TX_Inst/U130         INV             gf65            7.774000  
+UART_TX_Inst/U131         INV             gf65            7.774000  
+UART_TX_Inst/U132         INV             gf65            7.774000  
+UART_TX_Inst/U133         INV             gf65            7.774000  
+UART_TX_Inst/U134         INV             gf65            7.774000  
+UART_TX_Inst/U135         INV             gf65            7.774000  
+UART_TX_Inst/U136         INV             gf65            7.774000  
+UART_TX_Inst/U137         INV             gf65            7.774000  
+UART_TX_Inst/U138         OAI22           gf65            17.100000 
+UART_TX_Inst/U139         INV             gf65            7.774000  
+UART_TX_Inst/U140         OAI22           gf65            17.100000 
+UART_TX_Inst/U141         INV             gf65            7.774000  
+UART_TX_Inst/U142         OAI22           gf65            17.100000 
+UART_TX_Inst/U143         OAI22           gf65            17.100000 
+UART_TX_Inst/U144         INV             gf65            7.774000  
+UART_TX_Inst/U145         OAI22           gf65            17.100000 
+UART_TX_Inst/U146         INV             gf65            7.774000  
+UART_TX_Inst/U147         OAI22           gf65            17.100000 
+UART_TX_Inst/lt_109/ULTI1 NAND2           gf65            12.440000 
+UART_TX_Inst/lt_109/ULTI1_1
+                          NAND2           gf65            12.440000 
+UART_TX_Inst/lt_109/ULTI2 NAND2           gf65            12.440000 
+UART_TX_Inst/lt_109/ULTI2_1
+                          NAND2           gf65            12.440000 
+UART_TX_Inst/o_TX_Busy_reg
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/o_TX_Done_reg
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/o_TX_Serial_reg
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r31/ULTI1    NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_1  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_2  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_3  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_4  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_5  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_6  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_7  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_8  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI1_9  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI2_1  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI2_5  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI2_6  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI2_8  NAND2           gf65            12.440000 
+UART_TX_Inst/r31/ULTI2_9  NAND2           gf65            12.440000 
+UART_TX_Inst/r_Bit_Index_reg[0]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Bit_Index_reg[1]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Bit_Index_reg[2]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[0]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[1]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[2]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[3]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[4]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[5]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[6]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[7]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[8]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[9]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_Clock_Count_reg[10]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_SM_Main_reg[0]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_SM_Main_reg[1]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[0]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[1]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[2]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[3]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[4]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[5]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[6]
+                          DFF             gf65            49.750000 n
+UART_TX_Inst/r_TX_Data_reg[7]
+                          DFF             gf65            49.750000 n
+--------------------------------------------------------------------------------
+Total 641 cells                                           9152.982016

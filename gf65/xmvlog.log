@@ -1,0 +1,43 @@
+xmvlog: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
+TOOL:	xmvlog(64)	20.09-s023: Started on May 11, 2025 at 14:18:59 CDT
+xmvlog
+    -work __nclib
+    -view module
+    -logfile xmvlog.log
+    -cdslib /tmp/ihdl_cdslibd6199_1146199
+    -messages
+    -nostdout
+    -nocopyright
+    -ESCAPEDNAME
+    /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/innovus/UART.v
+
+file: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/innovus/UART.v
+	module __nclib.inv:module
+		errors: 0, warnings: 0
+	module __nclib.nand2:module
+		errors: 0, warnings: 0
+	module __nclib.nand3:module
+		errors: 0, warnings: 0
+	module __nclib.nand4:module
+		errors: 0, warnings: 0
+	module __nclib.nor2:module
+		errors: 0, warnings: 0
+	module __nclib.nor3:module
+		errors: 0, warnings: 0
+	module __nclib.xor2:module
+		errors: 0, warnings: 0
+	module __nclib.aoi12:module
+		errors: 0, warnings: 0
+	module __nclib.aoi22:module
+		errors: 0, warnings: 0
+	module __nclib.oai12:module
+		errors: 0, warnings: 0
+	module __nclib.oai22:module
+		errors: 0, warnings: 0
+	module __nclib.dff:module
+		errors: 0, warnings: 0
+	module __nclib.UART:module
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+TOOL:	xmvlog(64)	20.09-s023: Exiting on May 11, 2025 at 14:18:59 CDT  (total: 00:00:00)

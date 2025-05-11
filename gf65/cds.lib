@@ -84,3 +84,8 @@ DEFINE ch65lpe_alt /proj/cad/library/mosis/GF65_LPe/EDA-CAD-65N-DK012_rev3/ch65l
 #
 #
 DEFINE tutorial /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial
+#Removed by ddDeleteObj: DEFINE uart /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart
+DEFINE uart /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart
+DEFINE uart /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart
+DEFINE uart2 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart2
+DEFINE uart3 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart3

@@ -1,6 +1,5 @@
-cUiSelectCellP {DFF}
 cUiSetViewStatus {DFF} {layout} {1}
 cUiSetViewStatus {DFF} {logical} {0}
-cUiSetViewStatus {DFF} {abstract.pin} {3}
-cUiSetViewStatus {DFF} {abstract.ext} {1}
-cUiSetViewStatus {DFF} {abstract} {3}
+cUiSetViewStatus {DFF} {abstract.pin} {17}
+cUiSetViewStatus {DFF} {abstract.ext} {17}
+cUiSetViewStatus {DFF} {abstract} {19}

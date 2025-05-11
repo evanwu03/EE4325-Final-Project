@@ -1354,3 +1354,5 @@ viaInitial ends at Thu May  8 22:56:38 2025
 [05/08 23:18:20     76s] 
 [05/08 23:18:20     76s] **ERROR: (IMPSYT-6245):	Error , while saving MS constraint file.
 [05/08 23:18:20     76s] Generated self-contained design UART.dat.tmp
+[05/08 23:20:02     80s] <CMD> fit
+[05/08 23:24:13     89s] <CMD> pan -22.753 73.511

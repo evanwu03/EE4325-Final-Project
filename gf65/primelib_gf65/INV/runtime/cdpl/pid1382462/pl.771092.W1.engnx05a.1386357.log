@@ -1,0 +1,126 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: , PID: 1386357 (PPID: 1386334)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (6.5 GB free), 4 GB Swap (0.0 GB free)
+System load average: 356.87, 278.44, 140.47 (25500 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
+Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib -server /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/runtime/cdpl/pid1382462/driver_1382462.tcl
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/etc/cell.stat.gz
+Sun May 11 16:06:44 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Sun May 11 16:06:44 CDT 2025: Environment set up done (0 seconds)
+Create and link tmpdir /var/tmp/pl.engnx05a.771092.1386334 -> /var/tmp/primelib.engnx05a.utdallas.edu.771092.1386357 
+[CDPL] Loading settings for stage: characterization.0
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
+Sun May 11 16:06:44 CDT 2025: Sourcing environment settings
+Warning: Operating condition 'op_cond' already exists, skipped.
+Sun May 11 16:06:44 CDT 2025: Environment set up done (0 seconds)
+[CDPL] Done loading settings for stage: characterization.0
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/delay__IN__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 356.87 (1min) 278.44 (5min) 140.47 (15min)
+Error:   Simulation delay__IN__lh__OUT__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__IN__lh__OUT__hl__ACQ_1 0.13 0.01 0.13 0.25 1 4.78800487518 engnx05a.utdallas.edu 1746997604.49 1746997609.28 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/delay__IN__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 334.38 (1min) 275.08 (5min) 140.13 (15min)
+Error:   Simulation delay__IN__hl__OUT__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__IN__hl__OUT__lh__ACQ_1 0.05 0.01 0.08 0.11 1 1.00360202789 engnx05a.utdallas.edu 1746997609.28 1746997610.28 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 334.38 (1min) 275.08 (5min) 140.13 (15min)
+Error:   Simulation leakage_power__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV leakage_power__ACQ_1 0.03 0.0 0.08 0.09 1 0.510210990906 engnx05a.utdallas.edu 1746997610.28 1746997610.79 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 334.38 (1min) 275.08 (5min) 140.13 (15min)
+Error:   Simulation Cin__VSS__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VSS__lh__ACQ_1 0.05 0.03 0.09 0.08 1 0.526723861694 engnx05a.utdallas.edu 1746997610.8 1746997611.32 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 334.38 (1min) 275.08 (5min) 140.13 (15min)
+Error:   Simulation Cin__VSS__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VSS__hl__ACQ_1 0.03 0.0 0.07 0.09 1 0.571836948395 engnx05a.utdallas.edu 1746997611.32 1746997611.89 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 334.38 (1min) 275.08 (5min) 140.13 (15min)
+Error:   Simulation Cin__VDD__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VDD__lh__ACQ_1 0.04 0.02 0.08 0.09 1 0.574625015259 engnx05a.utdallas.edu 1746997611.9 1746997612.47 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 334.38 (1min) 275.08 (5min) 140.13 (15min)
+Error:   Simulation Cin__VDD__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VDD__hl__ACQ_1 0.04 0.0 0.08 0.08 1 0.543118953705 engnx05a.utdallas.edu 1746997612.47 1746997613.02 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/leakage_power__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 222.99 (1min) 253.62 (5min) 136.61 (15min)
+Error:   Simulation leakage_power__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV leakage_power__ACQ_1 0.04 0.01 0.1 0.12 1 2.15832591057 engnx05a.utdallas.edu 1746997632.51 1746997634.67 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/delay__IN__lh__OUT__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 222.99 (1min) 253.62 (5min) 136.61 (15min)
+Error:   Simulation delay__IN__lh__OUT__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__IN__lh__OUT__hl__ACQ_1 0.06 0.01 0.09 0.08 1 0.591637134552 engnx05a.utdallas.edu 1746997634.67 1746997635.26 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/delay__IN__hl__OUT__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 222.99 (1min) 253.62 (5min) 136.61 (15min)
+Error:   Simulation delay__IN__hl__OUT__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV delay__IN__hl__OUT__lh__ACQ_1 0.05 0.0 0.06 0.1 1 0.610547065735 engnx05a.utdallas.edu 1746997635.26 1746997635.87 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VSS__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 222.99 (1min) 253.62 (5min) 136.61 (15min)
+Error:   Simulation Cin__VSS__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VSS__lh__ACQ_1 0.04 0.01 0.09 0.08 1 0.552135944366 engnx05a.utdallas.edu 1746997635.88 1746997636.43 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VSS__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 222.99 (1min) 253.62 (5min) 136.61 (15min)
+Error:   Simulation Cin__VSS__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VSS__hl__ACQ_1 0.03 0.0 0.07 0.09 1 0.570201873779 engnx05a.utdallas.edu 1746997636.43 1746997637.0 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VDD__lh__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 222.99 (1min) 253.62 (5min) 136.61 (15min)
+Error:   Simulation Cin__VDD__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VDD__lh__ACQ_1 0.03 0.01 0.08 0.09 1 0.534470081329 engnx05a.utdallas.edu 1746997637.0 1746997637.53 1
+Loading information for cell INV
+work dir: '/var/tmp/primelib.engnx05a.771092.1386357/INV/Cin__VDD__hl__ACQ_1.sif_0' (SIM-69)
+Executing 'hspice deck.cir -o deck' (SIM-30)
+Host engnx05a.utdallas.edu load average 222.99 (1min) 253.62 (5min) 136.61 (15min)
+Error:   Simulation Cin__VDD__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95)
+----------------------
+__recordTaskStats__ INV Cin__VDD__hl__ACQ_1 0.04 0.0 0.08 0.09 1 0.504457950592 engnx05a.utdallas.edu 1746997637.53 1746997638.04 1
+Warning: /var/tmp/worker.771092.W1.engnx05a.utdallas.edu.1386357.log: No such file or directory
+   [CDPL] Shutting down worker
+Sun May 11 16:08:59 2025: Program time: 135.00 seconds | 2.25 minutes | 0.04 hours
+CDPL worker exited normally.
+Reset log file
+Maximum virtual memory size: 1031.39 MB

@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////
 // Created by: Synopsys DC Expert(TM) in wire load mode
 // Version   : O-2018.06-SP1
-// Date      : Thu May  8 22:50:26 2025
+// Date      : Sun May 11 12:56:14 2025
 /////////////////////////////////////////////////////////////
 
 module inv(in, out);
@@ -74,8 +74,6 @@ module dff( d, gclk, rnot, q);
 input d, gclk, rnot;
 output q;
 reg q;
-
-DFF u1 (.D(d), .CLK(gclk), .R(rnot), .Q(q));
 /*
 always @(posedge gclk or negedge rnot)
   if (rnot == 1'b0)

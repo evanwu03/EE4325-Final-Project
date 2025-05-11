@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+tutorial/XNOR2/schematic XNOR2
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

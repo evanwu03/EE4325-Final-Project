@@ -1,0 +1,1975 @@
+[05/11 13:21:08      0s] 
+[05/11 13:21:08      0s] Cadence Innovus(TM) Implementation System.
+[05/11 13:21:08      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[05/11 13:21:08      0s] 
+[05/11 13:21:08      0s] Version:	v17.10-p006_1, built Wed May 31 11:06:15 PDT 2017
+[05/11 13:21:08      0s] Options:	
+[05/11 13:21:08      0s] Date:		Sun May 11 13:21:08 2025
+[05/11 13:21:08      0s] Host:		engnx05a.utdallas.edu (x86_64 w/Linux 4.18.0-553.46.1.el8_10.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB)
+[05/11 13:21:08      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[05/11 13:21:08      0s] 
+[05/11 13:21:08      0s] License:
+[05/11 13:21:08      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[05/11 13:21:08      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[05/11 13:21:09      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+[05/11 13:21:09      0s] 
+[05/11 13:21:09      0s] **ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /proj/cad/cadence/innovus-17.10.000/tools/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+[05/11 13:21:09      0s] 
+[05/11 13:21:09      0s] **ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+[05/11 13:21:09      0s] 
+[05/11 13:21:16      6s] @(#)CDS: Innovus v17.10-p006_1 (64bit) 05/31/2017 11:06 (Linux 2.6.18-194.el5)
+[05/11 13:21:16      6s] @(#)CDS: NanoRoute 17.10-p006_1 NR170516-1601/17_10-UB (database version 2.30, 378.7.1) {superthreading v1.44}
+[05/11 13:21:16      6s] @(#)CDS: AAE 17.10-p003 (64bit) 05/31/2017 (Linux 2.6.18-194.el5)
+[05/11 13:21:16      6s] @(#)CDS: CTE 17.10-p002_1 () May 18 2017 07:46:32 ( )
+[05/11 13:21:16      6s] @(#)CDS: SYNTECH 17.10-p001_1 () May 17 2017 01:24:45 ( )
+[05/11 13:21:16      6s] @(#)CDS: CPE v17.10-p003
+[05/11 13:21:16      6s] @(#)CDS: IQRC/TQRC 16.1.1-s140 (64bit) Fri Mar 17 16:46:12 PDT 2017 (Linux 2.6.18-194.el5)
+[05/11 13:21:16      6s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[05/11 13:21:16      6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[05/11 13:21:16      6s] @(#)CDS: RCDB 11.10
+[05/11 13:21:16      6s] --- Running on engnx05a.utdallas.edu (x86_64 w/Linux 4.18.0-553.46.1.el8_10.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB) ---
+[05/11 13:21:16      6s] Create and set the environment variable TMPDIR to /usr/tmp/innovus_temp_1036548_engnx05a.utdallas.edu_ebw220000_5TJDT1.
+
+[05/11 13:21:16      6s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[05/11 13:21:16      7s] 
+[05/11 13:21:16      7s] **INFO:  MMMC transition support version v31-84 
+[05/11 13:21:16      7s] 
+[05/11 13:21:16      7s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[05/11 13:21:16      7s] <CMD> suppressMessage ENCEXT-2799
+[05/11 13:21:16      7s] <CMD> getDrawView
+[05/11 13:21:16      7s] <CMD> loadWorkspace -name Physical
+[05/11 13:21:17      7s] <CMD> win
+[05/11 13:22:00      9s] <CMD> set init_gnd_net GND!
+[05/11 13:22:00      9s] <CMD> set init_lef_file ../gf65.lef
+[05/11 13:22:00      9s] <CMD> set init_design_settop 0
+[05/11 13:22:00      9s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/11 13:22:00      9s] <CMD> set init_pwr_net VDD!
+[05/11 13:22:00      9s] <CMD> init_design
+[05/11 13:22:00      9s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/11 13:22:00      9s] 
+[05/11 13:22:00      9s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/11 13:22:00      9s] 
+[05/11 13:22:00      9s] Loading LEF file ../gf65.lef ...
+[05/11 13:22:00      9s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/11 13:22:00      9s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/11 13:22:00      9s] cause false DRC violations to occur.
+[05/11 13:22:00      9s] 
+[05/11 13:22:00      9s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/11 13:22:00      9s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/11 13:22:00      9s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/11 13:22:00      9s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/11 13:22:00      9s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:22:00      9s] The LEF parser will ignore this statement.
+[05/11 13:22:00      9s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/11 13:22:00      9s] Set DBUPerIGU to M2 pitch 260.
+[05/11 13:22:00      9s] 
+[05/11 13:22:00      9s] viaInitial starts at Sun May 11 13:22:00 2025
+viaInitial ends at Sun May 11 13:22:00 2025
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.16min, fe_real=0.87min, fe_mem=503.1M) ***
+[05/11 13:22:00      9s] #% Begin Load netlist data ... (date=05/11 13:22:00, mem=488.6M)
+[05/11 13:22:00      9s] *** Begin netlist parsing (mem=503.1M) ***
+[05/11 13:22:00      9s] Created 0 new cells from 0 timing libraries.
+[05/11 13:22:00      9s] Reading netlist ...
+[05/11 13:22:00      9s] Backslashed names will retain backslash and a trailing blank character.
+[05/11 13:22:00      9s] Reading verilog netlist '../../synopsys/project6/uart_syn.v'
+[05/11 13:22:00      9s] 
+[05/11 13:22:00      9s] *** Memory Usage v#1 (Current mem = 504.078M, initial mem = 186.555M) ***
+[05/11 13:22:00      9s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=504.1M) ***
+[05/11 13:22:00      9s] #% End Load netlist data ... (date=05/11 13:22:00, total cpu=0:00:00.0, real=0:00:00.0, peak res=491.7M, current mem=491.7M)
+[05/11 13:22:00      9s] Top level cell is UART.
+[05/11 13:22:00      9s] Hooked 0 DB cells to tlib cells.
+[05/11 13:22:00      9s] 12 empty module found.
+[05/11 13:22:00      9s] Starting recursive module instantiation check.
+[05/11 13:22:00      9s] No recursion found.
+[05/11 13:22:00      9s] Building hierarchical netlist for Cell UART ...
+[05/11 13:22:00      9s] *** Netlist is unique.
+[05/11 13:22:00      9s] ** info: there are 21 modules.
+[05/11 13:22:00      9s] ** info: there are 641 stdCell insts.
+[05/11 13:22:00      9s] 
+[05/11 13:22:00      9s] *** Memory Usage v#1 (Current mem = 529.742M, initial mem = 186.555M) ***
+[05/11 13:22:00      9s] **WARN: (IMPFP-3961):	The techSite 'Core' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:22:00      9s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:22:00      9s] **WARN: (IMPFP-3961):	The techSite 'PortCellSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:22:00      9s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:22:00      9s] **WARN: (IMPFP-3961):	The techSite 'SBlockSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:22:00      9s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:22:00      9s] **WARN: (IMPFP-3961):	The techSite 'TDCoverSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:22:00      9s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:22:00      9s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:22:00      9s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:22:00      9s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:22:00      9s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:22:00      9s] Set Default Net Delay as 1000 ps.
+[05/11 13:22:00      9s] Set Default Net Load as 0.5 pF. 
+[05/11 13:22:00      9s] Set Default Input Pin Transition as 0.1 ps.
+[05/11 13:22:00      9s] **WARN: (IMPSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restoreDesign -mmmc_file <viewDef.tcl> to add the timing setup information.
+[05/11 13:22:00      9s] Patterns Extraction called explicitly through PreRoutePatternsIfNeeded call 
+[05/11 13:22:00      9s] Extraction setup Started 
+[05/11 13:22:00      9s] 
+[05/11 13:22:00      9s] *** Summary of all messages that are not suppressed in this session:
+[05/11 13:22:00      9s] Severity  ID               Count  Summary                                  
+[05/11 13:22:00      9s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[05/11 13:22:00      9s] WARNING   IMPSYT-7328          1  The design has been initialized in physi...
+[05/11 13:22:00      9s] ERROR     IMPOAX-820           1  The OA features are disabled in the curr...
+[05/11 13:22:00      9s] ERROR     IMPOAX-850           1  %s command cannot be run as OA features ...
+[05/11 13:22:00      9s] *** Message Summary: 5 warning(s), 2 error(s)
+[05/11 13:22:00      9s] 
+[05/11 13:22:03     10s] <CMD> getIoFlowFlag
+[05/11 13:22:23     11s] <CMD> setFPlanRowSpacingAndType 5.98 1
+[05/11 13:22:23     11s] <CMD> setIoFlowFlag 0
+[05/11 13:22:23     11s] <CMD> floorPlan -flip n -site CoreSite -r 0.1 0.0.7 5 5 5 5
+[05/11 13:22:23     11s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:22:23     11s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:22:23     11s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:22:23     11s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:22:23     11s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:22:23     11s] <CMD> uiSetTool select
+[05/11 13:22:23     11s] <CMD> getIoFlowFlag
+[05/11 13:22:23     11s] <CMD> fit
+[05/11 13:22:27     11s] <CMD> getIoFlowFlag
+[05/11 13:22:42     12s] <CMD> setIoFlowFlag 0
+[05/11 13:22:42     12s] <CMD> floorPlan -site CoreSite -r 1 0.7 5 5 5 5
+[05/11 13:22:42     12s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:22:42     12s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:22:42     12s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:22:42     12s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:22:42     12s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:22:42     12s] <CMD> uiSetTool select
+[05/11 13:22:42     12s] <CMD> getIoFlowFlag
+[05/11 13:22:42     12s] <CMD> fit
+[05/11 13:22:43     12s] <CMD> setIoFlowFlag 0
+[05/11 13:22:43     12s] <CMD> floorPlan -site CoreSite -r 0.996789727127 0.349979 5.2 5.2 5.2 5.2
+[05/11 13:22:43     12s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:22:43     12s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:22:43     12s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:22:43     12s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:22:43     12s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:22:43     12s] <CMD> uiSetTool select
+[05/11 13:22:43     12s] <CMD> getIoFlowFlag
+[05/11 13:22:43     12s] <CMD> fit
+[05/11 13:22:45     12s] <CMD> pan -4.633 32.076
+[05/11 13:22:45     12s] <CMD> pan 17.464 -20.315
+[05/11 13:23:05     13s] <CMD> clearGlobalNets
+[05/11 13:23:05     13s] <CMD> globalNetConnect VDD! -type tiehi -inst *
+[05/11 13:23:05     13s] <CMD> globalNetConnect GND! -type tielo -inst *
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingOffset 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingThreshold 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingJogDistance 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingLayers {}
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingOffset 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingThreshold 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingJogDistance 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingLayers {}
+[05/11 13:23:10     13s] <CMD> set sprCreateIeStripeWidth 10.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeStripeThreshold 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeStripeWidth 10.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeStripeThreshold 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingOffset 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingThreshold 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingJogDistance 1.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeRingLayers {}
+[05/11 13:23:10     13s] <CMD> set sprCreateIeStripeWidth 10.0
+[05/11 13:23:10     13s] <CMD> set sprCreateIeStripeThreshold 1.0
+[05/11 13:24:05     15s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer M6 -stacked_via_bottom_layer M1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[05/11 13:24:05     15s] The ring targets are set to core/block ring wires.
+[05/11 13:24:05     15s] addRing command will consider rows while creating rings.
+[05/11 13:24:05     15s] addRing command will disallow rings to go over rows.
+[05/11 13:24:05     15s] addRing command will ignore shorts while creating rings.
+[05/11 13:24:05     15s] <CMD> addRing -nets {GND! VDD!} -type core_rings -follow core -layer {top M1 bottom M1 left M2 right M2} -width {top 0.2 bottom 0.2 left 0.2 right 0.2} -spacing {top 0.2 bottom 0.2 left 0.2 right 0.2} -offset {top 0.78 bottom 0.78 left 0.78 right 0.78} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[05/11 13:24:05     16s] 
+[05/11 13:24:05     16s] Ring generation is complete.
+[05/11 13:24:05     16s] vias are now being generated.
+[05/11 13:24:05     16s] addRing created 8 wires.
+[05/11 13:24:05     16s] ViaGen created 8 vias, deleted 0 via to avoid violation.
+[05/11 13:24:05     16s] +--------+----------------+----------------+
+[05/11 13:24:05     16s] |  Layer |     Created    |     Deleted    |
+[05/11 13:24:05     16s] +--------+----------------+----------------+
+[05/11 13:24:05     16s] |   M1   |        4       |       NA       |
+[05/11 13:24:05     16s] |   V1   |        8       |        0       |
+[05/11 13:24:05     16s] |   M2   |        4       |       NA       |
+[05/11 13:24:05     16s] +--------+----------------+----------------+
+[05/11 13:24:07     16s] <CMD> pan -16.038 -24.236
+[05/11 13:24:11     16s] <CMD> fit
+[05/11 13:24:14     16s] <CMD> pan 2.605 73.115
+[05/11 13:24:19     17s] <CMD> pan -7.581 -106.745
+[05/11 13:24:20     17s] <CMD> pan -17.629 -13.851
+[05/11 13:24:28     18s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:28     18s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:28     18s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[05/11 13:24:35     18s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:24:35     18s] <CMD> setEndCapMode -reset
+[05/11 13:24:35     18s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:24:35     18s] <CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+[05/11 13:24:35     18s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:35     18s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:35     18s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:35     18s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:35     18s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:35     18s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:35     18s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:24:35     18s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:24:35     18s] <CMD> setPlaceMode -reset
+[05/11 13:24:35     18s] <CMD> setPlaceMode -congEffort medium -timingDriven 0 -modulePlan 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 0 -reorderScan 0 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+[05/11 13:24:35     18s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command setPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:37     18s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:24:37     18s] <CMD> setEndCapMode -reset
+[05/11 13:24:37     18s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:24:37     18s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:37     18s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:37     18s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:37     18s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:37     18s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:37     18s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:37     18s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:24:37     18s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:24:37     18s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:38     18s] <CMD> setPlaceMode -fp false
+[05/11 13:24:38     18s] <CMD> placeDesign
+[05/11 13:24:38     18s] *** Starting placeDesign default flow ***
+[05/11 13:24:38     18s] Deleted 0 physical inst  (cell - / prefix -).
+[05/11 13:24:38     18s] Extracting standard cell pins and blockage ...... 
+[05/11 13:24:38     18s] Pin and blockage extraction finished
+[05/11 13:24:38     18s] Extracting macro/IO cell pins and blockage ...... 
+[05/11 13:24:38     18s] Pin and blockage extraction finished
+[05/11 13:24:38     18s] *** Starting "NanoPlace(TM) placement v#1 (mem=852.9M)" ...
+[05/11 13:24:38     18s] No user setting net weight.
+[05/11 13:24:38     18s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:24:38     18s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:24:38     18s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:24:38     18s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:24:38     18s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:24:38     18s] Core basic site is CoreSite
+[05/11 13:24:38     18s] Estimated cell power/ground rail width = 0.747 um
+[05/11 13:24:38     18s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:24:38     18s] Apply auto density screen in pre-place stage.
+[05/11 13:24:38     18s] Auto density screen increases utilization from 0.340 to 0.343
+[05/11 13:24:38     18s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 853.9M
+[05/11 13:24:38     18s] Average module density = 0.343.
+[05/11 13:24:38     18s] Density for the design = 0.343.
+[05/11 13:24:38     18s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 17180 sites (26711 um^2).
+[05/11 13:24:38     18s] Pin Density = 0.1050.
+[05/11 13:24:38     18s]             = total # of pins 1815 / total area 17290.
+[05/11 13:24:38     18s] Initial padding increases density from 0.343 to 0.343 for top
+[05/11 13:24:38     18s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:24:38     18s] [adp] 0:1:0:1
+[05/11 13:24:38     18s] Iteration  1: Total net bbox = 2.612e+03 (2.61e+03 0.00e+00)
+[05/11 13:24:38     18s]               Est.  stn bbox = 3.020e+03 (3.02e+03 0.00e+00)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 853.9M
+[05/11 13:24:38     18s] Iteration  2: Total net bbox = 3.324e+03 (1.13e+03 2.19e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 4.170e+03 (1.53e+03 2.64e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 853.9M
+[05/11 13:24:38     18s] Iteration  3: Total net bbox = 3.161e+03 (2.03e+03 1.13e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 4.105e+03 (2.53e+03 1.58e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 853.9M
+[05/11 13:24:38     18s] Iteration  4: Total net bbox = 4.817e+03 (1.82e+03 3.00e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 6.173e+03 (2.33e+03 3.84e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 853.9M
+[05/11 13:24:38     18s] Iteration  5: Total net bbox = 5.725e+03 (3.01e+03 2.72e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 7.280e+03 (3.72e+03 3.56e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 853.9M
+[05/11 13:24:38     18s] Iteration  6: Total net bbox = 7.005e+03 (3.01e+03 4.00e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 8.735e+03 (3.72e+03 5.02e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 853.9M
+[05/11 13:24:38     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:24:38     18s] enableMT= 3
+[05/11 13:24:38     18s] useHNameCompare= 3 (lazy mode)
+[05/11 13:24:38     18s] doMTMainInit= 1
+[05/11 13:24:38     18s] doMTFlushLazyWireDelete= 1
+[05/11 13:24:38     18s] useFastLRoute= 0
+[05/11 13:24:38     18s] useFastCRoute= 1
+[05/11 13:24:38     18s] doMTNetInitAdjWires= 1
+[05/11 13:24:38     18s] wireMPoolNoThreadCheck= 1
+[05/11 13:24:38     18s] allMPoolNoThreadCheck= 1
+[05/11 13:24:38     18s] doNotUseMPoolInCRoute= 1
+[05/11 13:24:38     18s] doMTSprFixZeroViaCodes= 1
+[05/11 13:24:38     18s] doMTDtrRoute1CleanupA= 1
+[05/11 13:24:38     18s] doMTDtrRoute1CleanupB= 1
+[05/11 13:24:38     18s] doMTWireLenCalc= 0
+[05/11 13:24:38     18s] doSkipQALenRecalc= 1
+[05/11 13:24:38     18s] doMTMainCleanup= 1
+[05/11 13:24:38     18s] doMTMoveCellTermsToMSLayer= 1
+[05/11 13:24:38     18s] doMTConvertWiresToNewViaCode= 1
+[05/11 13:24:38     18s] doMTRemoveAntenna= 1
+[05/11 13:24:38     18s] doMTCheckConnectivity= 1
+[05/11 13:24:38     18s] enableRuntimeLog= 0
+[05/11 13:24:38     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:24:38     18s] Iteration  7: Total net bbox = 8.002e+03 (3.96e+03 4.04e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 9.840e+03 (4.78e+03 5.06e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 13:24:38     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:24:38     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:24:38     18s] Iteration  8: Total net bbox = 9.972e+03 (3.93e+03 6.04e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 1.195e+04 (4.75e+03 7.20e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 13:24:38     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:24:38     18s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:24:38     18s] Iteration  9: Total net bbox = 1.060e+04 (4.57e+03 6.03e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 1.261e+04 (5.42e+03 7.18e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 13:24:38     18s] Iteration 10: Total net bbox = 1.062e+04 (4.57e+03 6.05e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 1.261e+04 (5.42e+03 7.18e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 13:24:38     18s] Iteration 11: Total net bbox = 1.093e+04 (4.93e+03 6.01e+03)
+[05/11 13:24:38     18s]               Est.  stn bbox = 1.293e+04 (5.79e+03 7.14e+03)
+[05/11 13:24:38     18s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 13:24:38     18s] *** cost = 1.093e+04 (4.93e+03 6.01e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 13:24:38     18s] #spOpts: mergeVia=F 
+[05/11 13:24:38     18s] Core basic site is CoreSite
+[05/11 13:24:38     18s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:24:38     18s] *** Starting refinePlace (0:00:18.8 mem=857.9M) ***
+[05/11 13:24:38     18s] Total net bbox length = 1.097e+04 (4.944e+03 6.027e+03) (ext = 2.593e+02)
+[05/11 13:24:38     18s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:24:38     18s] Starting refinePlace ...
+[05/11 13:24:38     18s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:24:38     18s] Density distribution unevenness ratio = 34.694%
+[05/11 13:24:38     18s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:24:38     18s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=857.9MB) @(0:00:18.9 - 0:00:18.9).
+[05/11 13:24:38     18s] Move report: preRPlace moves 588 insts, mean move: 1.61 um, max move: 11.96 um
+[05/11 13:24:38     18s] 	Max move on inst (UART_RX_Inst/U15): (230.36, 184.60) --> (218.40, 184.60)
+[05/11 13:24:38     18s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:24:38     18s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:24:38     18s] Placement tweakage begins.
+[05/11 13:24:38     18s] wire length = 1.397e+04
+[05/11 13:24:38     18s] wire length = 1.258e+04
+[05/11 13:24:38     18s] Placement tweakage ends.
+[05/11 13:24:38     18s] Move report: tweak moves 421 insts, mean move: 4.58 um, max move: 46.80 um
+[05/11 13:24:38     18s] 	Max move on inst (UART_RX_Inst/U86): (133.12, 29.12) --> (156.00, 5.20)
+[05/11 13:24:38     18s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:24:38     18s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=857.9MB) @(0:00:18.9 - 0:00:18.9).
+[05/11 13:24:38     18s] Move report: Detail placement moves 595 insts, mean move: 3.25 um, max move: 46.02 um
+[05/11 13:24:38     18s] 	Max move on inst (UART_RX_Inst/U86): (133.90, 29.12) --> (156.00, 5.20)
+[05/11 13:24:38     18s] 	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 857.9MB
+[05/11 13:24:38     18s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:24:38     18s]   maximum (X+Y) =        46.02 um
+[05/11 13:24:38     18s]   inst (UART_RX_Inst/U86) with max move: (133.9, 29.12) -> (156, 5.2)
+[05/11 13:24:38     18s]   mean    (X+Y) =         3.25 um
+[05/11 13:24:38     18s] Total instances flipped for WireLenOpt: 32
+[05/11 13:24:38     18s] Total instances flipped, including legalization: 12
+[05/11 13:24:38     18s] Summary Report:
+[05/11 13:24:38     18s] Instances move: 595 (out of 641 movable)
+[05/11 13:24:38     18s] Instances flipped: 12
+[05/11 13:24:38     18s] Mean displacement: 3.25 um
+[05/11 13:24:38     18s] Max displacement: 46.02 um (Instance: UART_RX_Inst/U86) (133.9, 29.12) -> (156, 5.2)
+[05/11 13:24:38     18s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:24:38     18s] Total instances moved : 595
+[05/11 13:24:38     18s] Total net bbox length = 1.072e+04 (4.768e+03 5.955e+03) (ext = 3.178e+02)
+[05/11 13:24:38     18s] Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 857.9MB
+[05/11 13:24:38     18s] [CPU] RefinePlace/total (cpu=0:00:00.1, real=0:00:00.0, mem=857.9MB) @(0:00:18.8 - 0:00:18.9).
+[05/11 13:24:38     18s] *** Finished refinePlace (0:00:18.9 mem=857.9M) ***
+[05/11 13:24:38     18s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=857.9M) ***
+[05/11 13:24:38     18s] #spOpts: mergeVia=F 
+[05/11 13:24:38     18s] Core basic site is CoreSite
+[05/11 13:24:38     18s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:24:38     18s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:24:38     18s] Density distribution unevenness ratio = 35.827%
+[05/11 13:24:38     18s] Starting IO pin assignment...
+[05/11 13:24:38     18s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:24:38     18s] Completed IO pin assignment.
+[05/11 13:24:38     18s] *** Finishing placeDesign default flow ***
+[05/11 13:24:38     18s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 868.9M **
+[05/11 13:24:38     18s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:24:38     18s] 
+[05/11 13:24:42     19s] <CMD> fit
+[05/11 13:24:45     19s] <CMD> fit
+[05/11 13:24:51     19s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:51     19s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:51     19s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[05/11 13:24:59     20s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:24:59     20s] <CMD> setEndCapMode -reset
+[05/11 13:24:59     20s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:24:59     20s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:59     20s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:59     20s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:59     20s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:59     20s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:59     20s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:24:59     20s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:24:59     20s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:24:59     20s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:00     20s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:25:00     20s] <CMD> setEndCapMode -reset
+[05/11 13:25:00     20s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:25:00     20s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:00     20s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:00     20s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:00     20s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:00     20s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:00     20s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:00     20s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:25:00     20s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:25:00     20s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:01     20s] <CMD> setPlaceMode -fp false
+[05/11 13:25:01     20s] <CMD> placeDesign
+[05/11 13:25:01     20s] *** Starting placeDesign default flow ***
+[05/11 13:25:01     20s] Deleted 0 physical inst  (cell - / prefix -).
+[05/11 13:25:01     20s] *** Starting "NanoPlace(TM) placement v#1 (mem=868.9M)" ...
+[05/11 13:25:01     20s] No user setting net weight.
+[05/11 13:25:01     20s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:25:01     20s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:25:01     20s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:25:01     20s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:25:01     20s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:25:01     20s] Core basic site is CoreSite
+[05/11 13:25:01     20s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:01     20s] Apply auto density screen in pre-place stage.
+[05/11 13:25:01     20s] Auto density screen increases utilization from 0.340 to 0.348
+[05/11 13:25:01     20s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:01     20s] Average module density = 0.348.
+[05/11 13:25:01     20s] Density for the design = 0.348.
+[05/11 13:25:01     20s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 16902 sites (26280 um^2).
+[05/11 13:25:01     20s] Pin Density = 0.1050.
+[05/11 13:25:01     20s]             = total # of pins 1815 / total area 17290.
+[05/11 13:25:01     20s] Initial padding increases density from 0.348 to 0.348 for top
+[05/11 13:25:01     20s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:25:01     20s] [adp] 0:1:0:1
+[05/11 13:25:01     20s] Iteration  1: Total net bbox = 3.837e+03 (1.94e+03 1.90e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 4.628e+03 (2.71e+03 1.91e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:01     20s] Iteration  2: Total net bbox = 3.956e+03 (1.94e+03 2.02e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 5.324e+03 (2.71e+03 2.61e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:01     20s] Iteration  3: Total net bbox = 4.844e+03 (2.82e+03 2.02e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 6.518e+03 (3.91e+03 2.61e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:01     20s] Iteration  4: Total net bbox = 5.643e+03 (3.00e+03 2.64e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 7.665e+03 (4.12e+03 3.54e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:01     20s] Iteration  5: Total net bbox = 7.128e+03 (4.49e+03 2.64e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 9.263e+03 (5.72e+03 3.54e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:01     20s] Iteration  6: Total net bbox = 8.754e+03 (4.49e+03 4.27e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 1.100e+04 (5.72e+03 5.28e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:01     20s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:01     20s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:01     20s] Iteration  7: Total net bbox = 9.775e+03 (5.51e+03 4.27e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 1.207e+04 (6.79e+03 5.28e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:01     20s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:01     20s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:01     20s] Iteration  8: Total net bbox = 1.152e+04 (5.51e+03 6.02e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 1.399e+04 (6.79e+03 7.20e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:01     20s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:01     20s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:01     20s] Iteration  9: Total net bbox = 1.199e+04 (5.98e+03 6.02e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 1.448e+04 (7.28e+03 7.20e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:01     20s] Iteration 10: Total net bbox = 1.210e+04 (5.98e+03 6.12e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 1.453e+04 (7.28e+03 7.25e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:01     20s] Iteration 11: Total net bbox = 1.247e+04 (6.39e+03 6.08e+03)
+[05/11 13:25:01     20s]               Est.  stn bbox = 1.491e+04 (7.70e+03 7.20e+03)
+[05/11 13:25:01     20s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:01     20s] *** cost = 1.247e+04 (6.39e+03 6.08e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 13:25:01     20s] #spOpts: mergeVia=F 
+[05/11 13:25:01     20s] Core basic site is CoreSite
+[05/11 13:25:01     20s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:01     20s] *** Starting refinePlace (0:00:20.6 mem=871.9M) ***
+[05/11 13:25:01     20s] Total net bbox length = 1.249e+04 (6.407e+03 6.088e+03) (ext = 5.577e+02)
+[05/11 13:25:01     20s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:01     20s] Starting refinePlace ...
+[05/11 13:25:01     20s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:01     20s] Density distribution unevenness ratio = 30.334%
+[05/11 13:25:01     20s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:25:01     20s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:20.6 - 0:00:20.6).
+[05/11 13:25:01     20s] Move report: preRPlace moves 557 insts, mean move: 1.55 um, max move: 12.74 um
+[05/11 13:25:01     20s] 	Max move on inst (UART_RX_Inst/r_RX_Byte_reg[2]): (237.90, 124.80) --> (225.16, 124.80)
+[05/11 13:25:01     20s] 	Length: 32 sites, height: 1 rows, site name: CoreSite, cell type: DFF
+[05/11 13:25:01     20s] 	Violation at original loc: Region/Fence Violation
+[05/11 13:25:01     20s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:25:01     20s] Placement tweakage begins.
+[05/11 13:25:01     20s] wire length = 1.567e+04
+[05/11 13:25:01     20s] wire length = 1.431e+04
+[05/11 13:25:01     20s] Placement tweakage ends.
+[05/11 13:25:01     20s] Move report: tweak moves 377 insts, mean move: 4.72 um, max move: 25.74 um
+[05/11 13:25:01     20s] 	Max move on inst (UART_RX_Inst/U123): (95.68, 148.72) --> (109.46, 136.76)
+[05/11 13:25:01     20s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:01     20s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:20.6 - 0:00:20.6).
+[05/11 13:25:01     20s] Move report: Detail placement moves 578 insts, mean move: 3.32 um, max move: 24.44 um
+[05/11 13:25:01     20s] 	Max move on inst (UART_RX_Inst/U123): (96.98, 148.72) --> (109.46, 136.76)
+[05/11 13:25:01     20s] 	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:01     20s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:25:01     20s]   maximum (X+Y) =        24.44 um
+[05/11 13:25:01     20s]   inst (UART_RX_Inst/U123) with max move: (96.98, 148.72) -> (109.46, 136.76)
+[05/11 13:25:01     20s]   mean    (X+Y) =         3.32 um
+[05/11 13:25:01     20s] Total instances flipped for WireLenOpt: 21
+[05/11 13:25:01     20s] Total instances flipped, including legalization: 27
+[05/11 13:25:01     20s] Summary Report:
+[05/11 13:25:01     20s] Instances move: 578 (out of 641 movable)
+[05/11 13:25:01     20s] Instances flipped: 27
+[05/11 13:25:01     20s] Mean displacement: 3.32 um
+[05/11 13:25:01     20s] Max displacement: 24.44 um (Instance: UART_RX_Inst/U123) (96.98, 148.72) -> (109.46, 136.76)
+[05/11 13:25:01     20s] 	Length: 8 sites, height: 1 rows, site name: CoreSite, cell type: NAND2
+[05/11 13:25:01     20s] Total instances moved : 578
+[05/11 13:25:01     20s] Total net bbox length = 1.200e+04 (6.082e+03 5.917e+03) (ext = 6.201e+02)
+[05/11 13:25:01     20s] Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:01     20s] [CPU] RefinePlace/total (cpu=0:00:00.1, real=0:00:00.0, mem=871.9MB) @(0:00:20.6 - 0:00:20.6).
+[05/11 13:25:01     20s] *** Finished refinePlace (0:00:20.6 mem=871.9M) ***
+[05/11 13:25:01     20s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=871.9M) ***
+[05/11 13:25:01     20s] #spOpts: mergeVia=F 
+[05/11 13:25:01     20s] Core basic site is CoreSite
+[05/11 13:25:01     20s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:01     20s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:01     20s] Density distribution unevenness ratio = 31.002%
+[05/11 13:25:01     20s] Starting IO pin assignment...
+[05/11 13:25:01     20s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:25:01     20s] Completed IO pin assignment.
+[05/11 13:25:01     20s] *** Finishing placeDesign default flow ***
+[05/11 13:25:01     20s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 868.9M **
+[05/11 13:25:01     20s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:25:01     20s] 
+[05/11 13:25:13     21s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:13     21s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:13     21s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[05/11 13:25:28     22s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:25:28     22s] <CMD> setEndCapMode -reset
+[05/11 13:25:28     22s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:25:28     22s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:28     22s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:28     22s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:28     22s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:28     22s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:28     22s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:28     22s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:25:28     22s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:25:28     22s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:25:30     22s] <CMD> setPlaceMode -fp false
+[05/11 13:25:30     22s] <CMD> placeDesign
+[05/11 13:25:30     22s] *** Starting placeDesign default flow ***
+[05/11 13:25:30     22s] Deleted 0 physical inst  (cell - / prefix -).
+[05/11 13:25:30     22s] *** Starting "NanoPlace(TM) placement v#1 (mem=868.9M)" ...
+[05/11 13:25:30     22s] No user setting net weight.
+[05/11 13:25:30     22s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:25:30     22s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:25:30     22s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:25:30     22s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:25:30     22s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:25:30     22s] Core basic site is CoreSite
+[05/11 13:25:30     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:30     22s] Apply auto density screen in pre-place stage.
+[05/11 13:25:30     22s] Auto density screen increases utilization from 0.340 to 0.348
+[05/11 13:25:30     22s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:30     22s] Average module density = 0.348.
+[05/11 13:25:30     22s] Density for the design = 0.348.
+[05/11 13:25:30     22s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 16938 sites (26334 um^2).
+[05/11 13:25:30     22s] Pin Density = 0.1050.
+[05/11 13:25:30     22s]             = total # of pins 1815 / total area 17290.
+[05/11 13:25:30     22s] Initial padding increases density from 0.348 to 0.348 for top
+[05/11 13:25:30     22s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:25:30     22s] [adp] 0:1:0:1
+[05/11 13:25:30     22s] Iteration  1: Total net bbox = 3.392e+03 (2.20e+03 1.19e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 4.220e+03 (2.86e+03 1.36e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:30     22s] Iteration  2: Total net bbox = 3.990e+03 (2.20e+03 1.79e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 5.100e+03 (2.86e+03 2.24e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:30     22s] Iteration  3: Total net bbox = 4.646e+03 (2.62e+03 2.03e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 6.045e+03 (3.57e+03 2.47e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:30     22s] Iteration  4: Total net bbox = 6.623e+03 (3.21e+03 3.41e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 8.328e+03 (4.17e+03 4.15e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:30     22s] Iteration  5: Total net bbox = 7.456e+03 (4.04e+03 3.41e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 9.251e+03 (5.10e+03 4.15e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:30     22s] Iteration  6: Total net bbox = 9.106e+03 (4.04e+03 5.06e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 1.101e+04 (5.10e+03 5.91e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:30     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:30     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:30     22s] Iteration  7: Total net bbox = 9.866e+03 (4.80e+03 5.06e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 1.183e+04 (5.92e+03 5.91e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:30     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:30     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:30     22s] Iteration  8: Total net bbox = 1.144e+04 (4.80e+03 6.64e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 1.354e+04 (5.92e+03 7.62e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:30     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:30     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:30     22s] Iteration  9: Total net bbox = 1.198e+04 (5.34e+03 6.64e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 1.406e+04 (6.44e+03 7.62e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:30     22s] Iteration 10: Total net bbox = 1.214e+04 (5.34e+03 6.80e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 1.422e+04 (6.44e+03 7.77e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:30     22s] Iteration 11: Total net bbox = 1.249e+04 (5.72e+03 6.77e+03)
+[05/11 13:25:30     22s]               Est.  stn bbox = 1.457e+04 (6.83e+03 7.74e+03)
+[05/11 13:25:30     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:30     22s] *** cost = 1.249e+04 (5.72e+03 6.77e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 13:25:30     22s] #spOpts: mergeVia=F 
+[05/11 13:25:30     22s] Core basic site is CoreSite
+[05/11 13:25:30     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:30     22s] *** Starting refinePlace (0:00:22.3 mem=871.9M) ***
+[05/11 13:25:30     22s] Total net bbox length = 1.253e+04 (5.726e+03 6.800e+03) (ext = 5.418e+02)
+[05/11 13:25:30     22s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:30     22s] Starting refinePlace ...
+[05/11 13:25:30     22s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:30     22s] Density distribution unevenness ratio = 19.886%
+[05/11 13:25:30     22s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:25:30     22s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:22.3 - 0:00:22.3).
+[05/11 13:25:30     22s] Move report: preRPlace moves 566 insts, mean move: 1.64 um, max move: 13.00 um
+[05/11 13:25:30     22s] 	Max move on inst (UART_TX_Inst/U26): (230.36, 100.88) --> (231.40, 88.92)
+[05/11 13:25:30     22s] 	Length: 11 sites, height: 1 rows, site name: CoreSite, cell type: OAI22
+[05/11 13:25:30     22s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:25:30     22s] Placement tweakage begins.
+[05/11 13:25:30     22s] wire length = 1.556e+04
+[05/11 13:25:30     22s] wire length = 1.439e+04
+[05/11 13:25:30     22s] Placement tweakage ends.
+[05/11 13:25:30     22s] Move report: tweak moves 367 insts, mean move: 4.75 um, max move: 36.66 um
+[05/11 13:25:30     22s] 	Max move on inst (UART_TX_Inst/U25): (238.16, 184.60) --> (237.38, 220.48)
+[05/11 13:25:30     22s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:30     22s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:22.4 - 0:00:22.4).
+[05/11 13:25:30     22s] Move report: Detail placement moves 576 insts, mean move: 3.34 um, max move: 37.44 um
+[05/11 13:25:30     22s] 	Max move on inst (UART_TX_Inst/U23): (237.90, 220.48) --> (239.46, 184.60)
+[05/11 13:25:30     22s] 	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:30     22s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:25:30     22s]   maximum (X+Y) =        37.44 um
+[05/11 13:25:30     22s]   inst (UART_TX_Inst/U23) with max move: (237.9, 220.48) -> (239.46, 184.6)
+[05/11 13:25:30     22s]   mean    (X+Y) =         3.34 um
+[05/11 13:25:30     22s] Total instances flipped for WireLenOpt: 19
+[05/11 13:25:30     22s] Total instances flipped, including legalization: 33
+[05/11 13:25:30     22s] Summary Report:
+[05/11 13:25:30     22s] Instances move: 576 (out of 641 movable)
+[05/11 13:25:30     22s] Instances flipped: 33
+[05/11 13:25:30     22s] Mean displacement: 3.34 um
+[05/11 13:25:30     22s] Max displacement: 37.44 um (Instance: UART_TX_Inst/U23) (237.9, 220.48) -> (239.46, 184.6)
+[05/11 13:25:30     22s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:25:30     22s] Total instances moved : 576
+[05/11 13:25:30     22s] Total net bbox length = 1.231e+04 (5.494e+03 6.813e+03) (ext = 5.399e+02)
+[05/11 13:25:30     22s] Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:30     22s] [CPU] RefinePlace/total (cpu=0:00:00.1, real=0:00:00.0, mem=871.9MB) @(0:00:22.3 - 0:00:22.4).
+[05/11 13:25:30     22s] *** Finished refinePlace (0:00:22.4 mem=871.9M) ***
+[05/11 13:25:30     22s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=871.9M) ***
+[05/11 13:25:30     22s] #spOpts: mergeVia=F 
+[05/11 13:25:30     22s] Core basic site is CoreSite
+[05/11 13:25:30     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:30     22s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:30     22s] Density distribution unevenness ratio = 20.100%
+[05/11 13:25:30     22s] Starting IO pin assignment...
+[05/11 13:25:30     22s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:25:30     22s] Completed IO pin assignment.
+[05/11 13:25:30     22s] *** Finishing placeDesign default flow ***
+[05/11 13:25:30     22s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 868.9M **
+[05/11 13:25:30     22s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:25:30     22s] 
+[05/11 13:25:32     22s] <CMD> setPlaceMode -fp false
+[05/11 13:25:32     22s] <CMD> placeDesign
+[05/11 13:25:32     22s] *** Starting placeDesign default flow ***
+[05/11 13:25:32     22s] Deleted 0 physical inst  (cell - / prefix -).
+[05/11 13:25:32     22s] *** Starting "NanoPlace(TM) placement v#1 (mem=868.9M)" ...
+[05/11 13:25:32     22s] No user setting net weight.
+[05/11 13:25:32     22s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:25:32     22s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:25:32     22s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:25:32     22s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:25:32     22s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:25:32     22s] Core basic site is CoreSite
+[05/11 13:25:32     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:32     22s] Apply auto density screen in pre-place stage.
+[05/11 13:25:32     22s] Auto density screen increases utilization from 0.340 to 0.347
+[05/11 13:25:32     22s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:32     22s] Average module density = 0.347.
+[05/11 13:25:32     22s] Density for the design = 0.347.
+[05/11 13:25:32     22s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 16945 sites (26346 um^2).
+[05/11 13:25:32     22s] Pin Density = 0.1050.
+[05/11 13:25:32     22s]             = total # of pins 1815 / total area 17290.
+[05/11 13:25:32     22s] Initial padding increases density from 0.347 to 0.347 for top
+[05/11 13:25:32     22s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:25:32     22s] [adp] 0:1:0:1
+[05/11 13:25:32     22s] Iteration  1: Total net bbox = 3.338e+03 (2.27e+03 1.07e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 4.166e+03 (2.93e+03 1.24e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:32     22s] Iteration  2: Total net bbox = 3.996e+03 (2.27e+03 1.73e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 5.106e+03 (2.93e+03 2.18e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:32     22s] Iteration  3: Total net bbox = 4.262e+03 (2.65e+03 1.61e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 5.682e+03 (3.62e+03 2.06e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:32     22s] Iteration  4: Total net bbox = 5.398e+03 (2.71e+03 2.68e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 7.095e+03 (3.63e+03 3.46e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:32     22s] Iteration  5: Total net bbox = 6.747e+03 (4.06e+03 2.68e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 8.500e+03 (5.04e+03 3.46e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:32     22s] Iteration  6: Total net bbox = 8.337e+03 (4.06e+03 4.27e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 1.023e+04 (5.04e+03 5.20e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:32     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:32     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:32     22s] Iteration  7: Total net bbox = 9.154e+03 (4.88e+03 4.27e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 1.111e+04 (5.91e+03 5.20e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:32     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:32     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:32     22s] Iteration  8: Total net bbox = 1.121e+04 (4.88e+03 6.33e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 1.332e+04 (5.91e+03 7.41e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:32     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:32     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:32     22s] Iteration  9: Total net bbox = 1.166e+04 (5.33e+03 6.33e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 1.379e+04 (6.38e+03 7.41e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:32     22s] Iteration 10: Total net bbox = 1.197e+04 (5.33e+03 6.64e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 1.411e+04 (6.38e+03 7.72e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:32     22s] Iteration 11: Total net bbox = 1.233e+04 (5.71e+03 6.62e+03)
+[05/11 13:25:32     22s]               Est.  stn bbox = 1.447e+04 (6.78e+03 7.69e+03)
+[05/11 13:25:32     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:32     22s] *** cost = 1.233e+04 (5.71e+03 6.62e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 13:25:32     22s] #spOpts: mergeVia=F 
+[05/11 13:25:32     22s] Core basic site is CoreSite
+[05/11 13:25:32     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:32     22s] *** Starting refinePlace (0:00:22.7 mem=871.9M) ***
+[05/11 13:25:32     22s] Total net bbox length = 1.236e+04 (5.711e+03 6.654e+03) (ext = 4.071e+02)
+[05/11 13:25:32     22s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:32     22s] Starting refinePlace ...
+[05/11 13:25:32     22s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:32     22s] Density distribution unevenness ratio = 26.148%
+[05/11 13:25:32     22s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:25:32     22s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:22.7 - 0:00:22.7).
+[05/11 13:25:32     22s] Move report: preRPlace moves 578 insts, mean move: 1.40 um, max move: 12.74 um
+[05/11 13:25:32     22s] 	Max move on inst (UART_RX_Inst/r_RX_Byte_reg[1]): (237.90, 184.60) --> (225.16, 184.60)
+[05/11 13:25:32     22s] 	Length: 32 sites, height: 1 rows, site name: CoreSite, cell type: DFF
+[05/11 13:25:32     22s] 	Violation at original loc: Region/Fence Violation
+[05/11 13:25:32     22s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:25:32     22s] Placement tweakage begins.
+[05/11 13:25:32     22s] wire length = 1.516e+04
+[05/11 13:25:32     22s] wire length = 1.384e+04
+[05/11 13:25:32     22s] Placement tweakage ends.
+[05/11 13:25:32     22s] Move report: tweak moves 376 insts, mean move: 4.32 um, max move: 38.22 um
+[05/11 13:25:32     22s] 	Max move on inst (UART_TX_Inst/r_Bit_Index_reg[0]): (216.58, 76.96) --> (230.88, 100.88)
+[05/11 13:25:32     22s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:32     22s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:22.7 - 0:00:22.7).
+[05/11 13:25:32     22s] Move report: Detail placement moves 588 insts, mean move: 2.94 um, max move: 31.98 um
+[05/11 13:25:32     22s] 	Max move on inst (UART_TX_Inst/r_Bit_Index_reg[0]): (222.82, 76.96) --> (230.88, 100.88)
+[05/11 13:25:32     22s] 	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:32     22s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:25:32     22s]   maximum (X+Y) =        31.98 um
+[05/11 13:25:32     22s]   inst (UART_TX_Inst/r_Bit_Index_reg[0]) with max move: (222.82, 76.96) -> (230.88, 100.88)
+[05/11 13:25:32     22s]   mean    (X+Y) =         2.94 um
+[05/11 13:25:32     22s] Total instances flipped for WireLenOpt: 19
+[05/11 13:25:32     22s] Total instances flipped, including legalization: 25
+[05/11 13:25:32     22s] Summary Report:
+[05/11 13:25:32     22s] Instances move: 588 (out of 641 movable)
+[05/11 13:25:32     22s] Instances flipped: 25
+[05/11 13:25:32     22s] Mean displacement: 2.94 um
+[05/11 13:25:32     22s] Max displacement: 31.98 um (Instance: UART_TX_Inst/r_Bit_Index_reg[0]) (222.82, 76.96) -> (230.88, 100.88)
+[05/11 13:25:32     22s] 	Length: 32 sites, height: 1 rows, site name: CoreSite, cell type: DFF
+[05/11 13:25:32     22s] Total instances moved : 588
+[05/11 13:25:32     22s] Total net bbox length = 1.191e+04 (5.463e+03 6.445e+03) (ext = 4.450e+02)
+[05/11 13:25:32     22s] Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:32     22s] [CPU] RefinePlace/total (cpu=0:00:00.1, real=0:00:00.0, mem=871.9MB) @(0:00:22.7 - 0:00:22.7).
+[05/11 13:25:32     22s] *** Finished refinePlace (0:00:22.7 mem=871.9M) ***
+[05/11 13:25:32     22s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=871.9M) ***
+[05/11 13:25:32     22s] #spOpts: mergeVia=F 
+[05/11 13:25:32     22s] Core basic site is CoreSite
+[05/11 13:25:32     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:32     22s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:32     22s] Density distribution unevenness ratio = 27.011%
+[05/11 13:25:32     22s] Starting IO pin assignment...
+[05/11 13:25:32     22s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:25:32     22s] Completed IO pin assignment.
+[05/11 13:25:32     22s] *** Finishing placeDesign default flow ***
+[05/11 13:25:32     22s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 868.9M **
+[05/11 13:25:32     22s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:25:32     22s] 
+[05/11 13:25:33     22s] <CMD> setPlaceMode -fp false
+[05/11 13:25:33     22s] <CMD> placeDesign
+[05/11 13:25:33     22s] *** Starting placeDesign default flow ***
+[05/11 13:25:33     22s] Deleted 0 physical inst  (cell - / prefix -).
+[05/11 13:25:33     22s] *** Starting "NanoPlace(TM) placement v#1 (mem=868.9M)" ...
+[05/11 13:25:33     22s] No user setting net weight.
+[05/11 13:25:33     22s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:25:33     22s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:25:33     22s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:25:33     22s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:25:33     22s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:25:33     22s] Core basic site is CoreSite
+[05/11 13:25:33     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:33     22s] Apply auto density screen in pre-place stage.
+[05/11 13:25:33     22s] Auto density screen increases utilization from 0.340 to 0.348
+[05/11 13:25:33     22s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:33     22s] Average module density = 0.348.
+[05/11 13:25:33     22s] Density for the design = 0.348.
+[05/11 13:25:33     22s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 16929 sites (26321 um^2).
+[05/11 13:25:33     22s] Pin Density = 0.1050.
+[05/11 13:25:33     22s]             = total # of pins 1815 / total area 17290.
+[05/11 13:25:33     22s] Initial padding increases density from 0.348 to 0.348 for top
+[05/11 13:25:33     22s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:25:33     22s] [adp] 0:1:0:1
+[05/11 13:25:33     22s] Iteration  1: Total net bbox = 2.865e+03 (1.80e+03 1.07e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 3.462e+03 (2.24e+03 1.23e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:33     22s] Iteration  2: Total net bbox = 2.924e+03 (1.80e+03 1.13e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 3.786e+03 (2.24e+03 1.55e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:33     22s] Iteration  3: Total net bbox = 3.015e+03 (1.89e+03 1.13e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 4.056e+03 (2.51e+03 1.55e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:33     22s] Iteration  4: Total net bbox = 5.085e+03 (1.83e+03 3.26e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 6.757e+03 (2.44e+03 4.32e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:33     22s] Iteration  5: Total net bbox = 6.640e+03 (3.38e+03 3.26e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 8.441e+03 (4.12e+03 4.32e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:33     22s] Iteration  6: Total net bbox = 8.087e+03 (3.38e+03 4.71e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 9.963e+03 (4.12e+03 5.84e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 868.9M
+[05/11 13:25:33     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:33     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:33     22s] Iteration  7: Total net bbox = 9.214e+03 (4.51e+03 4.71e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 1.120e+04 (5.36e+03 5.84e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:33     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:33     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:33     22s] Iteration  8: Total net bbox = 1.101e+04 (4.51e+03 6.50e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 1.311e+04 (5.36e+03 7.75e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:33     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:33     22s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:25:33     22s] Iteration  9: Total net bbox = 1.158e+04 (5.08e+03 6.50e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 1.373e+04 (5.98e+03 7.75e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:33     22s] Iteration 10: Total net bbox = 1.166e+04 (5.08e+03 6.58e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 1.379e+04 (5.98e+03 7.81e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:33     22s] Iteration 11: Total net bbox = 1.200e+04 (5.44e+03 6.56e+03)
+[05/11 13:25:33     22s]               Est.  stn bbox = 1.414e+04 (6.36e+03 7.78e+03)
+[05/11 13:25:33     22s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 871.9M
+[05/11 13:25:33     22s] *** cost = 1.200e+04 (5.44e+03 6.56e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 13:25:33     22s] #spOpts: mergeVia=F 
+[05/11 13:25:33     22s] Core basic site is CoreSite
+[05/11 13:25:33     22s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:33     22s] *** Starting refinePlace (0:00:23.0 mem=871.9M) ***
+[05/11 13:25:33     22s] Total net bbox length = 1.204e+04 (5.449e+03 6.594e+03) (ext = 5.914e+02)
+[05/11 13:25:33     22s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:33     22s] Starting refinePlace ...
+[05/11 13:25:33     22s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:33     22s] Density distribution unevenness ratio = 33.904%
+[05/11 13:25:33     22s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:25:33     22s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:23.0 - 0:00:23.0).
+[05/11 13:25:33     22s] Move report: preRPlace moves 564 insts, mean move: 1.56 um, max move: 12.48 um
+[05/11 13:25:33     22s] 	Max move on inst (UART_RX_Inst/I_14): (237.90, 160.68) --> (225.42, 160.68)
+[05/11 13:25:33     22s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:25:33     22s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:25:33     22s] Placement tweakage begins.
+[05/11 13:25:33     22s] wire length = 1.510e+04
+[05/11 13:25:33     23s] wire length = 1.357e+04
+[05/11 13:25:33     23s] Placement tweakage ends.
+[05/11 13:25:33     23s] Move report: tweak moves 432 insts, mean move: 4.97 um, max move: 42.12 um
+[05/11 13:25:33     23s] 	Max move on inst (UART_TX_Inst/U30): (240.50, 184.60) --> (222.30, 208.52)
+[05/11 13:25:33     23s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:25:33     23s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=871.9MB) @(0:00:23.0 - 0:00:23.0).
+[05/11 13:25:33     23s] Move report: Detail placement moves 579 insts, mean move: 3.71 um, max move: 39.52 um
+[05/11 13:25:33     23s] 	Max move on inst (UART_TX_Inst/U30): (237.90, 184.60) --> (222.30, 208.52)
+[05/11 13:25:33     23s] 	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:33     23s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:25:33     23s]   maximum (X+Y) =        39.52 um
+[05/11 13:25:33     23s]   inst (UART_TX_Inst/U30) with max move: (237.9, 184.6) -> (222.3, 208.52)
+[05/11 13:25:33     23s]   mean    (X+Y) =         3.71 um
+[05/11 13:25:33     23s] Total instances flipped for WireLenOpt: 27
+[05/11 13:25:33     23s] Total instances flipped, including legalization: 22
+[05/11 13:25:33     23s] Summary Report:
+[05/11 13:25:33     23s] Instances move: 579 (out of 641 movable)
+[05/11 13:25:33     23s] Instances flipped: 22
+[05/11 13:25:33     23s] Mean displacement: 3.71 um
+[05/11 13:25:33     23s] Max displacement: 39.52 um (Instance: UART_TX_Inst/U30) (237.9, 184.6) -> (222.3, 208.52)
+[05/11 13:25:33     23s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:25:33     23s] Total instances moved : 579
+[05/11 13:25:33     23s] Total net bbox length = 1.153e+04 (5.186e+03 6.340e+03) (ext = 6.192e+02)
+[05/11 13:25:33     23s] Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 871.9MB
+[05/11 13:25:33     23s] [CPU] RefinePlace/total (cpu=0:00:00.1, real=0:00:00.0, mem=871.9MB) @(0:00:23.0 - 0:00:23.0).
+[05/11 13:25:33     23s] *** Finished refinePlace (0:00:23.0 mem=871.9M) ***
+[05/11 13:25:33     23s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=871.9M) ***
+[05/11 13:25:33     23s] #spOpts: mergeVia=F 
+[05/11 13:25:33     23s] Core basic site is CoreSite
+[05/11 13:25:33     23s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:25:33     23s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:25:33     23s] Density distribution unevenness ratio = 34.095%
+[05/11 13:25:33     23s] Starting IO pin assignment...
+[05/11 13:25:33     23s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:25:33     23s] Completed IO pin assignment.
+[05/11 13:25:33     23s] *** Finishing placeDesign default flow ***
+[05/11 13:25:33     23s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 868.9M **
+[05/11 13:25:33     23s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:25:33     23s] 
+[05/11 13:25:37     23s] <CMD> fit
+[05/11 13:25:43     23s] <CMD> getFillerMode -quiet
+[05/11 13:26:00     24s] <CMD> addFiller -cell FILLER -prefix FILLER
+[05/11 13:26:00     24s] Core basic site is CoreSite
+[05/11 13:26:00     24s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:26:00     24s]   Signal wire search tree: 0 elements. (cpu=0:00:00.0, mem=0.0M)
+[05/11 13:26:00     24s] *INFO: Adding fillers to top-module.
+[05/11 13:26:00     24s] *INFO:   Added 11403 filler insts (cell FILLER / prefix FILLER).
+[05/11 13:26:00     24s] *INFO: Total 11403 filler insts added - prefix FILLER (CPU: 0:00:00.1).
+[05/11 13:26:00     24s] For 11403 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+[05/11 13:26:19     25s] <CMD> pan -4.193 7.548
+[05/11 13:28:05     29s] <CMD> selectInst FILLER_6309
+[05/11 13:28:06     29s] <CMD> pan 1.677 49.059
+[05/11 13:28:46     31s] <CMD> pan -10.063 -34.803
+[05/11 13:29:15     32s] <CMD> set init_design_settop 0
+[05/11 13:29:15     32s] <CMD> init_design
+[05/11 13:29:15     32s] **WARN: (IMPSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+[05/11 13:29:15     32s] 
+[05/11 13:29:15     32s] *** Summary of all messages that are not suppressed in this session:
+[05/11 13:29:15     32s] Severity  ID               Count  Summary                                  
+[05/11 13:29:15     32s] WARNING   IMPSYT-7329          1  Cannot load design with init_design, aft...
+[05/11 13:29:15     32s] *** Message Summary: 1 warning(s), 0 error(s)
+[05/11 13:29:15     32s] 
+[05/11 13:29:17     32s] <CMD> deselectAll
+[05/11 13:29:24     33s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:24     33s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:24     33s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[05/11 13:29:27     33s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:29:27     33s] <CMD> setEndCapMode -reset
+[05/11 13:29:27     33s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:29:27     33s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:27     33s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:27     33s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:27     33s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:27     33s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:27     33s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:27     33s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:29:27     33s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:29:27     33s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:28     33s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:29:28     33s] <CMD> setEndCapMode -reset
+[05/11 13:29:28     33s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:29:28     33s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:28     33s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:28     33s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:28     33s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:28     33s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:28     33s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:28     33s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:29:28     33s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:29:28     33s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:29     33s] <CMD> setPlaceMode -fp false
+[05/11 13:29:29     33s] <CMD> placeDesign
+[05/11 13:29:29     33s] *** Starting placeDesign default flow ***
+[05/11 13:29:29     33s] Deleted 11403 physical insts (cell - / prefix -).
+[05/11 13:29:29     33s] *** Starting "NanoPlace(TM) placement v#1 (mem=874.9M)" ...
+[05/11 13:29:29     33s] No user setting net weight.
+[05/11 13:29:29     33s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:29:29     33s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:29:29     33s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:29:29     33s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:29:29     33s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:29:29     33s] Core basic site is CoreSite
+[05/11 13:29:29     33s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:29:29     33s] Apply auto density screen in pre-place stage.
+[05/11 13:29:29     33s] Auto density screen increases utilization from 0.340 to 0.349
+[05/11 13:29:29     33s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:29:29     33s] Average module density = 0.349.
+[05/11 13:29:29     33s] Density for the design = 0.349.
+[05/11 13:29:29     33s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 16886 sites (26255 um^2).
+[05/11 13:29:29     33s] Pin Density = 0.1050.
+[05/11 13:29:29     33s]             = total # of pins 1815 / total area 17290.
+[05/11 13:29:29     33s] Initial padding increases density from 0.349 to 0.349 for top
+[05/11 13:29:29     33s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:29:29     33s] [adp] 0:1:0:1
+[05/11 13:29:29     33s] Iteration  1: Total net bbox = 3.191e+03 (1.41e+03 1.78e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 3.788e+03 (1.85e+03 1.94e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:29:29     33s] Iteration  2: Total net bbox = 2.892e+03 (1.41e+03 1.48e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 3.753e+03 (1.85e+03 1.90e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:29:29     33s] Iteration  3: Total net bbox = 3.577e+03 (1.73e+03 1.84e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 4.734e+03 (2.46e+03 2.27e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:29:29     33s] Iteration  4: Total net bbox = 5.093e+03 (1.91e+03 3.18e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 6.720e+03 (2.66e+03 4.06e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:29:29     33s] Iteration  5: Total net bbox = 6.530e+03 (3.35e+03 3.18e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 8.211e+03 (4.15e+03 4.06e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:29:29     33s] Iteration  6: Total net bbox = 7.953e+03 (3.35e+03 4.60e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 9.763e+03 (4.15e+03 5.61e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:29:29     33s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:29:29     33s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:29:29     33s] Iteration  7: Total net bbox = 8.936e+03 (4.33e+03 4.60e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 1.084e+04 (5.23e+03 5.61e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 877.9M
+[05/11 13:29:29     33s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:29:29     33s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:29:29     33s] Iteration  8: Total net bbox = 1.085e+04 (4.33e+03 6.52e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 1.293e+04 (5.23e+03 7.70e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 877.9M
+[05/11 13:29:29     33s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:29:29     33s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:29:29     33s] Iteration  9: Total net bbox = 1.136e+04 (4.84e+03 6.52e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 1.343e+04 (5.73e+03 7.70e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 877.9M
+[05/11 13:29:29     33s] Iteration 10: Total net bbox = 1.133e+04 (4.84e+03 6.49e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 1.337e+04 (5.73e+03 7.64e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 877.9M
+[05/11 13:29:29     33s] Iteration 11: Total net bbox = 1.162e+04 (5.17e+03 6.45e+03)
+[05/11 13:29:29     33s]               Est.  stn bbox = 1.366e+04 (6.07e+03 7.59e+03)
+[05/11 13:29:29     33s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 877.9M
+[05/11 13:29:29     33s] *** cost = 1.162e+04 (5.17e+03 6.45e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 13:29:29     33s] #spOpts: mergeVia=F 
+[05/11 13:29:29     33s] Core basic site is CoreSite
+[05/11 13:29:29     33s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:29:29     33s] *** Starting refinePlace (0:00:33.9 mem=877.9M) ***
+[05/11 13:29:29     33s] Total net bbox length = 1.166e+04 (5.180e+03 6.475e+03) (ext = 4.623e+02)
+[05/11 13:29:29     33s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:29:29     33s] Starting refinePlace ...
+[05/11 13:29:29     33s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:29:29     33s] Density distribution unevenness ratio = 31.552%
+[05/11 13:29:29     33s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:29:29     33s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=877.9MB) @(0:00:33.9 - 0:00:33.9).
+[05/11 13:29:29     33s] Move report: preRPlace moves 585 insts, mean move: 1.56 um, max move: 10.40 um
+[05/11 13:29:29     33s] 	Max move on inst (UART_TX_Inst/r_Clock_Count_reg[1]): (133.90, 29.12) --> (123.50, 29.12)
+[05/11 13:29:29     33s] 	Length: 32 sites, height: 1 rows, site name: CoreSite, cell type: DFF
+[05/11 13:29:29     33s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:29:29     33s] Placement tweakage begins.
+[05/11 13:29:29     33s] wire length = 1.494e+04
+[05/11 13:29:29     33s] wire length = 1.353e+04
+[05/11 13:29:29     33s] Placement tweakage ends.
+[05/11 13:29:29     33s] Move report: tweak moves 410 insts, mean move: 4.60 um, max move: 30.94 um
+[05/11 13:29:29     33s] 	Max move on inst (UART_RX_Inst/U178): (147.16, 160.68) --> (166.14, 148.72)
+[05/11 13:29:29     33s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:29:29     33s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=877.9MB) @(0:00:33.9 - 0:00:33.9).
+[05/11 13:29:29     33s] Move report: Detail placement moves 596 insts, mean move: 3.32 um, max move: 29.38 um
+[05/11 13:29:29     33s] 	Max move on inst (UART_RX_Inst/U178): (148.72, 160.68) --> (166.14, 148.72)
+[05/11 13:29:29     33s] 	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 877.9MB
+[05/11 13:29:29     33s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:29:29     33s]   maximum (X+Y) =        29.38 um
+[05/11 13:29:29     33s]   inst (UART_RX_Inst/U178) with max move: (148.72, 160.68) -> (166.14, 148.72)
+[05/11 13:29:29     33s]   mean    (X+Y) =         3.32 um
+[05/11 13:29:29     33s] Total instances flipped for WireLenOpt: 19
+[05/11 13:29:29     33s] Total instances flipped, including legalization: 17
+[05/11 13:29:29     33s] Summary Report:
+[05/11 13:29:29     33s] Instances move: 596 (out of 641 movable)
+[05/11 13:29:29     33s] Instances flipped: 17
+[05/11 13:29:29     33s] Mean displacement: 3.32 um
+[05/11 13:29:29     33s] Max displacement: 29.38 um (Instance: UART_RX_Inst/U178) (148.72, 160.68) -> (166.14, 148.72)
+[05/11 13:29:29     33s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:29:29     33s] Total instances moved : 596
+[05/11 13:29:29     33s] Total net bbox length = 1.138e+04 (5.002e+03 6.380e+03) (ext = 4.732e+02)
+[05/11 13:29:29     33s] Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 877.9MB
+[05/11 13:29:29     33s] [CPU] RefinePlace/total (cpu=0:00:00.1, real=0:00:00.0, mem=877.9MB) @(0:00:33.9 - 0:00:33.9).
+[05/11 13:29:29     33s] *** Finished refinePlace (0:00:33.9 mem=877.9M) ***
+[05/11 13:29:29     33s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=877.9M) ***
+[05/11 13:29:29     33s] #spOpts: mergeVia=F 
+[05/11 13:29:29     33s] Core basic site is CoreSite
+[05/11 13:29:29     33s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:29:29     33s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:29:29     33s] Density distribution unevenness ratio = 31.648%
+[05/11 13:29:29     33s] Starting IO pin assignment...
+[05/11 13:29:29     33s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:29:29     33s] Completed IO pin assignment.
+[05/11 13:29:29     33s] *** Finishing placeDesign default flow ***
+[05/11 13:29:29     33s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 874.9M **
+[05/11 13:29:29     33s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:29:29     33s] 
+[05/11 13:29:31     34s] <CMD> pan 13.813 40.945
+[05/11 13:29:34     34s] <CMD> pan -22.456 -52.395
+[05/11 13:29:35     34s] <CMD> selectInst {UART_RX_Inst/r_Bit_Index_reg[0]}
+[05/11 13:29:36     34s] <CMD> deselectAll
+[05/11 13:29:37     34s] <CMD> selectInst UART_RX_Inst/U81
+[05/11 13:29:37     34s] <CMD> deselectAll
+[05/11 13:29:37     34s] <CMD> selectInst UART_RX_Inst/U76
+[05/11 13:29:38     34s] <CMD> deselectAll
+[05/11 13:29:39     35s] <CMD> pan -10.360 49.826
+[05/11 13:29:57     36s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:57     36s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:29:57     36s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[05/11 13:30:01     36s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:30:01     36s] <CMD> setEndCapMode -reset
+[05/11 13:30:01     36s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:30:01     36s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:30:01     36s] <CMD> setEndCapMode -reset
+[05/11 13:30:01     36s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:01     36s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:30:01     36s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:30:01     36s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:03     36s] <CMD> setPlaceMode -fp false
+[05/11 13:30:03     36s] <CMD> placeDesign
+[05/11 13:30:03     36s] *** Starting placeDesign default flow ***
+[05/11 13:30:03     36s] Deleted 0 physical inst  (cell - / prefix -).
+[05/11 13:30:03     36s] *** Starting "NanoPlace(TM) placement v#1 (mem=874.9M)" ...
+[05/11 13:30:03     36s] No user setting net weight.
+[05/11 13:30:03     36s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:30:03     36s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:30:03     36s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:30:03     36s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:30:03     36s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:30:03     36s] Core basic site is CoreSite
+[05/11 13:30:03     36s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:30:03     36s] Apply auto density screen in pre-place stage.
+[05/11 13:30:03     36s] Auto density screen increases utilization from 0.340 to 0.349
+[05/11 13:30:03     36s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:30:03     36s] Average module density = 0.349.
+[05/11 13:30:03     36s] Density for the design = 0.349.
+[05/11 13:30:03     36s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 16886 sites (26255 um^2).
+[05/11 13:30:03     36s] Pin Density = 0.1050.
+[05/11 13:30:03     36s]             = total # of pins 1815 / total area 17290.
+[05/11 13:30:03     36s] Initial padding increases density from 0.349 to 0.349 for top
+[05/11 13:30:03     36s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:30:03     36s] [adp] 0:1:0:1
+[05/11 13:30:03     36s] Iteration  1: Total net bbox = 3.664e+03 (1.88e+03 1.78e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 4.486e+03 (2.55e+03 1.94e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:30:03     36s] Iteration  2: Total net bbox = 4.083e+03 (1.88e+03 2.20e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 5.223e+03 (2.55e+03 2.68e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:30:03     36s] Iteration  3: Total net bbox = 5.538e+03 (2.86e+03 2.68e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 7.053e+03 (3.89e+03 3.17e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:30:03     36s] Iteration  4: Total net bbox = 6.960e+03 (2.92e+03 4.04e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 8.791e+03 (3.90e+03 4.89e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:30:03     36s] Iteration  5: Total net bbox = 7.866e+03 (3.82e+03 4.04e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 9.845e+03 (4.95e+03 4.89e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:30:03     36s] Iteration  6: Total net bbox = 9.636e+03 (3.82e+03 5.81e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 1.172e+04 (4.95e+03 6.77e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 874.9M
+[05/11 13:30:03     36s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:30:03     36s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:30:03     36s] Iteration  7: Total net bbox = 1.068e+04 (4.87e+03 5.81e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 1.281e+04 (6.04e+03 6.77e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 878.9M
+[05/11 13:30:03     36s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:30:03     36s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:30:03     36s] Iteration  8: Total net bbox = 1.220e+04 (4.87e+03 7.33e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 1.444e+04 (6.04e+03 8.40e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 878.9M
+[05/11 13:30:03     36s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:30:03     36s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:30:03     36s] Iteration  9: Total net bbox = 1.276e+04 (5.43e+03 7.33e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 1.502e+04 (6.62e+03 8.40e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 878.9M
+[05/11 13:30:03     36s] Iteration 10: Total net bbox = 1.284e+04 (5.43e+03 7.42e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 1.507e+04 (6.62e+03 8.45e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 878.9M
+[05/11 13:30:03     36s] Iteration 11: Total net bbox = 1.322e+04 (5.84e+03 7.37e+03)
+[05/11 13:30:03     36s]               Est.  stn bbox = 1.545e+04 (7.04e+03 8.40e+03)
+[05/11 13:30:03     36s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 878.9M
+[05/11 13:30:03     36s] *** cost = 1.322e+04 (5.84e+03 7.37e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 13:30:03     36s] #spOpts: mergeVia=F 
+[05/11 13:30:03     36s] Core basic site is CoreSite
+[05/11 13:30:03     36s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:30:03     36s] *** Starting refinePlace (0:00:36.5 mem=878.9M) ***
+[05/11 13:30:03     36s] Total net bbox length = 1.325e+04 (5.850e+03 7.399e+03) (ext = 4.295e+02)
+[05/11 13:30:03     36s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:30:03     36s] Starting refinePlace ...
+[05/11 13:30:03     36s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:30:03     36s] Density distribution unevenness ratio = 20.102%
+[05/11 13:30:03     36s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:30:03     36s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=878.9MB) @(0:00:36.5 - 0:00:36.5).
+[05/11 13:30:03     36s] Move report: preRPlace moves 549 insts, mean move: 1.56 um, max move: 13.78 um
+[05/11 13:30:03     36s] 	Max move on inst (UART_RX_Inst/r_RX_Byte_reg[7]): (208.00, 208.52) --> (206.18, 196.56)
+[05/11 13:30:03     36s] 	Length: 32 sites, height: 1 rows, site name: CoreSite, cell type: DFF
+[05/11 13:30:03     36s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:30:03     36s] Placement tweakage begins.
+[05/11 13:30:03     36s] wire length = 1.632e+04
+[05/11 13:30:03     36s] wire length = 1.499e+04
+[05/11 13:30:03     36s] Placement tweakage ends.
+[05/11 13:30:03     36s] Move report: tweak moves 359 insts, mean move: 5.08 um, max move: 29.64 um
+[05/11 13:30:03     36s] 	Max move on inst (UART_RX_Inst/U25): (221.26, 196.56) --> (215.54, 220.48)
+[05/11 13:30:03     36s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:30:03     36s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=878.9MB) @(0:00:36.6 - 0:00:36.6).
+[05/11 13:30:03     36s] Move report: Detail placement moves 566 insts, mean move: 3.48 um, max move: 31.20 um
+[05/11 13:30:03     36s] 	Max move on inst (UART_RX_Inst/U25): (222.82, 196.56) --> (215.54, 220.48)
+[05/11 13:30:03     36s] 	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 878.9MB
+[05/11 13:30:03     36s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:30:03     36s]   maximum (X+Y) =        31.20 um
+[05/11 13:30:03     36s]   inst (UART_RX_Inst/U25) with max move: (222.82, 196.56) -> (215.54, 220.48)
+[05/11 13:30:03     36s]   mean    (X+Y) =         3.48 um
+[05/11 13:30:03     36s] Total instances flipped for WireLenOpt: 35
+[05/11 13:30:03     36s] Total instances flipped, including legalization: 34
+[05/11 13:30:03     36s] Summary Report:
+[05/11 13:30:03     36s] Instances move: 566 (out of 641 movable)
+[05/11 13:30:03     36s] Instances flipped: 34
+[05/11 13:30:03     36s] Mean displacement: 3.48 um
+[05/11 13:30:03     36s] Max displacement: 31.20 um (Instance: UART_RX_Inst/U25) (222.82, 196.56) -> (215.54, 220.48)
+[05/11 13:30:03     36s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:30:03     36s] Total instances moved : 566
+[05/11 13:30:03     36s] Total net bbox length = 1.276e+04 (5.498e+03 7.262e+03) (ext = 5.013e+02)
+[05/11 13:30:03     36s] Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 878.9MB
+[05/11 13:30:03     36s] [CPU] RefinePlace/total (cpu=0:00:00.0, real=0:00:00.0, mem=878.9MB) @(0:00:36.5 - 0:00:36.6).
+[05/11 13:30:03     36s] *** Finished refinePlace (0:00:36.6 mem=878.9M) ***
+[05/11 13:30:03     36s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=878.9M) ***
+[05/11 13:30:03     36s] #spOpts: mergeVia=F 
+[05/11 13:30:03     36s] Core basic site is CoreSite
+[05/11 13:30:03     36s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:30:03     36s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:30:03     36s] Density distribution unevenness ratio = 20.967%
+[05/11 13:30:03     36s] Starting IO pin assignment...
+[05/11 13:30:03     36s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:30:03     36s] Completed IO pin assignment.
+[05/11 13:30:03     36s] *** Finishing placeDesign default flow ***
+[05/11 13:30:03     36s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 874.9M **
+[05/11 13:30:03     36s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:30:03     36s] 
+[05/11 13:30:05     36s] <CMD> pan 6.907 -24.174
+[05/11 13:30:09     37s] <CMD> pan 29.106 11.840
+[05/11 13:30:10     37s] <CMD> pan -26.418 -13.838
+[05/11 13:30:19     38s] <CMD> getFillerMode -quiet
+[05/11 13:30:25     38s] <CMD> addFiller -cell FILLER -prefix FILLER
+[05/11 13:30:25     38s] Core basic site is CoreSite
+[05/11 13:30:25     38s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:30:25     38s]   Signal wire search tree: 0 elements. (cpu=0:00:00.0, mem=0.0M)
+[05/11 13:30:25     38s] *INFO: Adding fillers to top-module.
+[05/11 13:30:25     38s] *INFO:   Added 11403 filler insts (cell FILLER / prefix FILLER).
+[05/11 13:30:25     38s] *INFO: Total 11403 filler insts added - prefix FILLER (CPU: 0:00:00.1).
+[05/11 13:30:25     38s] For 11403 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+[05/11 13:30:27     38s] <CMD> addFiller -cell FILLER -prefix FILLER
+[05/11 13:30:27     38s] Core basic site is CoreSite
+[05/11 13:30:27     38s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:30:27     38s]   Signal wire search tree: 0 elements. (cpu=0:00:00.0, mem=0.0M)
+[05/11 13:30:27     38s] *INFO: Adding fillers to top-module.
+[05/11 13:30:27     38s] *INFO:   Added 0 filler inst of any cell-type.
+[05/11 13:30:28     38s] <CMD> pan 3.774 17.612
+[05/11 13:30:30     39s] <CMD> pan -2.097 -11.741
+[05/11 13:30:43     39s] <CMD> getCTSMode -engine -quiet
+[05/11 13:30:48     39s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -timingEngine {}
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -routeWithSiPostRouteFix 0
+[05/11 13:30:55     40s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -drouteStartIteration default
+[05/11 13:30:55     40s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -routeTopRoutingLayer default
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -routeBottomRoutingLayer default
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -drouteEndIteration default
+[05/11 13:30:55     40s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -routeWithTimingDriven false
+[05/11 13:30:55     40s] <CMD> setNanoRouteMode -quiet -routeWithSiDriven false
+[05/11 13:30:55     40s] Running Native NanoRoute ...
+[05/11 13:30:55     40s] <CMD> routeDesign -globalDetail
+[05/11 13:30:55     40s] #routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 779.77 (MB), peak = 780.19 (MB)
+[05/11 13:30:55     40s] #WARNING (NRIG-96) Selected single pass global detail route "-globalDetail". Clock eco and post optimizations will not be run. See "man NRIG-96" for more details.
+[05/11 13:30:55     40s] #**INFO: setDesignMode -flowEffort standard
+[05/11 13:30:55     40s] #**INFO: mulit-cut via swapping is disabled by user.
+[05/11 13:30:55     40s] #**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+[05/11 13:30:55     40s] #**INFO: auto set of routeReserveSpaceForMultiCut to true
+[05/11 13:30:55     40s] #**INFO: auto set of routeConcurrentMinimizeViaCountEffort to high
+[05/11 13:30:55     40s] Core basic site is CoreSite
+[05/11 13:30:55     40s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:30:55     40s] Initialize ViaPillar Halo for 12044 instances.
+[05/11 13:30:55     40s] Begin checking placement ... (start mem=875.9M, init mem=875.9M)
+[05/11 13:30:55     40s] *info: Placed = 12044         
+[05/11 13:30:55     40s] *info: Unplaced = 0           
+[05/11 13:30:55     40s] Placement Density:100.00%(26882/26882)
+[05/11 13:30:55     40s] Placement Density (including fixed std cells):100.00%(26882/26882)
+[05/11 13:30:55     40s] Finished checkPlace (cpu: total=0:00:00.0, vio checks=0:00:00.0; mem=876.9M)
+[05/11 13:30:55     40s] #**INFO: honoring user setting for routeWithTimingDriven set to false
+[05/11 13:30:55     40s] #**INFO: honoring user setting for routeWithSiDriven set to false
+[05/11 13:30:55     40s] **WARN: (IMPCK-8086):	The command changeUseClockNetStatus is obsolete and will be removed in the next release. This command still works in this release, but by the next release you must transition to the CCOpt-based CTS flow.
+[05/11 13:30:55     40s] 
+[05/11 13:30:55     40s] changeUseClockNetStatus Option :  -noFixedNetWires 
+[05/11 13:30:55     40s] *** Changed status on (0) nets in Clock.
+[05/11 13:30:55     40s] *** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=876.9M) ***
+[05/11 13:30:55     40s] 
+[05/11 13:30:55     40s] globalDetailRoute
+[05/11 13:30:55     40s] 
+[05/11 13:30:55     40s] #setNanoRouteMode -droutePostRouteSpreadWire "1"
+[05/11 13:30:55     40s] #setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+[05/11 13:30:55     40s] #setNanoRouteMode -routeReserveSpaceForMultiCut true
+[05/11 13:30:55     40s] #setNanoRouteMode -routeWithSiDriven false
+[05/11 13:30:55     40s] #setNanoRouteMode -routeWithTimingDriven false
+[05/11 13:30:55     40s] #Start globalDetailRoute on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] ### Net info: total nets: 683
+[05/11 13:30:55     40s] ### Net info: dirty nets: 0
+[05/11 13:30:55     40s] ### Net info: marked as disconnected nets: 0
+[05/11 13:30:55     40s] ### Net info: fully routed nets: 0
+[05/11 13:30:55     40s] ### Net info: trivial (single pin) nets: 0
+[05/11 13:30:55     40s] ### Net info: unrouted nets: 683
+[05/11 13:30:55     40s] ### Net info: re-extraction nets: 0
+[05/11 13:30:55     40s] ### Net info: ignored nets: 0
+[05/11 13:30:55     40s] ### Net info: skip routing nets: 0
+[05/11 13:30:55     40s] ### import route signature (0) = 1700433730
+[05/11 13:30:55     40s] #WARNING (NRDB-2005) SPECIAL_NET VDD! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+[05/11 13:30:55     40s] #WARNING (NRDB-2005) SPECIAL_NET GND! has special wires but no definitions for instance pins or top level pins. This will cause routability problems later.
+[05/11 13:30:55     40s] #NanoRoute Version 17.10-p006_1 NR170516-1601/17_10-UB
+[05/11 13:30:55     40s] #RTESIG:78da8dce310bc230100560677fc59176a860f58ea449ba0aae2a455d8b426c03a59524fd
+[05/11 13:30:55     40s] #       ff065c6beb7aefe3bd4bd2fbb102466a4798bf11654d70aa486141322789b42755c7e876
+[05/11 13:30:55     40s] #       60eb243d5fae1c4b40c86c1f4c63dc16466f1c781382ed9bcd9708a1632383cc0717af93
+[05/11 13:30:55     40s] #       464a84d7a3f306b2e73074938610f53222e4c05adbb4f383c47509c18db35d42f3e541a1
+[05/11 13:30:55     40s] #       8b7f905c460595c07ebebdfa004e577a4c
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #RTESIG:78da8dce310bc230100560677fc59176a860f58ea449ba0aae2a455d8b426c03a59524fd
+[05/11 13:30:55     40s] #       ff065c6beb7aefe3bd4bd2fbb102466a4798bf11654d70aa486141322789b42755c7e876
+[05/11 13:30:55     40s] #       60eb243d5fae1c4b40c86c1f4c63dc16466f1c781382ed9bcd9708a1632383cc0717af93
+[05/11 13:30:55     40s] #       464a84d7a3f306b2e73074938610f53222e4c05adbb4f383c47509c18db35d42f3e541a1
+[05/11 13:30:55     40s] #       8b7f905c460595c07ebebdfa004e577a4c
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Start routing data preparation on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M1 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M2 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M2 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M3 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M3 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M4 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M4 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M5 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2077) The below via enclosure for LAYER M5 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2078) The above via enclosure for LAYER M6 is not specified for width 0.1400.
+[05/11 13:30:55     40s] #WARNING (NRDB-2040) Rule LEF_DEFAULT doesn't specify any vias that satisfy all of the area rules for layer M2 M3 M4 M5 
+[05/11 13:30:55     40s] # M1           H   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2300
+[05/11 13:30:55     40s] # M2           V   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[05/11 13:30:55     40s] # M3           H   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[05/11 13:30:55     40s] # M4           V   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[05/11 13:30:55     40s] # M5           H   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[05/11 13:30:55     40s] # M6           V   Track-Pitch = 0.2600    Line-2-Via Pitch = 0.2400
+[05/11 13:30:55     40s] #Regenerating Ggrids automatically.
+[05/11 13:30:55     40s] #Auto generating G-grids with size=15 tracks, using layer M3's pitch = 0.2600.
+[05/11 13:30:55     40s] #Using automatically generated G-grids.
+[05/11 13:30:55     40s] #Done routing data preparation.
+[05/11 13:30:55     40s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 789.70 (MB), peak = 822.87 (MB)
+[05/11 13:30:55     40s] #Merging special wires...
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Connectivity extraction summary:
+[05/11 13:30:55     40s] #654 (95.75%) nets are without wires.
+[05/11 13:30:55     40s] #29 nets are fixed|skipped|trivial (not extracted).
+[05/11 13:30:55     40s] #Total number of nets = 683.
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Finished routing data preparation on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Cpu time = 00:00:00
+[05/11 13:30:55     40s] #Elapsed time = 00:00:00
+[05/11 13:30:55     40s] #Increased memory = 3.66 (MB)
+[05/11 13:30:55     40s] #Total memory = 790.11 (MB)
+[05/11 13:30:55     40s] #Peak memory = 822.87 (MB)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Start global routing on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Number of eco nets is 0
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Start global routing data preparation on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Start routing resource analysis on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Routing resource analysis is done on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #  Resource Analysis:
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #               Routing  #Avail      #Track     #Total     %Gcell
+[05/11 13:30:55     40s] #  Layer      Direction   Track     Blocked      Gcell    Blocked
+[05/11 13:30:55     40s] #  --------------------------------------------------------------
+[05/11 13:30:55     40s] #  M1             H         891           0        3717     8.45%
+[05/11 13:30:55     40s] #  M2             V         950           0        3717     0.00%
+[05/11 13:30:55     40s] #  M3             H         891           0        3717     0.00%
+[05/11 13:30:55     40s] #  M4             V         950           0        3717     0.00%
+[05/11 13:30:55     40s] #  M5             H         891           0        3717     0.00%
+[05/11 13:30:55     40s] #  M6             V         950           0        3717     0.00%
+[05/11 13:30:55     40s] #  --------------------------------------------------------------
+[05/11 13:30:55     40s] #  Total                   5523       0.00%       22302     1.41%
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Global routing data preparation is done on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 790.89 (MB), peak = 822.87 (MB)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 790.89 (MB), peak = 822.87 (MB)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #start global routing iteration 1...
+[05/11 13:30:55     40s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 796.38 (MB), peak = 822.87 (MB)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #start global routing iteration 2...
+[05/11 13:30:55     40s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 797.15 (MB), peak = 822.87 (MB)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Total number of trivial nets (e.g. < 2 pins) = 29 (skipped).
+[05/11 13:30:55     40s] #Total number of routable nets = 654.
+[05/11 13:30:55     40s] #Total number of nets in the design = 683.
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #654 routable nets have only global wires.
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Routed nets constraints summary:
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #        Rules   Unconstrained  
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #      Default             654  
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #        Total             654  
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Routing constraints summary of the whole design:
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #        Rules   Unconstrained  
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #      Default             654  
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #        Total             654  
+[05/11 13:30:55     40s] #-----------------------------
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #  Congestion Analysis: (blocked Gcells are excluded)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #                 OverCon          
+[05/11 13:30:55     40s] #                  #Gcell    %Gcell
+[05/11 13:30:55     40s] #     Layer           (1)   OverCon
+[05/11 13:30:55     40s] #  --------------------------------
+[05/11 13:30:55     40s] #  M1            0(0.00%)   (0.00%)
+[05/11 13:30:55     40s] #  M2            0(0.00%)   (0.00%)
+[05/11 13:30:55     40s] #  M3            0(0.00%)   (0.00%)
+[05/11 13:30:55     40s] #  M4            0(0.00%)   (0.00%)
+[05/11 13:30:55     40s] #  M5            0(0.00%)   (0.00%)
+[05/11 13:30:55     40s] #  M6            0(0.00%)   (0.00%)
+[05/11 13:30:55     40s] #  --------------------------------
+[05/11 13:30:55     40s] #     Total      0(0.00%)   (0.00%)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #  The worst congested Gcell overcon (routing demand over resource in number of tracks) = 1
+[05/11 13:30:55     40s] #  Overflow after GR: 0.00% H + 0.00% V
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] Global router needs be called before using this command...
+[05/11 13:30:55     40s] #Complete Global Routing.
+[05/11 13:30:55     40s] #Total wire length = 14132 um.
+[05/11 13:30:55     40s] #Total half perimeter of net bounding box = 14777 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M1 = 737 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M2 = 7777 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M3 = 5589 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M4 = 16 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M5 = 12 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M6 = 0 um.
+[05/11 13:30:55     40s] #Total number of vias = 1513
+[05/11 13:30:55     40s] #Up-Via Summary (total 1513):
+[05/11 13:30:55     40s] #           
+[05/11 13:30:55     40s] #-----------------------
+[05/11 13:30:55     40s] # M1                258
+[05/11 13:30:55     40s] # M2               1244
+[05/11 13:30:55     40s] # M3                  6
+[05/11 13:30:55     40s] # M4                  5
+[05/11 13:30:55     40s] #-----------------------
+[05/11 13:30:55     40s] #                  1513 
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Max overcon = 0 track.
+[05/11 13:30:55     40s] #Total overcon = 0.00%.
+[05/11 13:30:55     40s] #Worst layer Gcell overcon rate = 0.00%.
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Global routing statistics:
+[05/11 13:30:55     40s] #Cpu time = 00:00:00
+[05/11 13:30:55     40s] #Elapsed time = 00:00:00
+[05/11 13:30:55     40s] #Increased memory = 7.04 (MB)
+[05/11 13:30:55     40s] #Total memory = 797.15 (MB)
+[05/11 13:30:55     40s] #Peak memory = 822.87 (MB)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Finished global routing on Sun May 11 13:30:55 2025
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] ### route signature (4) =  473080492
+[05/11 13:30:55     40s] ### violation signature (2) = 1905142130
+[05/11 13:30:55     40s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 793.73 (MB), peak = 822.87 (MB)
+[05/11 13:30:55     40s] #Start Track Assignment.
+[05/11 13:30:55     40s] #Done with 785 horizontal wires in 1 hboxes and 621 vertical wires in 1 hboxes.
+[05/11 13:30:55     40s] #Done with 166 horizontal wires in 1 hboxes and 79 vertical wires in 1 hboxes.
+[05/11 13:30:55     40s] #Done with 1 horizontal wires in 1 hboxes and 1 vertical wires in 1 hboxes.
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Track assignment summary:
+[05/11 13:30:55     40s] # layer   (wire length)   (overlap)     (long ovlp)	(with obs/pg/clk)  
+[05/11 13:30:55     40s] #------------------------------------------------------------------------
+[05/11 13:30:55     40s] # M1           726.48 	  0.00%  	  0.00% 	  0.00%
+[05/11 13:30:55     40s] # M2          7686.52 	  0.01%  	  0.00% 	  0.00%
+[05/11 13:30:55     40s] # M3          5568.73 	  0.19%  	  0.00% 	  0.00%
+[05/11 13:30:55     40s] # M4            16.52 	  0.00%  	  0.00% 	  0.00%
+[05/11 13:30:55     40s] # M5            12.49 	  0.00%  	  0.00% 	  0.00%
+[05/11 13:30:55     40s] # M6             0.00 	  0.00%  	  0.00% 	  0.00%
+[05/11 13:30:55     40s] #------------------------------------------------------------------------
+[05/11 13:30:55     40s] # All       14010.74  	  0.08% 	  0.00% 	  0.00%
+[05/11 13:30:55     40s] #Complete Track Assignment.
+[05/11 13:30:55     40s] #Total wire length = 14841 um.
+[05/11 13:30:55     40s] #Total half perimeter of net bounding box = 14777 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M1 = 716 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M2 = 8203 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M3 = 5891 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M4 = 16 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M5 = 15 um.
+[05/11 13:30:55     40s] #Total wire length on LAYER M6 = 0 um.
+[05/11 13:30:55     40s] #Total number of vias = 1513
+[05/11 13:30:55     40s] #Up-Via Summary (total 1513):
+[05/11 13:30:55     40s] #           
+[05/11 13:30:55     40s] #-----------------------
+[05/11 13:30:55     40s] # M1                258
+[05/11 13:30:55     40s] # M2               1244
+[05/11 13:30:55     40s] # M3                  6
+[05/11 13:30:55     40s] # M4                  5
+[05/11 13:30:55     40s] #-----------------------
+[05/11 13:30:55     40s] #                  1513 
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] ### route signature (8) =  339813637
+[05/11 13:30:55     40s] ### violation signature (6) = 1905142130
+[05/11 13:30:55     40s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 798.33 (MB), peak = 822.87 (MB)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Routing data preparation, pin analysis, global routing and track assignment statistics:
+[05/11 13:30:55     40s] #Cpu time = 00:00:00
+[05/11 13:30:55     40s] #Elapsed time = 00:00:00
+[05/11 13:30:55     40s] #Increased memory = 12.07 (MB)
+[05/11 13:30:55     40s] #Total memory = 798.52 (MB)
+[05/11 13:30:55     40s] #Peak memory = 822.87 (MB)
+[05/11 13:30:55     40s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[05/11 13:30:55     40s] #
+[05/11 13:30:55     40s] #Start Detail Routing..
+[05/11 13:30:55     40s] #start initial detail routing ...
+[05/11 13:30:56     41s] #   number of violations = 0
+[05/11 13:30:56     41s] #cpu time = 00:00:01, elapsed time = 00:00:01, memory = 827.67 (MB), peak = 828.52 (MB)
+[05/11 13:30:56     41s] #start 1st optimization iteration ...
+[05/11 13:30:56     41s] #   number of violations = 0
+[05/11 13:30:56     41s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 827.67 (MB), peak = 828.52 (MB)
+[05/11 13:30:56     41s] #Complete Detail Routing.
+[05/11 13:30:56     41s] #Total wire length = 15033 um.
+[05/11 13:30:56     41s] #Total half perimeter of net bounding box = 14777 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M1 = 595 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M2 = 8826 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M3 = 5582 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M4 = 11 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M5 = 20 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M6 = 0 um.
+[05/11 13:30:56     41s] #Total number of vias = 1390
+[05/11 13:30:56     41s] #Up-Via Summary (total 1390):
+[05/11 13:30:56     41s] #           
+[05/11 13:30:56     41s] #-----------------------
+[05/11 13:30:56     41s] # M1                150
+[05/11 13:30:56     41s] # M2               1229
+[05/11 13:30:56     41s] # M3                  6
+[05/11 13:30:56     41s] # M4                  5
+[05/11 13:30:56     41s] #-----------------------
+[05/11 13:30:56     41s] #                  1390 
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Total number of DRC violations = 0
+[05/11 13:30:56     41s] ### route signature (13) = 1296635615
+[05/11 13:30:56     41s] ### violation signature (11) = 1905142130
+[05/11 13:30:56     41s] #Cpu time = 00:00:01
+[05/11 13:30:56     41s] #Elapsed time = 00:00:01
+[05/11 13:30:56     41s] #Increased memory = -0.93 (MB)
+[05/11 13:30:56     41s] #Total memory = 797.59 (MB)
+[05/11 13:30:56     41s] #Peak memory = 828.52 (MB)
+[05/11 13:30:56     41s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Start Post Route wire spreading..
+[05/11 13:30:56     41s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Start DRC checking..
+[05/11 13:30:56     41s] #   number of violations = 0
+[05/11 13:30:56     41s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 820.98 (MB), peak = 828.52 (MB)
+[05/11 13:30:56     41s] #CELL_VIEW UART,init has no DRC violation.
+[05/11 13:30:56     41s] #Total number of DRC violations = 0
+[05/11 13:30:56     41s] ### route signature (19) = 1353683849
+[05/11 13:30:56     41s] ### violation signature (17) = 1905142130
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Start data preparation for wire spreading...
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Data preparation is done on Sun May 11 13:30:56 2025
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Start Post Route Wire Spread.
+[05/11 13:30:56     41s] #Done with 308 horizontal wires in 1 hboxes and 122 vertical wires in 1 hboxes.
+[05/11 13:30:56     41s] #Complete Post Route Wire Spread.
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Total wire length = 15310 um.
+[05/11 13:30:56     41s] #Total half perimeter of net bounding box = 14777 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M1 = 603 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M2 = 8895 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M3 = 5782 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M4 = 11 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M5 = 20 um.
+[05/11 13:30:56     41s] #Total wire length on LAYER M6 = 0 um.
+[05/11 13:30:56     41s] #Total number of vias = 1390
+[05/11 13:30:56     41s] #Up-Via Summary (total 1390):
+[05/11 13:30:56     41s] #           
+[05/11 13:30:56     41s] #-----------------------
+[05/11 13:30:56     41s] # M1                150
+[05/11 13:30:56     41s] # M2               1229
+[05/11 13:30:56     41s] # M3                  6
+[05/11 13:30:56     41s] # M4                  5
+[05/11 13:30:56     41s] #-----------------------
+[05/11 13:30:56     41s] #                  1390 
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] ### route signature (22) =  226893832
+[05/11 13:30:56     41s] ### violation signature (20) = 1905142130
+[05/11 13:30:56     41s] ### max drc and si pitch = 3980 (  1.9900 um) MT-safe pitch = 1408 (  0.7040 um) patch pitch = 8720 (  4.3600 um)
+[05/11 13:30:56     41s] #
+[05/11 13:30:56     41s] #Start DRC checking..
+[05/11 13:30:56     42s] #   number of violations = 0
+[05/11 13:30:56     42s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 817.46 (MB), peak = 828.52 (MB)
+[05/11 13:30:56     42s] #CELL_VIEW UART,init has no DRC violation.
+[05/11 13:30:56     42s] #Total number of DRC violations = 0
+[05/11 13:30:56     42s] ### route signature (27) =  917902449
+[05/11 13:30:56     42s] ### violation signature (25) = 1905142130
+[05/11 13:30:56     42s] #   number of violations = 0
+[05/11 13:30:56     42s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 798.48 (MB), peak = 828.52 (MB)
+[05/11 13:30:56     42s] #CELL_VIEW UART,init has no DRC violation.
+[05/11 13:30:56     42s] #Total number of DRC violations = 0
+[05/11 13:30:56     42s] #Post Route wire spread is done.
+[05/11 13:30:56     42s] #Total wire length = 15310 um.
+[05/11 13:30:56     42s] #Total half perimeter of net bounding box = 14777 um.
+[05/11 13:30:56     42s] #Total wire length on LAYER M1 = 603 um.
+[05/11 13:30:56     42s] #Total wire length on LAYER M2 = 8895 um.
+[05/11 13:30:56     42s] #Total wire length on LAYER M3 = 5782 um.
+[05/11 13:30:56     42s] #Total wire length on LAYER M4 = 11 um.
+[05/11 13:30:56     42s] #Total wire length on LAYER M5 = 20 um.
+[05/11 13:30:56     42s] #Total wire length on LAYER M6 = 0 um.
+[05/11 13:30:56     42s] #Total number of vias = 1390
+[05/11 13:30:56     42s] #Up-Via Summary (total 1390):
+[05/11 13:30:56     42s] #           
+[05/11 13:30:56     42s] #-----------------------
+[05/11 13:30:56     42s] # M1                150
+[05/11 13:30:56     42s] # M2               1229
+[05/11 13:30:56     42s] # M3                  6
+[05/11 13:30:56     42s] # M4                  5
+[05/11 13:30:56     42s] #-----------------------
+[05/11 13:30:56     42s] #                  1390 
+[05/11 13:30:56     42s] #
+[05/11 13:30:56     42s] ### route signature (29) =  917902449
+[05/11 13:30:56     42s] ### violation signature (27) = 1905142130
+[05/11 13:30:56     42s] #detailRoute Statistics:
+[05/11 13:30:56     42s] #Cpu time = 00:00:01
+[05/11 13:30:56     42s] #Elapsed time = 00:00:01
+[05/11 13:30:56     42s] #Increased memory = -1.39 (MB)
+[05/11 13:30:56     42s] #Total memory = 797.13 (MB)
+[05/11 13:30:56     42s] #Peak memory = 828.52 (MB)
+[05/11 13:30:56     42s] ### export route signature (30) =  917902449
+[05/11 13:30:56     42s] #
+[05/11 13:30:56     42s] #globalDetailRoute statistics:
+[05/11 13:30:56     42s] #Cpu time = 00:00:02
+[05/11 13:30:56     42s] #Elapsed time = 00:00:02
+[05/11 13:30:56     42s] #Increased memory = 22.79 (MB)
+[05/11 13:30:56     42s] #Total memory = 803.59 (MB)
+[05/11 13:30:56     42s] #Peak memory = 828.52 (MB)
+[05/11 13:30:56     42s] #Number of warnings = 23
+[05/11 13:30:56     42s] #Total number of warnings = 24
+[05/11 13:30:56     42s] #Number of fails = 0
+[05/11 13:30:56     42s] #Total number of fails = 0
+[05/11 13:30:56     42s] #Complete globalDetailRoute on Sun May 11 13:30:56 2025
+[05/11 13:30:56     42s] #
+[05/11 13:30:56     42s] #routeDesign: cpu time = 00:00:02, elapsed time = 00:00:02, memory = 803.82 (MB), peak = 828.52 (MB)
+[05/11 13:30:56     42s] 
+[05/11 13:30:56     42s] *** Summary of all messages that are not suppressed in this session:
+[05/11 13:30:56     42s] Severity  ID               Count  Summary                                  
+[05/11 13:30:56     42s] WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+[05/11 13:30:56     42s] *** Message Summary: 1 warning(s), 0 error(s)
+[05/11 13:30:56     42s] 
+[05/11 13:30:56     42s] ### 
+[05/11 13:30:56     42s] ###   Scalability Statistics
+[05/11 13:30:56     42s] ### 
+[05/11 13:30:56     42s] ### ------------------------+----------------+----------------+----------------+
+[05/11 13:30:56     42s] ###   routeDesign           |        cpu time|    elapsed time|     scalability|
+[05/11 13:30:56     42s] ### ------------------------+----------------+----------------+----------------+
+[05/11 13:30:56     42s] ###   Data Preparation      |        00:00:00|        00:00:00|             1.0|
+[05/11 13:30:56     42s] ###   Global Routing        |        00:00:00|        00:00:00|             1.0|
+[05/11 13:30:56     42s] ###   Track Assignment      |        00:00:00|        00:00:00|             1.0|
+[05/11 13:30:56     42s] ###   Detail Routing        |        00:00:01|        00:00:01|             1.0|
+[05/11 13:30:56     42s] ###   Total                 |        00:00:02|        00:00:02|             1.0|
+[05/11 13:30:56     42s] ### ------------------------+----------------+----------------+----------------+
+[05/11 13:30:56     42s] ### 
+[05/11 13:31:16     43s] <CMD> pan -127.785 -43.734
+[05/11 13:31:18     44s] <CMD> pan -57.002 14.250
+[05/11 13:31:51     45s] <CMD> pan -0.287 -2.317
+[05/11 13:31:59     46s] <CMD> pan -111.410 -180.137
+[05/11 13:32:09     47s] <CMD> pan 59.507 -13.981
+[05/11 13:32:26     48s] <CMD> pan -42.658 -43.376
+[05/11 13:32:31     49s] <CMD> pan 0.965 -1.153
+[05/11 13:32:38     49s] <CMD> pan 11.462 -15.220
+[05/11 13:32:39     49s] <CMD> fit
+[05/11 13:32:41     50s] <CMD> pan 2.935 8.805
+[05/11 13:33:56     53s] <CMD> pan -49.335 4.934
+[05/11 13:34:14     54s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:14     54s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:14     54s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:14     54s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[05/11 13:34:16     55s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:34:16     55s] <CMD> setEndCapMode -reset
+[05/11 13:34:16     55s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:16     55s] <CMD> setNanoRouteMode -quiet -timingEngine CTE
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:16     55s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:34:16     55s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:34:16     55s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 13:34:17     55s] <CMD> setEndCapMode -reset
+[05/11 13:34:17     55s] <CMD> setEndCapMode -boundary_tap false
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 13:34:17     55s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 13:34:17     55s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 13:34:17     55s] <CMD> setPlaceMode -fp false
+[05/11 13:34:17     55s] <CMD> placeDesign
+[05/11 13:34:17     55s] *** Starting placeDesign default flow ***
+[05/11 13:34:17     55s] Deleted 11403 physical insts (cell - / prefix -).
+[05/11 13:34:17     55s] *** Starting "NanoPlace(TM) placement v#1 (mem=912.0M)" ...
+[05/11 13:34:17     55s] No user setting net weight.
+[05/11 13:34:17     55s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 13:34:17     55s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 13:34:17     55s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 13:34:17     55s] stdCell: 641 single + 0 double + 0 multi
+[05/11 13:34:17     55s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 13:34:17     55s] Core basic site is CoreSite
+[05/11 13:34:17     55s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:34:17     55s] Apply auto density screen in pre-place stage.
+[05/11 13:34:17     55s] Auto density screen increases utilization from 0.340 to 0.349
+[05/11 13:34:17     55s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Average module density = 0.349.
+[05/11 13:34:17     55s] Density for the design = 0.349.
+[05/11 13:34:17     55s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 16891 sites (26262 um^2).
+[05/11 13:34:17     55s] Pin Density = 0.1050.
+[05/11 13:34:17     55s]             = total # of pins 1815 / total area 17290.
+[05/11 13:34:17     55s] Initial padding increases density from 0.349 to 0.349 for top
+[05/11 13:34:17     55s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 13:34:17     55s] [adp] 0:1:0:1
+[05/11 13:34:17     55s] Iteration  1: Total net bbox = 2.973e+03 (1.67e+03 1.31e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 3.571e+03 (2.11e+03 1.46e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Iteration  2: Total net bbox = 2.914e+03 (1.67e+03 1.25e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 3.775e+03 (2.11e+03 1.67e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Iteration  3: Total net bbox = 3.597e+03 (2.35e+03 1.25e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 4.866e+03 (3.22e+03 1.65e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Iteration  4: Total net bbox = 4.717e+03 (2.64e+03 2.07e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 6.218e+03 (3.51e+03 2.71e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Iteration  5: Total net bbox = 5.650e+03 (3.58e+03 2.07e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 7.181e+03 (4.47e+03 2.71e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Iteration  6: Total net bbox = 7.277e+03 (3.58e+03 3.70e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 8.925e+03 (4.47e+03 4.45e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:34:17     55s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:34:17     55s] Iteration  7: Total net bbox = 8.410e+03 (4.71e+03 3.70e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 1.013e+04 (5.68e+03 4.45e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:17     55s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:34:17     55s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:34:17     55s] Iteration  8: Total net bbox = 1.061e+04 (4.71e+03 5.90e+03)
+[05/11 13:34:17     55s]               Est.  stn bbox = 1.249e+04 (5.68e+03 6.81e+03)
+[05/11 13:34:17     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:18     55s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:34:18     55s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 13:34:18     55s] Iteration  9: Total net bbox = 1.104e+04 (5.14e+03 5.90e+03)
+[05/11 13:34:18     55s]               Est.  stn bbox = 1.293e+04 (6.12e+03 6.81e+03)
+[05/11 13:34:18     55s]               cpu = 0:00:00.0 real = 0:00:01.0 mem = 912.0M
+[05/11 13:34:18     55s] Iteration 10: Total net bbox = 1.126e+04 (5.14e+03 6.11e+03)
+[05/11 13:34:18     55s]               Est.  stn bbox = 1.316e+04 (6.12e+03 7.04e+03)
+[05/11 13:34:18     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:18     55s] Iteration 11: Total net bbox = 1.154e+04 (5.45e+03 6.08e+03)
+[05/11 13:34:18     55s]               Est.  stn bbox = 1.344e+04 (6.44e+03 7.00e+03)
+[05/11 13:34:18     55s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 912.0M
+[05/11 13:34:18     55s] *** cost = 1.154e+04 (5.45e+03 6.08e+03) (cpu for global=0:00:00.1) real=0:00:01.0***
+[05/11 13:34:18     55s] #spOpts: mergeVia=F 
+[05/11 13:34:18     55s] Core basic site is CoreSite
+[05/11 13:34:18     55s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:34:18     55s] *** Starting refinePlace (0:00:55.3 mem=912.0M) ***
+[05/11 13:34:18     55s] Total net bbox length = 1.158e+04 (5.465e+03 6.118e+03) (ext = 3.871e+02)
+[05/11 13:34:18     55s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:34:18     55s] Starting refinePlace ...
+[05/11 13:34:18     55s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:34:18     55s] Density distribution unevenness ratio = 35.949%
+[05/11 13:34:18     55s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 13:34:18     55s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=912.0MB) @(0:00:55.3 - 0:00:55.3).
+[05/11 13:34:18     55s] Move report: preRPlace moves 576 insts, mean move: 1.32 um, max move: 7.80 um
+[05/11 13:34:18     55s] 	Max move on inst (UART_TX_Inst/I_10): (222.82, 160.68) --> (215.02, 160.68)
+[05/11 13:34:18     55s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:34:18     55s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 13:34:18     55s] Placement tweakage begins.
+[05/11 13:34:18     55s] wire length = 1.443e+04
+[05/11 13:34:18     55s] wire length = 1.301e+04
+[05/11 13:34:18     55s] Placement tweakage ends.
+[05/11 13:34:18     55s] Move report: tweak moves 376 insts, mean move: 4.84 um, max move: 34.32 um
+[05/11 13:34:18     55s] 	Max move on inst (UART_TX_Inst/U46): (222.82, 136.76) --> (212.42, 160.68)
+[05/11 13:34:18     55s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 13:34:18     55s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=912.0MB) @(0:00:55.4 - 0:00:55.4).
+[05/11 13:34:18     55s] Move report: Detail placement moves 589 insts, mean move: 3.22 um, max move: 34.32 um
+[05/11 13:34:18     55s] 	Max move on inst (UART_TX_Inst/U46): (222.82, 136.76) --> (212.42, 160.68)
+[05/11 13:34:18     55s] 	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 912.0MB
+[05/11 13:34:18     55s] Statistics of distance of Instance movement in refine placement:
+[05/11 13:34:18     55s]   maximum (X+Y) =        34.32 um
+[05/11 13:34:18     55s]   inst (UART_TX_Inst/U46) with max move: (222.82, 136.76) -> (212.42, 160.68)
+[05/11 13:34:18     55s]   mean    (X+Y) =         3.22 um
+[05/11 13:34:18     55s] Total instances flipped for WireLenOpt: 31
+[05/11 13:34:18     55s] Total instances flipped, including legalization: 21
+[05/11 13:34:18     55s] Summary Report:
+[05/11 13:34:18     55s] Instances move: 589 (out of 641 movable)
+[05/11 13:34:18     55s] Instances flipped: 21
+[05/11 13:34:18     55s] Mean displacement: 3.22 um
+[05/11 13:34:18     55s] Max displacement: 34.32 um (Instance: UART_TX_Inst/U46) (222.82, 136.76) -> (212.42, 160.68)
+[05/11 13:34:18     55s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 13:34:18     55s] Total instances moved : 589
+[05/11 13:34:18     55s] Total net bbox length = 1.106e+04 (5.178e+03 5.883e+03) (ext = 4.071e+02)
+[05/11 13:34:18     55s] Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 912.0MB
+[05/11 13:34:18     55s] [CPU] RefinePlace/total (cpu=0:00:00.0, real=0:00:00.0, mem=912.0MB) @(0:00:55.3 - 0:00:55.4).
+[05/11 13:34:18     55s] *** Finished refinePlace (0:00:55.4 mem=912.0M) ***
+[05/11 13:34:18     55s] *** End of Placement (cpu=0:00:00.2, real=0:00:01.0, mem=912.0M) ***
+[05/11 13:34:18     55s] #spOpts: mergeVia=F 
+[05/11 13:34:18     55s] Core basic site is CoreSite
+[05/11 13:34:18     55s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:34:18     55s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 13:34:18     55s] Density distribution unevenness ratio = 36.472%
+[05/11 13:34:18     55s] Starting IO pin assignment...
+[05/11 13:34:18     55s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 13:34:18     55s] Completed IO pin assignment.
+[05/11 13:34:18     55s] *** Finishing placeDesign default flow ***
+[05/11 13:34:18     55s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 1, mem = 912.0M **
+[05/11 13:34:18     55s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 13:34:18     55s] 
+[05/11 13:34:20     55s] <CMD> pan 64.235 -14.846
+[05/11 13:34:21     55s] <CMD> selectInst UART_RX_Inst/r35/ULTI2_5
+[05/11 13:34:23     56s] <CMD> pan -39.692 -53.630
+[05/11 13:34:24     56s] <CMD> pan 17.467 26.022
+[05/11 13:34:41     56s] <CMD> getFillerMode -quiet
+[05/11 13:34:45     57s] <CMD> addFiller -cell FILLER -prefix FILLER
+[05/11 13:34:45     57s] Core basic site is CoreSite
+[05/11 13:34:45     57s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 13:34:45     57s]   Signal wire search tree: 0 elements. (cpu=0:00:00.0, mem=0.0M)
+[05/11 13:34:45     57s] *INFO: Adding fillers to top-module.
+[05/11 13:34:45     57s] *INFO:   Added 11403 filler insts (cell FILLER / prefix FILLER).
+[05/11 13:34:45     57s] *INFO: Total 11403 filler insts added - prefix FILLER (CPU: 0:00:00.1).
+[05/11 13:34:45     57s] For 11403 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+[05/11 13:34:47     57s] <CMD> pan 4.991 21.032
+[05/11 13:34:51     57s] <CMD> pan -6.417 -10.694
+[05/11 13:35:02     58s] <CMD> deselectAll
+[05/11 13:35:02     58s] <CMD> selectInst UART_RX_Inst/r35/ULTI2_5
+[05/11 13:35:05     58s] <CMD> deselectAll
+[05/11 13:35:05     58s] <CMD> selectInst UART_RX_Inst/U57
+[05/11 13:35:05     58s] <CMD> deselectAll
+[05/11 13:35:05     58s] <CMD> selectInst FILLER_8454
+[05/11 13:35:06     58s] <CMD> deselectAll
+[05/11 13:35:06     58s] <CMD> selectInst U6
+[05/11 13:35:07     58s] <CMD> deselectAll
+[05/11 13:35:07     58s] <CMD> selectInst {UART_TX_Inst/r_Clock_Count_reg[10]}
+[05/11 13:35:08     58s] <CMD> deselectAll
+[05/11 13:35:09     58s] <CMD> selectInst {UART_TX_Inst/r_Clock_Count_reg[10]}
+[05/11 13:35:12     59s] <CMD> deselectAll
+[05/11 13:35:24     59s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/11 13:35:24     59s] 
+[05/11 13:35:24     59s] **ERROR: (IMPOAX-850):	getG2Libs command cannot be run as OA features are disabled in this session.
+[05/11 13:35:24     59s] **ERROR: (IMPQTF-4044):	Error happens when execute '`i(' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+[05/11 13:35:35     60s] <CMD> pan -58.221 -36.511
+[05/11 13:35:36     60s] <CMD> gui_select -rect {-30.320 260.471 300.257 -40.502}
+[05/11 13:35:36     61s] <CMD> get_visible_nets
+[05/11 13:35:45     61s] <CMD> getCTSMode -engine -quiet
+[05/11 13:35:50     61s] <CMD> deselectAll
+[05/11 13:35:50     61s] <CMD> selectInst FILLER_4549
+[05/11 13:35:59     62s] <CMD> pan 59.562 7.970
+[05/11 13:37:27     65s] <CMD> deselectAll
+[05/11 13:37:27     65s] <CMD> selectInst FILLER_7758
+[05/11 13:38:53     68s] <CMD> deselectAll
+[05/11 13:38:55     69s] <CMD> pan -31.040 57.888
+[05/11 13:39:48     70s] <CMD> getCTSMode -engine -quiet
+[05/11 13:40:02     71s] <CMD> pan 41.947 -28.524
+[05/11 13:40:08     72s] <CMD> selectInst {UART_TX_Inst/r_Clock_Count_reg[4]}
+[05/11 13:40:09     72s] <CMD> deselectAll
+[05/11 13:40:18     72s] <CMD> fit
+[05/11 13:40:37     73s] <CMD> saveNetlist UART.v
+[05/11 13:40:37     73s] Writing Netlist "UART.v" ...
+[05/11 13:41:00     74s] <CMD> set dbgLefDefOutVersion 5.6
+[05/11 13:41:00     74s] <CMD> global dbgLefDefOutVersion
+[05/11 13:41:00     74s] <CMD> set dbgLefDefOutVersion 5.6
+[05/11 13:41:00     74s] <CMD> defOut -floorplan -netlist UART.def
+[05/11 13:41:00     74s] Writing DEF file 'UART.def', current time is Sun May 11 13:41:00 2025 ...
+[05/11 13:41:00     74s] unitPerMicron=1000, dbgMicronPerDBU=0.001000, unitPerDBU=1.000000
+[05/11 13:41:00     74s] DEF file 'UART.def' is written, current time is Sun May 11 13:41:00 2025 ...
+[05/11 13:41:00     74s] <CMD> set dbgLefDefOutVersion 5.8
+[05/11 13:41:00     74s] <CMD> set dbgLefDefOutVersion 5.8
+[05/11 13:43:25     79s] <CMD> selectInst U133
+[05/11 13:54:13    102s] <CMD> deselectAll
+[05/11 13:54:19    103s] 
+[05/11 13:54:19    103s] *** Memory Usage v#1 (Current mem = 924.234M, initial mem = 186.555M) ***
+[05/11 13:54:19    103s] 
+[05/11 13:54:19    103s] *** Summary of all messages that are not suppressed in this session:
+[05/11 13:54:19    103s] Severity  ID               Count  Summary                                  
+[05/11 13:54:19    103s] WARNING   IMPFP-325            3  Floorplan of the design is resized. All ...
+[05/11 13:54:19    103s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[05/11 13:54:19    103s] WARNING   IMPSYT-7329          1  Cannot load design with init_design, aft...
+[05/11 13:54:19    103s] WARNING   IMPSYT-7328          1  The design has been initialized in physi...
+[05/11 13:54:19    103s] WARNING   IMPCK-8086           1  The command %s is obsolete and will be r...
+[05/11 13:54:19    103s] WARNING   IMPOPT-6036         11  -useCells list is empty.                 
+[05/11 13:54:19    103s] ERROR     IMPOAX-142           3  %s                                       
+[05/11 13:54:19    103s] ERROR     IMPOAX-820           2  The OA features are disabled in the curr...
+[05/11 13:54:19    103s] ERROR     IMPOAX-850           2  %s command cannot be run as OA features ...
+[05/11 13:54:19    103s] WARNING   IMPTCM-77           96  Option "%s" for command %s is obsolete a...
+[05/11 13:54:19    103s] WARNING   IMPTCM-125           6  Option "%s" for command %s is obsolete a...
+[05/11 13:54:19    103s] ERROR     IMPQTF-4044          1  Error happens when execute '%s' with err...
+[05/11 13:54:19    103s] *** Message Summary: 123 warning(s), 8 error(s)
+[05/11 13:54:19    103s] 
+[05/11 13:54:19    103s] --- Ending "Innovus" (totcpu=0:01:43, real=0:33:11, mem=924.2M) ---

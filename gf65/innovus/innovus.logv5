@@ -1,0 +1,520 @@
+[05/11 13:54:28      0s] 
+[05/11 13:54:28      0s] Cadence Innovus(TM) Implementation System.
+[05/11 13:54:28      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[05/11 13:54:28      0s] 
+[05/11 13:54:28      0s] Version:	v17.10-p006_1, built Wed May 31 11:06:15 PDT 2017
+[05/11 13:54:28      0s] Options:	
+[05/11 13:54:28      0s] Date:		Sun May 11 13:54:28 2025
+[05/11 13:54:28      0s] Host:		engnx05a.utdallas.edu (x86_64 w/Linux 4.18.0-553.46.1.el8_10.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB)
+[05/11 13:54:28      0s] OS:		Red Hat Enterprise Linux release 8.10 (Ootpa)
+[05/11 13:54:28      0s] 
+[05/11 13:54:28      0s] License:
+[05/11 13:54:28      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[05/11 13:54:28      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[05/11 13:54:29      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : liboaDesign.so: cannot open shared object file: No such file or directory
+[05/11 13:54:29      0s] 
+[05/11 13:54:29      0s] **ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /proj/cad/cadence/innovus-17.10.000/tools/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+[05/11 13:54:29      0s] 
+[05/11 13:54:29      0s] **ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+[05/11 13:54:29      0s] 
+[05/11 13:54:36      6s] @(#)CDS: Innovus v17.10-p006_1 (64bit) 05/31/2017 11:06 (Linux 2.6.18-194.el5)
+[05/11 13:54:36      6s] @(#)CDS: NanoRoute 17.10-p006_1 NR170516-1601/17_10-UB (database version 2.30, 378.7.1) {superthreading v1.44}
+[05/11 13:54:36      6s] @(#)CDS: AAE 17.10-p003 (64bit) 05/31/2017 (Linux 2.6.18-194.el5)
+[05/11 13:54:36      6s] @(#)CDS: CTE 17.10-p002_1 () May 18 2017 07:46:32 ( )
+[05/11 13:54:36      6s] @(#)CDS: SYNTECH 17.10-p001_1 () May 17 2017 01:24:45 ( )
+[05/11 13:54:36      6s] @(#)CDS: CPE v17.10-p003
+[05/11 13:54:36      6s] @(#)CDS: IQRC/TQRC 16.1.1-s140 (64bit) Fri Mar 17 16:46:12 PDT 2017 (Linux 2.6.18-194.el5)
+[05/11 13:54:36      6s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[05/11 13:54:36      6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[05/11 13:54:36      6s] @(#)CDS: RCDB 11.10
+[05/11 13:54:36      6s] --- Running on engnx05a.utdallas.edu (x86_64 w/Linux 4.18.0-553.46.1.el8_10.x86_64) (8cores*32cpus*AMD EPYC 7F32 8-Core Processor 512KB) ---
+[05/11 13:54:36      6s] Create and set the environment variable TMPDIR to /usr/tmp/innovus_temp_1105784_engnx05a.utdallas.edu_ebw220000_eqDFvm.
+
+[05/11 13:54:36      6s] Change the soft stacksize limit to 0.2%RAM (514 mbytes). Set global soft_stack_size_limit to change the value.
+[05/11 13:54:36      6s] 
+[05/11 13:54:36      6s] **INFO:  MMMC transition support version v31-84 
+[05/11 13:54:36      6s] 
+[05/11 13:54:36      6s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[05/11 13:54:36      6s] <CMD> suppressMessage ENCEXT-2799
+[05/11 13:54:37      7s] <CMD> getDrawView
+[05/11 13:54:37      7s] <CMD> loadWorkspace -name Physical
+[05/11 13:54:37      7s] <CMD> win
+[05/11 13:55:46     10s] <CMD> set init_gnd_net GND!
+[05/11 13:55:46     10s] <CMD> set init_lef_file ../gf65.lef
+[05/11 13:55:46     10s] <CMD> set init_design_settop 0
+[05/11 13:55:46     10s] <CMD> set init_verilog ../../synopsys/project6/uart_syn.v
+[05/11 13:55:46     10s] <CMD> set init_pwr_net VDD!
+[05/11 13:55:46     10s] <CMD> init_design
+[05/11 13:55:46     10s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+[05/11 13:55:46     10s] 
+[05/11 13:55:46     10s] **ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+[05/11 13:55:46     10s] 
+[05/11 13:55:46     10s] Loading LEF file ../gf65.lef ...
+[05/11 13:55:46     10s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 1.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2077): A SPACING SAMENET section is defined but it is not legal in a LEF 5.7 version file.
+[05/11 13:55:46     10s] It will be ignored which will probably cause real DRC violations to be ignored, and may
+[05/11 13:55:46     10s] cause false DRC violations to occur.
+[05/11 13:55:46     10s] 
+[05/11 13:55:46     10s] To avoid this warning, and correctly handle these DRC rules, you should modify your
+[05/11 13:55:46     10s] LEF to use the appropriate SAMENET keywords as described in the LEF/DEF 5.7
+[05/11 13:55:46     10s] manual under the SPACING statements in the LAYER (Routing) and LAYER (Cut)
+[05/11 13:55:46     10s] sections listed in the LEF Table of Contents. See file ../gf65.lef at line 114.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 187.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 188.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 189.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 191.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 192.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 193.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 202.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 203.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 204.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 206.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 207.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 208.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 217.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 218.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 219.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 221.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2023): OVERHANG statement will be translated into similar ENCLOSURE rule See file ../gf65.lef at line 222.
+[05/11 13:55:46     10s] WARNING (LEFPARS-2024): METALOVERHANG statement is obsolete in version 5.6 and later.
+[05/11 13:55:46     10s] The LEF parser will ignore this statement.
+[05/11 13:55:46     10s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file ../gf65.lef at line 223.
+[05/11 13:55:46     10s] Set DBUPerIGU to M2 pitch 260.
+[05/11 13:55:46     10s] 
+[05/11 13:55:46     10s] viaInitial starts at Sun May 11 13:55:46 2025
+viaInitial ends at Sun May 11 13:55:46 2025
+*** End library_loading (cpu=0.00min, real=0.00min, mem=0.0M, fe_cpu=0.17min, fe_real=1.30min, fe_mem=511.1M) ***
+[05/11 13:55:46     10s] #% Begin Load netlist data ... (date=05/11 13:55:46, mem=517.1M)
+[05/11 13:55:46     10s] *** Begin netlist parsing (mem=511.1M) ***
+[05/11 13:55:46     10s] Created 0 new cells from 0 timing libraries.
+[05/11 13:55:46     10s] Reading netlist ...
+[05/11 13:55:46     10s] Backslashed names will retain backslash and a trailing blank character.
+[05/11 13:55:46     10s] Reading verilog netlist '../../synopsys/project6/uart_syn.v'
+[05/11 13:55:46     10s] 
+[05/11 13:55:46     10s] *** Memory Usage v#1 (Current mem = 512.070M, initial mem = 194.555M) ***
+[05/11 13:55:46     10s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=512.1M) ***
+[05/11 13:55:46     10s] #% End Load netlist data ... (date=05/11 13:55:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=520.2M, current mem=520.2M)
+[05/11 13:55:46     10s] Top level cell is UART.
+[05/11 13:55:46     10s] Hooked 0 DB cells to tlib cells.
+[05/11 13:55:46     10s] 12 empty module found.
+[05/11 13:55:46     10s] Starting recursive module instantiation check.
+[05/11 13:55:46     10s] No recursion found.
+[05/11 13:55:46     10s] Building hierarchical netlist for Cell UART ...
+[05/11 13:55:46     10s] *** Netlist is unique.
+[05/11 13:55:46     10s] ** info: there are 21 modules.
+[05/11 13:55:46     10s] ** info: there are 641 stdCell insts.
+[05/11 13:55:46     10s] 
+[05/11 13:55:46     10s] *** Memory Usage v#1 (Current mem = 537.734M, initial mem = 194.555M) ***
+[05/11 13:55:46     10s] **WARN: (IMPFP-3961):	The techSite 'Core' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:55:46     10s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:55:46     10s] **WARN: (IMPFP-3961):	The techSite 'PortCellSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:55:46     10s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:55:46     10s] **WARN: (IMPFP-3961):	The techSite 'SBlockSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:55:46     10s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:55:46     10s] **WARN: (IMPFP-3961):	The techSite 'TDCoverSite' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/11 13:55:46     10s] Type 'man IMPFP-3961' for more detail.
+[05/11 13:55:46     10s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:55:46     10s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:55:46     10s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:55:46     10s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:55:46     10s] Set Default Net Delay as 1000 ps.
+[05/11 13:55:46     10s] Set Default Net Load as 0.5 pF. 
+[05/11 13:55:46     10s] Set Default Input Pin Transition as 0.1 ps.
+[05/11 13:55:46     10s] **WARN: (IMPSYT-7328):	The design has been initialized in physical-only mode because the init_mmmc_file global variable was not defined. Timing analysis will not be possible within this session. You can only use commands that do not depend on timing data. If you need to use timing, you need to restart with an init_mmmc_file to define the timing setup, or you can save this design and use restoreDesign -mmmc_file <viewDef.tcl> to add the timing setup information.
+[05/11 13:55:46     10s] Patterns Extraction called explicitly through PreRoutePatternsIfNeeded call 
+[05/11 13:55:46     10s] Extraction setup Started 
+[05/11 13:55:46     10s] 
+[05/11 13:55:46     10s] *** Summary of all messages that are not suppressed in this session:
+[05/11 13:55:46     10s] Severity  ID               Count  Summary                                  
+[05/11 13:55:46     10s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[05/11 13:55:46     10s] WARNING   IMPSYT-7328          1  The design has been initialized in physi...
+[05/11 13:55:46     10s] ERROR     IMPOAX-820           1  The OA features are disabled in the curr...
+[05/11 13:55:46     10s] ERROR     IMPOAX-850           1  %s command cannot be run as OA features ...
+[05/11 13:55:46     10s] *** Message Summary: 5 warning(s), 2 error(s)
+[05/11 13:55:46     10s] 
+[05/11 13:55:50     10s] <CMD> getIoFlowFlag
+[05/11 13:56:16     11s] <CMD> setFPlanRowSpacingAndType 5.98 1
+[05/11 13:56:16     11s] <CMD> setIoFlowFlag 0
+[05/11 13:56:16     12s] <CMD> floorPlan -flip n -site CoreSite -r 1 0.7 5 5 5 5
+[05/11 13:56:16     12s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:56:16     12s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:56:16     12s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:56:16     12s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:56:16     12s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:56:16     12s] <CMD> uiSetTool select
+[05/11 13:56:16     12s] <CMD> getIoFlowFlag
+[05/11 13:56:16     12s] <CMD> fit
+[05/11 13:56:18     12s] <CMD> setIoFlowFlag 0
+[05/11 13:56:18     12s] <CMD> floorPlan -site CoreSite -r 0.996789727127 0.349979 5.2 5.2 5.2 5.2
+[05/11 13:56:18     12s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:56:18     12s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:56:18     12s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:56:18     12s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:56:18     12s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:56:18     12s] <CMD> uiSetTool select
+[05/11 13:56:18     12s] <CMD> getIoFlowFlag
+[05/11 13:56:18     12s] <CMD> fit
+[05/11 13:56:29     12s] <CMD> getIoFlowFlag
+[05/11 13:56:39     13s] <CMD> setIoFlowFlag 0
+[05/11 13:56:39     13s] <CMD> floorPlan -site CoreSite -r 1 0.7 5 5 5 5.2
+[05/11 13:56:39     13s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:56:39     13s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:56:39     13s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:56:39     13s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:56:39     13s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:56:39     13s] <CMD> uiSetTool select
+[05/11 13:56:39     13s] <CMD> getIoFlowFlag
+[05/11 13:56:39     13s] <CMD> fit
+[05/11 13:56:43     13s] <CMD> getIoFlowFlag
+[05/11 13:56:54     13s] <CMD> setIoFlowFlag 0
+[05/11 13:56:54     13s] <CMD> floorPlan -site CoreSite -r 1 0.7 5 5 5 5
+[05/11 13:56:54     13s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:56:54     13s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:56:54     13s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:56:54     13s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:56:54     13s] <CMD> uiSetTool select
+[05/11 13:56:54     13s] <CMD> getIoFlowFlag
+[05/11 13:56:54     13s] <CMD> fit
+[05/11 13:56:55     13s] <CMD> setIoFlowFlag 0
+[05/11 13:56:55     13s] <CMD> floorPlan -site CoreSite -r 0.996789727127 0.349979 5.2 5.2 5.2 5.2
+[05/11 13:56:55     13s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:56:55     13s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:56:55     13s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:56:55     13s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:56:55     13s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:56:55     13s] <CMD> uiSetTool select
+[05/11 13:56:55     13s] <CMD> getIoFlowFlag
+[05/11 13:56:55     13s] <CMD> fit
+[05/11 13:56:59     14s] <CMD> getIoFlowFlag
+[05/11 13:57:05     14s] <CMD> getIoFlowFlag
+[05/11 13:57:16     15s] <CMD> setIoFlowFlag 0
+[05/11 13:57:16     15s] <CMD> floorPlan -site CoreSite -r 1 0.7 5 5 5 5.2
+[05/11 13:57:16     15s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:57:16     15s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:57:16     15s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:57:16     15s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:57:16     15s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:57:16     15s] <CMD> uiSetTool select
+[05/11 13:57:16     15s] <CMD> getIoFlowFlag
+[05/11 13:57:16     15s] <CMD> fit
+[05/11 13:57:23     15s] <CMD> getIoFlowFlag
+[05/11 13:57:45     16s] <CMD> fit
+[05/11 13:57:56     16s] <CMD> getIoFlowFlag
+[05/11 13:58:19     17s] <CMD> setIoFlowFlag 0
+[05/11 13:58:19     17s] <CMD> floorPlan -site CoreSite -r 1 0.7 5 5 5 5
+[05/11 13:58:19     17s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:58:19     17s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:58:19     17s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:58:19     17s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:58:19     17s] <CMD> uiSetTool select
+[05/11 13:58:19     17s] <CMD> getIoFlowFlag
+[05/11 13:58:19     17s] <CMD> fit
+[05/11 13:58:32     18s] <CMD> getIoFlowFlag
+[05/11 13:58:44     18s] <CMD> setIoFlowFlag 0
+[05/11 13:58:44     18s] <CMD> floorPlan -site CoreSite -r 1 0.7 5 5 5 5
+[05/11 13:58:44     18s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:58:44     18s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:58:44     18s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:58:44     18s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:58:44     18s] <CMD> uiSetTool select
+[05/11 13:58:44     18s] <CMD> getIoFlowFlag
+[05/11 13:58:44     18s] <CMD> fit
+[05/11 13:58:47     19s] <CMD> setIoFlowFlag 0
+[05/11 13:58:47     19s] <CMD> floorPlan -site CoreSite -r 0.996789727127 0.349979 5.2 5.2 5.2 5.2
+[05/11 13:58:47     19s] Horizontal Layer M1 offset = 130 (guessed)
+[05/11 13:58:47     19s] Vertical Layer M2 offset = 130 (derived)
+[05/11 13:58:47     19s] Suggestion: specify LAYER OFFSET in LEF file
+[05/11 13:58:47     19s] Reason: hard to extract LAYER OFFSET from standard cells
+[05/11 13:58:47     19s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[05/11 13:58:47     19s] <CMD> uiSetTool select
+[05/11 13:58:47     19s] <CMD> getIoFlowFlag
+[05/11 13:58:47     19s] <CMD> fit
+[05/11 13:59:07     20s] <CMD> clearGlobalNets
+[05/11 13:59:07     20s] <CMD> globalNetConnect VDD! -type tiehi -inst *
+[05/11 13:59:07     20s] <CMD> globalNetConnect GND! -type tielo -inst *
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingOffset 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingThreshold 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingJogDistance 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingLayers {}
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingOffset 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingThreshold 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingJogDistance 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingLayers {}
+[05/11 13:59:15     20s] <CMD> set sprCreateIeStripeWidth 10.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeStripeThreshold 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeStripeWidth 10.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeStripeThreshold 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingOffset 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingThreshold 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingJogDistance 1.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeRingLayers {}
+[05/11 13:59:15     20s] <CMD> set sprCreateIeStripeWidth 10.0
+[05/11 13:59:15     20s] <CMD> set sprCreateIeStripeThreshold 1.0
+[05/11 13:59:58     22s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer M6 -stacked_via_bottom_layer M1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[05/11 13:59:58     22s] The ring targets are set to core/block ring wires.
+[05/11 13:59:58     22s] addRing command will consider rows while creating rings.
+[05/11 13:59:58     22s] addRing command will disallow rings to go over rows.
+[05/11 13:59:58     22s] addRing command will ignore shorts while creating rings.
+[05/11 13:59:58     22s] <CMD> addRing -nets {GND! VDD!} -type core_rings -follow core -layer {top M1 bottom M1 left M2 right M2} -width {top 0.2 bottom 0.2 left 0.2 right 0.2} -spacing {top 0.2 bottom 0.2 left 0.2 right 0.2} -offset {top 0.78 bottom 0.78 left 0.78 right 0.78} -center 0 -extend_corner {} -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[05/11 13:59:58     22s] 
+[05/11 13:59:58     22s] Ring generation is complete.
+[05/11 13:59:58     22s] vias are now being generated.
+[05/11 13:59:58     22s] addRing created 8 wires.
+[05/11 13:59:58     22s] ViaGen created 8 vias, deleted 0 via to avoid violation.
+[05/11 13:59:58     22s] +--------+----------------+----------------+
+[05/11 13:59:58     22s] |  Layer |     Created    |     Deleted    |
+[05/11 13:59:58     22s] +--------+----------------+----------------+
+[05/11 13:59:58     22s] |   M1   |        4       |       NA       |
+[05/11 13:59:58     22s] |   V1   |        8       |        0       |
+[05/11 13:59:58     22s] |   M2   |        4       |       NA       |
+[05/11 13:59:58     22s] +--------+----------------+----------------+
+[05/11 14:00:06     22s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:06     22s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:06     22s] **WARN: (IMPTCM-125):	Option "-checkPinLayerForAccess" for command getPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+[05/11 14:00:15     23s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 14:00:15     23s] <CMD> setEndCapMode -reset
+[05/11 14:00:15     23s] <CMD> setEndCapMode -boundary_tap false
+[05/11 14:00:15     23s] <CMD> setNanoRouteMode -quiet -droutePostRouteSpreadWire 1
+[05/11 14:00:15     23s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:15     23s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:15     23s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:15     23s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:15     23s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:15     23s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:15     23s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 14:00:15     23s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 14:00:15     23s] <CMD> setPlaceMode -reset
+[05/11 14:00:15     23s] <CMD> setPlaceMode -congEffort medium -timingDriven 0 -modulePlan 0 -clkGateAware 0 -powerDriven 0 -ignoreScan 0 -reorderScan 0 -ignoreSpare 0 -placeIOPins 1 -moduleAwareSpare 0 -preserveRouting 0 -rmAffectedRouting 0 -checkRoute 0 -swapEEQ 0
+[05/11 14:00:15     23s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command setPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:18     23s] <CMD> setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+[05/11 14:00:18     23s] <CMD> setEndCapMode -reset
+[05/11 14:00:18     23s] <CMD> setEndCapMode -boundary_tap false
+[05/11 14:00:18     23s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:18     23s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:18     23s] **WARN: (IMPTCM-77):	Option "-envDontUseLicsForThreadings" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:18     23s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:18     23s] **WARN: (IMPTCM-77):	Option "-routeAllowPowerGroundPin" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:18     23s] **WARN: (IMPTCM-77):	Option "-routeEcoOnlyInLayers" for command getNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:18     23s] <CMD> setUsefulSkewMode -maxSkew false -noBoundary false -useCells {} -maxAllowedDelay 1
+[05/11 14:00:18     23s] **WARN: (IMPOPT-6036):	-useCells list is empty.
+[05/11 14:00:18     23s] **WARN: (IMPTCM-77):	Option "-modulePlan" for command getPlaceMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/11 14:00:20     23s] <CMD> setPlaceMode -fp false
+[05/11 14:00:20     23s] <CMD> placeDesign
+[05/11 14:00:20     23s] *** Starting placeDesign default flow ***
+[05/11 14:00:20     23s] Deleted 0 physical inst  (cell - / prefix -).
+[05/11 14:00:20     23s] Extracting standard cell pins and blockage ...... 
+[05/11 14:00:20     23s] Pin and blockage extraction finished
+[05/11 14:00:20     23s] Extracting macro/IO cell pins and blockage ...... 
+[05/11 14:00:20     23s] Pin and blockage extraction finished
+[05/11 14:00:20     23s] *** Starting "NanoPlace(TM) placement v#1 (mem=851.9M)" ...
+[05/11 14:00:20     23s] No user setting net weight.
+[05/11 14:00:20     23s] Options: pinGuide congEffort=medium gpeffort=medium 
+[05/11 14:00:20     23s] #std cell=641 (0 fixed + 641 movable) #block=0 (0 floating + 0 preplaced)
+[05/11 14:00:20     23s] #ioInst=0 #net=653 #term=1815 #term/net=2.78, #fixedIo=0, #floatIo=0, #fixedPin=0, #floatPin=24
+[05/11 14:00:20     23s] stdCell: 641 single + 0 double + 0 multi
+[05/11 14:00:20     23s] Total standard cell length = 1.5306 (mm), area = 0.0092 (mm^2)
+[05/11 14:00:20     23s] Core basic site is CoreSite
+[05/11 14:00:20     23s] Estimated cell power/ground rail width = 0.747 um
+[05/11 14:00:20     23s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 14:00:20     23s] Apply auto density screen in pre-place stage.
+[05/11 14:00:20     23s] Auto density screen increases utilization from 0.340 to 0.343
+[05/11 14:00:20     23s] Auto density screen runtime: cpu = 0:00:00.0 real = 0:00:00.0 mem = 852.9M
+[05/11 14:00:20     23s] Average module density = 0.343.
+[05/11 14:00:20     23s] Density for the design = 0.343.
+[05/11 14:00:20     23s]        = stdcell_area 5887 sites (9153 um^2) / alloc_area 17180 sites (26711 um^2).
+[05/11 14:00:20     23s] Pin Density = 0.1050.
+[05/11 14:00:20     23s]             = total # of pins 1815 / total area 17290.
+[05/11 14:00:20     23s] Initial padding increases density from 0.343 to 0.343 for top
+[05/11 14:00:20     23s] *Internal placement parameters: * | 10 | 0x000155
+[05/11 14:00:20     23s] [adp] 0:1:0:1
+[05/11 14:00:20     23s] Iteration  1: Total net bbox = 2.612e+03 (2.61e+03 0.00e+00)
+[05/11 14:00:20     23s]               Est.  stn bbox = 3.020e+03 (3.02e+03 0.00e+00)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 852.9M
+[05/11 14:00:20     23s] Iteration  2: Total net bbox = 3.324e+03 (1.13e+03 2.19e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 4.170e+03 (1.53e+03 2.64e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 852.9M
+[05/11 14:00:20     23s] Iteration  3: Total net bbox = 3.161e+03 (2.03e+03 1.13e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 4.105e+03 (2.53e+03 1.58e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 852.9M
+[05/11 14:00:20     23s] Iteration  4: Total net bbox = 4.817e+03 (1.82e+03 3.00e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 6.173e+03 (2.33e+03 3.84e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 852.9M
+[05/11 14:00:20     23s] Iteration  5: Total net bbox = 5.725e+03 (3.01e+03 2.72e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 7.280e+03 (3.72e+03 3.56e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 852.9M
+[05/11 14:00:20     23s] Iteration  6: Total net bbox = 7.005e+03 (3.01e+03 4.00e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 8.735e+03 (3.72e+03 5.02e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 852.9M
+[05/11 14:00:20     23s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 14:00:20     23s] enableMT= 3
+[05/11 14:00:20     23s] useHNameCompare= 3 (lazy mode)
+[05/11 14:00:20     23s] doMTMainInit= 1
+[05/11 14:00:20     23s] doMTFlushLazyWireDelete= 1
+[05/11 14:00:20     23s] useFastLRoute= 0
+[05/11 14:00:20     23s] useFastCRoute= 1
+[05/11 14:00:20     23s] doMTNetInitAdjWires= 1
+[05/11 14:00:20     23s] wireMPoolNoThreadCheck= 1
+[05/11 14:00:20     23s] allMPoolNoThreadCheck= 1
+[05/11 14:00:20     23s] doNotUseMPoolInCRoute= 1
+[05/11 14:00:20     23s] doMTSprFixZeroViaCodes= 1
+[05/11 14:00:20     23s] doMTDtrRoute1CleanupA= 1
+[05/11 14:00:20     23s] doMTDtrRoute1CleanupB= 1
+[05/11 14:00:20     23s] doMTWireLenCalc= 0
+[05/11 14:00:20     23s] doSkipQALenRecalc= 1
+[05/11 14:00:20     23s] doMTMainCleanup= 1
+[05/11 14:00:20     23s] doMTMoveCellTermsToMSLayer= 1
+[05/11 14:00:20     23s] doMTConvertWiresToNewViaCode= 1
+[05/11 14:00:20     23s] doMTRemoveAntenna= 1
+[05/11 14:00:20     23s] doMTCheckConnectivity= 1
+[05/11 14:00:20     23s] enableRuntimeLog= 0
+[05/11 14:00:20     23s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 14:00:20     23s] Iteration  7: Total net bbox = 8.002e+03 (3.96e+03 4.04e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 9.840e+03 (4.78e+03 5.06e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 14:00:20     23s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 14:00:20     23s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 14:00:20     23s] Iteration  8: Total net bbox = 9.972e+03 (3.93e+03 6.04e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 1.195e+04 (4.75e+03 7.20e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 14:00:20     23s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 14:00:20     23s] Initialize trialRoute multiThread mode= 16383 (=0x3fff) and nrThread= 0.
+[05/11 14:00:20     23s] Iteration  9: Total net bbox = 1.060e+04 (4.57e+03 6.03e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 1.261e+04 (5.42e+03 7.18e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 14:00:20     23s] Iteration 10: Total net bbox = 1.062e+04 (4.57e+03 6.05e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 1.261e+04 (5.42e+03 7.18e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 14:00:20     23s] Iteration 11: Total net bbox = 1.093e+04 (4.93e+03 6.01e+03)
+[05/11 14:00:20     23s]               Est.  stn bbox = 1.293e+04 (5.79e+03 7.14e+03)
+[05/11 14:00:20     23s]               cpu = 0:00:00.0 real = 0:00:00.0 mem = 857.9M
+[05/11 14:00:20     23s] *** cost = 1.093e+04 (4.93e+03 6.01e+03) (cpu for global=0:00:00.1) real=0:00:00.0***
+[05/11 14:00:20     23s] #spOpts: mergeVia=F 
+[05/11 14:00:20     23s] Core basic site is CoreSite
+[05/11 14:00:20     23s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 14:00:20     23s] *** Starting refinePlace (0:00:23.7 mem=857.9M) ***
+[05/11 14:00:20     23s] Total net bbox length = 1.097e+04 (4.944e+03 6.027e+03) (ext = 2.593e+02)
+[05/11 14:00:20     23s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 14:00:20     23s] Starting refinePlace ...
+[05/11 14:00:20     23s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 14:00:20     23s] Density distribution unevenness ratio = 34.694%
+[05/11 14:00:20     23s]   Spread Effort: high, standalone mode, useDDP on.
+[05/11 14:00:20     23s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=857.9MB) @(0:00:23.7 - 0:00:23.7).
+[05/11 14:00:20     23s] Move report: preRPlace moves 588 insts, mean move: 1.61 um, max move: 11.96 um
+[05/11 14:00:20     23s] 	Max move on inst (UART_RX_Inst/U15): (230.36, 184.60) --> (218.40, 184.60)
+[05/11 14:00:20     23s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 14:00:20     23s] wireLenOptFixPriorityInst 0 inst fixed
+[05/11 14:00:20     23s] Placement tweakage begins.
+[05/11 14:00:20     23s] wire length = 1.397e+04
+[05/11 14:00:20     23s] wire length = 1.258e+04
+[05/11 14:00:20     23s] Placement tweakage ends.
+[05/11 14:00:20     23s] Move report: tweak moves 421 insts, mean move: 4.58 um, max move: 46.80 um
+[05/11 14:00:20     23s] 	Max move on inst (UART_RX_Inst/U86): (133.12, 29.12) --> (156.00, 5.20)
+[05/11 14:00:20     23s] Move report: legalization moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[05/11 14:00:20     23s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=857.9MB) @(0:00:23.7 - 0:00:23.7).
+[05/11 14:00:20     23s] Move report: Detail placement moves 595 insts, mean move: 3.25 um, max move: 46.02 um
+[05/11 14:00:20     23s] 	Max move on inst (UART_RX_Inst/U86): (133.90, 29.12) --> (156.00, 5.20)
+[05/11 14:00:20     23s] 	Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 857.9MB
+[05/11 14:00:20     23s] Statistics of distance of Instance movement in refine placement:
+[05/11 14:00:20     23s]   maximum (X+Y) =        46.02 um
+[05/11 14:00:20     23s]   inst (UART_RX_Inst/U86) with max move: (133.9, 29.12) -> (156, 5.2)
+[05/11 14:00:20     23s]   mean    (X+Y) =         3.25 um
+[05/11 14:00:20     23s] Total instances flipped for WireLenOpt: 32
+[05/11 14:00:20     23s] Total instances flipped, including legalization: 12
+[05/11 14:00:20     23s] Summary Report:
+[05/11 14:00:20     23s] Instances move: 595 (out of 641 movable)
+[05/11 14:00:20     23s] Instances flipped: 12
+[05/11 14:00:20     23s] Mean displacement: 3.25 um
+[05/11 14:00:20     23s] Max displacement: 46.02 um (Instance: UART_RX_Inst/U86) (133.9, 29.12) -> (156, 5.2)
+[05/11 14:00:20     23s] 	Length: 5 sites, height: 1 rows, site name: CoreSite, cell type: INV
+[05/11 14:00:20     23s] Total instances moved : 595
+[05/11 14:00:20     23s] Total net bbox length = 1.072e+04 (4.768e+03 5.955e+03) (ext = 3.178e+02)
+[05/11 14:00:20     23s] Runtime: CPU: 0:00:00.1 REAL: 0:00:00.0 MEM: 857.9MB
+[05/11 14:00:20     23s] [CPU] RefinePlace/total (cpu=0:00:00.1, real=0:00:00.0, mem=857.9MB) @(0:00:23.7 - 0:00:23.7).
+[05/11 14:00:20     23s] *** Finished refinePlace (0:00:23.7 mem=857.9M) ***
+[05/11 14:00:20     23s] *** End of Placement (cpu=0:00:00.2, real=0:00:00.0, mem=857.9M) ***
+[05/11 14:00:20     23s] #spOpts: mergeVia=F 
+[05/11 14:00:20     23s] Core basic site is CoreSite
+[05/11 14:00:20     23s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 14:00:20     23s] default core: bins with density >  0.75 =    0 % ( 0 / 8 )
+[05/11 14:00:20     23s] Density distribution unevenness ratio = 35.827%
+[05/11 14:00:20     23s] Starting IO pin assignment...
+[05/11 14:00:20     23s] The design is not routed. Using flight-line based method for pin assignment.
+[05/11 14:00:20     23s] Completed IO pin assignment.
+[05/11 14:00:20     23s] *** Finishing placeDesign default flow ***
+[05/11 14:00:20     23s] **placeDesign ... cpu = 0: 0: 0, real = 0: 0: 0, mem = 868.2M **
+[05/11 14:00:20     23s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/11 14:00:20     23s] 
+[05/11 14:00:21     23s] <CMD> fit
+[05/11 14:00:22     23s] <CMD> fit
+[05/11 14:00:39     24s] <CMD> getFillerMode -quiet
+[05/11 14:00:50     25s] <CMD> addFiller -cell FILLER -prefix FILLER
+[05/11 14:00:50     25s] Core basic site is CoreSite
+[05/11 14:00:50     25s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 14:00:50     25s]   Signal wire search tree: 0 elements. (cpu=0:00:00.0, mem=0.0M)
+[05/11 14:00:50     25s] *INFO: Adding fillers to top-module.
+[05/11 14:00:50     25s] *INFO:   Added 11403 filler insts (cell FILLER / prefix FILLER).
+[05/11 14:00:50     25s] *INFO: Total 11403 filler insts added - prefix FILLER (CPU: 0:00:00.1).
+[05/11 14:00:50     25s] For 11403 new insts, *** Applied 0 GNC rules (cpu = 0:00:00.0)
+[05/11 14:00:51     25s] <CMD> addFiller -cell FILLER -prefix FILLER
+[05/11 14:00:51     25s] Core basic site is CoreSite
+[05/11 14:00:51     25s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[05/11 14:00:51     25s]   Signal wire search tree: 0 elements. (cpu=0:00:00.0, mem=0.0M)
+[05/11 14:00:51     25s] *INFO: Adding fillers to top-module.
+[05/11 14:00:51     25s] *INFO:   Added 0 filler inst of any cell-type.
+[05/11 14:00:54     25s] <CMD> selectInst FILLER_2529
+[05/11 14:00:56     25s] <CMD> deselectAll
+[05/11 14:00:56     25s] <CMD> selectInst {UART_RX_Inst/r_Clock_Count_reg[0]}
+[05/11 14:00:57     25s] <CMD> deselectAll
+[05/11 14:00:57     25s] <CMD> gui_select -rect {93.027 111.375 94.097 114.939}
+[05/11 14:00:58     26s] <CMD> gui_select -rect {138.290 137.749 100.868 35.462}
+[05/11 14:00:59     26s] <CMD> deselectAll
+[05/11 14:00:59     26s] <CMD> selectInst {UART_RX_Inst/r_Clock_Count_reg[0]}
+[05/11 14:00:59     26s] <CMD> deselectAll
+[05/11 14:00:59     26s] **ERROR: (IMPSYT-6000):	No Object Selected.
+[05/11 14:01:17     27s] <CMD> win off
+[05/11 14:07:00     38s] **ERROR: (IMPSYT-6688):	Already in "innovus" environment. Cannot nest innovus command.
+[05/11 14:07:03     38s] **INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+[05/11 14:07:04     38s] Innovus terminated by user interrupt.
+[05/11 14:07:04     38s] 
+[05/11 14:07:04     38s] *** Memory Usage v#1 (Current mem = 875.219M, initial mem = 194.555M) ***
+[05/11 14:07:04     38s] 
+[05/11 14:07:04     38s] *** Summary of all messages that are not suppressed in this session:
+[05/11 14:07:04     38s] Severity  ID               Count  Summary                                  
+[05/11 14:07:04     38s] WARNING   IMPFP-325            6  Floorplan of the design is resized. All ...
+[05/11 14:07:04     38s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[05/11 14:07:04     38s] WARNING   IMPSYT-7328          1  The design has been initialized in physi...
+[05/11 14:07:04     38s] ERROR     IMPSYT-6688          2  Already in "%s" environment. Cannot nest...
+[05/11 14:07:04     38s] ERROR     IMPSYT-6000          2  No Object Selected.                      
+[05/11 14:07:04     38s] WARNING   IMPOPT-6036          2  -useCells list is empty.                 
+[05/11 14:07:04     38s] ERROR     IMPOAX-142           3  %s                                       
+[05/11 14:07:04     38s] ERROR     IMPOAX-820           1  The OA features are disabled in the curr...
+[05/11 14:07:04     38s] ERROR     IMPOAX-850           1  %s command cannot be run as OA features ...
+[05/11 14:07:04     38s] WARNING   IMPTCM-77           16  Option "%s" for command %s is obsolete a...
+[05/11 14:07:04     38s] WARNING   IMPTCM-125           1  Option "%s" for command %s is obsolete a...
+[05/11 14:07:04     38s] *** Message Summary: 30 warning(s), 9 error(s)
+[05/11 14:07:04     38s] 
+[05/11 14:07:04     38s] --- Ending "Innovus" (totcpu=0:00:38.9, real=0:12:36, mem=875.2M) ---

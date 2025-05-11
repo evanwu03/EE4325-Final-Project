@@ -327,6 +327,9 @@ SITE  Core
 END  Core
 
 
+
+
+
 MACRO DFF
   CLASS CORE ;
   ORIGIN 4.427 2.002 ;
@@ -341,7 +344,7 @@ MACRO DFF
       LAYER M1 ;
         RECT -3.893 0.7 -3.751 1 ;
       LAYER M2 ;
-        RECT -3.893 0.641 -3.758 1.027 ;
+        RECT -3.923 0.641 -3.758 1.027 ;
       LAYER V1 ;
         RECT -3.873 0.836 -3.773 0.936 ;
     END
@@ -359,13 +362,13 @@ MACRO DFF
     END
   END D
   PIN Q
-    DIRECTION INPUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER M1 ;
         RECT 3.405 -0.957 3.515 2.805 ;
       LAYER M2 ;
-        RECT 3.408 0.656 3.543 1.042 ;
+        RECT 3.405 0.656 3.545 1.042 ;
       LAYER V1 ;
         RECT 3.409 0.851 3.509 0.951 ;
     END
@@ -452,11 +455,11 @@ MACRO DFF
       RECT -4.128 0.428 -3.455 0.538 ;
       RECT 2.152 0.866 3.228 0.976 ;
   END
- 
+  
 END DFF
 
 MACRO FILLER
-  CLASS CORE;
+  CLASS CORE ;
   ORIGIN 0.263 3.998 ;
   FOREIGN FILLER -0.263 -3.998 ;
   SIZE 0.26 BY 5.98 ;
@@ -497,13 +500,13 @@ MACRO INV
       LAYER M1 ;
         RECT -0.3 0.128 -0.158 0.428 ;
       LAYER M2 ;
-        RECT -0.296 0.12 -0.161 0.506 ;
+        RECT -0.298 0.12 -0.158 0.506 ;
       LAYER V1 ;
         RECT -0.28 0.264 -0.18 0.364 ;
     END
   END IN
   PIN OUT
-    DIRECTION INPUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER M1 ;
@@ -534,7 +537,7 @@ MACRO INV
         RECT -0.305 1.295 -0.195 3.442 ;
     END
   END VDD!
-  
+
 END INV
 
 MACRO NAND2
@@ -563,13 +566,13 @@ MACRO NAND2
       LAYER M1 ;
         RECT 0.183 -0.17 0.325 0.13 ;
       LAYER M2 ;
-        RECT 0.187 -0.177 0.322 0.209 ;
+        RECT 0.184 -0.177 0.324 0.209 ;
       LAYER V1 ;
         RECT 0.206 -0.034 0.306 0.066 ;
     END
   END B
   PIN OUT
-    DIRECTION INPUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER M1 ;
@@ -602,7 +605,7 @@ MACRO NAND2
         RECT -0.232 1.004 -0.122 3.145 ;
     END
   END VDD!
-  
+
 END NAND2
 
 MACRO NAND3
@@ -643,13 +646,13 @@ MACRO NAND3
       LAYER M1 ;
         RECT 0.867 0.402 1.009 0.702 ;
       LAYER M2 ;
-        RECT 0.87 0.39 1.005 0.776 ;
+        RECT 0.867 0.39 1.007 0.776 ;
       LAYER V1 ;
         RECT 0.889 0.538 0.989 0.638 ;
     END
   END C
   PIN OUT
-    DIRECTION INPUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER M1 ;
@@ -685,7 +688,7 @@ MACRO NAND3
         RECT -0.964 1.565 -0.854 3.712 ;
     END
   END VDD!
-  
+
 END NAND3
 
 MACRO NOR2
@@ -702,7 +705,7 @@ MACRO NOR2
       LAYER M1 ;
         RECT -0.57 0.043 -0.428 0.343 ;
       LAYER M2 ;
-        RECT -0.567 0.031 -0.432 0.417 ;
+        RECT -0.569 0.031 -0.429 0.417 ;
       LAYER V1 ;
         RECT -0.548 0.179 -0.448 0.279 ;
     END
@@ -720,7 +723,7 @@ MACRO NOR2
     END
   END B
   PIN OUT
-    DIRECTION INPUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER M1 ;
@@ -754,7 +757,7 @@ MACRO NOR2
         RECT -0.858 1.208 -0.748 3.353 ;
     END
   END VDD!
-  
+
 END NOR2
 
 MACRO OAI22
@@ -813,7 +816,7 @@ MACRO OAI22
     END
   END D
   PIN OUT
-    DIRECTION INPUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER M1 ;
@@ -857,7 +860,7 @@ MACRO OAI22
       RECT -1.097 -0.507 -0.987 0.444 ;
       RECT -1.097 -0.507 -0.036 -0.397 ;
   END
-  
+
 END OAI22
 
 MACRO XNOR2
@@ -886,13 +889,13 @@ MACRO XNOR2
       LAYER M1 ;
         RECT -0.366 1.728 -0.224 2.028 ;
       LAYER M2 ;
-        RECT -0.368 1.694 -0.233 2.08 ;
+        RECT -0.37 1.694 -0.23 2.08 ;
       LAYER V1 ;
         RECT -0.344 1.864 -0.244 1.964 ;
     END
   END B
   PIN OUT
-    DIRECTION INPUT ;
+    DIRECTION OUTPUT ;
     USE SIGNAL ;
     PORT
       LAYER M1 ;
@@ -936,7 +939,7 @@ MACRO XNOR2
       RECT -0.935 2.254 0.254 2.364 ;
       RECT -0.935 0.086 -0.825 2.364 ;
   END
-  
+
 END XNOR2
 
 END LIBRARY

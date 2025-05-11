@@ -1,4 +1,10 @@
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+
+*WARNING* LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+LIB uart from the same file (defined earlier.)
+
+*WARNING* LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+LIB uart from the same file (defined earlier.)
 
 Loading cmos10lpe Procedures for Cadence Version "6.1.8-64b"
 Loading Display Resources File  '/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/display.drf'
@@ -22,5 +28,5 @@ Enabling auCdlCDFPinCntrl and auCdlPrintEmptySUBCKT
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
 
-End netlisting May  8 20:46:12 2025
+End netlisting May 11 13:37:04 2025
 

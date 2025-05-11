@@ -1,4 +1,8 @@
 INFO (ABS-19020): Starting @(#)$CDS: Abstract version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $, sub-version  IC6.1.8-64b.500.28 , on  2.6.32-431.11.2.el6.x86_64
+*WARNING* LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+LIB uart from the same file (defined earlier.)
+*WARNING* LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+LIB uart from the same file (defined earlier.)
 INFO (ABS-10500): Library tutorial Opening /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial
 Loading cmos10lpe Procedures for Cadence Version "6.1.8-64b"
 Loading Display Resources File  '/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/display.drf'
@@ -122,120 +126,7 @@ INFO (ABS-12005): Cell DFF: The pin R has been created for the label R at (-2997
 INFO (ABS-12005): Cell DFF: The pin GND! has been created for the label GND! at (-2238,-1941).
 INFO (ABS-12005): Cell DFF: The pin VDD! has been created for the label VDD! at (-2521,3903).
 INFO (ABS-12003): Cell DFF: 6 pins have been created.
-*WARNING* (ABS-15073): The DFF cell has no output terminals.
 INFO (ABS-11901): Cell DFF: Step Pins finished
-INFO (ABS-11900): Cell FILLER: Step Pins started
-INFO (ABS-12015): Cell FILLER: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell FILLER: The pin GND! has been created for the label GND! at (-124,-3940).
-INFO (ABS-12005): Cell FILLER: The pin VDD! has been created for the label VDD! at (-68,1892).
-INFO (ABS-12003): Cell FILLER: 2 pins have been created.
-*WARNING* (ABS-15072): The FILLER cell has no input terminals.
-*WARNING* (ABS-15073): The FILLER cell has no output terminals.
-INFO (ABS-11901): Cell FILLER: Step Pins finished
-INFO (ABS-11900): Cell INV: Step Pins started
-Loading techComp.cxt 
-*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
-*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
-INFO (ABS-12015): Cell INV: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell INV: The pin IN has been created for the label IN at (-228,135).
-INFO (ABS-12005): Cell INV: The pin OUT has been created for the label OUT at (292,135).
-INFO (ABS-12005): Cell INV: The pin GND! has been created for the label GND! at (160,-2459).
-INFO (ABS-12005): Cell INV: The pin VDD! has been created for the label VDD! at (83,3427).
-INFO (ABS-12003): Cell INV: 4 pins have been created.
-*WARNING* (ABS-15073): The INV cell has no output terminals.
-INFO (ABS-11901): Cell INV: Step Pins finished
-INFO (ABS-11900): Cell NAND2: Step Pins started
-INFO (ABS-12015): Cell NAND2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell NAND2: The pin A has been created for the label A at (-266,-162).
-INFO (ABS-12005): Cell NAND2: The pin B has been created for the label B at (254,-162).
-INFO (ABS-12005): Cell NAND2: The pin OUT has been created for the label OUT at (774,-162).
-INFO (ABS-12005): Cell NAND2: The pin GND! has been created for the label GND! at (219,-2762).
-INFO (ABS-12005): Cell NAND2: The pin VDD! has been created for the label VDD! at (38,3070).
-INFO (ABS-12003): Cell NAND2: 5 pins have been created.
-*WARNING* (ABS-15073): The NAND2 cell has no output terminals.
-INFO (ABS-11901): Cell NAND2: Step Pins finished
-INFO (ABS-11900): Cell NAND3: Step Pins started
-INFO (ABS-12015): Cell NAND3: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell NAND3: The pin A has been created for the label A at (-623,405).
-INFO (ABS-12005): Cell NAND3: The pin B has been created for the label B at (-103,405).
-INFO (ABS-12005): Cell NAND3: The pin C has been created for the label C at (937,405).
-INFO (ABS-12005): Cell NAND3: The pin OUT has been created for the label OUT at (417,405).
-INFO (ABS-12005): Cell NAND3: The pin GND! has been created for the label GND! at (-122,-2201).
-INFO (ABS-12005): Cell NAND3: The pin VDD! has been created for the label VDD! at (-70,3627).
-INFO (ABS-12003): Cell NAND3: 6 pins have been created.
-*WARNING* (ABS-15073): The NAND3 cell has no output terminals.
-INFO (ABS-11901): Cell NAND3: Step Pins finished
-INFO (ABS-11900): Cell NOR2: Step Pins started
-INFO (ABS-12015): Cell NOR2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell NOR2: The pin A has been created for the label A at (-499,46).
-INFO (ABS-12005): Cell NOR2: The pin B has been created for the label B at (21,46).
-INFO (ABS-12005): Cell NOR2: The pin OUT has been created for the label OUT at (541,46).
-INFO (ABS-12005): Cell NOR2: The pin GND! has been created for the label GND! at (-50,-2559).
-INFO (ABS-12005): Cell NOR2: The pin VDD! has been created for the label VDD! at (94,3276).
-INFO (ABS-12003): Cell NOR2: 5 pins have been created.
-*WARNING* (ABS-15073): The NOR2 cell has no output terminals.
-INFO (ABS-11901): Cell NOR2: Step Pins finished
-INFO (ABS-11900): Cell OAI22: Step Pins started
-INFO (ABS-12015): Cell OAI22: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell OAI22: The pin A has been created for the label A at (-1011,1506).
-INFO (ABS-12005): Cell OAI22: The pin B has been created for the label B at (-491,1506).
-INFO (ABS-12005): Cell OAI22: The pin C has been created for the label C at (1069,1506).
-INFO (ABS-12005): Cell OAI22: The pin D has been created for the label D at (29,1506).
-INFO (ABS-12005): Cell OAI22: The pin OUT has been created for the label OUT at (549,1506).
-INFO (ABS-12005): Cell OAI22: The pin GND! has been created for the label GND! at (-271,-1096).
-INFO (ABS-12005): Cell OAI22: The pin VDD! has been created for the label VDD! at (-530,4740).
-INFO (ABS-12003): Cell OAI22: 7 pins have been created.
-*WARNING* (ABS-15073): The OAI22 cell has no output terminals.
-INFO (ABS-11901): Cell OAI22: Step Pins finished
-INFO (ABS-11900): Cell XNOR2: Step Pins started
-INFO (ABS-12015): Cell XNOR2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell XNOR2: The pin A has been created for the label A at (1260,1709).
-INFO (ABS-12005): Cell XNOR2: The pin B has been created for the label B at (-300,1709).
-INFO (ABS-12005): Cell XNOR2: The pin OUT has been created for the label OUT at (480,1709).
-INFO (ABS-12005): Cell XNOR2: The pin GND! has been created for the label GND! at (-332,-893).
-INFO (ABS-12005): Cell XNOR2: The pin VDD! has been created for the label VDD! at (-100,4940).
-INFO (ABS-12003): Cell XNOR2: 5 pins have been created.
-*WARNING* (ABS-15073): The XNOR2 cell has no output terminals.
-INFO (ABS-11901): Cell XNOR2: Step Pins finished
-INFO (ABS-11900): Cell combined_cells: Step Pins started
-*WARNING* (ABS-12012): Cell combined_cells: Multiple PR boundaries have been created based on the value specified in the "Using geometry on layers" field on the "Boundary" tab. Update this value so that a single PR boundary is created.
-INFO (ABS-12015): Cell combined_cells: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12005): Cell combined_cells: The pin CLK has been created for the label CLK at (-2433,40).
-INFO (ABS-12005): Cell combined_cells: The pin D has been created for the label D at (-613,40).
-INFO (ABS-12005): Cell combined_cells: The pin INA has been created for the label INA at (15247,40).
-INFO (ABS-12005): Cell combined_cells: The pin INA has been created for the label INA at (8487,40).
-INFO (ABS-12005): Cell combined_cells: The pin INA has been created for the label INA at (5887,40).
-INFO (ABS-12005): Cell combined_cells: The pin INA has been created for the label INA at (10307,40).
-INFO (ABS-12005): Cell combined_cells: The pin INB has been created for the label INB at (13687,40).
-INFO (ABS-12005): Cell combined_cells: The pin INB has been created for the label INB at (10827,40).
-INFO (ABS-12005): Cell combined_cells: The pin INB has been created for the label INB at (9007,40).
-INFO (ABS-12005): Cell combined_cells: The pin INB has been created for the label INB at (6407,40).
-INFO (ABS-12005): Cell combined_cells: The pin INC has been created for the label INC at (7447,40).
-INFO (ABS-12005): Cell combined_cells: The pin INC has been created for the label INC at (12387,40).
-INFO (ABS-12005): Cell combined_cells: The pin IND has been created for the label IND at (11347,40).
-INFO (ABS-12005): Cell combined_cells: The pin OUT has been created for the label OUT at (14467,40).
-INFO (ABS-12005): Cell combined_cells: The pin OUT has been created for the label OUT at (9527,40).
-INFO (ABS-12005): Cell combined_cells: The pin OUT has been created for the label OUT at (11867,40).
-INFO (ABS-12005): Cell combined_cells: The pin OUT has been created for the label OUT at (6927,40).
-INFO (ABS-12005): Cell combined_cells: The pin Q has been created for the label Q at (4847,40).
-INFO (ABS-12005): Cell combined_cells: The pin R has been created for the label R at (-1653,40).
-INFO (ABS-12005): Cell combined_cells: The pin GND! has been created for the label GND! at (18394,-2575).
-INFO (ABS-12005): Cell combined_cells: The pin GND! has been created for the label GND! at (15776,-2575).
-INFO (ABS-12005): Cell combined_cells: The pin GND! has been created for the label GND! at (-894,-2572).
-INFO (ABS-12005): Cell combined_cells: The pin GND! has been created for the label GND! at (6388,-2566).
-INFO (ABS-12005): Cell combined_cells: The pin GND! has been created for the label GND! at (8936,-2565).
-INFO (ABS-12005): Cell combined_cells: The pin GND! has been created for the label GND! at (11047,-2562).
-INFO (ABS-12005): Cell combined_cells: The pin GND! has been created for the label GND! at (13655,-2562).
-INFO (ABS-12005): Cell combined_cells: The pin VDD! has been created for the label VDD! at (15832,3257).
-INFO (ABS-12005): Cell combined_cells: The pin VDD! has been created for the label VDD! at (18450,3257).
-INFO (ABS-12005): Cell combined_cells: The pin VDD! has been created for the label VDD! at (6440,3262).
-INFO (ABS-12005): Cell combined_cells: The pin VDD! has been created for the label VDD! at (9080,3270).
-INFO (ABS-12005): Cell combined_cells: The pin VDD! has been created for the label VDD! at (13887,3271).
-INFO (ABS-12005): Cell combined_cells: The pin VDD! has been created for the label VDD! at (-1177,3272).
-INFO (ABS-12005): Cell combined_cells: The pin VDD! has been created for the label VDD! at (10788,3274).
-INFO (ABS-12003): Cell combined_cells: 33 pins have been created.
-*WARNING* (ABS-15073): The combined_cells cell has no output terminals.
-INFO (ABS-11901): Cell combined_cells: Step Pins finished
 INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
 INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
 INFO (ABS-11900): Cell DFF: Step Extract started
@@ -247,11 +138,129 @@ INFO (ABS-13004): Cell DFF: extracting the net R, 4 of 6.
 INFO (ABS-13004): Cell DFF: extracting the net GND!, 5 of 6.
 INFO (ABS-13004): Cell DFF: extracting the net VDD!, 6 of 6.
 INFO (ABS-11901): Cell DFF: Step Extract finished
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
+INFO (ABS-11900): Cell DFF: Step Abstract started
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell DFF is invalid.
+INFO (ABS-11901): Cell DFF: Step Abstract finished
+*WARNING* (ABS-20045): Failed to create the 'CoreSite' site on disk. File '/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/tech.db' is not writable.
+INFO (ABS-10014): Created the CoreSite site in VM
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
+INFO (ABS-11900): Cell FILLER: Step Pins started
+INFO (ABS-12015): Cell FILLER: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell FILLER: The pin GND! has been created for the label GND! at (-124,-3940).
+INFO (ABS-12005): Cell FILLER: The pin VDD! has been created for the label VDD! at (-68,1892).
+INFO (ABS-12003): Cell FILLER: 2 pins have been created.
+*WARNING* (ABS-15072): The FILLER cell has no input terminals.
+*WARNING* (ABS-15073): The FILLER cell has no output terminals.
+INFO (ABS-11901): Cell FILLER: Step Pins finished
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
 INFO (ABS-11900): Cell FILLER: Step Extract started
 INFO (ABS-13002): Cell FILLER: extracting 2 nets
 INFO (ABS-13004): Cell FILLER: extracting the net GND!, 1 of 2.
 INFO (ABS-13004): Cell FILLER: extracting the net VDD!, 2 of 2.
 INFO (ABS-11901): Cell FILLER: Step Extract finished
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
+INFO (ABS-11900): Cell FILLER: Step Abstract started
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell FILLER is invalid.
+INFO (ABS-11901): Cell FILLER: Step Abstract finished
+INFO (ABS-14028): Cell FILLER: predefined site CoreSite will be used
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
+INFO (ABS-11900): Cell INV: Step Pins started
+Loading techComp.cxt 
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+INFO (ABS-12015): Cell INV: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell INV: The pin IN has been created for the label IN at (-228,135).
+INFO (ABS-12005): Cell INV: The pin OUT has been created for the label OUT at (292,135).
+INFO (ABS-12005): Cell INV: The pin GND! has been created for the label GND! at (160,-2459).
+INFO (ABS-12005): Cell INV: The pin VDD! has been created for the label VDD! at (83,3427).
+INFO (ABS-12003): Cell INV: 4 pins have been created.
+INFO (ABS-11901): Cell INV: Step Pins finished
+INFO (ABS-11900): Cell NAND2: Step Pins started
+INFO (ABS-12015): Cell NAND2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell NAND2: The pin A has been created for the label A at (-266,-162).
+INFO (ABS-12005): Cell NAND2: The pin B has been created for the label B at (254,-162).
+INFO (ABS-12005): Cell NAND2: The pin OUT has been created for the label OUT at (774,-162).
+INFO (ABS-12005): Cell NAND2: The pin GND! has been created for the label GND! at (219,-2762).
+INFO (ABS-12005): Cell NAND2: The pin VDD! has been created for the label VDD! at (38,3070).
+INFO (ABS-12003): Cell NAND2: 5 pins have been created.
+INFO (ABS-11901): Cell NAND2: Step Pins finished
+INFO (ABS-11900): Cell NAND3: Step Pins started
+INFO (ABS-12015): Cell NAND3: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell NAND3: The pin A has been created for the label A at (-623,405).
+INFO (ABS-12005): Cell NAND3: The pin B has been created for the label B at (-103,405).
+INFO (ABS-12005): Cell NAND3: The pin C has been created for the label C at (937,405).
+INFO (ABS-12005): Cell NAND3: The pin OUT has been created for the label OUT at (417,405).
+INFO (ABS-12005): Cell NAND3: The pin GND! has been created for the label GND! at (-122,-2201).
+INFO (ABS-12005): Cell NAND3: The pin VDD! has been created for the label VDD! at (-70,3627).
+INFO (ABS-12003): Cell NAND3: 6 pins have been created.
+INFO (ABS-11901): Cell NAND3: Step Pins finished
+INFO (ABS-11900): Cell NOR2: Step Pins started
+INFO (ABS-12015): Cell NOR2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell NOR2: The pin A has been created for the label A at (-499,46).
+INFO (ABS-12005): Cell NOR2: The pin B has been created for the label B at (21,46).
+INFO (ABS-12005): Cell NOR2: The pin OUT has been created for the label OUT at (541,46).
+INFO (ABS-12005): Cell NOR2: The pin GND! has been created for the label GND! at (-50,-2559).
+INFO (ABS-12005): Cell NOR2: The pin VDD! has been created for the label VDD! at (94,3276).
+INFO (ABS-12003): Cell NOR2: 5 pins have been created.
+INFO (ABS-11901): Cell NOR2: Step Pins finished
+INFO (ABS-11900): Cell OAI22: Step Pins started
+INFO (ABS-12015): Cell OAI22: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell OAI22: The pin A has been created for the label A at (-1011,1506).
+INFO (ABS-12005): Cell OAI22: The pin B has been created for the label B at (-491,1506).
+INFO (ABS-12005): Cell OAI22: The pin C has been created for the label C at (1069,1506).
+INFO (ABS-12005): Cell OAI22: The pin D has been created for the label D at (29,1506).
+INFO (ABS-12005): Cell OAI22: The pin OUT has been created for the label OUT at (549,1506).
+INFO (ABS-12005): Cell OAI22: The pin GND! has been created for the label GND! at (-271,-1096).
+INFO (ABS-12005): Cell OAI22: The pin VDD! has been created for the label VDD! at (-530,4740).
+INFO (ABS-12003): Cell OAI22: 7 pins have been created.
+INFO (ABS-11901): Cell OAI22: Step Pins finished
+INFO (ABS-11900): Cell XNOR2: Step Pins started
+INFO (ABS-12015): Cell XNOR2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell XNOR2: The pin A has been created for the label A at (1260,1709).
+INFO (ABS-12005): Cell XNOR2: The pin B has been created for the label B at (-300,1709).
+INFO (ABS-12005): Cell XNOR2: The pin OUT has been created for the label OUT at (480,1709).
+INFO (ABS-12005): Cell XNOR2: The pin GND! has been created for the label GND! at (-332,-893).
+INFO (ABS-12005): Cell XNOR2: The pin VDD! has been created for the label VDD! at (-100,4940).
+INFO (ABS-12003): Cell XNOR2: 5 pins have been created.
+INFO (ABS-11901): Cell XNOR2: Step Pins finished
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
 INFO (ABS-11900): Cell INV: Step Extract started
 INFO (ABS-13002): Cell INV: extracting 4 nets
 *WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
@@ -304,81 +313,21 @@ INFO (ABS-13004): Cell XNOR2: extracting the net OUT, 3 of 5.
 INFO (ABS-13004): Cell XNOR2: extracting the net GND!, 4 of 5.
 INFO (ABS-13004): Cell XNOR2: extracting the net VDD!, 5 of 5.
 INFO (ABS-11901): Cell XNOR2: Step Extract finished
-INFO (ABS-11900): Cell combined_cells: Step Extract started
-INFO (ABS-13002): Cell combined_cells: extracting 11 nets
-INFO (ABS-13004): Cell combined_cells: extracting the net CLK, 1 of 11.
-INFO (ABS-13004): Cell combined_cells: extracting the net D, 2 of 11.
-INFO (ABS-13004): Cell combined_cells: extracting the net INA, 3 of 11.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal INA has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal INA has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal INA has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-INFO (ABS-13004): Cell combined_cells: extracting the net INB, 4 of 11.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal INB has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal INB has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal INB has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-INFO (ABS-13004): Cell combined_cells: extracting the net INC, 5 of 11.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal INC has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-INFO (ABS-13004): Cell combined_cells: extracting the net IND, 6 of 11.
-INFO (ABS-13004): Cell combined_cells: extracting the net OUT, 7 of 11.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal OUT has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal OUT has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-*WARNING* (ABS-23005): Cell combined_cells: a possible must join terminal OUT has been ignored because the terminal was not listed in the "Create Must Join Pins" option on the "Signal" tab. Ensure that all must joins are joined for a specific terminal, either by activating the "Always" option on the "Signal" tab or listing the terminals in the "Only on terminals named" field.
-INFO (ABS-13004): Cell combined_cells: extracting the net Q, 8 of 11.
-INFO (ABS-13004): Cell combined_cells: extracting the net R, 9 of 11.
-INFO (ABS-13004): Cell combined_cells: extracting the net GND!, 10 of 11.
-INFO (ABS-13004): Cell combined_cells: extracting the net VDD!, 11 of 11.
-INFO (ABS-11901): Cell combined_cells: Step Extract finished
 INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
 INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
-INFO (ABS-11900): Cell DFF: Step Abstract started
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V1
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer V4
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M1
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M2
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M3
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M4
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M5
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer M6
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer NT
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer EA
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer VV
-INFO (ABS-19026): Cell DFF: Generating detailed blockages for layer LB
-*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell DFF is invalid.
-INFO (ABS-11901): Cell DFF: Step Abstract finished
-INFO (ABS-11900): Cell FILLER: Step Abstract started
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V1
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer V4
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M1
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M2
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M3
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M4
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M5
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer M6
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer NT
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer EA
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer VV
-INFO (ABS-19026): Cell FILLER: Generating detailed blockages for layer LB
-*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell FILLER is invalid.
-INFO (ABS-11901): Cell FILLER: Step Abstract finished
 INFO (ABS-11900): Cell INV: Step Abstract started
 *WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
 *WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V1
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M1
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M2
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V3
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V5
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M6
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer NT
 INFO (ABS-19026): Cell INV: Generating detailed blockages for layer EA
@@ -389,14 +338,14 @@ INFO (ABS-11901): Cell INV: Step Abstract finished
 INFO (ABS-11900): Cell NAND2: Step Abstract started
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V1
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M1
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M2
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V3
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V5
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M6
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer NT
 INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer EA
@@ -407,14 +356,14 @@ INFO (ABS-11901): Cell NAND2: Step Abstract finished
 INFO (ABS-11900): Cell NAND3: Step Abstract started
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V1
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M1
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M2
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V3
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V5
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M6
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer NT
 INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer EA
@@ -425,14 +374,14 @@ INFO (ABS-11901): Cell NAND3: Step Abstract finished
 INFO (ABS-11900): Cell NOR2: Step Abstract started
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V1
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M1
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M2
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V3
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V5
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M6
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer NT
 INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer EA
@@ -443,14 +392,14 @@ INFO (ABS-11901): Cell NOR2: Step Abstract finished
 INFO (ABS-11900): Cell OAI22: Step Abstract started
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V1
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M1
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M2
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V3
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V5
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M6
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer NT
 INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer EA
@@ -461,14 +410,14 @@ INFO (ABS-11901): Cell OAI22: Step Abstract finished
 INFO (ABS-11900): Cell XNOR2: Step Abstract started
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V1
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M1
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M2
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V3
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V4
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V5
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M6
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer NT
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer EA
@@ -476,35 +425,244 @@ INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer VV
 INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer LB
 *WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell XNOR2 is invalid.
 INFO (ABS-11901): Cell XNOR2: Step Abstract finished
-INFO (ABS-11900): Cell combined_cells: Step Abstract started
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer V1
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer V2
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer V3
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer V5
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer V4
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer M1
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer M2
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer M3
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer M4
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer M5
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer M6
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer NT
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer EA
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer VV
-INFO (ABS-19026): Cell combined_cells: Generating detailed blockages for layer LB
-*WARNING* (ABS-12012): Cell combined_cells: Multiple PR boundaries have been created based on the value specified in the "Using geometry on layers" field on the "Boundary" tab. Update this value so that a single PR boundary is created.
-*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell combined_cells is invalid.
-INFO (ABS-11901): Cell combined_cells: Step Abstract finished
-*WARNING* (ABS-20045): Failed to create the 'CoreSite' site on disk. File '/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe/tech.db' is not writable.
-INFO (ABS-10014): Created the CoreSite site in VM
-INFO (ABS-14028): Cell FILLER: predefined site CoreSite will be used
 INFO (ABS-14028): Cell INV: predefined site CoreSite will be used
 INFO (ABS-14028): Cell NAND2: predefined site CoreSite will be used
 INFO (ABS-14028): Cell NAND3: predefined site CoreSite will be used
 INFO (ABS-14028): Cell NOR2: predefined site CoreSite will be used
 INFO (ABS-14028): Cell OAI22: predefined site CoreSite will be used
 INFO (ABS-14028): Cell XNOR2: predefined site CoreSite will be used
-INFO (ABS-14028): Cell combined_cells: predefined site CoreSite will be used
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
+INFO (ABS-11900): Cell INV: Step Pins started
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+INFO (ABS-12015): Cell INV: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell INV: The pin IN has been created for the label IN at (-228,135).
+INFO (ABS-12005): Cell INV: The pin OUT has been created for the label OUT at (292,135).
+INFO (ABS-12005): Cell INV: The pin GND! has been created for the label GND! at (160,-2459).
+INFO (ABS-12005): Cell INV: The pin VDD! has been created for the label VDD! at (83,3427).
+INFO (ABS-12003): Cell INV: 4 pins have been created.
+INFO (ABS-11901): Cell INV: Step Pins finished
+INFO (ABS-11900): Cell NAND2: Step Pins started
+INFO (ABS-12015): Cell NAND2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell NAND2: The pin A has been created for the label A at (-266,-162).
+INFO (ABS-12005): Cell NAND2: The pin B has been created for the label B at (254,-162).
+INFO (ABS-12005): Cell NAND2: The pin OUT has been created for the label OUT at (774,-162).
+INFO (ABS-12005): Cell NAND2: The pin GND! has been created for the label GND! at (219,-2762).
+INFO (ABS-12005): Cell NAND2: The pin VDD! has been created for the label VDD! at (38,3070).
+INFO (ABS-12003): Cell NAND2: 5 pins have been created.
+INFO (ABS-11901): Cell NAND2: Step Pins finished
+INFO (ABS-11900): Cell NAND3: Step Pins started
+INFO (ABS-12015): Cell NAND3: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell NAND3: The pin A has been created for the label A at (-623,405).
+INFO (ABS-12005): Cell NAND3: The pin B has been created for the label B at (-103,405).
+INFO (ABS-12005): Cell NAND3: The pin C has been created for the label C at (937,405).
+INFO (ABS-12005): Cell NAND3: The pin OUT has been created for the label OUT at (417,405).
+INFO (ABS-12005): Cell NAND3: The pin GND! has been created for the label GND! at (-122,-2201).
+INFO (ABS-12005): Cell NAND3: The pin VDD! has been created for the label VDD! at (-70,3627).
+INFO (ABS-12003): Cell NAND3: 6 pins have been created.
+INFO (ABS-11901): Cell NAND3: Step Pins finished
+INFO (ABS-11900): Cell NOR2: Step Pins started
+INFO (ABS-12015): Cell NOR2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell NOR2: The pin A has been created for the label A at (-499,46).
+INFO (ABS-12005): Cell NOR2: The pin B has been created for the label B at (21,46).
+INFO (ABS-12005): Cell NOR2: The pin OUT has been created for the label OUT at (541,46).
+INFO (ABS-12005): Cell NOR2: The pin GND! has been created for the label GND! at (-50,-2559).
+INFO (ABS-12005): Cell NOR2: The pin VDD! has been created for the label VDD! at (94,3276).
+INFO (ABS-12003): Cell NOR2: 5 pins have been created.
+INFO (ABS-11901): Cell NOR2: Step Pins finished
+INFO (ABS-11900): Cell OAI22: Step Pins started
+INFO (ABS-12015): Cell OAI22: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell OAI22: The pin A has been created for the label A at (-1011,1506).
+INFO (ABS-12005): Cell OAI22: The pin B has been created for the label B at (-491,1506).
+INFO (ABS-12005): Cell OAI22: The pin C has been created for the label C at (1069,1506).
+INFO (ABS-12005): Cell OAI22: The pin D has been created for the label D at (29,1506).
+INFO (ABS-12005): Cell OAI22: The pin OUT has been created for the label OUT at (549,1506).
+INFO (ABS-12005): Cell OAI22: The pin GND! has been created for the label GND! at (-271,-1096).
+INFO (ABS-12005): Cell OAI22: The pin VDD! has been created for the label VDD! at (-530,4740).
+INFO (ABS-12003): Cell OAI22: 7 pins have been created.
+INFO (ABS-11901): Cell OAI22: Step Pins finished
+INFO (ABS-11900): Cell XNOR2: Step Pins started
+INFO (ABS-12015): Cell XNOR2: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12005): Cell XNOR2: The pin A has been created for the label A at (1260,1709).
+INFO (ABS-12005): Cell XNOR2: The pin B has been created for the label B at (-300,1709).
+INFO (ABS-12005): Cell XNOR2: The pin OUT has been created for the label OUT at (480,1709).
+INFO (ABS-12005): Cell XNOR2: The pin GND! has been created for the label GND! at (-332,-893).
+INFO (ABS-12005): Cell XNOR2: The pin VDD! has been created for the label VDD! at (-100,4940).
+INFO (ABS-12003): Cell XNOR2: 5 pins have been created.
+INFO (ABS-11901): Cell XNOR2: Step Pins finished
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
+INFO (ABS-11900): Cell INV: Step Extract started
+INFO (ABS-13002): Cell INV: extracting 4 nets
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+INFO (ABS-13004): Cell INV: extracting the net IN, 1 of 4.
+INFO (ABS-13004): Cell INV: extracting the net OUT, 2 of 4.
+INFO (ABS-13004): Cell INV: extracting the net GND!, 3 of 4.
+INFO (ABS-13004): Cell INV: extracting the net VDD!, 4 of 4.
+INFO (ABS-11901): Cell INV: Step Extract finished
+INFO (ABS-11900): Cell NAND2: Step Extract started
+INFO (ABS-13002): Cell NAND2: extracting 5 nets
+INFO (ABS-13004): Cell NAND2: extracting the net A, 1 of 5.
+INFO (ABS-13004): Cell NAND2: extracting the net B, 2 of 5.
+INFO (ABS-13004): Cell NAND2: extracting the net OUT, 3 of 5.
+INFO (ABS-13004): Cell NAND2: extracting the net GND!, 4 of 5.
+INFO (ABS-13004): Cell NAND2: extracting the net VDD!, 5 of 5.
+INFO (ABS-11901): Cell NAND2: Step Extract finished
+INFO (ABS-11900): Cell NAND3: Step Extract started
+INFO (ABS-13002): Cell NAND3: extracting 6 nets
+INFO (ABS-13004): Cell NAND3: extracting the net A, 1 of 6.
+INFO (ABS-13004): Cell NAND3: extracting the net B, 2 of 6.
+INFO (ABS-13004): Cell NAND3: extracting the net C, 3 of 6.
+INFO (ABS-13004): Cell NAND3: extracting the net OUT, 4 of 6.
+INFO (ABS-13004): Cell NAND3: extracting the net GND!, 5 of 6.
+INFO (ABS-13004): Cell NAND3: extracting the net VDD!, 6 of 6.
+INFO (ABS-11901): Cell NAND3: Step Extract finished
+INFO (ABS-11900): Cell NOR2: Step Extract started
+INFO (ABS-13002): Cell NOR2: extracting 5 nets
+INFO (ABS-13004): Cell NOR2: extracting the net A, 1 of 5.
+INFO (ABS-13004): Cell NOR2: extracting the net B, 2 of 5.
+INFO (ABS-13004): Cell NOR2: extracting the net OUT, 3 of 5.
+INFO (ABS-13004): Cell NOR2: extracting the net GND!, 4 of 5.
+INFO (ABS-13004): Cell NOR2: extracting the net VDD!, 5 of 5.
+INFO (ABS-11901): Cell NOR2: Step Extract finished
+INFO (ABS-11900): Cell OAI22: Step Extract started
+INFO (ABS-13002): Cell OAI22: extracting 7 nets
+INFO (ABS-13004): Cell OAI22: extracting the net A, 1 of 7.
+INFO (ABS-13004): Cell OAI22: extracting the net B, 2 of 7.
+INFO (ABS-13004): Cell OAI22: extracting the net C, 3 of 7.
+INFO (ABS-13004): Cell OAI22: extracting the net D, 4 of 7.
+INFO (ABS-13004): Cell OAI22: extracting the net OUT, 5 of 7.
+INFO (ABS-13004): Cell OAI22: extracting the net GND!, 6 of 7.
+INFO (ABS-13004): Cell OAI22: extracting the net VDD!, 7 of 7.
+INFO (ABS-11901): Cell OAI22: Step Extract finished
+INFO (ABS-11900): Cell XNOR2: Step Extract started
+INFO (ABS-13002): Cell XNOR2: extracting 5 nets
+INFO (ABS-13004): Cell XNOR2: extracting the net A, 1 of 5.
+INFO (ABS-13004): Cell XNOR2: extracting the net B, 2 of 5.
+INFO (ABS-13004): Cell XNOR2: extracting the net OUT, 3 of 5.
+INFO (ABS-13004): Cell XNOR2: extracting the net GND!, 4 of 5.
+INFO (ABS-13004): Cell XNOR2: extracting the net VDD!, 5 of 5.
+INFO (ABS-11901): Cell XNOR2: Step Extract finished
+INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.
+INFO (ABS-11900): Cell INV: Step Abstract started
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+*WARNING* (ABS-11502): Couldn't open master "cmos10sf, rect, layout", referenced in cellview "cmos10lpe, rectArray, layout"
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell INV: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell INV is invalid.
+INFO (ABS-11901): Cell INV: Step Abstract finished
+INFO (ABS-11900): Cell NAND2: Step Abstract started
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell NAND2: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell NAND2 is invalid.
+INFO (ABS-11901): Cell NAND2: Step Abstract finished
+INFO (ABS-11900): Cell NAND3: Step Abstract started
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell NAND3: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell NAND3 is invalid.
+INFO (ABS-11901): Cell NAND3: Step Abstract finished
+INFO (ABS-11900): Cell NOR2: Step Abstract started
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell NOR2: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell NOR2 is invalid.
+INFO (ABS-11901): Cell NOR2: Step Abstract finished
+INFO (ABS-11900): Cell OAI22: Step Abstract started
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell OAI22: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell OAI22 is invalid.
+INFO (ABS-11901): Cell OAI22: Step Abstract finished
+INFO (ABS-11900): Cell XNOR2: Step Abstract started
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V1
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V2
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M1
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M2
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M3
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V3
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M4
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V4
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M5
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer V5
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer M6
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer NT
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer EA
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer VV
+INFO (ABS-19026): Cell XNOR2: Generating detailed blockages for layer LB
+*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell XNOR2 is invalid.
+INFO (ABS-11901): Cell XNOR2: Step Abstract finished
+INFO (ABS-14028): Cell INV: predefined site CoreSite will be used
+INFO (ABS-14028): Cell NAND2: predefined site CoreSite will be used
+INFO (ABS-14028): Cell NAND3: predefined site CoreSite will be used
+INFO (ABS-14028): Cell NOR2: predefined site CoreSite will be used
+INFO (ABS-14028): Cell OAI22: predefined site CoreSite will be used
+INFO (ABS-14028): Cell XNOR2: predefined site CoreSite will be used
 INFO (ABS-10508): Library tutorial closing /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial
 INFO (ABS-10509): Saving existing options file for library tutorial to /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.prev
 INFO (ABS-10511): Saving current option settings for library tutorial to the file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/.abstract/tutorial/.abstract.options.

@@ -2,388 +2,85 @@
 PrimeLib version T-2022.03-SP1 (Malibu 2)
 Build date: Apr 12, 2022 13:01:04
 Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-Host: engnx05a.utdallas.edu, User: ebw220000, PID: 3265426 (PPID: 2639524)
-CPU: 32 x 3890 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
-Memory: 257 GB RAM (10.8 GB free), 4 GB Swap (3.8 GB free)
-System load average: 12.59, 12.06, 13.20 (22850 processes)
+Host: engnx05a.utdallas.edu, User: ebw220000, PID: 1382462 (PPID: 934697)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (1.1 GB free), 4 GB Swap (0.0 GB free)
+System load average: 17.45, 16.33, 15.51 (26675 processes)
 Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
 Malibu mode 2 activated
-Thu May  8 21:33:16 2025: Establishing connection to license server
-Thu May  8 21:33:16 2025: Testing server connection using feature PrimeLib_CHAR
-Thu May  8 21:33:16 2025: License server connection established
-Thu May  8 21:33:17 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Sun May 11 15:58:11 2025: Establishing connection to license server
+Sun May 11 15:58:12 2025: Testing server connection using feature PrimeLib_CHAR
+Sun May 11 15:58:12 2025: License server connection established
+Sun May 11 15:58:13 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
 Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND2
-Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND2/etc/cell.stat.gz
-===============================================
-Thu May 08 21:33:36 CDT 2025: Begin model stage
-Optimizing dispatch of 1 cells for efficiency
-Creating new libraries.
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
-=================================================
-Thu May 08 21:33:36 CDT 2025: Begin write library
-Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND2/models/liberty/cells/NAND2_op_cond.lib".
-Thu May 08 21:33:36 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 790.55MB)
-====================================================================================================
-Merging cell level models...
-===============================================
-Thu May 08 21:33:36 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND2/models/liberty/cells
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND2/models/liberty/liberty_op_cond.lib.
-Thu May 08 21:33:36 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 791.67MB)
-==================================================================================================
-Thu May 08 21:33:36 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 791.67MB)
-==================================================================================================
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND3
-Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND3/etc/cell.stat.gz
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/etc/cell.stat.gz
 ===================================================
-Thu May 08 21:44:13 CDT 2025: Begin configure stage
+Sun May 11 15:58:27 CDT 2025: Begin configure stage
 Optimizing dispatch of 1 cells for efficiency
-Reading instance file for cell NAND3
-Warning: Port VSS in cell NAND3 has no associated function
-Warning: Port VDD in cell NAND3 has no associated function
+Reading instance file for cell INV
+Warning: Port VSS in cell INV has no associated function
+Warning: Port VDD in cell INV has no associated function
 Generating timing tests.
 Generating power tests.
-Generating template at Thu May  8 21:44:13 2025 
-Done generating template at Thu May  8 21:44:13 2025
-Generate Templates: Maximum virtual memory size: 792.844 MB
-Cell NAND3 configured for characterization.
-Thu May 08 21:44:13 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 792.84MB)
+Generating template at Sun May 11 15:58:28 2025 
+Done generating template at Sun May 11 15:58:28 2025
+Generate Templates: Maximum virtual memory size: 790.75 MB
+Cell INV configured for characterization.
+Sun May 11 15:58:28 CDT 2025: Done configure stage (Elapsed: 1 seconds | 0.00 hours  Memory: 790.75MB)
 ======================================================================================================
 ======================================================
-Thu May 08 21:44:16 CDT 2025: Begin characterize stage
+Sun May 11 15:58:58 CDT 2025: Begin characterize stage
 Simulator used is hspice HSPICE O-2018.09-2
 Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
 [CDPL] Initialized with 1 standalone slot
-[CDPL] Master initialized (0 seconds)
+[CDPL] Master initialized (1 seconds)
 Start generating characterization tasks
-Thu May  8 21:44:16 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 21:44:16 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-Thu May  8 21:44:16 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 21:44:16 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Sun May 11 16:06:41 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Sun May 11 16:06:41 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Sun May 11 16:06:42 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Sun May 11 16:06:42 2025: Elapsed time of checked out license: 1.00 seconds | 0.02 minutes
 Library has standard-cells
-NAND3: generated 11 tasks (11 total)
+INV: generated 7 tasks (7 total)
 Using 1 standalone slots
-[CDPL] Tasks: 0/11, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
-[CDPL] Tasks: 3/11, (27.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
-[CDPL] Tasks: 7/11, (63.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
-[CDPL] Tasks: 11/11, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
-Long task: NAND3::delay__B__lh__OUT__hl__ACQ_1 30.00 seconds
+[CDPL] Tasks: 0/7, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+Warning: Task 0 (leakage_power__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation leakage_power__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Re-submitting leakage_power__ACQ_1 of INV (1/1)
+Warning: Task 1 (delay__IN__lh__OUT__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__IN__lh__OUT__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Re-submitting delay__IN__lh__OUT__hl__ACQ_1 of INV (1/1)
+Warning: Task 2 (delay__IN__hl__OUT__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__IN__hl__OUT__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Re-submitting delay__IN__hl__OUT__lh__ACQ_1 of INV (1/1)
+Warning: Task 3 (Cin__VSS__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Re-submitting Cin__VSS__lh__ACQ_1 of INV (1/1)
+Warning: Task 4 (Cin__VSS__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Re-submitting Cin__VSS__hl__ACQ_1 of INV (1/1)
+Warning: Task 5 (Cin__VDD__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Re-submitting Cin__VDD__lh__ACQ_1 of INV (1/1)
+Warning: Task 6 (Cin__VDD__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Re-submitting Cin__VDD__hl__ACQ_1 of INV (1/1)
+[CDPL] Tasks: 7/14, (50.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+Error:   Task 7 (leakage_power__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation leakage_power__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 8 (delay__IN__lh__OUT__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__IN__lh__OUT__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 9 (delay__IN__hl__OUT__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__IN__hl__OUT__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 10 (Cin__VSS__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 11 (Cin__VSS__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 12 (Cin__VDD__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 13 (Cin__VDD__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+[CDPL] Tasks: 14/14, (100.0%, 0 Cached, 7 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+Long task: INV::leakage_power__ACQ_1 30.00 seconds
 [CDPL] Summary: 
-  All tasks finished successfully.
-Thu May  8 21:46:16 2025: Released license FEATURE PrimeLib_CORE(all)
-Thu May  8 21:46:16 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
+Failed tasks:
+  INV:
+      leakage_power__ACQ_1
+      delay__IN__lh__OUT__hl__ACQ_1
+      delay__IN__hl__OUT__lh__ACQ_1
+      Cin__VSS__lh__ACQ_1
+      Cin__VSS__hl__ACQ_1
+      Cin__VDD__lh__ACQ_1
+      Cin__VDD__hl__ACQ_1
+Sun May 11 16:08:12 2025: Released license FEATURE PrimeLib_CORE(all)
+Sun May 11 16:08:12 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
 Peak worker count: 1
-Thu May 08 21:46:16 CDT 2025: Done characterize stage (Elapsed: 120 seconds | 0.03 hours  Memory: 1082.56MB)
+Sun May 11 16:08:12 CDT 2025: Done characterize stage (Elapsed: 554 seconds | 0.15 hours  Memory: 1072.82MB)
 ============================================================================================================
-===============================================
-Thu May 08 21:46:26 CDT 2025: Begin model stage
-Creating new libraries.
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
-=================================================
-Thu May 08 21:46:27 CDT 2025: Begin write library
-Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND3/models/liberty/cells/NAND3_op_cond.lib".
-Thu May 08 21:46:27 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1082.56MB)
-=====================================================================================================
-Merging cell level models...
-===============================================
-Thu May 08 21:46:27 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND3/models/liberty/cells
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NAND3/models/liberty/liberty_op_cond.lib.
-Thu May 08 21:46:27 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1083.33MB)
-===================================================================================================
-Thu May 08 21:46:27 CDT 2025: Done model stage (Elapsed: 1 seconds | 0.00 hours  Memory: 1083.33MB)
-===================================================================================================
-.   DFF  NAND2	NOR2   XNOR2  lc_shell_command.log  primelib.log.bak
-..  INV  NAND3	OAI22  gf65   primelib.log
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2
-Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/etc/cell.stat.gz
-===================================================
-Thu May 08 21:52:01 CDT 2025: Begin configure stage
-Optimizing dispatch of 1 cells for efficiency
-Reading instance file for cell NOR2
-Warning: Port VSS in cell NOR2 has no associated function
-Warning: Port VDD in cell NOR2 has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Thu May  8 21:52:01 2025 
-Done generating template at Thu May  8 21:52:01 2025
-Generate Templates: Maximum virtual memory size: 1083.49 MB
-Cell NOR2 configured for characterization.
-Thu May 08 21:52:01 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1083.49MB)
-=======================================================================================================
-======================================================
-Thu May 08 21:52:06 CDT 2025: Begin characterize stage
-Simulator used is hspice HSPICE O-2018.09-2
-Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
-Start generating characterization tasks
-Error:   sub-command evaluation failed: Unable to write command script /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/runtime/cdpl/pid3265426/characterization.1_3265426.tcl: couldn't open "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/runtime/cdpl/pid3265426/characterization.1_3265426.tcl": no such file or directory (SMSC-33) (CCIC-8)
-Error:   characterize failed: sub-command evaluation failed: Unable to write command script /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/runtime/cdpl/pid3265426/characterization.1_3265426.tcl: couldn't open "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/runtime/cdpl/pid3265426/characterization.1_3265426.tcl": no such file or directory (SMSC-33) (CCIC-8)
-	Use error_info for more info. (CMD-013)
-======================================================
-Thu May 08 21:52:10 CDT 2025: Begin characterize stage
-Simulator used is hspice HSPICE O-2018.09-2
-Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
-Start generating characterization tasks
-NOR2: generated 9 tasks (9 total)
-Using 1 standalone slots
-Thu May  8 21:52:10 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 21:52:10 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-Thu May  8 21:52:10 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 21:52:10 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-[CDPL] Tasks: 0/9, (0.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m00s
-[CDPL] Tasks: 3/9, (33.3%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
-[CDPL] Tasks: 7/9, (77.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
-[CDPL] Tasks: 9/9, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
-Long task: NOR2::delay__B__lh__OUT__hl__ACQ_1 30.00 seconds
-[CDPL] Summary: 
-  All tasks finished successfully.
-Thu May  8 21:54:10 2025: Released license FEATURE PrimeLib_CORE(all)
-Thu May  8 21:54:10 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
-Peak worker count: 1
-Thu May 08 21:54:10 CDT 2025: Done characterize stage (Elapsed: 120 seconds | 0.03 hours  Memory: 1083.49MB)
-============================================================================================================
-===============================================
-Thu May 08 21:54:14 CDT 2025: Begin model stage
-Creating new libraries.
-Merging cell level models...
-===============================================
-Thu May 08 21:54:15 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells
-Error:   Model results file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells/NOR2_op_cond_op_cond.lib is missing.  File covers cells: NOR2 (SMSC-87)
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/liberty_op_cond.lib.
-Thu May 08 21:54:33 CDT 2025: Done merge stage (Elapsed: 18 seconds | 0.01 hours  Memory: 1083.49MB)
-====================================================================================================
-Thu May 08 21:54:33 CDT 2025: Done model stage (Elapsed: 19 seconds | 0.01 hours  Memory: 1083.49MB)
-====================================================================================================
-===============================================
-Thu May 08 21:54:51 CDT 2025: Begin model stage
-Creating new libraries.
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
-=================================================
-Thu May 08 21:54:51 CDT 2025: Begin write library
-Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells/NOR2_op_cond.lib".
-Thu May 08 21:54:51 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1083.49MB)
-=====================================================================================================
-Merging cell level models...
-===============================================
-Thu May 08 21:54:51 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/liberty_op_cond.lib.
-Thu May 08 21:54:51 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1084.62MB)
-===================================================================================================
-Thu May 08 21:54:51 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1084.62MB)
-===================================================================================================
-===============================================
-Thu May 08 21:55:20 CDT 2025: Begin model stage
-Creating new libraries.
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
-=================================================
-Thu May 08 21:55:20 CDT 2025: Begin write library
-Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells/NOR2_op_cond.lib".
-Thu May 08 21:55:20 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1084.62MB)
-=====================================================================================================
-Merging cell level models...
-===============================================
-Thu May 08 21:55:20 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/cells
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/NOR2/models/liberty/liberty_op_cond.lib.
-Thu May 08 21:55:20 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1085.16MB)
-===================================================================================================
-Thu May 08 21:55:20 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1085.16MB)
-===================================================================================================
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22
-Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/etc/cell.stat.gz
-===================================================
-Thu May 08 22:04:18 CDT 2025: Begin configure stage
-Optimizing dispatch of 1 cells for efficiency
-Reading instance file for cell OAI22
-Warning: Port VSS in cell OAI22 has no associated function
-Warning: Port VDD in cell OAI22 has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Thu May  8 22:04:18 2025 
-Done generating template at Thu May  8 22:04:18 2025
-Generate Templates: Maximum virtual memory size: 1088.38 MB
-Cell OAI22 configured for characterization.
-Thu May 08 22:04:18 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1088.38MB)
-=======================================================================================================
-======================================================
-Thu May 08 22:04:23 CDT 2025: Begin characterize stage
-Simulator used is hspice HSPICE O-2018.09-2
-Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
-Start generating characterization tasks
-Error:   sub-command evaluation failed: Unable to write command script /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/runtime/cdpl/pid3265426/characterization.2_3265426.tcl: couldn't open "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/runtime/cdpl/pid3265426/characterization.2_3265426.tcl": no such file or directory (SMSC-33) (CCIC-8)
-Error:   characterize failed: sub-command evaluation failed: Unable to write command script /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/runtime/cdpl/pid3265426/characterization.2_3265426.tcl: couldn't open "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/runtime/cdpl/pid3265426/characterization.2_3265426.tcl": no such file or directory (SMSC-33) (CCIC-8)
-	Use error_info for more info. (CMD-013)
-===================================================
-Thu May 08 22:04:28 CDT 2025: Begin configure stage
-Reading instance file for cell OAI22
-Warning: Port VSS in cell OAI22 has no associated function
-Warning: Port VDD in cell OAI22 has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Thu May  8 22:04:28 2025 
-Done generating template at Thu May  8 22:04:28 2025
-Generate Templates: Maximum virtual memory size: 1092.29 MB
-Cell OAI22 configured for characterization.
-Thu May 08 22:04:28 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1092.29MB)
-=======================================================================================================
-======================================================
-Thu May 08 22:04:30 CDT 2025: Begin characterize stage
-Simulator used is hspice HSPICE O-2018.09-2
-Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
-Start generating characterization tasks
-OAI22: generated 13 tasks (13 total)
-Using 1 standalone slots
-Thu May  8 22:04:31 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 22:04:31 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-Thu May  8 22:04:31 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 22:04:31 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-[CDPL] Tasks: 0/13, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
-[CDPL] Tasks: 3/13, (23.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
-[CDPL] Tasks: 7/13, (53.8%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
-[CDPL] Tasks: 11/13, (84.6%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
-[CDPL] Tasks: 13/13, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 2m00s
-Long task: OAI22::delay__A__hl__OUT__lh__ACQ_1 30.00 seconds
-[CDPL] Summary: 
-  All tasks finished successfully.
-Thu May  8 22:07:01 2025: Released license FEATURE PrimeLib_CORE(all)
-Thu May  8 22:07:01 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
-Peak worker count: 1
-Thu May 08 22:07:01 CDT 2025: Done characterize stage (Elapsed: 151 seconds | 0.04 hours  Memory: 1093.33MB)
-============================================================================================================
-===============================================
-Thu May 08 22:07:04 CDT 2025: Begin model stage
-Creating new libraries.
-Merging cell level models...
-===============================================
-Thu May 08 22:07:04 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/cells
-Error:   Model results file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/cells/OAI22_op_cond_op_cond.lib is missing.  File covers cells: OAI22 (SMSC-87)
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/liberty_op_cond.lib.
-Thu May 08 22:07:23 CDT 2025: Done merge stage (Elapsed: 19 seconds | 0.01 hours  Memory: 1095.96MB)
-====================================================================================================
-Thu May 08 22:07:23 CDT 2025: Done model stage (Elapsed: 19 seconds | 0.01 hours  Memory: 1095.96MB)
-====================================================================================================
-===============================================
-Thu May 08 22:07:23 CDT 2025: Begin model stage
-Creating new libraries.
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
-=================================================
-Thu May 08 22:07:23 CDT 2025: Begin write library
-Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/cells/OAI22_op_cond.lib".
-Thu May 08 22:07:23 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1097.93MB)
-=====================================================================================================
-Merging cell level models...
-===============================================
-Thu May 08 22:07:23 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/cells
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/liberty_op_cond.lib.
-Thu May 08 22:07:23 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1098.67MB)
-===================================================================================================
-Thu May 08 22:07:23 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1098.67MB)
-===================================================================================================
-===============================================
-Thu May 08 22:07:33 CDT 2025: Begin model stage
-Creating new libraries.
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
-info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
-=================================================
-Thu May 08 22:07:33 CDT 2025: Begin write library
-Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/cells/OAI22_op_cond.lib".
-Thu May 08 22:07:33 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1100.68MB)
-=====================================================================================================
-Merging cell level models...
-===============================================
-Thu May 08 22:07:33 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/cells
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/models/liberty/liberty_op_cond.lib.
-Thu May 08 22:07:33 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1101.38MB)
-===================================================================================================
-Thu May 08 22:07:33 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1101.38MB)
-===================================================================================================
-The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2
-Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/etc/cell.stat.gz
-===================================================
-Thu May 08 22:21:48 CDT 2025: Begin configure stage
-Optimizing dispatch of 1 cells for efficiency
-Reading instance file for cell XNOR2
-Warning: Port VSS in cell XNOR2 has no associated function
-Warning: Port VDD in cell XNOR2 has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Thu May  8 22:21:48 2025 
-Done generating template at Thu May  8 22:21:48 2025
-Generate Templates: Maximum virtual memory size: 1103.17 MB
-Cell XNOR2 configured for characterization.
-Thu May 08 22:21:48 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1103.17MB)
-=======================================================================================================
-===================================================
-Thu May 08 22:21:50 CDT 2025: Begin configure stage
-Reading instance file for cell XNOR2
-Warning: Port VSS in cell XNOR2 has no associated function
-Warning: Port VDD in cell XNOR2 has no associated function
-Generating timing tests.
-Generating power tests.
-Generating template at Thu May  8 22:21:50 2025 
-Done generating template at Thu May  8 22:21:50 2025
-Generate Templates: Maximum virtual memory size: 1106.49 MB
-Cell XNOR2 configured for characterization.
-Thu May 08 22:21:50 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1106.49MB)
-=======================================================================================================
-======================================================
-Thu May 08 22:21:53 CDT 2025: Begin characterize stage
-Simulator used is hspice HSPICE O-2018.09-2
-Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
-Start generating characterization tasks
-Error:   sub-command evaluation failed: Unable to write command script /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/runtime/cdpl/pid3265426/characterization.3_3265426.tcl: couldn't open "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/runtime/cdpl/pid3265426/characterization.3_3265426.tcl": no such file or directory (SMSC-33) (CCIC-8)
-Error:   characterize failed: sub-command evaluation failed: Unable to write command script /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/runtime/cdpl/pid3265426/characterization.3_3265426.tcl: couldn't open "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/runtime/cdpl/pid3265426/characterization.3_3265426.tcl": no such file or directory (SMSC-33) (CCIC-8)
-	Use error_info for more info. (CMD-013)
-======================================================
-Thu May 08 22:21:56 CDT 2025: Begin characterize stage
-Simulator used is hspice HSPICE O-2018.09-2
-Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
-Start generating characterization tasks
-XNOR2: generated 13 tasks (13 total)
-Using 1 standalone slots
-Thu May  8 22:21:56 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 22:21:56 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-Thu May  8 22:21:56 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
-Thu May  8 22:21:56 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
-[CDPL] Tasks: 0/13, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
-[CDPL] Tasks: 3/13, (23.1%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
-[CDPL] Tasks: 6/13, (46.2%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
-[CDPL] Tasks: 10/13, (76.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m30s
-[CDPL] Tasks: 13/13, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 2m00s
-Long task: XNOR2::delay__A__hl__OUT__hl__ACQ_1 30.00 seconds
-[CDPL] Summary: 
-  All tasks finished successfully.
-Thu May  8 22:24:26 2025: Released license FEATURE PrimeLib_CORE(all)
-Thu May  8 22:24:26 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
-Peak worker count: 1
-Thu May 08 22:24:26 CDT 2025: Done characterize stage (Elapsed: 150 seconds | 0.04 hours  Memory: 1107.49MB)
-============================================================================================================
-===============================================
-Thu May 08 22:24:36 CDT 2025: Begin model stage
-Creating new libraries.
-Merging cell level models...
-===============================================
-Thu May 08 22:24:37 CDT 2025: Begin merge stage
-Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/models/liberty/cells
-Error:   Model results file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/models/liberty/cells/XNOR2_op_cond_op_cond.lib is missing.  File covers cells: XNOR2 (SMSC-87)
-Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/XNOR2/models/liberty/liberty_op_cond.lib.
-Thu May 08 22:24:55 CDT 2025: Done merge stage (Elapsed: 18 seconds | 0.01 hours  Memory: 1109.71MB)
-====================================================================================================
-Thu May 08 22:24:55 CDT 2025: Done model stage (Elapsed: 19 seconds | 0.01 hours  Memory: 1109.71MB)
-====================================================================================================
-Shutting down modules
-[CDPL] Shutting down CDPL master.
-Thu May  8 22:26:24 2025: Released license FEATURE PrimeLib_CHAR
-Thu May  8 22:26:24 2025: Program time: 3188.00 seconds | 53.13 minutes | 0.89 hours
-Maximum virtual memory size: 1109.71 MB
+Maximum virtual memory size: 1072.82 MB

@@ -1,0 +1,29 @@
+#!tvf
+tvf::VERBATIM {
+//
+//  Rule file generated on Sun May 11 15:41:15 2025
+//  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "XNOR2.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "XNOR2"
+
+SOURCE PATH "XNOR2.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "XNOR2"
+
+PEX NETLIST "XNOR2.pex.sp" HSPICE SOURCENAMES
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "XNOR2.lvs.report"
+
+DRC ICSTATION YES
+
+}
+
+source "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/Calibre_PEX_nom_rules"

@@ -1,5 +1,5 @@
 * File: NOR2.pex.sp
-* Created: Thu May  8 20:29:40 2025
+* Created: Sun May 11 15:39:34 2025
 * Program "Calibre xRC"
 * Version "v2024.4_12.9"
 * 

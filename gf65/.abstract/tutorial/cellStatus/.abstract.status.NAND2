@@ -1,6 +1,6 @@
 cUiSelectCellP {NAND2}
 cUiSetViewStatus {NAND2} {layout} {1}
 cUiSetViewStatus {NAND2} {logical} {0}
-cUiSetViewStatus {NAND2} {abstract.pin} {3}
+cUiSetViewStatus {NAND2} {abstract.pin} {1}
 cUiSetViewStatus {NAND2} {abstract.ext} {1}
 cUiSetViewStatus {NAND2} {abstract} {3}

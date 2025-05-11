@@ -1,0 +1,78 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
+          : sub-version  IC6.1.8-64b.500.28 
+Started at: 11-May-2025  15:30:32
+User Name : ebw220000
+Host Name : engnx05a.utdallas.edu
+Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+cmos10lpe/rect/layout           0        0       0        1      0      0         0      0             0      0     0     0       0       
+cmos10lpe/rectArray/layout      0        1       0        0      0      0         0      0             0      0     0     0       0       
+tutorial/INV/layout             2        0       0        37     0      3         4      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+cmos10lpe/rect/layout           0        0          0          0          0          0     0        0         0         0        
+cmos10lpe/rectArray/layout      0        0          0          0          0          0     0        0         0         0        
+tutorial/INV/layout             1        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+NW              drawing         4       0         0        1        0        0        0             0    0   0   0     0      0      
+M2              label           17      20        0        0        0        2        0             0    0   0   0     0      0      
+CA              drawing         14      0         0        19       0        0        0             0    0   0   0     0      0      
+V1              drawing         16      0         0        2        0        0        0             0    0   0   0     0      0      
+JX              drawing         212     137       0        2        0        0        0             0    0   0   0     0      0      
+text            drawing         63      0         0        1        0        0        0             0    0   0   0     0      0      
+M2              drawing         17      0         0        2        0        0        0             0    0   0   0     0      0      
+M1              label           15      20        0        0        0        2        0             0    0   0   0     0      0      
+M1              drawing         15      0         0        3        0        0        0             0    0   0   0     0      3      
+PC              drawing         7       0         0        2        0        0        0             0    0   0   0     0      0      
+JZ              drawing         212     138       0        2        0        0        0             0    0   0   0     0      0      
+RX              drawing         2       0         0        4        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		2
+	Array Instances:		1
+	Polygons:			0
+	Paths:				0
+	Rectangles:			38
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			1
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			3
+	Text:				4
+	TextDisplay:		0
+	Cells:				3
+Design Libraries: 
+
+DEFINE tutorial	/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/tutorial
+DEFINE cmos10lpe	/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe

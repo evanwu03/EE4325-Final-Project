@@ -9,16 +9,13 @@
   Command line options: /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/linux64/hspice deck.cir -o deck -SIS-cchar  
   **info**  the obsolete option acct is ignored
   **info**  the obsolete option nopage is ignored
-  **info**  the obsolete option acct is ignored
-  **info**  the obsolete option nopage is ignored
-  **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:13) Definition of model/subckt "diodenwx" is not found for the element "xinv_inst.xd0_noxref". Please specify a defined model/subckt name.
-  **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:15) Definition of model/subckt "nfet" is not found for the element "xinv_inst.xmmn0". Please specify a defined model/subckt name.
-  **error** (/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/netlists/inv.pex.sp:20) Definition of model/subckt "pfet" is not found for the element "xinv_inst.xmmp0". Please specify a defined model/subckt name.
+ **info** *pvaI* current limit stacksize=8388608, set new limit stacksize=62914560
 
-          ***** job aborted
+ **error** invalid memory reference
+
 1****** HSPICE -- O-2018.09-2 linux64 (Oct 18 2018) ******                      
  ******  
- .title cin__vdd__lh__acq_1
+ 
 
  ****** job statistics summary tnom=  25.000 temp=  25.000 ******
   
@@ -39,10 +36,10 @@
 
 
   ******  Circuit Statistics  ******
-  # nodes       =       0 # elements   =      88
-  # resistors   =      32 # capacitors =      49 # inductors   =       0
+  # nodes       =       0 # elements   =       0
+  # resistors   =       0 # capacitors =       0 # inductors   =       0
   # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
-  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       7
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       0
   # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
   # jfets       =       0 # mosfets    =       0 # U elements  =       0
   # T elements  =       0 # W elements =       0 # B elements  =       0
@@ -54,16 +51,17 @@
 
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1           0
-  readin             0.00
+  readin             0.05
   errchk             0.00
   setup              0.00
   output             0.00
 
 
-           peak memory used        255.76 megabytes
-           total cpu time            0.00 seconds
-           total elapsed time        0.03 seconds
-           job started at     21:39:35 05/07/2025
-           job ended   at     21:39:35 05/07/2025
+           peak memory used        266.34 megabytes
+           total cpu time            0.05 seconds
+           total elapsed time        0.36 seconds
+           job started at     16:07:17 05/11/2025
+           job ended   at     16:07:17 05/11/2025
 
 
+ lic: total license checkout elapse time:        0.00(s)

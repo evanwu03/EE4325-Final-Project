@@ -133,3 +133,5 @@ uiSetTool ruler
 saveDesign UART
 saveDesign UART
 saveDesign UART
+fit
+pan -22.753 73.511

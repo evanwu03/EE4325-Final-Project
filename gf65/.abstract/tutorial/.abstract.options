@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Abstract Options File
-;; Abstract_Generator version sub-version  IC6.1.8-64b.500.28  on May  8 22:43:40 2025
+;; Abstract_Generator version sub-version  IC6.1.8-64b.500.28  on May 11 13:33:02 2025
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 absSetOption( "DateTimeLog"                "false")
@@ -116,7 +116,7 @@ absSetBinOption( "Core" "PinsPowerNames"             "^((V(DD|CC))|(v(dd|cc)))(!
 absSetBinOption( "Core" "PinsGroundNames"            "^((VSS|GND)|(vss|gnd))(!)?$")
 absSetBinOption( "Core" "PinsClockNames"             "")
 absSetBinOption( "Core" "PinsAnalogNames"            "")
-absSetBinOption( "Core" "PinsOutputNames"            "")
+absSetBinOption( "Core" "PinsOutputNames"            "OUT")
 absSetBinOption( "Core" "ExcludeExistingTerminals"   "")
 absSetBinOption( "Core" "PinsExcludeExistingPinssOnLayers" "")
 absSetBinOption( "Core" "PinsFromTextForExistingPins" "false")

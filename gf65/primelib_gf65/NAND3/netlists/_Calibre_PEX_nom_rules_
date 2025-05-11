@@ -1,0 +1,29 @@
+#!tvf
+tvf::VERBATIM {
+//
+//  Rule file generated on Sun May 11 15:37:50 2025
+//  by Calibre Interactive v2024.4_12.9    Tue Oct 1 20:34:14 PDT 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "NAND3.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "NAND3"
+
+SOURCE PATH "NAND3.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "NAND3"
+
+PEX NETLIST "NAND3.pex.sp" HSPICE SOURCENAMES
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "NAND3.lvs.report"
+
+DRC ICSTATION YES
+
+}
+
+source "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/Calibre_PEX_nom_rules"

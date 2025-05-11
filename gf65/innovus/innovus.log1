@@ -1263,3 +1263,5 @@ Saving property file UART.dat.tmp/UART.prop
 
 **ERROR: (IMPSYT-6245):	Error , while saving MS constraint file.
 Generated self-contained design UART.dat.tmp
+<CMD> fit
+<CMD> pan -22.753 73.511

@@ -1,5 +1,5 @@
 * File: NAND3.pex.sp
-* Created: Thu May  8 20:25:39 2025
+* Created: Sun May 11 15:38:35 2025
 * Program "Calibre xRC"
 * Version "v2024.4_12.9"
 * 

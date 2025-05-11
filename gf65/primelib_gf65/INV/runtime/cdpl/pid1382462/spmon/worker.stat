@@ -1,0 +1,16 @@
+----------------------------------------------------------------------
+PrimeLib version T-2022.03-SP1 (Malibu 2)
+Build date: Apr 12, 2022 13:01:04
+Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
+Host: engnx05a.utdallas.edu, User: , PID: 1382462 (PPID: 934697)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (4.2 GB free), 4 GB Swap (0.0 GB free)
+System load average: 384.98, 282.57, 141.05 (25649 processes)
+Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
+Error:   Task 7 (leakage_power__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation leakage_power__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 8 (delay__IN__lh__OUT__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__IN__lh__OUT__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 9 (delay__IN__hl__OUT__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation delay__IN__hl__OUT__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 10 (Cin__VSS__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 11 (Cin__VSS__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VSS__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 12 (Cin__VDD__lh__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__lh__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)
+Error:   Task 13 (Cin__VDD__hl__ACQ_1 of INV) failed on W1 (engnx05a.utdallas.edu): Simulation Cin__VDD__hl__ACQ_1.sif for cell INV failed: deck.lis: **error** invalid memory reference . (SC-59) (SMSC-95) (CDPL-12)

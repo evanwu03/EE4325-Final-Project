@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/OAI22/netlists
+pex_PexParam LAYOUT_PRIMARY OAI22
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {OAI22 "" OAI22.pdb "" } } 
