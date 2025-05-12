@@ -2,15 +2,98 @@
 PrimeLib version T-2022.03-SP1 (Malibu 2)
 Build date: Apr 12, 2022 13:01:04
 Path: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-Host: engnx05a.utdallas.edu, User: , PID: 1383283 (PPID: 1358652)
-CPU: 32 x 3884 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
-Memory: 257 GB RAM (6.4 GB free), 4 GB Swap (0.0 GB free)
-System load average: 384.98, 282.57, 141.05 (25508 processes)
+Host: engnx04a.utdallas.edu, User: ebw220000, PID: 2715411 (PPID: 2667538)
+CPU: 32 x 3693 MHz, AMD EPYC 7F32 8-Core Processor (2 socket, 16 core)
+Memory: 257 GB RAM (35.3 GB free), 4 GB Swap (4.1 GB free)
+System load average: 10.76, 12.12, 13.05 (28187 processes)
 Directory: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65
 Malibu mode 2 activated
-Sun May 11 15:58:55 2025: Establishing connection to license server
-Sun May 11 15:59:25 2025: Testing server connection using feature PrimeLib_CHAR
-Sun May 11 15:59:52 2025: License server connection established
-Sun May 11 16:06:43 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
+Sun May 11 18:45:38 2025: Establishing connection to license server
+Sun May 11 18:45:39 2025: Testing server connection using feature PrimeLib_CHAR
+Sun May 11 18:45:39 2025: License server connection established
+Sun May 11 18:45:39 2025: Checked out license FEATURE PrimeLib_CHAR v2023.12 on PORT 1700@engdmv.utdallas.edu
 Command-line: /proj/cad/synopsys/synopsys_2021/primelib/T-2022.03-SP1/linux64/bin/primelib
-Maximum virtual memory size: 784.305 MB
+The char directory is /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV
+Loading /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/etc/cell.stat.gz
+===================================================
+Sun May 11 18:45:46 CDT 2025: Begin configure stage
+Optimizing dispatch of 1 cells for efficiency
+Reading instance file for cell INV
+Warning: Port VSS in cell INV has no associated function
+Warning: Port VDD in cell INV has no associated function
+Generating timing tests.
+Generating power tests.
+Generating template at Sun May 11 18:45:46 2025 
+Done generating template at Sun May 11 18:45:46 2025
+Generate Templates: Maximum virtual memory size: 790.711 MB
+Cell INV configured for characterization.
+Sun May 11 18:45:46 CDT 2025: Done configure stage (Elapsed: 0 seconds | 0.00 hours  Memory: 790.71MB)
+======================================================================================================
+======================================================
+Sun May 11 18:45:49 CDT 2025: Begin characterize stage
+Simulator used is hspice HSPICE O-2018.09-2
+Simulator command is /proj/cad/synopsys/synopsys_2018/hspice_vO-2018.09-2/hspice/bin/hspice
+[CDPL] Initialized with 1 standalone slot
+[CDPL] Master initialized (0 seconds)
+Start generating characterization tasks
+Sun May 11 18:45:49 2025: Checked out license FEATURE PrimeLib_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Sun May 11 18:45:49 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Sun May 11 18:45:49 2025: Checked out license FEATURE PrimeLib_SIM_CORE v2023.12(1) on PORT 1700@engdmv.utdallas.edu
+Sun May 11 18:45:49 2025: Elapsed time of checked out license: 0.00 seconds | 0.00 minutes
+Library has standard-cells
+INV: generated 7 tasks (7 total)
+Using 1 standalone slots
+[CDPL] Tasks: 0/7, (0.0%, 0 Cached, 0 Failed); Active Workers: 0, Pending Workers: 1, Elapsed: 0m00s
+[CDPL] Tasks: 3/7, (42.9%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 0m30s
+[CDPL] Tasks: 7/7, (100.0%, 0 Cached, 0 Failed); Active Workers: 1, Pending Workers: 0, Elapsed: 1m00s
+Long task: INV::leakage_power__ACQ_1 30.00 seconds
+[CDPL] Summary: 
+  All tasks finished successfully.
+Sun May 11 18:47:19 2025: Released license FEATURE PrimeLib_CORE(all)
+Sun May 11 18:47:19 2025: Released license FEATURE PrimeLib_SIM_CORE(all)
+Peak worker count: 1
+Sun May 11 18:47:19 CDT 2025: Done characterize stage (Elapsed: 90 seconds | 0.03 hours  Memory: 1078.73MB)
+===========================================================================================================
+===============================================
+Sun May 11 18:47:22 CDT 2025: Begin model stage
+Creating new libraries.
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
+=================================================
+Sun May 11 18:47:22 CDT 2025: Begin write library
+Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells/INV_op_cond.lib".
+Sun May 11 18:47:22 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1078.73MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Sun May 11 18:47:22 CDT 2025: Begin merge stage
+Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells
+Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/liberty_op_cond.lib.
+Sun May 11 18:47:22 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1078.73MB)
+===================================================================================================
+Sun May 11 18:47:22 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1078.73MB)
+===================================================================================================
+===============================================
+Sun May 11 18:47:25 CDT 2025: Begin model stage
+Creating new libraries.
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0}
+info: order {ntin nvolt} ntin {1.0 2.0 3.0 4.0 5.0 6.0 7.0} nvolt {1.0 2.0}
+=================================================
+Sun May 11 18:47:25 CDT 2025: Begin write library
+Creating Liberty file "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells/INV_op_cond.lib".
+Sun May 11 18:47:25 CDT 2025: Done write library (Elapsed: 0 seconds | 0.00 hours  Memory: 1079.86MB)
+=====================================================================================================
+Merging cell level models...
+===============================================
+Sun May 11 18:47:25 CDT 2025: Begin merge stage
+Merging 1 cell models in /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/cells
+Merged Liberty model created /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/primelib_gf65/INV/models/liberty/liberty_op_cond.lib.
+Sun May 11 18:47:25 CDT 2025: Done merge stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1079.86MB)
+===================================================================================================
+Sun May 11 18:47:25 CDT 2025: Done model stage (Elapsed: 0 seconds | 0.00 hours  Memory: 1079.86MB)
+===================================================================================================
+Shutting down modules
+[CDPL] Shutting down CDPL master.
+Sun May 11 18:47:26 2025: Released license FEATURE PrimeLib_CHAR
+Sun May 11 18:47:26 2025: Program time: 108.00 seconds | 1.80 minutes | 0.03 hours
+Maximum virtual memory size: 1079.86 MB

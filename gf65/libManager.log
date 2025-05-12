@@ -1,74 +1,94 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/08/2022 08:39 (sjfdcl1034) $
 \o Sub version:		sub-version  s284 
-\o Arguments:		-unmapped -mpssession virtuoso1137211 -mpshost engnx05a.utdallas.edu 
-\o Working Directory:	engnx05a.utdallas.edu:/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
+\o Arguments:		-mpssession virtuoso2733524 -mpshost engnx04a.utdallas.edu 
+\o Working Directory:	engnx04a.utdallas.edu:/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 \o 64-bit offsets
 \o Qt version: 		5.9.1
-\a cdsLibManager->libComboFilter->value = "uart2"
-\a cdsLibManager->libComboFilter->value = ""
-\o changeWorkingDir("/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65") unnecessary.
-\o ddSetForcedLib("") unnecessary.
 \o Log file is "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/libManager.log".
 \o Opening libManager window.
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libComboFilter->value = "uart2"
+\a cdsLibManager->libComboFilter->value = ""
+\a nrResizeWindow(cdsLibManager list(902 132 869 440))
+\o changeWorkingDir("/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65") unnecessary.
+\o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a nrSetCurrentWindow(cdsLibManager)
 \w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
 \w LIB uart from the same file (defined earlier.)
-\a nrResizeWindow(cdsLibManager list(902 132 869 440))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(697 140 869 440))
-\a cdsLibManager->libListBox->value = "uart2"
-\a cdsLibManager->libLineEdit->value = "uart2"
-\a cdsLibManager->libListBox->value = "uart"
-\a cdsLibManager->libLineEdit->value = "uart"
-\a cdsLibManager->libListBox->value = "uart2"
-\a cdsLibManager->libLineEdit->value = "uart2"
 \a cdsLibManager->FileNewLibButton->value = t
 \a nrSetWindowVisibility(NewLibShell "show")
 \a nrSetCurrentWindow(NewLibShell)
 \a nrSetCurrentWindow(NewLibShell->subDialog)
-\a nrResizeWindow(NewLibShell list(868 41 507 559))
-\a NewLibShell->newLibNameText->value = "uart3"
+\a nrResizeWindow(NewLibShell list(1073 33 507 559))
+\a NewLibShell->newLibNameText->value = "uart4"
 \a NewLibShell->newLibOKButton->value = t
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(workingDialogForm)
-\o Created new library "uart3" at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart3.
+\o Created new library "uart4" at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart4.
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
 \w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
 \w LIB uart from the same file (defined earlier.)
-\a cdsLibManager->libListBox->value = "uart2"
-\a cdsLibManager->libLineEdit->value = "uart2"
-\a nrResizeWindow(workingDialogForm list(985 217 273 133))
-\a nrResizeWindow(NewLibShell list(868 4 507 559))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(1190 209 273 133))
+\a nrResizeWindow(NewLibShell list(1073 -4 507 559))
 \w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
 \w LIB uart from the same file (defined earlier.)
-\a cdsLibManager->libListBox->value = "uart2"
-\a cdsLibManager->libLineEdit->value = "uart2"
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a _lmSetFilter( 'library "uart")
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a _lmSetFilter( 'library "uart4")
+\a cdsLibManager->libComboFilter->value = "uart4"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(698 140 868 440))
-\a cdsLibManager->libListBox->value = "uart3"
-\a cdsLibManager->libLineEdit->value = "uart3"
+\a nrResizeWindow(cdsLibManager list(903 132 869 440))
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
 \w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
 \w LIB uart from the same file (defined earlier.)
-\a cdsLibManager->libListBox->value = "uart3"
-\a cdsLibManager->libLineEdit->value = "uart3"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
 \w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
 \w LIB uart from the same file (defined earlier.)
-\a cdsLibManager->libListBox->value = "uart3"
-\a cdsLibManager->libLineEdit->value = "uart3"
-\a nrSetWindowVisibility(cdsLibManager "show")
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)

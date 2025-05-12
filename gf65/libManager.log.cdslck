@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ebw220000
+HostName                       engnx04a.utdallas.edu
+ProcessIdentifier              2772972
+ProcessCreationTime_UTC        1747008808
+ProcessCreationTime_Readable   Sun May 11 19:13:28 2025 CDT
+AppIdentifier                  /proj/cad/cadence/ic-6.18.280/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/libManager.log
+TimeEditLocked                 Sun May 11 19:13:28 2025 CDT

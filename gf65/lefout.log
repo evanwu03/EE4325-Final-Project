@@ -3,9 +3,9 @@
 Product   : Virtuoso(R) LEF Out 
 Program   : @(#)$CDS: lefout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
 SubVersion: sub-version  IC6.1.8-64b.500.28 
-Started at: 11-May-2025  14:03:40
+Started at: 11-May-2025  18:56:11
 User Name : ebw220000
-Host Name : engnx05a.utdallas.edu
+Host Name : engnx04a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 DB Version: 	20220928 (SJ)
 CADENCE Design Systems, Inc.
@@ -13,6 +13,6 @@ CADENCE Design Systems, Inc.
 Running: lefout -lib tutorial -cells "DFF FILLER INV NAND2 NAND3 NOR2 OAI22 XNOR2" -views "abstract" -lef /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef -ver 5.7
 WARNING: (OALEFDEF-50144): NONDEFAULTRULE virtuosoDefaultSetup: LAYER PC: invalid definition. This rule will be ignored. Ensure all layers in the valid routing layers constraint have a minWidth constraint defined and are metal or poly-routing material.
 
-Elapsed Time: 0.8s
+Elapsed Time: 0.7s
 
 lefout translation completed (errors: 0, warnings: 1).

@@ -1,10 +1,10 @@
 xmvlog: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
-TOOL:	xmvlog(64)	20.09-s023: Started on May 11, 2025 at 14:18:59 CDT
+TOOL:	xmvlog(64)	20.09-s023: Started on May 11, 2025 at 19:18:48 CDT
 xmvlog
     -work __nclib
     -view module
     -logfile xmvlog.log
-    -cdslib /tmp/ihdl_cdslibd6199_1146199
+    -cdslib /tmp/ihdl_cdslibd9943_2779943
     -messages
     -nostdout
     -nocopyright
@@ -40,4 +40,4 @@ file: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/innovus/UART.v
 		errors: 0, warnings: 0
 	Total errors/warnings found outside modules and primitives:
 		errors: 0, warnings: 1
-TOOL:	xmvlog(64)	20.09-s023: Exiting on May 11, 2025 at 14:18:59 CDT  (total: 00:00:00)
+TOOL:	xmvlog(64)	20.09-s023: Exiting on May 11, 2025 at 19:18:48 CDT  (total: 00:00:00)

@@ -328,8 +328,6 @@ END  Core
 
 
 
-
-
 MACRO DFF
   CLASS CORE ;
   ORIGIN 4.427 2.002 ;
@@ -344,7 +342,7 @@ MACRO DFF
       LAYER M1 ;
         RECT -3.893 0.7 -3.751 1 ;
       LAYER M2 ;
-        RECT -3.923 0.641 -3.758 1.027 ;
+        RECT -3.923 0.641 -3.702 1.027 ;
       LAYER V1 ;
         RECT -3.873 0.836 -3.773 0.936 ;
     END
@@ -356,7 +354,7 @@ MACRO DFF
       LAYER M1 ;
         RECT -2.022 0.7 -1.88 1 ;
       LAYER M2 ;
-        RECT -2.025 0.641 -1.89 1.027 ;
+        RECT -2.032 0.641 -1.882 1.027 ;
       LAYER V1 ;
         RECT -2.004 0.836 -1.904 0.936 ;
     END
@@ -368,7 +366,7 @@ MACRO DFF
       LAYER M1 ;
         RECT 3.405 -0.957 3.515 2.805 ;
       LAYER M2 ;
-        RECT 3.405 0.656 3.545 1.042 ;
+        RECT 3.405 0.656 3.578 1.042 ;
       LAYER V1 ;
         RECT 3.409 0.851 3.509 0.951 ;
     END
@@ -380,7 +378,7 @@ MACRO DFF
       LAYER M1 ;
         RECT -3.086 0.7 -2.944 1 ;
       LAYER M2 ;
-        RECT -3.065 0.641 -2.93 1.027 ;
+        RECT -3.072 0.641 -2.922 1.027 ;
       LAYER V1 ;
         RECT -3.064 0.836 -2.964 0.936 ;
     END
@@ -455,7 +453,7 @@ MACRO DFF
       RECT -4.128 0.428 -3.455 0.538 ;
       RECT 2.152 0.866 3.228 0.976 ;
   END
-  
+ 
 END DFF
 
 MACRO FILLER
@@ -483,7 +481,7 @@ MACRO FILLER
         RECT -0.363 1.839 0.097 1.982 ;
     END
   END VDD!
-
+ 
 END FILLER
 
 MACRO INV
@@ -500,7 +498,7 @@ MACRO INV
       LAYER M1 ;
         RECT -0.3 0.128 -0.158 0.428 ;
       LAYER M2 ;
-        RECT -0.298 0.12 -0.158 0.506 ;
+        RECT -0.303 0.12 -0.153 0.506 ;
       LAYER V1 ;
         RECT -0.28 0.264 -0.18 0.364 ;
     END
@@ -512,7 +510,7 @@ MACRO INV
       LAYER M1 ;
         RECT 0.242 -1.498 0.352 2.257 ;
       LAYER M2 ;
-        RECT 0.225 0.12 0.36 0.506 ;
+        RECT 0.217 0.12 0.367 0.506 ;
       LAYER V1 ;
         RECT 0.25 0.264 0.35 0.364 ;
     END
@@ -537,7 +535,7 @@ MACRO INV
         RECT -0.305 1.295 -0.195 3.442 ;
     END
   END VDD!
-
+  
 END INV
 
 MACRO NAND2
@@ -554,7 +552,7 @@ MACRO NAND2
       LAYER M1 ;
         RECT -0.337 -0.172 -0.195 0.128 ;
       LAYER M2 ;
-        RECT -0.334 -0.177 -0.199 0.209 ;
+        RECT -0.341 -0.177 -0.191 0.209 ;
       LAYER V1 ;
         RECT -0.315 -0.036 -0.215 0.064 ;
     END
@@ -566,7 +564,7 @@ MACRO NAND2
       LAYER M1 ;
         RECT 0.183 -0.17 0.325 0.13 ;
       LAYER M2 ;
-        RECT 0.184 -0.177 0.324 0.209 ;
+        RECT 0.179 -0.177 0.329 0.209 ;
       LAYER V1 ;
         RECT 0.206 -0.034 0.306 0.066 ;
     END
@@ -580,7 +578,7 @@ MACRO NAND2
         RECT -0.625 0.583 0.846 0.693 ;
         RECT -0.625 -1.785 -0.515 1.96 ;
       LAYER M2 ;
-        RECT 0.707 -0.177 0.842 0.209 ;
+        RECT 0.699 -0.177 0.849 0.209 ;
       LAYER V1 ;
         RECT 0.742 -0.067 0.842 0.033 ;
     END
@@ -605,7 +603,7 @@ MACRO NAND2
         RECT -0.232 1.004 -0.122 3.145 ;
     END
   END VDD!
-
+  
 END NAND2
 
 MACRO NAND3
@@ -622,7 +620,7 @@ MACRO NAND3
       LAYER M1 ;
         RECT -0.693 0.4 -0.551 0.7 ;
       LAYER M2 ;
-        RECT -0.691 0.39 -0.556 0.776 ;
+        RECT -0.698 0.39 -0.548 0.776 ;
       LAYER V1 ;
         RECT -0.671 0.536 -0.571 0.636 ;
     END
@@ -634,7 +632,7 @@ MACRO NAND3
       LAYER M1 ;
         RECT -0.174 0.393 -0.032 0.693 ;
       LAYER M2 ;
-        RECT -0.171 0.39 -0.036 0.776 ;
+        RECT -0.178 0.39 -0.028 0.776 ;
       LAYER V1 ;
         RECT -0.152 0.529 -0.052 0.629 ;
     END
@@ -646,7 +644,7 @@ MACRO NAND3
       LAYER M1 ;
         RECT 0.867 0.402 1.009 0.702 ;
       LAYER M2 ;
-        RECT 0.867 0.39 1.007 0.776 ;
+        RECT 0.862 0.39 1.012 0.776 ;
       LAYER V1 ;
         RECT 0.889 0.538 0.989 0.638 ;
     END
@@ -662,7 +660,7 @@ MACRO NAND3
         RECT -0.571 0.971 -0.461 2.532 ;
         RECT -0.964 -1.218 -0.854 1.081 ;
       LAYER M2 ;
-        RECT 0.35 0.39 0.485 0.776 ;
+        RECT 0.342 0.39 0.492 0.776 ;
       LAYER V1 ;
         RECT 0.378 0.527 0.478 0.627 ;
     END
@@ -688,7 +686,7 @@ MACRO NAND3
         RECT -0.964 1.565 -0.854 3.712 ;
     END
   END VDD!
-
+ 
 END NAND3
 
 MACRO NOR2
@@ -705,7 +703,7 @@ MACRO NOR2
       LAYER M1 ;
         RECT -0.57 0.043 -0.428 0.343 ;
       LAYER M2 ;
-        RECT -0.569 0.031 -0.429 0.417 ;
+        RECT -0.574 0.031 -0.424 0.417 ;
       LAYER V1 ;
         RECT -0.548 0.179 -0.448 0.279 ;
     END
@@ -717,7 +715,7 @@ MACRO NOR2
       LAYER M1 ;
         RECT -0.05 0.043 0.092 0.343 ;
       LAYER M2 ;
-        RECT -0.046 0.031 0.089 0.417 ;
+        RECT -0.054 0.031 0.096 0.417 ;
       LAYER V1 ;
         RECT -0.027 0.179 0.073 0.279 ;
     END
@@ -731,7 +729,7 @@ MACRO NOR2
         RECT -0.295 -0.272 0.618 -0.162 ;
         RECT -0.295 -1.584 -0.185 -0.162 ;
       LAYER M2 ;
-        RECT 0.474 0.031 0.609 0.417 ;
+        RECT 0.466 0.031 0.616 0.417 ;
       LAYER V1 ;
         RECT 0.509 0.179 0.609 0.279 ;
     END
@@ -757,7 +755,7 @@ MACRO NOR2
         RECT -0.858 1.208 -0.748 3.353 ;
     END
   END VDD!
-
+  
 END NOR2
 
 MACRO OAI22
@@ -774,7 +772,7 @@ MACRO OAI22
       LAYER M1 ;
         RECT -1.101 1.5 -0.959 1.8 ;
       LAYER M2 ;
-        RECT -1.079 1.491 -0.944 1.877 ;
+        RECT -1.086 1.491 -0.936 1.877 ;
       LAYER V1 ;
         RECT -1.079 1.636 -0.979 1.736 ;
     END
@@ -786,7 +784,7 @@ MACRO OAI22
       LAYER M1 ;
         RECT -0.564 1.5 -0.422 1.8 ;
       LAYER M2 ;
-        RECT -0.559 1.491 -0.424 1.877 ;
+        RECT -0.566 1.491 -0.416 1.877 ;
       LAYER V1 ;
         RECT -0.541 1.636 -0.441 1.736 ;
     END
@@ -798,7 +796,7 @@ MACRO OAI22
       LAYER M1 ;
         RECT 0.996 1.5 1.138 1.8 ;
       LAYER M2 ;
-        RECT 1.002 1.491 1.137 1.877 ;
+        RECT 0.994 1.491 1.144 1.877 ;
       LAYER V1 ;
         RECT 1.02 1.636 1.12 1.736 ;
     END
@@ -810,7 +808,7 @@ MACRO OAI22
       LAYER M1 ;
         RECT -0.044 1.5 0.098 1.8 ;
       LAYER M2 ;
-        RECT -0.038 1.491 0.097 1.877 ;
+        RECT -0.046 1.491 0.104 1.877 ;
       LAYER V1 ;
         RECT -0.02 1.636 0.08 1.736 ;
     END
@@ -826,7 +824,7 @@ MACRO OAI22
         RECT -0.827 2.025 -0.026 2.135 ;
         RECT -0.827 -0.207 -0.717 2.135 ;
       LAYER M2 ;
-        RECT 0.482 1.491 0.617 1.877 ;
+        RECT 0.474 1.491 0.624 1.877 ;
       LAYER V1 ;
         RECT 0.5 1.631 0.6 1.731 ;
     END
@@ -860,7 +858,7 @@ MACRO OAI22
       RECT -1.097 -0.507 -0.987 0.444 ;
       RECT -1.097 -0.507 -0.036 -0.397 ;
   END
-
+  
 END OAI22
 
 MACRO XNOR2
@@ -877,7 +875,7 @@ MACRO XNOR2
       LAYER M1 ;
         RECT 1.197 1.702 1.339 2.002 ;
       LAYER M2 ;
-        RECT 1.193 1.694 1.328 2.08 ;
+        RECT 1.185 1.694 1.335 2.08 ;
       LAYER V1 ;
         RECT 1.213 1.865 1.313 1.965 ;
     END
@@ -889,7 +887,7 @@ MACRO XNOR2
       LAYER M1 ;
         RECT -0.366 1.728 -0.224 2.028 ;
       LAYER M2 ;
-        RECT -0.37 1.694 -0.23 2.08 ;
+        RECT -0.375 1.694 -0.225 2.08 ;
       LAYER V1 ;
         RECT -0.344 1.864 -0.244 1.964 ;
     END
@@ -903,7 +901,7 @@ MACRO XNOR2
         RECT 0.939 0.095 1.049 0.838 ;
         RECT 0.433 0.728 0.543 3.83 ;
       LAYER M2 ;
-        RECT 0.413 1.694 0.548 2.08 ;
+        RECT 0.405 1.694 0.555 2.08 ;
       LAYER V1 ;
         RECT 0.438 1.848 0.538 1.948 ;
     END
@@ -939,7 +937,7 @@ MACRO XNOR2
       RECT -0.935 2.254 0.254 2.364 ;
       RECT -0.935 0.086 -0.825 2.364 ;
   END
-
+  
 END XNOR2
 
 END LIBRARY

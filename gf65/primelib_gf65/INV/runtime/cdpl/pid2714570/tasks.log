@@ -1,0 +1,8 @@
+# Legend: N(newborn) R(running) F(failed) K(killed) C(complete)
+N leakage_power__ACQ_1 of INV
+R delay__IN__lh__OUT__hl__ACQ_1 of INV T1 W1
+N delay__IN__hl__OUT__lh__ACQ_1 of INV
+N Cin__VSS__lh__ACQ_1 of INV
+N Cin__VSS__hl__ACQ_1 of INV
+N Cin__VDD__lh__ACQ_1 of INV
+N Cin__VDD__hl__ACQ_1 of INV

@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////
 // Created by: Synopsys DC Expert(TM) in wire load mode
 // Version   : O-2018.06-SP1
-// Date      : Sun May 11 12:56:14 2025
+// Date      : Sun May 11 18:52:46 2025
 /////////////////////////////////////////////////////////////
 
 module inv(in, out);
@@ -13,7 +13,7 @@ endmodule
 module nand2(a, b, out);
 input a, b;
 output out;
-//assign out = ~(a & b);
+// out = ~(a & b);
 endmodule
 
 module nand3(a, b, c, out);
@@ -83,8 +83,7 @@ always @(posedge gclk or negedge rnot)
 */
 endmodule
 
-
-module UART( i_System_Clock, i_Rst_L, i_TX_Valid, i_TX_Byte, i_RX_Serial, 
+module UART ( i_System_Clock, i_Rst_L, i_TX_Valid, i_TX_Byte, i_RX_Serial, 
         o_TX_Busy, o_TX_Serial, o_TX_Done, o_RX_Done, o_RX_Byte );
   input [7:0] i_TX_Byte;
   output [7:0] o_RX_Byte;

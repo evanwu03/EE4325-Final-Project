@@ -1,7 +1,7 @@
 #@ # 
 #@ # Running lc_shell Version L-2016.06-SP1 for linux64 -- Jul 12, 2016
-#@ # Date:   Sun May 11 12:50:56 2025
-#@ # Run by: ebw22000@engnx05a.utdallas.edu
+#@ # Date:   Sun May 11 18:49:02 2025
+#@ # Run by: ebw22000@engnx04a.utdallas.edu
 #@ 
 
 source /proj/cad/synopsys/lc_vL-2016.06-SP1/admin/setup//.synopsys_lc.setup
@@ -1536,5 +1536,4 @@ source /proj/cad/synopsys/lc_vL-2016.06-SP1/admin/setup//.synopsys_lc.setup
 
 read_lib gf65.lib
 write_lib gf65 -format db -output gf65.db
-ls
 quit
