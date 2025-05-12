@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
           : sub-version  IC6.1.8-64b.500.28 
-Started at: 11-May-2025  21:16:33
+Started at: 11-May-2025  23:20:30
 User Name : ebw220000
 Host Name : engnx04a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
@@ -15,18 +15,14 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-cmos10lpe/rect/layout           0        0       0        1      0      0         0      0             0      0     0     0       0       
-cmos10lpe/rectArray/layout      0        1       0        0      0      0         0      0             0      0     0     0       0       
-uart4/UART/layout               616      0       0        57006  0      11121     8744   0             0      0     0     0       0       
+uart5/UART/layout               0        0       0        57006  0      11121     3      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
 ---------------------------------------------------------------------------------------------------------------------------------------
-cmos10lpe/rect/layout           0        0          0          0          0          0     0        0         0         0        
-cmos10lpe/rectArray/layout      0        0          0          0          0          0     0        0         0         0        
-uart4/UART/layout               1        0          0          0          0          0     0        0         0         0        
+uart5/UART/layout               1        0          0          0          0          0     0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Statistics of Layers 
@@ -35,31 +31,29 @@ Cadence         Cadence         Stream  Stream
 Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
 ---------------------------------------------------------------------------------------------------------------------------------------
 NW              drawing         4       0         0        3477     0        0        0             0    0   0   0     0      0      
-M2              label           17      20        0        0        0        1792     0             0    0   0   0     0      0      
+V2              drawing         18      0         0        1226     0        0        0             0    0   0   0     0      0      
 M3              drawing         19      0         0        1239     0        0        0             0    0   0   0     0      1895   
 CA              drawing         14      0         0        21378    0        0        0             0    0   0   0     0      0      
 V1              drawing         16      0         0        2042     0        0        0             0    0   0   0     0      0      
-V2              drawing         18      0         0        1226     0        0        0             0    0   0   0     0      0      
 M5              drawing         31      0         0        8        0        0        0             0    0   0   0     0      4      
 JX              drawing         212     137       0        1282     0        0        0             0    0   0   0     0      0      
-text            drawing         63      0         0        1        0        0        0             0    0   0   0     0      0      
+RX              drawing         2       0         0        2796     0        0        0             0    0   0   0     0      0      
 M2              drawing         17      0         0        3223     0        0        0             0    0   0   0     0      2368   
-M1              label           15      20        0        0        0        6952     0             0    0   0   0     0      0      
+M1              label           15      20        0        0        0        3        0             0    0   0   0     0      0      
 M1              drawing         15      0         0        13967    0        0        0             0    0   0   0     0      6852   
 V3              drawing         20      0         0        4        0        0        0             0    0   0   0     0      0      
 PC              drawing         7       0         0        5068     0        0        0             0    0   0   0     0      0      
 JZ              drawing         212     138       0        1282     0        0        0             0    0   0   0     0      0      
-RX              drawing         2       0         0        2796     0        0        0             0    0   0   0     0      0      
 M4              drawing         21      0         0        10       0        0        0             0    0   0   0     0      2      
 V4              drawing         22      0         0        4        0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
-	Scalar Instances:		616
-	Array Instances:		1
+	Scalar Instances:		0
+	Array Instances:		0
 	Polygons:			0
 	Paths:				0
-	Rectangles:			57007
+	Rectangles:			57006
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
@@ -75,10 +69,9 @@ Summary of Objects Translated:
 	Custom Vias:			0
 	CdsGen Vias:			0
 	Pathsegs:			11121
-	Text:				8744
+	Text:				3
 	TextDisplay:		0
-	Cells:				3
+	Cells:				1
 Design Libraries: 
 
-DEFINE cmos10lpe	/proj/cad/library/mosis/GF65_LPe/cmos10lpe_CDS_oa_dl064_11_20160415/cmos10lpe
-DEFINE uart4	/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart4
+DEFINE uart5	/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart5

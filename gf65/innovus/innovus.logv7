@@ -998,3 +998,5 @@ viaInitial ends at Sun May 11 19:03:38 2025
 [05/11 20:10:31    152s] <CMD> getCTSMode -engine -quiet
 [05/11 20:58:20    247s] <CMD> pan -16.839 -36.991
 [05/11 20:58:20    247s] <CMD> pan 4.969 -53.002
+[05/11 22:18:17    403s] <CMD> saveNetlist UART.v
+[05/11 22:18:17    403s] Writing Netlist "UART.v" ...

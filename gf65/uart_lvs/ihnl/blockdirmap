@@ -1,0 +1,10 @@
+CADENCE IHNL11148
+
+uart5 NAND2 schematic cds0
+uart5 INV schematic cds1
+uart5 NAND3 schematic cds2
+uart5 DFF schematic cds3
+uart5 NOR2 schematic cds4
+uart5 XNOR2 schematic cds5
+uart5 OAI22 schematic cds6
+uart5 UART schematic cds7

@@ -90,3 +90,5 @@ DEFINE uart /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart
 DEFINE uart2 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart2
 DEFINE uart3 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart3
 DEFINE uart4 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart4
+#Removed by ddDeleteObj: DEFINE uart5 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart5
+DEFINE uart5 /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart5

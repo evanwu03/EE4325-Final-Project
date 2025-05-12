@@ -3,17 +3,17 @@
 Product   : Virtuoso(R) LEF In 
 Program   : @(#)$CDS: lefin version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
 SubVersion: sub-version  IC6.1.8-64b.500.28 
-Started at: 11-May-2025  19:15:21
+Started at: 11-May-2025  23:02:19
 User Name : ebw220000
 Host Name : engnx04a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 DB Version: 	20220928 (SJ)
 CADENCE Design Systems, Inc.
 ********************************************************************************
-Running: lefin -lib uart4 -libPath /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65 -lef "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef" -view layout -techRefs "tutorial"
+Running: lefin -lib uart5 -libPath /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart5/ -lef "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef" -view layout -techRefs "tutorial"
 WARNING: (OALEFDEF-90024): The existing display.drf is saved as display.drf.orig. The new packet display information will be appended to a copy of display.drf. 
 WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later. The LEF parser will ignore this statement. To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef at line 1. 
-INFO: (OALEFDEF-50143): /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef(10-23) : A constraint group named LEFDefaultRouteSpec_uart4 of the constraintGroupDef type LEFDefaultRouteSpec is created in the technology database in library uart4 because a LEFDefaultRouteSpec already exists in the referenced technology database.
+INFO: (OALEFDEF-50143): /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef(10-23) : A constraint group named LEFDefaultRouteSpec_uart5 of the constraintGroupDef type LEFDefaultRouteSpec is created in the technology database in library uart5 because a LEFDefaultRouteSpec already exists in the referenced technology database.
 WARNING: (OALEFDEF-50148): /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef(10-23) : LAYER M1: The spacing ranges are not continuous.
 WARNING: (OALEFDEF-50148): /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef(27-40) : LAYER M2: The spacing ranges are not continuous.
 WARNING: (OALEFDEF-50148): /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef(44-57) : LAYER M3: The spacing ranges are not continuous.
@@ -71,6 +71,6 @@ WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.
 WARNING (LEFPARS-2021): turn-via is obsolete in version 5.6 and later. The LEF parser will ignore this statement. To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef at line 297. 
 WARNING (LEFPARS-2001): No VERSION statement found, using the default value 5.8. See file /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/gf65.lef at line 943. 
 
-Elapsed Time: 1.2s
+Elapsed Time: 1.3s
 
 lefin translation completed (errors: 0, warnings: 7).

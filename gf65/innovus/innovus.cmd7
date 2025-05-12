@@ -136,3 +136,4 @@ getCTSMode -engine -quiet
 getCTSMode -engine -quiet
 pan -16.839 -36.991
 pan 4.969 -53.002
+saveNetlist UART.v

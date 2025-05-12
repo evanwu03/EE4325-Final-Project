@@ -3,14 +3,14 @@
 Product   : Virtuoso(R) DEF In 
 Program   : @(#)$CDS: defin version 6.1.8-64b 09/28/2022 10:57 (cpgsrv12) $
 SubVersion: sub-version  IC6.1.8-64b.500.28 
-Started at: 11-May-2025  19:17:22
+Started at: 11-May-2025  23:03:02
 User Name : ebw220000
 Host Name : engnx04a.utdallas.edu
 Directory : /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65
 DB Version: 	20220928 (SJ)
 CADENCE Design Systems, Inc.
 ********************************************************************************
-Running: defin -lib uart4 -libPath /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65 -def "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/innovus/UART.def" -cell UART -view layout -techRefs "tutorial"
+Running: defin -lib uart5 -libPath /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart5/ -def "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/innovus/UART.def" -cell UART -view layout -techRefs "tutorial"
 
 Elapsed Time: 0.7s
 

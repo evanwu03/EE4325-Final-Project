@@ -92,3 +92,1411 @@
 \w LIB uart from the same file (defined earlier.)
 \w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
 \w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "DFF"
+\a cdsLibManager->cellLineEdit->value = "DFF"
+\a cdsLibManager->cellListBox->value = "FILLER"
+\a cdsLibManager->cellLineEdit->value = "FILLER"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup2" 75 42 2 "schematic")
+\a cdsLibManager->FileOpenButton->value = t
+\o MPS request: edit design
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 129 47 2 "ebw220000@engnx04a.utdallas.edu")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1014 137 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1193 267 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Delete needs confirmation for library "uart4" -> "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart4"
+\a libraryDeleteConfirmDialog->libraryDirectoryEdit->value = "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart4"
+\a libraryDeleteConfirmDialog->skipRadioButton->value = t
+\a nrSetWindowVisibility(libraryDeleteConfirmDialog "show")
+\a nrSetCurrentWindow(libraryDeleteConfirmDialog)
+\a nrResizeWindow(deleteForm list(1014 63 627 425))
+\a nrResizeWindow(libraryDeleteConfirmDialog list(1047 27 541 528))
+\a libraryDeleteConfirmDialog->skipRadioButton->value = nil
+\a libraryDeleteConfirmDialog->deleteThisLibRadioButton->value = t
+\a libraryDeleteConfirmDialog->updateTagCheckBox->value = t
+\a libraryDeleteConfirmDialog->OK->value = t
+\o Creating library tag file at "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart4/cdsinfo.tag".
+\o Deleting view "schematic" from cell "UART" in library "uart4".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'uart4/UART/schematic'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(1191 283 273 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a nrResizeWindow(workingDialogForm list(1191 246 273 133))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "functional"
+\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "functional"
+\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "functional"
+\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 52 46 2 "symbol")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1014 137 627 425))
+\a deleteForm->notDeleteListBox->value = '("functional" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 2 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1193 304 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 2 views from cell "UART" in library "uart4".
+\o Deleting view "functional".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'uart4/UART/functional'.
+\o Deleting view "symbol".
+\o Deleted cellview 'uart4/UART/symbol'.
+\o Deletion of 2 views done.
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(1193 283 268 133))
+\a nrResizeWindow(deleteForm list(1014 100 627 425))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrResizeWindow(workingDialogForm list(1193 246 268 133))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup2" 180 37 2 "")
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a lmgrLogShowPopup("mainListPopup2" 38 27 2 "schematic")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1014 137 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1193 304 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "schematic" from cell "UART" in library "uart4".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'uart4/UART/schematic'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(1193 283 268 133))
+\a nrResizeWindow(deleteForm list(1014 100 627 425))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrResizeWindow(workingDialogForm list(1193 246 268 133))
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup2" 142 59 2 "")
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "aoi12"
+\a cdsLibManager->cellLineEdit->value = "aoi12"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 45 16 2 "layout")
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "aoi12"
+\a cdsLibManager->cellLineEdit->value = "aoi12"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "aoi22"
+\a cdsLibManager->cellLineEdit->value = "aoi22"
+\a cdsLibManager->cellListBox->value = "dff"
+\a cdsLibManager->cellLineEdit->value = "dff"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "aoi22"
+\a cdsLibManager->cellLineEdit->value = "aoi22"
+\a cdsLibManager->cellListBox->value = "dff"
+\a cdsLibManager->cellLineEdit->value = "dff"
+\a cdsLibManager->cellListBox->value = "aoi22"
+\a cdsLibManager->cellLineEdit->value = "aoi22"
+\a cdsLibManager->cellListBox->value = "aoi12"
+\a cdsLibManager->cellLineEdit->value = "aoi12"
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "aoi12"
+\a cdsLibManager->cellLineEdit->value = "aoi12"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "aoi12"
+\a cdsLibManager->cellLineEdit->value = "aoi12"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 36 8 2 "layout")
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "XNOR2"
+\a cdsLibManager->cellLineEdit->value = "XNOR2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 54 10 2 "layout")
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(587 322 869 440))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a _lmSetFilter( 'library "uart5")
+\a cdsLibManager->libComboFilter->value = "uart5"
+\a cdsLibManager->FileNewLibButton->value = t
+\a NewLibShell->newLibNameText->value = ""
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65"
+\a nrSetWindowVisibility(NewLibShell->subDialog "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(758 260 507 559))
+\a NewLibShell->newLibNameText->value = "uart5"
+\a NewLibShell->newLibOKButton->value = t
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "uart5" at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart5.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a nrResizeWindow(workingDialogForm list(877 436 273 133))
+\a nrResizeWindow(NewLibShell list(758 223 507 559))
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a nrListItemAction(cdsLibManager->libListBox "uart5" 0)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "INV"
+\a cdsLibManager->cellLineEdit->value = "INV"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "DFF"
+\a cdsLibManager->cellLineEdit->value = "DFF"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(888 348 869 440))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(883 256 869 440))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libComboFilter->value = "uart4"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a _lmSetFilter( 'library "uart4")
+\a cdsLibManager->libComboFilter->value = "uart4"
+\a cdsLibManager->libComboFilter->value = "uart4"
+\a cdsLibManager->libComboFilter->value = "uart4"
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a nrListItemAction(cdsLibManager->libListBox "uart4" 0)
+\a cdsLibManager->cellListBox->value = "DFF"
+\a cdsLibManager->cellLineEdit->value = "DFF"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(883 256 1020 440))
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(363 269 1020 440))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart4"
+\a cdsLibManager->libLineEdit->value = "uart4"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libComboFilter->value = "uart5"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a _lmSetFilter( 'library "uart5")
+\a cdsLibManager->libComboFilter->value = "uart5"
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 52 8 2 "layout")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1014 137 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1193 304 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "layout" from cell "UART" in library "uart5".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'uart5/UART/layout'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(727 420 273 133))
+\a nrResizeWindow(deleteForm list(1014 100 627 425))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a nrResizeWindow(workingDialogForm list(727 383 273 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(167 125 1020 440))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(781 214 1020 440))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(55 144 1020 440))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "UART"
+\a cdsLibManager->cellLineEdit->value = "UART"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a _lmSetFilter( 'library "rt5")
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a _lmSetFilter( 'library "")
+\a cdsLibManager->libComboFilter->value = ""
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a lmgrLogShowPopup("mainListPopup0" 57 144 2 "uart5")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1014 137 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1188 205 278 289))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "uart5".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(421 295 268 133))
+\a nrResizeWindow(deleteForm list(1014 100 627 425))
+\o Batching session updates...
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\o Deleted library 'uart5'.
+\o Delete of library "uart5" succeeded.
+\o Deletion of library done.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a nrResizeWindow(workingDialogForm list(421 258 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(52 151 1020 440))
+\a cdsLibManager->FileNewLibButton->value = t
+\a NewLibShell->newLibNameText->value = ""
+\a nrSetWindowVisibility(NewLibShell->subDialog "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(299 89 507 559))
+\a NewLibShell->newLibNameText->value = "uart5"
+\a NewLibShell->newLibOKButton->value = t
+\a nrResizeWindow(workingDialogForm list(418 302 273 133))
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\o Created new library "uart5" at /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart5.
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a nrResizeWindow(workingDialogForm list(707 356 273 133))
+\a nrResizeWindow(NewLibShell list(404 111 507 559))
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a nrResizeWindow(workingDialogForm list(707 319 273 133))
+\a nrResizeWindow(NewLibShell list(404 74 507 559))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: LIB uart from File /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/cds.lib Line 89 redefines
+\w LIB uart from the same file (defined earlier.)
+\a cdsLibManager->libListBox->value = "uart5"
+\a cdsLibManager->libLineEdit->value = "uart5"
+\a cdsLibManager->cellListBox->value = "OAI22"
+\a cdsLibManager->cellLineEdit->value = "OAI22"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"

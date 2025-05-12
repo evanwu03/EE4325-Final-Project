@@ -1,10 +1,10 @@
 xmvlog: *W,DLNOHV: Unable to find an 'hdl.var' file to load in.
-TOOL:	xmvlog(64)	20.09-s023: Started on May 11, 2025 at 19:18:48 CDT
+TOOL:	xmvlog(64)	20.09-s023: Started on May 11, 2025 at 23:01:29 CDT
 xmvlog
     -work __nclib
     -view module
     -logfile xmvlog.log
-    -cdslib /tmp/ihdl_cdslibd9943_2779943
+    -cdslib /tmp/ihdl_cdslibb0783_3150783
     -messages
     -nostdout
     -nocopyright
@@ -12,32 +12,22 @@ xmvlog
     /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/innovus/UART.v
 
 file: /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/innovus/UART.v
-	module __nclib.inv:module
+	module __nclib.INV:module
 		errors: 0, warnings: 0
-	module __nclib.nand2:module
+	module __nclib.NAND2:module
 		errors: 0, warnings: 0
-	module __nclib.nand3:module
+	module __nclib.NAND3:module
 		errors: 0, warnings: 0
-	module __nclib.nand4:module
+	module __nclib.NOR2:module
 		errors: 0, warnings: 0
-	module __nclib.nor2:module
+	module __nclib.XNOR2:module
 		errors: 0, warnings: 0
-	module __nclib.nor3:module
+	module __nclib.OAI22:module
 		errors: 0, warnings: 0
-	module __nclib.xor2:module
-		errors: 0, warnings: 0
-	module __nclib.aoi12:module
-		errors: 0, warnings: 0
-	module __nclib.aoi22:module
-		errors: 0, warnings: 0
-	module __nclib.oai12:module
-		errors: 0, warnings: 0
-	module __nclib.oai22:module
-		errors: 0, warnings: 0
-	module __nclib.dff:module
+	module __nclib.DFF:module
 		errors: 0, warnings: 0
 	module __nclib.UART:module
 		errors: 0, warnings: 0
 	Total errors/warnings found outside modules and primitives:
 		errors: 0, warnings: 1
-TOOL:	xmvlog(64)	20.09-s023: Exiting on May 11, 2025 at 19:18:48 CDT  (total: 00:00:00)
+TOOL:	xmvlog(64)	20.09-s023: Exiting on May 11, 2025 at 23:01:29 CDT  (total: 00:00:00)

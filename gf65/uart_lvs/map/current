@@ -1,0 +1,29 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "UART"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "vdd! gnd! GND!"
+  hierDelim "."
+  netlistDir "/home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart_lvs"
+ )
+( model
+( "uart5/NOR2/schematic" "NOR2" )
+( "uart5/UART/schematic" "UART" )
+( "uart5/INV/schematic" "INV" )
+( "uart5/NAND2/schematic" "NAND2" )
+( "uart5/NAND3/schematic" "NAND3" )
+( "uart5/DFF/schematic" "DFF" )
+( "uart5/OAI22/schematic" "OAI22" )
+( "uart5/XNOR2/schematic" "XNOR2" )
+ )
+( "OAI22" "ihnl/cds6/map" )
+( "NAND2" "ihnl/cds0/map" )
+( "NOR2" "ihnl/cds4/map" )
+( "DFF" "ihnl/cds3/map" )
+( "UART" "ihnl/cds7/map" )
+( "NAND3" "ihnl/cds2/map" )
+( "INV" "ihnl/cds1/map" )
+( "XNOR2" "ihnl/cds5/map" )
+ )

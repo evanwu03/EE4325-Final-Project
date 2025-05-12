@@ -855,3 +855,5 @@ End Summary
 <CMD> getCTSMode -engine -quiet
 <CMD> pan -16.839 -36.991
 <CMD> pan 4.969 -53.002
+<CMD> saveNetlist UART.v
+Writing Netlist "UART.v" ...
