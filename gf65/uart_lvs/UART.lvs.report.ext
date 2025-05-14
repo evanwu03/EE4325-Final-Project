@@ -11,7 +11,7 @@
 
 REPORT FILE NAME:         UART.lvs.report.ext
 LAYOUT NAME:              UART.calibre.db ('UART')
-CREATION TIME:            Mon May 12 01:05:30 2025
+CREATION TIME:            Mon May 12 01:52:24 2025
 CURRENT DIRECTORY:        /home/010/e/eb/ebw220000/cad/EE4325_UART_Project/gf65/uart_lvs
 USER NAME:                ebw220000
 CALIBRE VERSION:          v2024.4_12.9    Tue Oct 1 20:34:12 PDT 2024
@@ -22,7 +22,7 @@ Extraction Errors and Warnings for cell "UART"
 ----------------------------------------------
 
 WARNING:  Short circuit - Different names on one net:
-          Net Id:  264
+          Net Id:  1382
           (1)  name  "I_TX_BYTE<0>"  at location  (149.63,171.443)  on layer  1079 "M2_NET"
           (2)  name  "i_TX_Byte<2>"  at location  (149.56,171.754)  on layer  1079 "M2_NET"
           The name "I_TX_BYTE<0>" was assigned to the net.

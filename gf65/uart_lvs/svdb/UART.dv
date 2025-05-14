@@ -2,5 +2,5 @@
 # FILE: svdb/UART.dv
 dv_start matched                                  
 dv_cell {UART} {UART} matched
-dv_obj_count -transformed_nets {1013 1013} -transformed_inst {1513 1513} -transformed_port {26 26}
+dv_obj_count -transformed_nets {1037 1037} -transformed_inst {2724 2724} -transformed_port {26 26}
 dv_end
