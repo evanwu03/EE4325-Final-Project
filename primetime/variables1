@@ -1,0 +1,9 @@
+set library_file "gf65.db"
+set verilog_file "UART.v"
+set input_transition 0.03
+set load 0.03
+set driving_cell "INV"
+set clock_pin_name "i_System_Clock"
+set clock_period 2200
+set reset_pin_name "i_Rst_l"
+

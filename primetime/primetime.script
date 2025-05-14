@@ -1,0 +1,63 @@
+#### To be used for VLSI design course work only
+#### Xiangyu Xu
+ 
+###############################################################
+# Define search path verilog file and library and variables
+###############################################################
+
+set search_path "* ~/cad/EE4325_UART_Project/primetime"
+source variables1
+
+###############################################################
+# link library
+###############################################################
+
+
+
+set link_library $library_file
+set target_library $library_file
+#set link_library [list $library_file ]
+#set target_library [list $library_file ]
+
+###############################################################
+# link design
+###############################################################
+
+#remove_design -all
+set verilog_file "UART.v"
+read_verilog $verilog_file
+current_design UART
+link
+
+###############################################################
+# Define IO parameters
+###############################################################
+
+set_driving_cell -lib_cell $driving_cell -input_transition_rise $input_transition -input_transition_fall $input_transition [all_inputs]
+set_load $load [all_outputs]
+
+###############################################################
+
+###############################################################
+#define the clock - for comb circuit we may not need to use any clock
+###############################################################
+create_clock -name clk -period $clock_period [get_ports $clock_pin_name]
+set_clock_transition -rise -max $input_transition [get_clocks clk]
+set_clock_transition -fall -max $input_transition [get_clocks clk]
+###############################################################
+# set condition
+###############################################################
+set timing_slew_propagation_mode worst_slew
+set timing_report_unconstrained_paths true
+set power_enable_analysis true
+set_disable_timing [get_ports $reset_pin_name]
+###############################################################
+# analyze delay and power
+###############################################################
+check_timing
+update_timing
+report_timing -transition_time -delay min_max -capacitance -input_pins
+update_power
+report_power 
+
+exit
